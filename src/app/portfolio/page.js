@@ -1,10 +1,10 @@
 
 // import PortfolioFilter1 from ""
 import dynamic from 'next/dynamic'
-const PortfolioFilter1 = dynamic(() => import('@/components/elements/PortfolioFilter1'), {
+const PortfolioFilter1 = dynamic(() => import('../components/elements/PortfolioFilter1'), {
     ssr: false,
 })
-import Layout from "@/components/layout/Layout"
+import Layout from "../components/layout/Layout"
 import Link from "next/link"
 export default function Home() {
 
