@@ -1,0 +1,69 @@
+
+.cta-section{
+	overflow: hidden;
+	padding: 117px 0px 122px 0px;
+}
+
+.cta-section:before{
+	position: absolute;
+	content: '';
+	background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 69.79%);
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.cta-section .inner-box{
+	position: relative;
+	display: block;
+	max-width: 430px;
+}
+
+.cta-section .inner-box h2{
+	position: relative;
+	display: block;
+	font-size: 40px;
+	line-height: 50px;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+.cta-section .inner-box h2 span{
+
+}
+
+.cta-section .inner-box h3{
+	position: relative;
+	display: block;
+	font-size: 26px;
+	line-height: 36px;
+	font-weight: 500;
+}
+
+.cta-section .inner-box h3 a{
+	display: inline-block;
+	color: #fff;
+}
+
+.cta-section .inner-box h3 a:hover{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+
+.clients-section{
+	padding: 87px 0px;
+}
+
+.clients-section .inner-box{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.clients-section .inner-box .clients-logo{
+	position: relative;
+	display: block;
+}
+
+.clients-section .inner-box .clients-logo img{
+	display: block;
+	max-width: 100%;
+	width: auto;
+	margin: 0 auto;
+	opacity: 0.4;
+	transition: all 500ms ease;
+}
+
+.clients-section .inner-box .clients-logo:hover img{
+	opacity: 0.8;
+}

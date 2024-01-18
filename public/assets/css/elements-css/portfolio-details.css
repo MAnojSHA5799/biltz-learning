@@ -1,0 +1,181 @@
+
+.portfolio-details{
+	padding: 150px 0px;
+}
+
+.portfolio-details .image-box{
+	position: relative;
+	display: block;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 90px;
+}
+
+.portfolio-details .image-box img{
+	width: 100%;
+	border-radius: 10px;
+	transition: all 500ms ease;
+}
+
+.portfolio-details .image-box:hover img{
+	transform: scale(1.05);
+}
+
+.portfolio-details-content h2{
+	display: block;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 600;
+	margin-bottom: 22px;
+}
+
+.portfolio-details-content p{
+	margin-bottom: 26px;
+}
+
+.portfolio-sidebar{
+	position: relative;
+	display: block;
+	background: #FFFFFF;
+	box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 40px 40px 50px 40px;
+}
+
+.portfolio-sidebar h3{
+	display: block;
+	font-size: 28px;
+	line-height: 38px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+
+.portfolio-sidebar .info-list li{
+	position: relative;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.portfolio-sidebar .info-list li h5{
+	display: block;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 600;
+}
+
+.portfolio-sidebar .social-links li{
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-right: 15px;
+}
+
+.portfolio-sidebar .social-links li:last-child{
+	margin: 0px;
+}
+
+.portfolio-sidebar .info-list li p{
+	margin-bottom: 0px;
+}
+
+.portfolio-sidebar .social-links li a{
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #E5E5E5;
+	font-size: 16px;
+	color: #6E6E6E;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.portfolio-sidebar .social-links li a:hover{
+	color: #fff;
+}
+
+.portfolio-sidebar .shape{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 351px;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.portfolio-details .nav-btn-box{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #FFFFFF;
+	box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin-top: 100px;
+	padding: 35px;
+}
+
+.portfolio-details .nav-btn-box .single-btn a{
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 600;
+	background: rgba(222, 44, 44, 0.1);
+	border-radius: 30px;
+	padding: 12px 38px;
+	text-align: center;
+}
+
+.portfolio-details .nav-btn-box .single-btn a:hover{
+	color: #fff;
+}
+
+.portfolio-details .nav-btn-box .prev-btn a i{
+	position: relative;
+	margin-right: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	top: 1px;
+}
+
+.portfolio-details .nav-btn-box .next-btn a i{
+	position: relative;
+	margin-left: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	top: 1px;
+}
+
+.portfolio-details .nav-btn-box .icon-box{
+	position: relative;
+	display: inline-block;
+	font-size: 25px;
+	color: #222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

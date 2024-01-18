@@ -1,0 +1,102 @@
+
+.video-section{
+	position: relative;
+}
+
+.video-section .inner-container{
+	position: relative;
+	max-width: 1070px;
+	margin: 0 auto;
+	width: 100%;
+	padding: 205px 0px;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: -240px;
+}
+
+.video-section .inner-container .bg-layer{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.video-section .inner-container .bg-layer:before{
+	position: absolute;
+	content: '';
+	background: #000;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	opacity: 0.3;
+}
+
+.video-section .inner-container .video-btn a{
+	position: relative;
+	display: inline-block;
+	font-size: 90px;
+	color: #fff;
+	width: 90px;
+	height: 90px;
+	cursor: pointer;
+}
+
+.video-section .inner-container .video-btn a:hover{
+
+}
+
+.video-section .inner-container .video-btn a:before,
+.video-section .inner-container .video-btn a:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-animation-delay: .9s;
+  animation-delay: .9s;
+  content: "";
+  position: absolute;
+  -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.9);
+  -webkit-animation: ripple 3s infinite;
+  animation: ripple 3s infinite;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.video-section .inner-container .video-btn a:after{
+  -webkit-animation-delay: .6s;
+  animation-delay: .6s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,222 @@
+
+.team-details{
+	padding: 150px 0px;
+}
+
+.team-details-content{
+	position: relative;
+	display: block;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 70px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 50px;
+}
+
+.team-details-content .image-box{
+	position: relative;
+	display: block;
+	border-radius: 10px;
+}
+
+.team-details-content .image-box img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.team-details-content .content-box{
+	position: relative;
+	display: block;
+}
+
+.team-details-content .content-box h2{
+	display: block;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+.team-details-content .content-box .designation{
+	position: relative;
+	display: block;
+	font-weight: 500;
+	margin-bottom: 28px;
+}
+
+.team-details-content .content-box p{
+	margin-bottom: 25px;
+}
+
+.team-details-content .content-box .info-list li{
+	position: relative;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.team-details-content .content-box .info-list li:last-child{
+	margin-bottom: 0px;
+}
+
+.team-details-content .content-box .info-list li span{
+	color: #222;
+	font-weight: 700;
+}
+
+.team-details-content .content-box .info-list li a{
+	display: inline-block;
+	color: #6E6E6E;
+}
+
+.team-details-content .content-box .info-list li a:hover{
+
+}
+
+.team-details-content .content-box .info-list{
+	margin-bottom: 33px;
+}
+
+.team-details-content .content-box .social-links li{
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-right: 15px;
+}
+
+.team-details-content .content-box .social-links li:last-child{
+	margin: 0px;
+}
+
+.team-details-content .content-box .social-links li a{
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #E5E5E5;
+	text-align: center;
+	border-radius: 50%;
+	font-size: 18px;
+	color: #676767;
+}
+
+.team-details-content .content-box .social-links li a:hover{
+	color: #fff;
+}
+
+.team-details h3{
+	display: block;
+	font-size: 28px;
+	line-height: 38px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+
+.team-details .biography-box p{
+	margin-bottom: 26px;
+}
+
+.team-details .biography-box p:last-child{
+	margin-bottom: 0px;
+}
+
+.team-details .lower-content h3{
+	margin-bottom: 15px;
+}
+
+.team-details .lower-content .skills-box p{
+	margin-bottom: 30px;
+}
+
+.team-details .lower-content .inner-box .single-item{
+	position: relative;
+	display: block;
+	padding-left: 30px;
+	margin-bottom: 18px;
+}
+
+.team-details .lower-content .inner-box .single-item:last-child{
+	margin-bottom: 0px;
+}
+
+.team-details .lower-content .inner-box .single-item:before{
+	position: absolute;
+	content: '';
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	top: 6px;
+	border-radius: 50%;
+}
+
+.team-details .lower-content .inner-box .single-item:after{
+	position: absolute;
+	content: '';
+	width: 6px;
+	height: 6px;
+	left: 5px;
+	top: 11px;
+	border-radius: 50%;
+}
+
+.team-details .lower-content .inner-box .single-item h4{
+	display: block;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+
+.team-details .lower-content .inner-box .single-item p span{
+	color: #2C2A49;
+	display: block;
+}
+
+.team-details .lower-content .education-inner{
+	position: relative;
+}
+
+.team-details .lower-content .skills-box .progress-box p{
+	margin-bottom: 10px;
+}
+
+.team-details .lower-content .education-inner{
+	position: relative;
+}
+
+.team-details .lower-content .education-inner .single-item p span{
+	font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

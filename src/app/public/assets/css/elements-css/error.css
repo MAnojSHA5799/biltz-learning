@@ -1,0 +1,29 @@
+
+.error-section{
+	padding: 150px 0px;
+}
+
+.error-section .inner-box .error-image{
+	position: relative;
+	display: block;
+	margin-bottom: 60px;
+}
+
+.error-section .inner-box h2{
+	display: block;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+.error-section .inner-box .theme-btn-one{
+	padding: 13px 38px;
+}
+
+.error-section .inner-box .theme-btn-one i{
+	position: relative;
+	font-size: 14px;
+	top: 1px;
+	margin-right: 8px;
+}

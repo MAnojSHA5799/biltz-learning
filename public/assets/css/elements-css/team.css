@@ -1,0 +1,141 @@
+
+.team-section{
+	position: relative;
+}
+
+.team-block-one .inner-box{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	background: #F1F1F1;
+	border-radius: 10px;
+	transition: all 500ms ease;
+}
+
+.team-block-one .inner-box:hover{
+	background: #fff;
+	box-shadow: 0px 0px 120px rgba(0, 0, 0, 0.1)
+}
+
+.team-block-one .inner-box .image-box{
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.team-block-one .inner-box .image-box .image{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	background: #000;
+}
+
+.team-block-one .inner-box .image-box .image img{
+	width: 100%;
+	transition: all 500ms ease;
+}
+
+.team-block-one .inner-box:hover .image-box .image img{
+	transform: scale(1.05);
+	opacity: 0.6;
+}
+
+.team-block-one .inner-box .image-box .social-links{
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	transform: translateY(-50%);
+	opacity: 0;
+	transition: all 500ms ease;
+}
+
+.team-block-one .inner-box:hover .image-box .social-links{
+	right: 20px;
+	opacity: 1;
+}
+
+.team-block-one .inner-box .image-box .social-links li{
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.team-block-one .inner-box .image-box .social-links li:last-child{
+	margin-bottom: 0px;
+}
+
+.team-block-one .inner-box .image-box .social-links li a{
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	color: #333333;
+	background: #fff;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.team-block-one .inner-box .image-box .social-links li a:hover{
+	color: #fff;
+}
+
+.team-block-one .inner-box .lower-content{
+	position: relative;
+	display: block;
+	padding: 22px 30px 25px 30px;
+}
+
+.team-block-one .inner-box .lower-content h3{
+	position: relative;
+	display: block;
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+
+.team-block-one .inner-box .lower-content h3 a{
+	display: inline-block;
+	color: #222222;
+}
+
+.team-block-one .inner-box .lower-content h3 a:hover{
+
+}
+
+.team-block-one .inner-box .lower-content .designation{
+	position: relative;
+	display: block;
+}
+
+.team-page-section{
+	padding: 143px 0px 120px 0px;
+}
+
+.team-page-section .team-block-one .inner-box{
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

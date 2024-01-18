@@ -1,0 +1,328 @@
+
+.service-details{
+	padding: 120px 0px;
+}
+
+.service-sidebar{
+	position: relative;
+}
+
+.service-sidebar .category-widget{
+	position: relative;
+	display: block;
+	background: #fff;
+	box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 30px 40px 40px 40px;
+	margin-bottom: 40px;
+}
+
+.service-sidebar .category-widget h3{
+	display: block;
+	font-size: 28px;
+	line-height: 38px;
+	font-weight: 600;
+	margin-bottom: 22px;
+}
+
+.service-sidebar .category-widget .category-list li{
+	position: relative;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.service-sidebar .category-widget .category-list li:last-child{
+	margin-bottom: 0px;
+}
+
+.service-sidebar .category-widget .category-list li a{
+	position: relative;
+	display: block;
+	font-size: 16px;
+	line-height: 26px;
+	color: #222;
+	font-weight: 600;
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+	padding: 16px 30px;
+	z-index: 1;
+}
+
+.service-sidebar .category-widget .category-list li a:hover,
+.service-sidebar .category-widget .category-list li a.current{
+	color: #fff;
+}
+
+.service-sidebar .category-widget .category-list li a:before{
+	position: absolute;
+	content: '';
+	width: 0%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	transition: all 500ms ease;
+}
+
+.service-sidebar .category-widget .category-list li a:hover:before,
+.service-sidebar .category-widget .category-list li a.current:before{
+	width: 100%;
+}
+
+.service-sidebar .category-widget .category-list li a:after{
+	position: absolute;
+	content: '\e91b';
+	font-family: 'icomoon';
+	font-size: 14px;
+	color: #fff;
+	top: 16px;
+	right: 20px;
+	font-weight: 400;
+}
+
+.service-sidebar .contact-widget .widget-content{
+	position: relative;
+	width: 100%;
+	padding: 60px 30px 30px 30px;
+}
+
+.service-sidebar .contact-widget .widget-content h3{
+	position: relative;
+	display: block;
+	font-size: 28px;
+	line-height: 38px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.service-sidebar .contact-widget .widget-content h3 span{
+
+}
+
+.service-sidebar .contact-widget .widget-content h3 a{
+	display: inline-block;
+	color: #fff;
+}
+
+.service-sidebar .contact-widget .widget-content h3 a:hover{
+
+}
+
+.service-sidebar .contact-widget .widget-content .icon-box{
+	position: relative;
+	display: block;
+	font-size: 70px;
+	margin-top: 35px;
+	margin-bottom: 40px;
+	color: #fff;
+}
+
+.service-sidebar .contact-widget .widget-content .bg-layer{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 10px;
+}
+
+.service-sidebar .contact-widget .widget-content .bg-layer:before{
+	position: absolute;
+	content: '';
+	background: #1D1826;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	opacity: 0.85;
+	border-radius: 10px;
+}
+
+.service-sidebar .contact-widget .inner-box{
+	position: relative;
+	display: block;
+	background: rgba(255, 255, 255, 0.15);
+	border: 2px solid rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(7.5px);
+	border-radius: 10px;
+	padding: 30px 15px;
+}
+
+.service-sidebar .contact-widget .inner-box p{
+	position: relative;
+	display: block;
+	margin-bottom: 8px;
+}
+
+.service-sidebar .contact-widget .inner-box p a{
+	display: inline-block;
+	font-size: 16px;
+	line-height: 26px;
+	color: #fff;
+	font-weight: 500;
+}
+
+.service-sidebar .contact-widget .inner-box p a:hover{
+
+}
+
+.service-details-content{
+	position: relative;
+	display: block;
+}
+
+.service-details-content .image-box{
+	position: relative;
+	display: block;
+	border-radius: 10px;
+}
+
+.service-details-content .image-box img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.service-details-content .content-one .image-box{
+	margin-bottom: 55px;
+}
+
+.service-details-content h2{
+	display: block;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.service-details-content p{
+	margin-bottom: 26px;
+}
+
+.service-details-content p:last-child{
+	margin-bottom: 0px;
+}
+
+.service-details-content h3{
+	display: block;
+	font-size: 28px;
+	line-height: 38px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.service-details-content .content-two p{
+	margin-bottom: 16px;
+}
+
+.service-details-content .content-three .single-item{
+	position: relative;
+	display: block;
+	background: #F1F1F1;
+	border-radius: 10px;
+	padding: 0px 30px 42px 30px;
+	text-align: center;
+}
+
+.service-details-content .content-three .single-item .icon-box{
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	border-radius: 50%;
+	margin-top: -50px;
+	margin-bottom: 26px;
+}
+
+.service-details-content .content-three .single-item h3{
+	font-size: 24px;
+	line-height: 34px;
+	margin-bottom: 12px;
+}
+
+.service-details-content .content-four .download-list li{
+	position: relative;
+	display: block;
+	margin-bottom: 20px;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 22px 35px 22px 80px;
+}
+
+.service-details-content .content-four .download-list li:last-child{
+	margin-bottom: 0px;
+}
+
+.service-details-content .content-four .download-list li .icon-box{
+	position: absolute;
+	left: 35px;
+	top: 32px;
+	font-size: 36px;
+}
+
+.service-details-content .content-four .download-list li h5{
+	display: block;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+
+.service-details-content .content-four .download-list li span{
+	position: relative;
+	display: block;
+}
+
+.service-details-content .content-four .download-list li button{
+	position: absolute;
+	top: 35px;
+	right: 35px;
+	background: rgba(222, 44, 44, 0.1);
+	font-size: 15px;
+	line-height: 24px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	cursor: pointer;
+	padding: 4px 23px 2px 23px;
+	border-radius: 30px;
+	transition: all 500ms ease;
+}
+
+.service-details-content .content-four .download-list li button:hover{
+	color: #fff;
+}
+
+.service-details-content .content-four h3{
+	margin-bottom: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,110 @@
+
+.career-section{
+	padding: 150px 0px;
+}
+
+.career-section .accordion-box .accordion{
+	box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+.career-section .accordion-box .acc-content h4{
+	display: block;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 600;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.career-section .accordion-box .acc-content .list-style-one{
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.career-section .accordion-box .accordion .acc-content{
+	padding-top: 0px;
+}
+
+.career-sidebar{
+	position: relative;
+	display: block;
+	background: #FFFFFF;
+	box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 32px 40px 40px 40px;
+}
+
+.career-sidebar h3{
+	display: block;
+	font-size: 28px;
+	line-height: 38px;
+	font-weight: 600;
+	margin-bottom: 22px;
+}
+
+.career-sidebar .form-inner .form-group{
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.career-sidebar .form-inner .form-group:last-child{
+	margin-bottom: 0px;
+}
+
+.career-sidebar .form-inner .form-group input[type='text'],
+.career-sidebar .form-inner .form-group input[type='email'],
+.career-sidebar .form-inner .form-group textarea{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 50px;
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #6E6E6E;
+	padding: 10px 20px;
+	transition: all 500ms ease;
+}
+
+.career-sidebar .form-inner .form-group input:focus,
+.career-sidebar .form-inner .form-group textarea:focus{
+
+}
+
+.career-sidebar .form-inner .form-group textarea{
+	height: 130px;
+	resize: none;
+}
+
+.career-sidebar .form-inner .form-group .theme-btn-one{
+	padding: 13px 40px;
+}
+
+.career-section .accordion-box .accordion .acc-btn.active .icon-box:before{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
