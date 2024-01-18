@@ -1,6 +1,6 @@
 'use client'
-import QuantityInput from "@/components/elements/QuantityInput"
-import Layout from "@/components/layout/Layout"
+import QuantityInput from "../components/elements/QuantityInput"
+import Layout from "../components/layout/Layout"
 import Link from "next/link"
 export default function Home() {
 

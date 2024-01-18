@@ -1,7 +1,7 @@
 'use client'
-import QuantityInput from "@/components/elements/QuantityInput"
-import Layout from "@/components/layout/Layout"
-import TestimonialSlider4 from "@/components/slider/TestimonialSlider4"
+import QuantityInput from "../components/elements/QuantityInput"
+import Layout from "../components/layout/Layout"
+import TestimonialSlider4 from "../components/slider/TestimonialSlider4"
 import Link from "next/link"
 import { useState } from "react"
 import 'swiper/css/thumbs'
