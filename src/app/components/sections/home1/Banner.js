@@ -44,9 +44,9 @@ export default function Banner() {
                         <div className="auto-container">
                             <div className="content-box">
                             <div className="content-inner">
-                                <span>Customized Learning</span>
-                                <h2>Build & Grow Your Business</h2>
-                                <p>Customize your content & needs with us at Blitz Learning Technologies.</p>
+                                {/* <span>Customized Learning</span> */}
+                                <h2>Learning Experiences with e-Learning Technology</h2>
+                                <p>At Blitz Learning Technologies, we specialize in crafting customized learning content using e-Learning technology.</p>
                                 <Link href="/about-us" className="theme-btn-one">Discover More</Link>
                             </div>
                             </div>
@@ -62,8 +62,8 @@ export default function Banner() {
                             <div className="content-box">
                             <div className="content-inner">
                                 <span>Change The World</span>
-                                <h2>Build & Grow Your Business</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Turpis ridiculus tellus.</p>
+                                <h2>Learning Solutions with Training Technology</h2>
+                                <p>Our core service involves providing comprehensive learning solutions designed to enhance business performance.</p>
                                 <Link href="/about-us" className="theme-btn-one">Discover More</Link>
                             </div>
                             </div>

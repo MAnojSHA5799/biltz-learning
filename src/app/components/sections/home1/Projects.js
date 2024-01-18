@@ -176,7 +176,7 @@ export default function Cases() {
                 </div>
             </section> */}
 
-            <section className="feature-section bg-color-1 sec-pad centred">
+            <section className="feature-section bg-color-1 centred">
                 <div className="pattern-layer">
                     <div className="pattern-1" style={{ backgroundImage: 'url(assets/images/shape/shape-2.png)' }}></div>
                     <div className="pattern-2" style={{ backgroundImage: 'url(assets/images/shape/shape-3.png)' }}></div>

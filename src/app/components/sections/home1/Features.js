@@ -12,8 +12,11 @@ export default function Features() {
                 </div>
                 <div className="auto-container">
                     <div className="sec-title mb_50">
-                    <span className="sub-title">Customized Learning</span>
-                    <h2>Customize your content & needs with us at <br />Blitz Learning Technologies.</h2>
+                    
+                    <h2>Elevating Learning Experiences with e-Learning Development 
+                        {/* <br />Blitz Learning Technologies. */}
+                        </h2>
+                        <span className="sub-title">Unleashing the Power of Customization</span>
                     </div>
                     <div className="row clearfix">
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
@@ -22,8 +25,9 @@ export default function Features() {
                             <figure className="image-box"><img src="/assets/images/Custome-learning.jpg" alt="" /></figure>
                             <div className="lower-content">
                             <div className="icon-box"><i className="icon-7"></i></div>
-                            <h3><Link href="/">Custom e-learning</Link></h3>
-                            <p>We develop engaging, innovative, and cost-effective digital learning products to help clients increase their efficiency. Our custom-designed courses include simulations, AR and VR courses, mobile learning, gamification, simulation, micro-learning, and ILT and virtual training.</p>
+                            <h3><Link href="/">Custom e-Learning</Link></h3>
+                            <p>Crafted to meet speciﬁc learning objectives, our custom e-learning content with advanced e-Learning technology ensures
+engagement and knowledge retention.</p>
                             <br />
                             <br />
                             </div>
@@ -49,7 +53,7 @@ export default function Features() {
                             <div className="lower-content">
                             <div className="icon-box"><i className="icon-9"></i></div>
                             <h3><Link href="/">Learning Consulting</Link></h3>
-                            <p>We specialize in analyzing your current learning gaps and designing effective roadmaps to address those gaps to drive measurable results. With our expertise in designing learner-centric solutions, we offer learning consulting to L&D departments in order to optimize actionable touch points of their L&D strategy.</p>
+                            <p>Our learning consulting services focus on aligning education strategies with business goals, creating a seamless bridge between learning and organizational success, leveraging cutting-edge training technology.</p>
                             <br />
                          
                             </div>

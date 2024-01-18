@@ -13,27 +13,32 @@ export default function WhyChooseUs() {
                         <div className="content_block_two">
                         <div className="content-box p_relative">
                             <div className="sec-title light mb_45">
-                            <span className="sub-title">At Blitz Learning Technologies</span>
+                            <span className="sub-title">Crafting Learning Excellence with e-Learning Technology</span>
                             <h2>We Provide Tailored</h2>
                               
                             <h2 style={{ color: 'red' }}>& Individualized Learning Experiences</h2>
-                            <p>Our core service is to offer tailored and individualized learning experiences. Our approach involves creating customized learning content that is specifically designed to help learners achieve their performance objectives.Leveraging our expertise in custom content development services, we provide a comprehensive solution that enhances business performance.By utilizing modern technology and instructional design principles, we ensure that our learners are engaged with unique and personalized learning experiences.</p>
+                            <p>At Blitz Learning Technologies, we are dedicated to crafting learning
+excellence through innovation and expertise in e-Learning technology. Our commitment to delivering tailored solutions is underlined by three key principles.
+<br />
+Customization: We tailor learning experiences to individual needs using advanced e-Learning development.
+Technology Integration: Modern e-Learning technology enriches our educational approach.
+Performance Focus: Our goal is to enhance business performance through effective learning with cutting-edge e-Learning technology.</p>
                             </div>
                             <div className="inner-box">
                             <div className="single-item">
                                 <div className="icon-box"><i className="icon-11"></i></div>
-                                <h3>Quick Response</h3>
-                                <p>Lorem ipsum dolor sit amet tempus consectetur adipiscing.</p>
+                                <h3>Measurable Cost advantage</h3>
+                                <p>We provide a proven cost advantage of up to 30% over our competitors in India and around 50% over standard rates in the US and Europe.</p>
                             </div>
                             <div className="single-item">
                                 <div className="icon-box"><i className="icon-11"></i></div>
-                                <h3>Experience Consultant</h3>
-                                <p>Lorem ipsum dolor sit amet tempus consectetur adipiscing.</p>
+                                <h3>Global delivery</h3>
+                                <p>We have the capability to deliver projects across 4 continents in over 35 languages and growing. Our teams work as an extension to our clients.</p>
                             </div>
                             <div className="single-item">
                                 <div className="icon-box"><i className="icon-11"></i></div>
-                                <h3>Flexible Payment</h3>
-                                <p>Lorem ipsum dolor sit amet tempus consectetur adipiscing.</p>
+                                <h3>High Credibility</h3>
+                                <p>In a very short span of time, we managed to onboard multiple fortune companies with a repeat business of over 95% from our first- and second-year clients.</p>
                             </div>
                             </div>
                         </div>

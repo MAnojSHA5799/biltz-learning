@@ -22,9 +22,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                                 <Link href="#">Login</Link>
                                 </div>
                             <ul className="social-links clearfix">
-                            <li><Link href="#"><i className="fab fa-facebook-f"></i></Link></li>
-                            <li><Link href="#"><i className="fab fa-twitter"></i></Link></li>
-                            <li><Link href="#"><i className="fab fa-linkedin-in"></i></Link></li>
+                            <li><Link href="https://www.facebook.com/blitzlearning.in/"><i className="fab fa-facebook-f"></i></Link></li>
+                            <li><Link href="https://twitter.com/"><i className="fab fa-twitter"></i></Link></li>
+                            <li><Link href="https://www.linkedin.com/company/blitz-learning-technologies-pvt.-ltd./"><i className="fab fa-linkedin-in"></i></Link></li>
                             </ul>
                         </div>
                         </div>

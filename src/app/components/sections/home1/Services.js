@@ -10,7 +10,7 @@ export default function Pricing() {
     }
     return (
         <>
-            <section className="service-section p_relative centred bg-color-1 sec-pad">
+            <section className="service-section p_relative centred bg-color-1 sec-pad" style={{ padding: '20px' }}>
                 <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-12.png)' }}></div>
                 <div className="auto-container">
                     <div className="sec-title mb_70">
@@ -58,7 +58,7 @@ export default function Pricing() {
                             </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                        <div className="col-lg-4 col-md-6 col-sm-12 service-block mb-2">
                             <div className="service-block-one wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div className="inner-box">
                                 <div className="static-content">
