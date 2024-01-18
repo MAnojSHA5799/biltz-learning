@@ -1,5 +1,5 @@
-import Layout from "./components/layout/Layout"
-import About from "./components/sections/home2/About"
+import Layout from "../components/layout/Layout"
+import About from "../components/sections/home2/About"
 import Banner from "./components/sections/home2/Banner"
 import Services from "./components/sections/home2/Services"
 import Cta from "./components/sections/home2/Cta"
