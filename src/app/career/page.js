@@ -39,12 +39,12 @@ export default function Home() {
                                         <ul className="accordion-box">
                                             {/*Accordion Block*/}
                                             <li className="accordion block">
-                                                <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
+                                                <div className={isActive.key == 4 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(4)}>
                                                     <div className="icon-box"></div>
                                                     <h3 className="mb-1">Instructional designer</h3>
                                                     
                                                 </div>
-                                                <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
+                                                <div className={isActive.key == 4 ? "acc-content current" : "acc-content"}>
 
                                                     <div className="inner-box">
 
@@ -57,7 +57,7 @@ export default function Home() {
                                                         <h4 className="mb-1">Job requirements:</h4>
                                                         <p>Are you a skilled Instructional Designer looking for a full-time engagement with exciting new projects to work on? We are seeking a talented individual with at least 5 years of experience under your belt, you will bring a wealth of knowledge and expertise to the role.</p>
                                                         <h4 className="mb-1">Responsibilities:</h4>
-                                                        <ul style={{ listStyleType: "disc", padding: "10px" }}>
+                                                        <ul style={{ listStyleType: "disc", padding: "5px" }}>
                                                         <li style={{ listStyleType: "disc" }}>Identify requirements and develop and design content.</li>
                                                         <li style={{ listStyleType: "disc" }}>Mentor other professionals and ensure the accuracy of the content to enable client employees in their performance and learning needs within the constraints of the stated project requirements.</li>
                                                         <li style={{ listStyleType: "disc" }}>Lead project teams and deliver accordingly to set milestones</li>
@@ -71,7 +71,7 @@ export default function Home() {
                                                             <li>Rent a Picnic Shelter</li>
                                                         </ul>
                                                         <h4>Skills & Experience</h4>
-                                                        <ul style={{ listStyleType: "disc", padding: "10px" }}>
+                                                        <ul style={{ listStyleType: "disc", padding: "5px" }}>
                                                         <li style={{ listStyleType: "disc" }}>5-7 years of experience in Instructional design.</li>
                                                         <li style={{ listStyleType: "disc" }}>Content writing – script writing, storyboarding.</li>
                                                         <li style={{ listStyleType: "disc" }}>Should be well versed with tools like Adobe Captivate. Storyline, Articulate, After Effects, etc.</li>
