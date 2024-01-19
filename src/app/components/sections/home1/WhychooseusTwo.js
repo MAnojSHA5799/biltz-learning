@@ -1,12 +1,12 @@
 'use client'
-import VideoPopup from "../components/elements/VideoPopup"
-import CounterUp from "../components/elements/CounterUp"
-import Layout from "../components/layout/Layout"
-import TestimonialSlider0 from '../components/slider/TestimonialSlider0'
-import AwardSlider1 from '../components/slider/AwardSlider1'
+import VideoPopup from "../../elements/VideoPopup"
+import CounterUp from "../../elements/CounterUp"
+import Layout from "../../layout/Layout"
+import TestimonialSlider0 from '../../slider/TestimonialSlider0'
+// import AwardSlider1 from '../../AwardSlider1'
 import Link from "next/link"
 import { useState } from 'react'
-import ReactCurvedText from 'react-curved-text'
+// import ReactCurvedText from 'react-curved-text'
 import ModalVideo from 'react-modal-video'
 export default function Home() {
     const [isOpen, setOpen] = useState(false)
@@ -29,56 +29,7 @@ export default function Home() {
     }
     return (
         <>
-            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="About Us">
-                {/* about-section */}
-                <section className="about-section p_relative">
-                    <div className="auto-container">
-                        <div className="row clearfix">
-                        <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                            <div className="image_block_one">
-                            <div className="image-box p_relative pr_50 mr_30">
-                                <figure className="image image-1"><img src="assets/images/resource/about-1.jpg" alt="" /></figure>
-                                <figure className="image image-2"><img src="assets/images/resource/about-2.jpg" alt="" /></figure>
-                                <div className="video-inner">
-                                    <div className="video-btn">
-                                        <VideoPopup />
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                            <div className="content_block_one">
-                            <div className="content-box p_relative ml_30">
-                                <div className="sec-title mb_25">
-                                <span className="sub-title">About BizTech</span>
-                                <h2>Dedicated And <br/>Professional Consulting Services</h2>
-                                </div>
-                                <div className="text mb_35">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing integer ultrices suspendisse varius etiam est. Est, felis, tempus nec vitae orci sodales Metus, velit nec at diam in sed. Massa dui ipsum ornare sagittis dolor sagittis amet odio est. Sit semper et velit fusce.</p>
-                                </div>
-                                <div className="inner-box mb_35">
-                                <div className="single-item">
-                                    <div className="icon-box"><i className="icon-11"></i></div>
-                                    <h3>Solution Focused</h3>
-                                    <p>Lorem ipsum dolor sit amet tempus consectetur adipiscing.</p>
-                                </div>
-                                <div className="single-item">
-                                    <div className="icon-box"><i className="icon-11"></i></div>
-                                    <h3>99.99% Success</h3>
-                                    <p>Lorem ipsum dolor sit amet tempus consectetur adipiscing.</p>
-                                </div>
-                                </div>
-                                <figure className="signature"><img src="assets/images/icons/signature-1.png" alt="" /></figure>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
-                {/* about-section end */}
-
-
+        
                 {/* service-style-two */}
                 <section className="service-style-two p_relative bg-color-1">
                     <div className="auto-container">
@@ -210,91 +161,7 @@ export default function Home() {
                 {/* clients-section end */}
 
 
-
-                {/* team-section */}
-                <section className="team-section sec-pad">
-                    <div className="auto-container">
-                        <div className="sec-title mb_50 centred">
-                            <span className="sub-title">Exclusive Team</span>
-                            <h2>We Have A Professional Team <br />Member</h2>
-                        </div>
-                        <div className="row clearfix">
-                            <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                                <div className="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><img src="assets/images/team/team-1.jpg" alt="" /></figure>
-                                            <ul className="social-links clearfix">
-                                                <li><Link href="/about-us"><i className="fab fa-facebook-f"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-twitter"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-instagram"></i></Link></li>
-                                            </ul>
-                                        </div>
-                                        <div className="lower-content">
-                                            <h3><Link href="/team-details">Wade Warren</Link></h3>
-                                            <span className="designation">Founder</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                                <div className="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><img src="assets/images/team/team-2.jpg" alt="" /></figure>
-                                            <ul className="social-links clearfix">
-                                                <li><Link href="/about-us"><i className="fab fa-facebook-f"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-twitter"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-instagram"></i></Link></li>
-                                            </ul>
-                                        </div>
-                                        <div className="lower-content">
-                                            <h3><Link href="/team-details">Guy Hawkins</Link></h3>
-                                            <span className="designation">Consultant</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                                <div className="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><img src="assets/images/team/team-3.jpg" alt="" /></figure>
-                                            <ul className="social-links clearfix">
-                                                <li><Link href="/about-us"><i className="fab fa-facebook-f"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-twitter"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-instagram"></i></Link></li>
-                                            </ul>
-                                        </div>
-                                        <div className="lower-content">
-                                            <h3><Link href="/team-details">Bessie Cooper</Link></h3>
-                                            <span className="designation">Advisor</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                                <div className="team-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><img src="assets/images/team/team-4.jpg" alt="" /></figure>
-                                            <ul className="social-links clearfix">
-                                                <li><Link href="/about-us"><i className="fab fa-facebook-f"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-twitter"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-instagram"></i></Link></li>
-                                            </ul>
-                                        </div>
-                                        <div className="lower-content">
-                                            <h3><Link href="/team-details">Devon Lane</Link></h3>
-                                            <span className="designation">Manager</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                {/* team-section end */}
+                
 
 
                 {/* chooseus-style-two */}
@@ -343,6 +210,15 @@ export default function Home() {
                                                     </div>
                                                 </div>
                                             </li>
+                                            <li className="accordion block">
+                                                <div className={isActive.key == 4 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(4)}><div className="icon-box"></div><h3>Flexible Payment2</h3></div>
+                                                <div className={isActive.key == 4 ? "acc-content current" : "acc-content"}>
+                                                    <div className="content">
+                                                        <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -372,7 +248,7 @@ export default function Home() {
 
 
                 <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
-            </Layout>
+           
         </>
     )
 }

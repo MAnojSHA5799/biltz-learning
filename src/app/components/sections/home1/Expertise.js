@@ -1,8 +1,8 @@
-
+import '../../../main.css'
 export default function Feature() {
     return (
         <>
-            <section className="expertise-section p_relative bg-color-1">
+            <section className="expertise-sections p_relative bg-color-1">
                 <div className="pattern-layer">
                     <div className="pattern-1" style={{ backgroundImage: "url(assets/images/shape/shape-2.png)" }}></div>
                     <div className="pattern-2" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>

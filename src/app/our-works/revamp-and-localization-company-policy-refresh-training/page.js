@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
+import '../../main.css'
+
 export default function Home() {
   return (
     <>
@@ -82,37 +84,37 @@ export default function Home() {
                         facilisi dui vel at faucibus diam. Semper non vitae elit mattis eu
                         sodales. Sapien pellentesque sagittis enim.
                     </p> */}
-              <h3>Client Requirements</h3>
-              <li>
-                <ul>
+              <h3 className="mb-1">Client Requirements</h3>
+              <ul>
+                <li className="our-work-li">
                 The client needed to impart various ethics and compliance training to its shop floor employees.
-                </ul>
-                <ul>They had a set of courses that needed to be revamped in a more engaging way, and update content.</ul>
-                <ul>The courses also needed to be localized in Arabic.</ul>
-              </li>
+                </li>
+                <li className="our-work-li">They had a set of courses that needed to be revamped in a more engaging way, and update content.</li>
+                <li className="our-work-li">The courses also needed to be localized in Arabic.</li>
+              </ul>
               <br />
-              <h3>Challenges</h3>
-              <li>
-                <ul>
+              <h3 className="mb-1">Challenges</h3>
+              <ul>
+                <li className="our-work-li">
                 The course was already developed, so the challenge was to retain the theme and show creativity on top of the existing framework.
-                </ul>
-                <ul>
+                </li>
+                <li className="our-work-li">
                 Blitz Learning challenged its designers to make the course more attractive using the existing course elements so that the originality of the course remains intact.
-                </ul>
-                <ul>
+                </li>
+                <li className="our-work-li">
                 Addition of new content lead to recreation of certain course elements and adjust the whole flow of the course.
-                </ul>
-              </li>
+                </li>
+              </ul>
               <br />
-              <h3>Outcome Achieved</h3>
-              <li>
-                <ul>
+              <h3 className="mb-1">Outcome Achieved</h3>
+              <ul>
+                <li className="our-work-li">
                 The course was very well received and was rolled off to over 80,000 employees across all its retail units.
-                </ul>
-                <ul>
+                </li>
+                <li className="our-work-li">
                 The client was very happy with the development and the way the course succeeded to engage the employees
-                </ul>
-              </li>
+                </li>
+              </ul>
 
               <div className="blog-details-content mt-1">
                 <div className="news-block-one">
@@ -132,17 +134,17 @@ export default function Home() {
                         <div className="icon-box">
                           <h3 className="text-center">Blitz Solution</h3>
                         </div>
-                        <li>
-                          <ul>
+                        <ul>
+                          <li className="our-work-li">
                           The client had a set of 4 courses that was already created by another vendor. Blitz Learning took the courses and revamped it in a way that it retained the originality but became much more exuberant.
-                          </ul>
-                          <ul>
+                          </li>
+                          <li className="our-work-li">
                           The development team worked with the new content to adjust it in the given framework yet make the design attractive and more engaging.
-                          </ul>
-                          <ul>
+                          </li>
+                          <li className="our-work-li">
                           The localization team worked with seasoned Arabic voice over artists to localize the course keeping the cultural and local dynamics of the target learners in mind.
-                          </ul>
-                        </li>
+                          </li>
+                        </ul>
                         {/* <h4>Neha Tyagi</h4> */}
                       </blockquote>
                     </div>

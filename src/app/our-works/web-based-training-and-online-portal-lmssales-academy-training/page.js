@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
+import '../../main.css'
 export default function Home() {
   return (
     <>
@@ -83,58 +84,60 @@ export default function Home() {
                         facilisi dui vel at faucibus diam. Semper non vitae elit mattis eu
                         sodales. Sapien pellentesque sagittis enim.
                     </p> */}
-              <h3>Client Requirements</h3>
-              <li>
-                <ul>
+                    
+              <h3 className="mb-1">Client Requirements</h3>
+              <ul >
+                <li className="our-work-li"  >
                   The client needed to create a SCORM compliant interactive and
                   assessment-based learning module which can enable its
                   procurement services to act as an enabler to provide best
                   procurement services.
-                </ul>
-                <ul>The client also wanted an LMS to host such courses.</ul>
-              </li>
+                </li>
+                <li className="our-work-li">The client also wanted an LMS to host such courses.</li>
+              </ul>
               <br />
-              <h3>Challenges</h3>
-              <li>
-                <ul>
+              <h3 className="mb-1">Challenges</h3>
+              <ul>
+                <li  className="our-work-li">
                   The client had a lot of content but no training module and no
                   tool to provide hosted trackable training.
-                </ul>
-                <ul>
+                </li>
+                <li className="our-work-li">
                   The client apart from the course creation, needed an LMS to
                   host the courses on it.
-                </ul>
-                <ul>
+                </li>
+                <li className="our-work-li">
                   The courses had to be assigned as per the job roles and the
                   users should be able to access only those courses that were
                   assigned to his/her specific role.
-                </ul>
-              </li>
+                </li>
+              </ul>
               <br />
-              <h3>Outcome Achieved</h3>
-              <li>
-                <ul>
+
+              <h3 className="mb-1">Outcome Achieved</h3>
+              <ul>
+                <li className="our-work-li">
                   The courses were rolled to over 80,000 employees and the
                   engagement of the employees was very well communicated by the
                   client. In the first week of roll out over 45,000 employees
                   completed the course.
-                </ul>
-                <ul>
+                </li>
+                <li className="our-work-li">
                   The engaging content attracted learners to the e-Learning
                   Portal at least 4-5 times a month to learn from the courses as
                   per their needs.
-                </ul>
-                <ul>
+                </li>
+                <li className="our-work-li">
                   Relevant courses were added on the portal and the courses were
                   assigned as per the role of the learner in the organization.
                   This type of customized access aligned to the individual
                   needs.
-                </ul>
-                <ul>
+                </li>
+                <li className="our-work-li">
                   The learners were able to make better use of the knowledge and
                   were able to apply it to well to their work.
-                </ul>
-              </li>
+                </li>
+              </ul>
 
               <div className="blog-details-content mt-1">
                 <div className="news-block-one">
@@ -165,8 +168,8 @@ export default function Home() {
                         <div className="icon-box">
                           <h3 className="text-center">Blitz Solution</h3>
                         </div>
-                        <li>
-                          <ul>
+                        <ul>
+                          <li className="our-work-li">
                             In order to develop a new training initiative and an
                             LMS, Blitz Learning partnered with an IT and LMS
                             vendor to create an e-Learning Portal and LMS to
@@ -174,8 +177,8 @@ export default function Home() {
                             customized its LMS to create a learning portal that
                             delivers access-based training across the vast
                             spread of the client’s organization.
-                          </ul>
-                          <ul>
+                          </li>
+                          <li className="our-work-li">
                             Blitz Learning created a fully interactive course
                             and an e Learning portal and integrated it with our
                             partner’s LMS. The LMS had Admin and User login
@@ -183,13 +186,13 @@ export default function Home() {
                             course progress of which was automatically reflected
                             in the LMS and a certificate of completion was
                             generated.
-                          </ul>
-                          <ul>
+                          </li>
+                          <li className="our-work-li">
                             Certificates were issued for chosen courses thus
                             providing a sense of accomplishment for the
                             learners.
-                          </ul>
-                        </li>
+                          </li>
+                        </ul>
                         {/* <h4>Neha Tyagi</h4> */}
                       </blockquote>
                     </div>
@@ -241,6 +244,32 @@ export default function Home() {
                     </div>
           </div>
         </section>
+
+
+
+            {/* <section className="team-details mb_0">
+            <div className="auto-container">
+                    <div className="lower-content">
+                    <div className="row clearfix">
+                        <div className="col-lg-12 col-md-6 col-sm-12 education-column">
+                        <div className="education-inner mr_70 ml_20">
+                            <div className="text mb_10">
+                            <h3>Experience</h3>
+                            </div>
+                            <div className="inner-box">
+                            <div className="single-item">
+                                <p>The client needed to create a SCORM compliant interactive and assessment-based learning module which can enable its procurement services to act as an enabler to provide best procurement services.</p>
+                            </div>
+                            <div className="single-item">
+                                <p>The client needed to create a SCORM compliant interactive and assessment-based learning module which can enable its procurement services to act as an enabler to provide best procurement services.</p>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </section> */}
       </Layout>
     </>
   );

@@ -48,26 +48,29 @@ export default function Menu() {
                         <li><Link href="/our-works/web-based-training-and-localization-product-training">Localization |Product Training</Link></li>
                         <li><Link href="/our-works/scenario-based-trainingworkplace-integrity">Scenario based Training |Workplace Integrity</Link></li>
 
-                        <li><Link href="/testimonials">Testimonials</Link></li>
-                        <li><Link href="/404">404</Link></li>
+                        {/* <li><Link href="/testimonials">Testimonials</Link></li>
+                        <li><Link href="/404">404</Link></li> */}
                     </ul>
                 </li>
-                <li className="dropdown"><Link href="#">Shop</Link>
-                    <ul>
+                <li className=""><Link href="/about-us">About Us</Link>
+                    {/* <ul>
                         <li><Link href="/shop">Products</Link></li>
                         <li><Link href="/product-details">Product Details</Link></li>
                         <li><Link href="/shopping-cart">Shopping Cart</Link></li>
                         <li><Link href="/checkout">Checkout</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
-                <li className="dropdown"><Link href="#">Blog</Link>
+                <li className=""><Link href="/blog">Blog</Link>
                     <ul>
                         <li><Link href="/blog">Blog Grid</Link></li>
                         <li><Link href="/blog-2">Blog Standard</Link></li>
                         <li><Link href="/blog-details">Blog Details</Link></li>
                     </ul>
                 </li> 
+
+                <li><Link href="/why-us">Why Us</Link></li>
                 <li><Link href="/contact">Contact</Link></li>
+
             </ul>
         </>
     )

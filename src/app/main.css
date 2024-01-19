@@ -1,0 +1,13 @@
+.about-sections{
+padding: 50px 0px;
+    /* background-color: #0c0107; */
+    /* margin-bottom: 2px; */
+}
+.expertise-sections{
+    padding: 180px 0px 70px 0px;
+  }
+.our-work-li{
+    list-style-type: disc;
+    padding: 4px;
+    color: #000;
+}

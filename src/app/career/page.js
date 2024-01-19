@@ -33,29 +33,52 @@ export default function Home() {
                                     <div className="content-box mr_110">
                                     <div className="sec-title mb_50">
                                         <span className="sub-title">Get Opportunities</span>
-                                        <h2>Build Your Career with <br />BizTech</h2>
-                                        <p className="mt_40">Lorem ipsum dolor sit amet consectetur adipiscing elit. Donec felis suscipit mi urna nulla at tincidunt feugiat vulputate. Ante facilisis face pellentesque quis egestas metus, mauris dictum sollicitudin hendrerit quis in magna.</p>
+                                        <h2>Build Your Career with <br />BiltzLearning</h2>
+                                        <p className="mt_40">We welcome your expertise to help our team to transform learning and development function of our clients.</p>
                                     </div>
                                         <ul className="accordion-box">
                                             {/*Accordion Block*/}
                                             <li className="accordion block">
                                                 <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
                                                     <div className="icon-box"></div>
-                                                    <h3>Marketing Executive</h3>
+                                                    <h3 className="mb-1">Instructional designer</h3>
+                                                    
                                                 </div>
                                                 <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
 
                                                     <div className="inner-box">
+
                                                         <p>Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa.</p>
-                                                        <h4>Duties and Responsibilities:</h4>
-                                                        <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p>
+                                                        <ul>
+                                                        <li><span style={{ fontWeight: 'bold', color:'black' }}>Job Category:</span> Trainer</li>
+                                                        <li><span style={{ fontWeight: 'bold', color:'black' }}>Job Type:</span>  Full Time</li>
+                                                        <li><span style={{ fontWeight: 'bold', color:'black' }}>Job Location:</span>  Noida</li>
+                                                    </ul>
+                                                        <h4 className="mb-1">Job requirements:</h4>
+                                                        <p>Are you a skilled Instructional Designer looking for a full-time engagement with exciting new projects to work on? We are seeking a talented individual with at least 5 years of experience under your belt, you will bring a wealth of knowledge and expertise to the role.</p>
+                                                        <h4 className="mb-1">Responsibilities:</h4>
+                                                        <ul style={{ listStyleType: "disc", padding: "10px" }}>
+                                                        <li style={{ listStyleType: "disc" }}>Identify requirements and develop and design content.</li>
+                                                        <li style={{ listStyleType: "disc" }}>Mentor other professionals and ensure the accuracy of the content to enable client employees in their performance and learning needs within the constraints of the stated project requirements.</li>
+                                                        <li style={{ listStyleType: "disc" }}>Lead project teams and deliver accordingly to set milestones</li>
+                                                        <li style={{ listStyleType: "disc" }}>Mentor and train junior writers.</li>
+                                                        <li style={{ listStyleType: "disc" }}>Leads RFPs and contributes to business effectively</li>
+
+                                                        </ul>
                                                         <ul className="list-style-one clearfix">
                                                             <li>Holiday Trash & Recycling</li>
                                                             <li>Things To Do In Govarnex</li>
                                                             <li>Rent a Picnic Shelter</li>
                                                         </ul>
-                                                        <h4>Qualifications:</h4>
-                                                        <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p>
+                                                        <h4>Skills & Experience</h4>
+                                                        <ul style={{ listStyleType: "disc", padding: "10px" }}>
+                                                        <li style={{ listStyleType: "disc" }}>5-7 years of experience in Instructional design.</li>
+                                                        <li style={{ listStyleType: "disc" }}>Content writing – script writing, storyboarding.</li>
+                                                        <li style={{ listStyleType: "disc" }}>Should be well versed with tools like Adobe Captivate. Storyline, Articulate, After Effects, etc.</li>
+                                                        <li style={{ listStyleType: "disc" }}>Strong analytical skills.</li>
+                                                        <li style={{ listStyleType: "disc" }}>Communicate effectively in visual, oral, and written form.</li>
+
+                                                        </ul>
                                                         <ul className="list-style-one clearfix">
                                                             <li>Holiday Trash & Recycling</li>
                                                             <li>Things To Do In Govarnex</li>

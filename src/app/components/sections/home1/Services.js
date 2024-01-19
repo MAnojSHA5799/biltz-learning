@@ -10,7 +10,7 @@ export default function Pricing() {
     }
     return (
         <>
-            <section className="service-section p_relative centred bg-color-1 sec-pad" style={{ padding: '20px' }}>
+            <section className="service-section p_relative centred bg-color-1 sec-pad" style={{ padding: '50px' }}>
                 <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-12.png)' }}></div>
                 <div className="auto-container">
                     <div className="sec-title mb_70">
@@ -30,7 +30,7 @@ export default function Pricing() {
                                 <div className="overlay-content">
                                 <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-5.png)' }}></div>
                                 {/* <h3><Link href="/strategy-planning">Strategy & Planning</Link></h3> */}
-                                <p>Not every business requirement needs creating content from scratch, and we follow this approach very thoroughly. Our e-learning modernization techniques make learning content relevant and up-to-date, which in return, helps save a lot of costs.</p>
+                                <p>Not every business requirement needs creating content from scratch, we follow this approach very thoroughly. Our e-learning modernization techniques make learning content relevant and up-to-date.</p>
                                 {/* <div className="btn-box">
                                     <Link href="/strategy-planning" className="theme-btn-one">Read More</Link>
                                 </div> */}
@@ -70,7 +70,7 @@ export default function Pricing() {
                                 <div className="overlay-content">
                                 <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-7.png)' }}></div>
                                 {/* <h3><Link href="/tax-management">Tax Management</Link></h3> */}
-                                <p>Our e-learning development teams have put in place a strategic framework to strengthen L&D initiatives with customized content solutions, which has a positive impact on both the career paths of employees and the company’s overall objectives.</p>
+                                <p>Our e-learning development teams have put in place a strategic framework to strengthen L&D initiatives with customized content solutions, which has a positive impact on both the career paths of employees.</p>
                                 <div className="btn-box">
                                     {/* <Link href="/tax-management" className="theme-btn-one">Read More</Link> */}
                                 </div>
@@ -80,7 +80,7 @@ export default function Pricing() {
                         </div>
                     {/* Repeat the above service-block structure for other services */}
                     </div>
-                    <div className="more-btn mt_60">
+                    <div className="more-btn mt_80">
                     <Link href="/services2" className="theme-btn-one">More Services</Link>
                     </div>
                 </div>

@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
+import '../../main.css'
+
 export default function Home() {
   return (
     <>
@@ -84,36 +86,36 @@ export default function Home() {
                         facilisi dui vel at faucibus diam. Semper non vitae elit mattis eu
                         sodales. Sapien pellentesque sagittis enim.
                     </p> */}
-              <h3>Client Requirements</h3>
-              <li>
-                <ul>
+              <h3 className="mb-1">Client Requirements</h3>
+              <ul>
+                <li className="our-work-li">
                 The client needed to create web-based training to educate its sales teams about the latest line of freight containers.
-                </ul>
-                <ul>The course was intended to create awareness about the technical aspects of various containers and help sales teams pitch in the right containers as per their client’s requirements.</ul>
+                </li>
+                <li className="our-work-li">The course was intended to create awareness about the technical aspects of various containers and help sales teams pitch in the right containers as per their client’s requirements.</li>
                
-              </li>
+              </ul>
               <br />
-              <h3>Challenges</h3>
-              <li>
-                <ul>
+              <h3 className="mb-1">Challenges</h3>
+              <ul>
+                <li className="our-work-li">
                 The content was very technical in nature and Blitz Learning had just the right SME to understand all their products and help the development team with production.
-                </ul>
-                <ul>
+                </li>
+                <li className="our-work-li">
                 The client had a lot of content and they needed us to utilize all important topics intelligently to be explained in the course without being boring.
-                </ul>
+                </li>
                 
-              </li>
+              </ul>
               <br />
-              <h3>Outcome Achieved</h3>
-              <li>
-                <ul>
+              <h3 className="mb-1">Outcome Achieved</h3>
+              <ul>
+                <li className="our-work-li">
                 The SME helped the client create a targeted content repository for the products.
-                </ul>
-                <ul>
+                </li>
+                <li className="our-work-li">
                 As the template got updated, the client has now more flexibility to use its in-house expert for internal course creation.
-                </ul>
-                <ul>The course helped the sales teams to learn about the whole product line and made them pitch in the products in a better way.</ul>
-              </li>
+                </li >
+                <li className="our-work-li">The course helped the sales teams to learn about the whole product line and made them pitch in the products in a better way.</li>
+              </ul>
 
               <div className="blog-details-content mt-1">
                 <div className="news-block-one">
@@ -133,19 +135,19 @@ export default function Home() {
                         <div className="icon-box">
                           <h3 className="text-center">Blitz Solution</h3>
                         </div>
-                        <li>
-                          <ul>
+                        <ul>
+                          <li className="our-work-li">
                           Blitz learning roped in its SME to have a series of discussion calls with the client’s technical team to understand all the products.
-                          </ul>
-                          <ul>
+                          </li>
+                          <li className="our-work-li">
                           Initially the course was agreed to be created in the predefined template (which was created by Blitz Learning as a part of another project). However, with the variety and dynamics of the course objective and topics, Blitz did multiple changes in the template UI to adjust as per the new requirements.
-                          </ul>
-                          <ul>
+                          </li>
+                          <li className="our-work-li">
                           Blitz Learning used multiple assessment types to get the user’s knowledge tested. The course had a series of animations and interactivities to keep the learners engaged.
-                          </ul>
-                          <ul>In the mid project, client’s corporate barding got changed and one of the product launches from the client got delayed till next year. Blitz keeping the agreed timeline unchanged, revamped the course UI mid-project as per the new branding and adjusted the content after removing the delayed product.</ul>
-                          <ul>The localization in German was done after translating the English content and the course was delivered with highest quality.</ul>
-                        </li>
+                          </li>
+                          <li className="our-work-li">In the mid project, client’s corporate barding got changed and one of the product launches from the client got delayed till next year. Blitz keeping the agreed timeline unchanged, revamped the course UI mid-project as per the new branding and adjusted the content after removing the delayed product.</li>
+                          <li className="our-work-li">The localization in German was done after translating the English content and the course was delivered with highest quality.</li>
+                        </ul>
                         {/* <h4>Neha Tyagi</h4> */}
                       </blockquote>
                     </div>

@@ -3,7 +3,7 @@
 export default function Process() {
     return (
         <>
-            <section className="working-process-section sec-pad centred">
+            <section className="working-process-section pt-3 pb-5 centred">
                 <div className="auto-container">
                     <div className="sec-title mb_100">
                     <span className="sub-title">Working Process</span>

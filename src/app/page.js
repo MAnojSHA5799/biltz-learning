@@ -11,6 +11,7 @@ import Expertise from "./components/sections/home1/Expertise"
 import Process from "./components/sections/home1/Process"
  import Testimonial from "./components/sections/home1/Testimonial"
 import WhyChooseUs from "./components/sections/home1/WhyChooseUs"
+import WhychooseusTwo from "./components/sections/home1/WhychooseusTwo"
 export default function Home() {
 
     return (
@@ -25,7 +26,8 @@ export default function Home() {
                  <Process />
                 <Funfacts />
                 <Expertise /> 
-                {/* <About /> */}
+                <About />
+                <WhychooseusTwo />
                 {/* <News />   */}
             </Layout>
         </>

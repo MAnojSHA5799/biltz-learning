@@ -1,11 +1,12 @@
 // import VideoPopup from "./components/elements/VideoPopup"
+import '../../../main.css'
 export default function About() {
     return (
         <>
-            <section className="about-section p_relative">
+            <section className="about-sections">
                 <div className="auto-container">
                     <div className="row clearfix">
-                    <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                    <div className="col-lg-4 col-md-12 col-sm-12 image-column">
                         <div className="image_block_one">
                         <div className="image-box p_relative pr_50 mr_30">
                             <figure className="image image-1"><img src="assets/images/resource/about-1.jpg" alt="" /></figure>
@@ -18,7 +19,7 @@ export default function About() {
                         </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                    <div className="col-lg-8 col-md-12 col-sm-12 content-column">
                         <div className="content_block_one">
                         <div className="content-box p_relative ml_30">
                             <div className="sec-title mb_25">

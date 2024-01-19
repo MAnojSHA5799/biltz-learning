@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "../../components/layout/Layout";
+import '../../main.css'
 import Link from "next/link";
+
 export default function Home() {
   return (
     <>
@@ -85,39 +87,39 @@ export default function Home() {
                         sodales. Sapien pellentesque sagittis enim.
                     </p> */}
               <h3>Client Requirements</h3>
-              <li>
-                <ul>
+              <ul>
+                <li className="our-work-li">
                 Employees needed to learn about previous incidents on the manufacturing floor and adopt safety measures to minimize workplace accidents and hazardous incidents. The client had very raw content in the form of examples of incidents and some safety tips.
-                </ul>
-                <ul>Blitz Learning did additional research from reliable sources to gather information on similar workplace incidents and developed the content for the course in addition to developing the course itself.</ul>
-                <ul>The challenge was to skillfully filter the most relevant information for the client from heaps of examples available.</ul>
+                </li>
+                <li className="our-work-li">Blitz Learning did additional research from reliable sources to gather information on similar workplace incidents and developed the content for the course in addition to developing the course itself.</li>
+                <li className="our-work-li">The challenge was to skillfully filter the most relevant information for the client from heaps of examples available.</li>
 
-              </li>
+              </ul>
 
               <br />
               <h3>Challenges</h3>
-              <li>
-                <ul>
+              <ul>
+                <li className="our-work-li">
                 Blitz Learning created in-depth courses on multiple aspects of workplace hazards such as slips, trips, and falls, faulty equipment as well as ergonomic hazards such as repetition, lifting, awkward postures etc.
-                </ul>
-                <ul>
+                </li>
+                <li className="our-work-li">
                 The client had very basic content. So, Blitz Learning’s content development team did in-depth research to develop content related to the learning objective and added to the client shared content.
-                </ul>
-                <ul>
+                </li>
+                <li className="our-work-li">
                 The development team had to filter the most relevant content from multiple sources as per the focus and objective of the client and convert it into usable content as per the taste of the target learners.
-                </ul>
-              </li>
+                </li>
+              </ul>
               <br />
-              <h3>Outcome Achieved</h3>
-              <li>
-                <ul>
+              <h3 className="mb-1">Outcome Achieved</h3>
+              <ul>
+                <li className="our-work-li">
                 Due to the efforts of our content development team, the client now had a comprehensive training module on workplace safety.
-                </ul>
-                <ul>
+                </li>
+                <li className="our-work-li">
                 The course was well received across geographies and helped the client minimizing hazardous incidents on the work floor.
-                </ul>
-                <ul>Owing to the positive receipt of the course by various English-speaking geographies, the client came back to Blitz Learning to localize the same course in additional 9 languages – German, Dutch, Portuguese, Spanish, Czech, Romanian, Hindi, Japanese, Chinese.</ul>
-              </li>
+                </li>
+                <li className="our-work-li">Owing to the positive receipt of the course by various English-speaking geographies, the client came back to Blitz Learning to localize the same course in additional 9 languages – German, Dutch, Portuguese, Spanish, Czech, Romanian, Hindi, Japanese, Chinese.</li>
+              </ul>
 
               <div className="blog-details-content mt-1">
                 <div className="news-block-one">
@@ -137,17 +139,17 @@ export default function Home() {
                         <div className="icon-box">
                           <h3 className="text-center">Blitz Solution</h3>
                         </div>
-                        <li>
-                          <ul>
+                        <ul>
+                          <li className="our-work-li">
                           Blitz Learning created in-depth courses on multiple aspects of workplace hazards such as slips, trips, and falls, faulty equipment as well as ergonomic hazards such as repetition, lifting, awkward postures etc.
-                          </ul>
-                          <ul>
+                          </li>
+                          <li className="our-work-li">
                           The client had very basic content. So, Blitz Learning’s content development team did in-depth research to develop content related to the learning objective and added to the client shared content.
-                          </ul>
-                          <ul>
+                          </li>
+                          <li className="our-work-li">
                           The development team had to filter the most relevant content from multiple sources as per the focus and objective of the client and convert it into usable content as per the taste of the target learners.
-                          </ul>
-                        </li>
+                          </li>
+                        </ul>
                         {/* <h4>Neha Tyagi</h4> */}
                       </blockquote>
                     </div>

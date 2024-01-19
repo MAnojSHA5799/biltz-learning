@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
+import '../../main.css'
+
 export default function Home() {
   return (
     <>
@@ -85,37 +87,37 @@ export default function Home() {
                         sodales. Sapien pellentesque sagittis enim.
                     </p> */}
               <h3>Client Requirements</h3>
-              <li>
-                <ul>
+              <ul>
+                <li className="our-work-li">
                 The client wanted to create a sales call training snippet with an elevated level of interactivity which enables the learner to get hold of the best way to engage with the customers.
-                </ul>
-                <ul>The client wanted to make the course accessible via mobiles and tablets so that their on-ground sales people can access it</ul>
+                </li>
+                <li className="our-work-li">The client wanted to make the course accessible via mobiles and tablets so that their on-ground sales people can access it</li>
                
-              </li>
+              </ul>
               <br />
-              <h3>Challenges</h3>
-              <li>
-                <ul>
+              <h3 className="mb-1">Challenges</h3>
+              <ul>
+                <li className="our-work-li">
                 The course had to be created so that it appeals to different sales personals having unique backgrounds, divergent learning needs/preferences.
-                </ul>
-                <ul>
+                </li>
+                <li className="our-work-li">
                 The course content had to be succinct and effective for quick digestion and effectively apply it to their workplace.
-                </ul>
-                <ul>
+                </li>
+                <li className="our-work-li">
                 The learners needed the course to run smoothly on their handheld devices both locally and from the network, even under low bandwidth.
-                </ul>
-              </li>
+                </li>
+              </ul>
               <br />
-              <h3>Outcome Achieved</h3>
-              <li>
-                <ul>
+              <h3 className="mb-1">Outcome Achieved</h3>
+              <ul>
+                <li className="our-work-li">
                 The mobile based content saw increased attraction and learners accessed the courses frequently to learn and apply to the work floor.
-                </ul>
-                <ul>
+                </li>
+                <li className="our-work-li">
                 The reference PDFs attached in the course could be downloaded that helped them learn as per need as well as to further train new hires.
-                </ul>
-                <ul>The courses helped them to learn more and engage with the customers in a better way.</ul>
-              </li>
+                </li>
+                <li className="our-work-li">The courses helped them to learn more and engage with the customers in a better way.</li>
+              </ul>
 
               <div className="blog-details-content mt-1">
                 <div className="news-block-one">
@@ -135,17 +137,17 @@ export default function Home() {
                         <div className="icon-box">
                           <h3 className="text-center">Blitz Solution</h3>
                         </div>
-                        <li>
-                          <ul>
+                        <ul>
+                          <li className="our-work-li">
                           Blitz Learning created an immersive and interactive mentor-driven sales learning module with several exercises for the learner.
-                          </ul>
-                          <ul>
+                          </li>
+                          <li className="our-work-li">
                           The course was fully mobile enabled, and the learner can take it from anywhere on the move.
-                          </ul>
-                          <ul>
+                          </li>
+                          <li className="our-work-li">
                           In addition to text-based content, Blitz Learning used mentor driven audio visuals in the course to make it more engaging
-                          </ul>
-                        </li>
+                          </li>
+                        </ul>
                         {/* <h4>Neha Tyagi</h4> */}
                       </blockquote>
                     </div>
