@@ -67,11 +67,11 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                                     </ul>
                                     <div className={isActive.key == 5 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(5)}><span className="fa fa-angle-right" /></div>
                                 </li>
-                                <li className={isActive.key == 6 ? "dropdown current" : "dropdown"}><Link href="/#">Blog</Link>
+                                <li className={isActive.key == 6 ? "dropdown current" : "dropdown"}><Link href="/blog">Blog</Link>
                                     <ul style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}>
-                                        <li><Link href="/blog">Blog Grid</Link></li>
+                                        {/* <li><Link href="/blog">Blog Grid</Link></li>
                                         <li><Link href="/blog-2">Blog Standard</Link></li>
-                                        <li><Link href="/blog-details">Blog Details</Link></li>
+                                        <li><Link href="/blog-details">Blog Details</Link></li> */}
                                     </ul>
                                     <div className={isActive.key == 6 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(6)}><span className="fa fa-angle-right" /></div>
                                 </li>

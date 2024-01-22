@@ -84,7 +84,7 @@ export default function Home() {
                     <div className="auto-container">
                         <div className="sec-title centred mb_50">
                             <span className="sub-title">What We Do</span>
-                            <h2>Provide the Best Consulting <br />in This Industry</h2>
+                            <h2>Consistent ability to deliver rapid, accurate and most immersive learning experience</h2>
                         </div>
                         <div className="row clearfix">
                             <div className="col-lg-4 col-md-6 col-sm-12 service-block">
@@ -94,11 +94,11 @@ export default function Home() {
                                         <div className="lower-content">
                                             <div className="inner">
                                                 <div className="icon-box"><i className="icon-7"></i></div>
-                                                <h3><Link href="/strategy-planning">Strategy & Planning</Link></h3>
-                                                <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
-                                                <div className="btn-box">
+                                                <h3><Link href="/strategy-planning">Measurable performance</Link></h3>
+                                                <p>Putting people at the center of transformation to improve employee, partner, and customer performance with easy to assess learning content.</p>
+                                                {/* <div className="btn-box">
                                                     <Link href="/strategy-planning" className="theme-btn-one">Read More</Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>
@@ -111,11 +111,11 @@ export default function Home() {
                                         <div className="lower-content">
                                             <div className="inner">
                                                 <div className="icon-box"><i className="icon-7"></i></div>
-                                                <h3><Link href="/program-manager">Program Manager</Link></h3>
-                                                <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
-                                                <div className="btn-box">
+                                                <h3><Link href="/program-manager">Intuitive learning</Link></h3>
+                                                <p>Designing meaningful & engaging learning experiences that attract and engage employees across every stage in the learning journey.</p>
+                                                {/* <div className="btn-box">
                                                     <Link href="/program-manager" className="theme-btn-one">Read More</Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>
@@ -128,17 +128,17 @@ export default function Home() {
                                         <div className="lower-content">
                                             <div className="inner">
                                                 <div className="icon-box"><i className="icon-7"></i></div>
-                                                <h3><Link href="/tax-management">Tax Management</Link></h3>
-                                                <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
-                                                <div className="btn-box">
+                                                <h3><Link href="/tax-management">Operational efficency</Link></h3>
+                                                <p>Our global workforce, technology platforms, and governance models enable organizations to achieve improved speed and agility, at a reduced cost.</p>
+                                                {/* <div className="btn-box">
                                                     <Link href="/tax-management" className="theme-btn-one">Read More</Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                            {/* <div className="col-lg-4 col-md-6 col-sm-12 service-block">
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
                                         <figure className="image-box"><img src="assets/images/service/service-4.jpg" alt="" /></figure>
@@ -154,8 +154,8 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                            </div> */}
+                            {/* <div className="col-lg-4 col-md-6 col-sm-12 service-block">
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
                                         <figure className="image-box"><img src="assets/images/service/service-5.jpg" alt="" /></figure>
@@ -171,8 +171,8 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                            </div> */}
+                            {/* <div className="col-lg-4 col-md-6 col-sm-12 service-block">
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
                                         <figure className="image-box"><img src="assets/images/service/service-6.jpg" alt="" /></figure>
@@ -188,7 +188,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>
@@ -215,8 +215,10 @@ export default function Home() {
                 <section className="team-section sec-pad">
                     <div className="auto-container">
                         <div className="sec-title mb_50 centred">
-                            <span className="sub-title">Exclusive Team</span>
-                            <h2>We Have A Professional Team <br />Member</h2>
+                            <span className="sub-title">Team Member</span>
+                            <h2>Meet our Gurus from Team
+                        {/* <br /> */}
+                        </h2>
                         </div>
                         <div className="row clearfix">
                             <div className="col-lg-3 col-md-6 col-sm-12 team-block">
@@ -231,8 +233,9 @@ export default function Home() {
                                             </ul>
                                         </div>
                                         <div className="lower-content">
-                                            <h3><Link href="/team-details">Wade Warren</Link></h3>
-                                            <span className="designation">Founder</span>
+                                            <h3><Link href="/team-details">Rajeev Suman</Link></h3>
+                                            <span className="designation">Co-founder and VP of Global Delivery</span>
+                                            <span className="designation">Rajeev Suman is known for his advisory and market insights acumen leverages his experience of over 15 years leading the global production at Blitz Learning Technologies.</span>
                                         </div>
                                     </div>
                                 </div>
@@ -249,8 +252,9 @@ export default function Home() {
                                             </ul>
                                         </div>
                                         <div className="lower-content">
-                                            <h3><Link href="/team-details">Guy Hawkins</Link></h3>
-                                            <span className="designation">Consultant</span>
+                                            <h3><Link href="/team-details">Abhishek Kumar</Link></h3>
+                                            <span className="designation">Co-Founder and VP of Sales</span>
+                                            <span className="designation">Abhishek is the cornerstone of the sales function at Blitz Learning. With his deep expertise in sales techniques and 15 years of sales experience in eLearning sales, he heads our sales team.</span>
                                         </div>
                                     </div>
                                 </div>
@@ -298,7 +302,7 @@ export default function Home() {
 
 
                 {/* chooseus-style-two */}
-                <section className="chooseus-style-two sec-pad">
+                {/* <section className="chooseus-style-two sec-pad">
                     <div className="bg-layer parallax-bg" data-parallax='{"y": 100}' style={{ backgroundImage: 'url(assets/images/background/chooseus-bg-2.jpg)' }}></div>
                     <div className="auto-container">
                         <div className="row clearfix">
@@ -310,7 +314,7 @@ export default function Home() {
                                             <h2>Reason For Choosing Our Consultancy</h2>
                                         </div>
                                         <ul className="accordion-box">
-                                            {/*Accordion Block*/}
+                                            
                                             <li className="accordion block">
                                                 <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
                                                     <div className="icon-box"></div>
@@ -323,7 +327,7 @@ export default function Home() {
                                                     </div>
                                                 </div>
                                             </li>
-                                            {/*Accordion Block*/}
+                                            
                                             <li className="accordion block">
                                                 <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(2)}><div className="icon-box"></div><h3>Experience Consultant</h3></div>
                                                 <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
@@ -333,7 +337,7 @@ export default function Home() {
                                                     </div>
                                                 </div>
                                             </li>
-                                            {/*Accordion Block*/}
+                                            
                                             <li className="accordion block">
                                                 <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(3)}><div className="icon-box"></div><h3>Flexible Payment</h3></div>
                                                 <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
@@ -349,7 +353,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 {/* chooseus-style-two end */}
 
 

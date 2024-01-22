@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Blog Grid">
+            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Blogs">
                 <div>
                     {/* news-style-two */}
                     <section className="news-style-two blog-grid pt_150 pb_150">
@@ -14,7 +14,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-4.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/blog/blog-details"><img src="/assets/images/news/news-4.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">27 December</span>
@@ -25,7 +25,7 @@ export default function Home() {
                                                     </ul> */}
                                                     <p>Introduction: The oil and gas industry stands at the forefront of technological innovation,</p>
                                                     <div className="btn-box">
-                                                        <Link href="/blog-details" className="theme-btn-one">Read More</Link>
+                                                        <Link href="/blog/blog-details" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>

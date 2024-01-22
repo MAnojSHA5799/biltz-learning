@@ -269,6 +269,55 @@ export default function Home() {
               ></iframe>
             </div>
           </section>
+
+          {/* <section className="contact-style-two ">
+            <div className="auto-container">
+              <div className="row clearfix">
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content-box mr_70 mt-50">
+                    <div className="sec-title mb_35">
+                      <span className="sub-title">Message</span>
+                      <h2>Feel Free to Contact with us</h2>
+                      <p className="mt_20">
+                        Feel free to visit our development office or just pick
+                        up the phone to chat with a client engagement team
+                        representative.
+                      </p>
+                    </div>
+                    <ul className="social-links clearfix">
+                      <li>
+                        <Link href="https://www.facebook.com/blitzlearning.in/">
+                          <i className="fab fa-facebook-f"></i>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="https://twitter.com/i/flow/login?redirect_after_login=%2FBlitzLearrning%2F">
+                          <i className="fab fa-twitter"></i>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F13189833%2F">
+                          <i className="fab fa-linkedin"></i>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="https://www.youtube.com/channel/UCCS6m2rYmcz1zysoDIPYcqA">
+                          <i className="fab fa-youtube"></i>
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 form-column">
+                  <h3>Get In Touch</h3>
+                  <br />
+                  <figure className="image-box mr_30">
+                    <img src="/assets/images/our-works/our-work-4.jpg" alt="" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </section> */}
           {/* Google Map Section End */}
         </div>
       </Layout>

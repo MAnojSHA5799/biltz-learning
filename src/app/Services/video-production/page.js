@@ -1,6 +1,68 @@
+'use client'
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
+import React, { useState } from 'react';
+import axios from "axios";
+import { useRouter } from "next/navigation";
 export default function Services() {
+  const router = useRouter();
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    selectedOption: 'Video Production', // Default value for the select box
+  });
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  // Step 5: Handle the form submission
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log("Form Data:", formData);
+    
+    try {
+      // Make the Axios POST request
+      const response = await axios.post(
+        "http://localhost:2410/consultationQuery",
+        formData,
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+          withCredentials: false,
+        }
+      );
+
+      // Handle the response
+      console.log("Server Response:", response.data);
+
+      
+        // Show success alert
+        alert("Success! Data submitted successfully.");
+
+        // Reset form data
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+        });
+
+        // Optional: You can use router.reload() to refresh the page
+        router.refresh();
+        
+
+        // Optionally, you can reset the success alert after a certain delay
+     
+    } catch (error) {
+      // Handle errors
+      console.error("Error posting data:", error);
+    }
+  };
   return (
     <>
       <Layout
@@ -271,55 +333,62 @@ export default function Services() {
                           Consultation
                         </h3>
                         <div className="form-inner">
-                          <form
-                            action="index.html"
-                            method="post"
-                            className="default-form"
-                          >
-                            <div className="row clearfix">
-                              <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                                <input
-                                  type="text"
-                                  name="name"
-                                  placeholder="Your name"
-                                  required
-                                />
-                              </div>
-                              <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                                <input
-                                  type="email"
-                                  name="email"
-                                  placeholder="Email address"
-                                  required
-                                />
-                              </div>
-                              <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                                <input
-                                  type="text"
-                                  name="phone"
-                                  placeholder="Phone number"
-                                  required
-                                />
-                              </div>
-                              <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                                <div className="select-box">
-                                  <select className="selectpicker">
-                                    <option value={1}>Custom eLearning</option>
-                                    <option value={1}>Content Services</option>
-                                    <option value={1}>
-                                      Learning Consulting
-                                    </option>
-                                    <option value={1}>Video Production</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
-                                <button type="submit" className="theme-btn-one">
-                                  Send Request
-                                </button>
-                              </div>
-                            </div>
-                          </form>
+                        <form action="index.html" method="post" className="default-form" onSubmit={handleSubmit}>
+                        <div className="row clearfix">
+        <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+          <input
+            type="text"
+            name="name"
+            placeholder="Your name"
+            value={formData.name}
+            onChange={handleInputChange}
+            required
+          />
+        </div>
+        <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+          <input
+            type="email"
+            name="email"
+            placeholder="Email address"
+            value={formData.email}
+            onChange={handleInputChange}
+            required
+          />
+        </div>
+        <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+          <input
+            type="text"
+            name="phone"
+            placeholder="Phone number"
+            value={formData.phone}
+            onChange={handleInputChange}
+            required
+          />
+        </div>
+        <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+          <div className="select-box">
+            <select
+              className="selectpicker"
+              name="selectedOption"
+              value={formData.selectedOption}
+              onChange={handleInputChange}
+            >
+              <option value="Video Production">Video Production</option>
+               <option value="Learning Consulting">Learning Consulting</option>
+              <option value="Content Services">Content Services</option>
+              <option value="Custom eLearning"> Custom eLearning</option>
+             
+              
+            </select>
+          </div>
+        </div>
+        <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
+          <button type="submit" className="theme-btn-one">
+            Send Request
+          </button>
+        </div>
+        </div>
+      </form>
                         </div>
                       </div>
                     </div>

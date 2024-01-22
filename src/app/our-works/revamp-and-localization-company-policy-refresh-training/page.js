@@ -13,7 +13,7 @@ export default function Home() {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                   <figure className="image-box mr_30">
-                    <img src="/assets/images/team/team-9.jpg" alt="" />
+                    <img src="/assets/images/our-works/our-work-2.jpg" alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -152,7 +152,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="comment-form-area">
+            {/* <div className="comment-form-area">
                     <h3>Leave A Comments</h3>
                     <div className="form-inner">
                       <form
@@ -193,7 +193,7 @@ export default function Home() {
                         </div>
                       </form>
                     </div>
-                    </div>
+                    </div> */}
           </div>
         </section>
       </Layout>

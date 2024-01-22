@@ -1,6 +1,56 @@
-import Layout from "../components/layout/Layout";
+'use client'
+import React, { useState } from 'react';
+import axios from 'axios';
+import Layout from "../../components/layout/Layout";
 import Link from "next/link";
 export default function Home() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log(formData)
+
+    try {
+      // Make the Axios POST request
+      const response = await axios.post(
+        'http://localhost:2410/blogComments', // Adjust the endpoint as needed
+        formData,
+        {
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          withCredentials: false,
+        }
+      );
+
+      // Handle the response as needed
+      console.log('Server Response:', response.data);
+
+      // Reset form data (if needed)
+      setFormData({
+        name: '',
+        email: '',
+        message: '',
+      });
+
+      // Optionally, you can handle success or show a message to the user
+    } catch (error) {
+      // Handle errors
+      console.error('Error posting data:', error);
+    }
+  };
   return (
     <>
       <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Blog Details">
@@ -14,7 +64,7 @@ export default function Home() {
                     <div className="inner-box">
                       <div className="image-box">
                         <figure className="image">
-                          <img src="assets/images/news/news-13.jpg" alt="" />
+                          <img src="/assets/images/news/news-13.jpg" alt="" />
                         </figure>
                         <h2>
                           27<span>Dec</span>
@@ -190,43 +240,50 @@ export default function Home() {
                   <div className="comment-form-area">
                     <h3>Leave A Comments</h3>
                     <div className="form-inner">
-                      <form
-                        action="blog-detailsl"
-                        method="post"
-                        className="default-form"
-                      >
-                        <div className="row clearfix">
-                          <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                            <input
-                              type="text"
-                              name="name"
-                              placeholder="Your Name"
-                              required
-                            />
-                          </div>
-                          <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                            <input
-                              type="email"
-                              name="email"
-                              placeholder="Your email"
-                              required
-                            />
-                          </div>
-                          <div className="col-lg-12 col-md-12 col-sm-12 form-group">
-                            <textarea
-                              name="message"
-                              placeholder="Type message"
-                            ></textarea>
-                          </div>
-                          <div className="col-lg-12 col-md-12 col-sm-12 form-group">
-                            <div className="message-btn">
-                              <button type="submit" className="theme-btn-one">
-                                Post Comment
-                              </button>
-                            </div>
-                          </div>
-                        </div>
-                      </form>
+                    <form
+      action="blog-details"
+      method="post"
+      className="default-form"
+      onSubmit={handleSubmit}
+    >
+      <div className="row clearfix">
+        <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            value={formData.name}
+            onChange={handleInputChange}
+            required
+          />
+        </div>
+        <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+          <input
+            type="email"
+            name="email"
+            placeholder="Your email"
+            value={formData.email}
+            onChange={handleInputChange}
+            required
+          />
+        </div>
+        <div className="col-lg-12 col-md-12 col-sm-12 form-group">
+          <textarea
+            name="message"
+            placeholder="Type message"
+            value={formData.message}
+            onChange={handleInputChange}
+          ></textarea>
+        </div>
+        <div className="col-lg-12 col-md-12 col-sm-12 form-group">
+          <div className="message-btn">
+            <button type="submit" className="theme-btn-one">
+              Post Comment
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
                     </div>
                   </div>
                 </div>

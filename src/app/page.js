@@ -1,6 +1,7 @@
 import Layout from "./components/layout/Layout"
 import About from "./components/sections/home1/About"
 import Banner from "./components/sections/home1/Banner"
+import BannerTwo from "./components/sections/home1/BannerTwo"
 import Services from "./components/sections/home1/Services"
  import Projects from "./components/sections/home1/Projects"
 import Features from "./components/sections/home1/Features"
@@ -28,6 +29,7 @@ export default function Home() {
                 <Expertise /> 
                 <About />
                 <WhychooseusTwo />
+                {/* <BannerTwo /> */}
                 {/* <News />   */}
             </Layout>
         </>

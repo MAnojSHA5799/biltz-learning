@@ -68,7 +68,7 @@ export default function Menu() {
                     </ul>
                 </li> 
 
-                <li><Link href="/why-us">Why Us</Link></li>
+                {/* <li><Link href="/why-us">Why Us</Link></li> */}
                 <li><Link href="/contact">Contact</Link></li>
 
             </ul>

@@ -1,13 +1,39 @@
-.about-sections{
-padding: 50px 0px;
+/* Default styles */
+.about-sections {
+    padding: 50px 0;
     /* background-color: #0c0107; */
     /* margin-bottom: 2px; */
-}
-.expertise-sections{
-    padding: 180px 0px 70px 0px;
   }
-.our-work-li{
+  
+  .expertise-sections {
+    padding: 180px 0 70px 0;
+  }
+  
+  .our-work-li {
     list-style-type: disc;
     padding: 4px;
+    margin-left: 30px;
     color: #000;
-}
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 768px) {
+    .about-sections {
+      padding: 30px 0;
+    }
+  
+    .expertise-sections {
+      padding: 120px 0 50px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .about-sections {
+      padding: 20px 0;
+    }
+  
+    .expertise-sections {
+      padding: 100px 0 30px 0;
+    }
+  }
+  
