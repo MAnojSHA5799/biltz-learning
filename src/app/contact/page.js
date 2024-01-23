@@ -29,7 +29,7 @@ export default function Contact() {
       // Make the Axios POST request http://localhost:2410/addDetails
       // https://biltz-backend.vercel.app
       const response = await axios.post(
-        "http://localhost:2410/addDetails",
+        "https://biltz-backend.vercel.app/addDetails",
         formData,
         {
           headers: {
