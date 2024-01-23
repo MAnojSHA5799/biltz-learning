@@ -50,7 +50,7 @@ export default function Services() {
       try {
         // Make the Axios POST request
         const response = await axios.post(
-          "http://localhost:2410/consultationQuery",
+          "https://biltz-backend.vercel.app/consultationQuery",
           formData,
           {
             headers: {

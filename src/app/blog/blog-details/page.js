@@ -23,9 +23,9 @@ export default function Home() {
     console.log(formData)
 
     try {
-      // Make the Axios POST request
+      // Make the Axios POST request http://localhost:2410/blogComments
       const response = await axios.post(
-        'http://localhost:2410/blogComments', // Adjust the endpoint as needed
+        'https://biltz-backend.vercel.app/blogComments', // Adjust the endpoint as needed
         formData,
         {
           headers: {
@@ -44,7 +44,7 @@ export default function Home() {
         email: '',
         message: '',
       });
-
+      router.refresh();
       // Optionally, you can handle success or show a message to the user
     } catch (error) {
       // Handle errors

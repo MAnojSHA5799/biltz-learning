@@ -24,9 +24,9 @@ export default function Home() {
     console.log("Form Data:", formData);
 
     try {
-      // Make the Axios POST request
+      // Make the Axios POST request http://localhost:2410/addDetails
       const response = await axios.post(
-        "http://localhost:2410/addDetails",
+        "https://biltz-backend.vercel.app/addDetails",
         formData,
         {
           headers: {
@@ -37,7 +37,19 @@ export default function Home() {
       );
       // Handle the response
       console.log("Server Response:", response.data);
+      alert("Success! Data submitted successfully.");
 
+      // Reset form data
+      setFormData({
+        username: "",
+        email: "",
+        phone: "",
+        subject: "",
+        message: "",
+      });
+
+      // Optional: You can use router.reload() to refresh the page
+      router.refresh();
       // You can add logic here based on the response from the server
     } catch (error) {
       // Handle errors
