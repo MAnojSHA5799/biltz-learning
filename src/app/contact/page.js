@@ -3,14 +3,16 @@ import React, { useState } from "react";
 import axios from "axios";
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
-export default function Home() {
+import { useRouter } from "next/navigation";
+export default function Contact() {
   const [formData, setFormData] = useState({
-    username: "",
-    email: "",
-    phone: "",
-    subject: "",
-    message: "",
+    username: '',
+    email: '',
+    phone: '',
+    subject: '',
+    message: '',
   });
+  const router = useRouter();
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -25,6 +27,7 @@ export default function Home() {
 
     try {
       // Make the Axios POST request http://localhost:2410/addDetails
+      // https://biltz-backend.vercel.app
       const response = await axios.post(
         "https://biltz-backend.vercel.app/addDetails",
         formData,
@@ -41,15 +44,15 @@ export default function Home() {
 
       // Reset form data
       setFormData({
-        username: "",
-        email: "",
-        phone: "",
-        subject: "",
-        message: "",
+        username: '',
+    email: '',
+    phone: '',
+    subject: '',
+    message: '',
       });
 
       // Optional: You can use router.reload() to refresh the page
-      router.refresh();
+      router.refresh('/contact');
       // You can add logic here based on the response from the server
     } catch (error) {
       // Handle errors
@@ -199,7 +202,7 @@ export default function Home() {
                   <div className="form-inner">
                     <form
                       method="post"
-                      action="sendemail.php"
+                      // action="sendemail.php"
                       id="contact-form"
                       className="default-form"
                       onSubmit={handleSubmit}
@@ -209,6 +212,7 @@ export default function Home() {
                           <input
                             type="text"
                             name="username"
+                            value={formData.username}
                             placeholder="Your Name"
                             required
                             onChange={handleChange}
@@ -218,6 +222,7 @@ export default function Home() {
                           <input
                             type="email"
                             name="email"
+                            value={formData.email}
                             placeholder="Your email"
                             required
                             onChange={handleChange}
@@ -225,8 +230,9 @@ export default function Home() {
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 form-group">
                           <input
-                            type="text"
+                            type="number"
                             name="phone"
+                            value={formData.phone}
                             required
                             placeholder="Phone"
                             onChange={handleChange}
@@ -236,6 +242,7 @@ export default function Home() {
                           <input
                             type="text"
                             name="subject"
+                            value={formData.subject}
                             required
                             placeholder="Subject"
                             onChange={handleChange}
@@ -245,6 +252,8 @@ export default function Home() {
                           <textarea
                             name="message"
                             placeholder="Type message"
+                            value={formData.message}
+                            required
                             onChange={handleChange}
                           ></textarea>
                         </div>
