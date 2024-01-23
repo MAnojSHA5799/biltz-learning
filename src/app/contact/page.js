@@ -6,11 +6,11 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 export default function Contact() {
   const [formData, setFormData] = useState({
-    username: '',
-    email: '',
-    phone: '',
-    subject: '',
-    message: '',
+    username: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
   });
   const router = useRouter();
   const handleChange = (e) => {
@@ -29,7 +29,7 @@ export default function Contact() {
       // Make the Axios POST request http://localhost:2410/addDetails
       // https://biltz-backend.vercel.app
       const response = await axios.post(
-        "https://biltz-backend.vercel.app/addDetails",
+        "http://localhost:2410/addDetails",
         formData,
         {
           headers: {
@@ -40,19 +40,18 @@ export default function Contact() {
       );
       // Handle the response
       console.log("Server Response:", response.data);
-      alert("Success! Data submitted successfully.");
 
       // Reset form data
       setFormData({
-        username: '',
-    email: '',
-    phone: '',
-    subject: '',
-    message: '',
+        username: "",
+        email: "",
+        phone: "",
+        subject: "",
+        message: "",
       });
 
       // Optional: You can use router.reload() to refresh the page
-      router.refresh('/contact');
+      router.refresh("/contact");
       // You can add logic here based on the response from the server
     } catch (error) {
       // Handle errors
@@ -215,6 +214,7 @@ export default function Contact() {
                             value={formData.username}
                             placeholder="Your Name"
                             required
+                            pattern="[A-Za-z]+"
                             onChange={handleChange}
                           />
                         </div>

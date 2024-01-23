@@ -13,7 +13,7 @@ export default function Feature() {
                         <div className="content_block_three">
                         <div className="content-box p_relative mr_30">
                             <div className="sec-title mb_30">
-                            <span className="sub-title">Some Words From Our Clients</span>
+                            <span className="sub-title pt-3">Some Words From Our Clients</span>
                             <h2>Director EHS, A leading automotive EOM</h2>
                             <p>We saw the sample work that Blitz Learning did for a global retail player and decided to give them a small project to start with. We were delighted with the first deliverable. They have a team of highly committed professionals who believe in delivering over and above expectations. They are very transparent in their pricing. We have worked with Blitz Learning on multiple eLearning projects, and each time their deliverable surpasses our expectations! The team at Blitz is our preferred partner for our eLearning solution requirements.</p>
                             </div>

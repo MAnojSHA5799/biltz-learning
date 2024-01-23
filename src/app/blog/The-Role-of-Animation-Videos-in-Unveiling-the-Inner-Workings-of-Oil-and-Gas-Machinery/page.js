@@ -64,7 +64,7 @@ export default function Home() {
                     <div className="inner-box">
                       <div className="image-box">
                         <figure className="image">
-                          <img src="/assets/images/news/news-13.jpg" alt="" />
+                          <img src="/assets/images/Blog/blog-1.jpg" alt="" />
                         </figure>
                         <h2>
                           27<span>Dec</span>
@@ -227,7 +227,7 @@ export default function Home() {
                   </div>
                   <div className="author-box">
                     <figure className="author-thumb">
-                      <img src="assets/images/news/author-1.jpg" alt="" />
+                      <img src="/assets/images/news/author-1.jpg" alt="" />
                     </figure>
                     <h3>Neha Tyagi</h3>
                     <span className="designation">About Author</span>
@@ -342,7 +342,7 @@ export default function Home() {
                       <div className="post">
                         <figure className="post-thumb">
                           <Link href="/blog">
-                            <img src="assets/images/news/post-1.jpg" alt="" />
+                            <img src="/assets/images/news/post-1.jpg" alt="" />
                           </Link>
                         </figure>
                         <h5>
@@ -355,7 +355,7 @@ export default function Home() {
                       <div className="post">
                         <figure className="post-thumb">
                           <Link href="/blog">
-                            <img src="assets/images/news/post-2.jpg" alt="" />
+                            <img src="/assets/images/news/post-2.jpg" alt="" />
                           </Link>
                         </figure>
                         <h5>
@@ -368,7 +368,7 @@ export default function Home() {
                       <div className="post">
                         <figure className="post-thumb">
                           <Link href="/blog">
-                            <img src="assets/images/news/post-3.jpg" alt="" />
+                            <img src="/assets/images/news/post-3.jpg" alt="" />
                           </Link>
                         </figure>
                         <h5>

@@ -16,6 +16,7 @@ export default function CounterUp({ end }) {
             }
         }
     }
+    
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll)
