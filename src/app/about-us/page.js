@@ -90,7 +90,7 @@ export default function Home() {
                             <div className="col-lg-4 col-md-6 col-sm-12 service-block">
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/service/service-1.jpg" alt="" /></figure>
+                                        <figure className="image-box"><img src="/assets/images/whatDo/Measurable-performance.jpg" alt="" /></figure>
                                         <div className="lower-content">
                                             <div className="inner">
                                                 <div className="icon-box"><i className="icon-7"></i></div>
@@ -107,7 +107,7 @@ export default function Home() {
                             <div className="col-lg-4 col-md-6 col-sm-12 service-block">
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/service/service-2.jpg" alt="" /></figure>
+                                        <figure className="image-box"><img src="/assets/images/whatDo/Intuitive-learning.jpg" alt="" /></figure>
                                         <div className="lower-content">
                                             <div className="inner">
                                                 <div className="icon-box"><i className="icon-7"></i></div>
@@ -124,7 +124,7 @@ export default function Home() {
                             <div className="col-lg-4 col-md-6 col-sm-12 service-block">
                                 <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/service/service-3.jpg" alt="" /></figure>
+                                        <figure className="image-box"><img src="/assets/images/whatDo/Operational-efficency.jpg" alt="" /></figure>
                                         <div className="lower-content">
                                             <div className="inner">
                                                 <div className="icon-box"><i className="icon-7"></i></div>

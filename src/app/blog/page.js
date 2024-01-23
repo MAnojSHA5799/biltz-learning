@@ -81,14 +81,14 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">12 APRIL</span>
-                                                    <h3><Link href="/blog-details">Achievement Unlocked: Badge Systems in e-Learning and Instructional Design</Link></h3>
+                                                    <h3><Link href="blog/Achievement-Unlocked-Badge-Systems-in-e-Learning-and-Instructional-Design">Achievement Unlocked: Badge Systems in e-Learning and Instructional Design</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">8 Comnt</Link></li>
                                                     </ul> */}
                                                     <p>In the ever-evolving world of education, e-Learning has become an indispensable tool for....</p>
                                                     <div className="btn-box">
-                                                        <Link href="/blog-details" className="theme-btn-one">Read More</Link>
+                                                        <Link href="blog/Achievement-Unlocked-Badge-Systems-in-e-Learning-and-Instructional-Design" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
