@@ -73,3 +73,74 @@
     line-height: 30px; /* Adjusted line height for better readability on mobile */
   }
 }
+
+.area {
+  background-color:white;
+  padding: 20px; /* Adjust the padding as needed */
+  margin: 80px; /* Adjust the margin as needed */
+  border-radius: 12px; /* Adjust the border radius as needed */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.area h3 {
+  margin: 0;
+}
+
+.message-bt {
+  margin-left: 1px; /* Adjust the margin between text and button as needed */
+}
+
+.theme-btn-on {
+  /* Add any styles you need for the button */
+  background-color: rgb(219, 38, 38);
+  color: #fff;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: var(--inter);
+  color: #fff !important;
+  text-align: center;
+  padding: 18px 40px;
+  text-transform: capitalize;
+  z-index: 1;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  transition: all 500ms ease;
+}
+.theme-btn-on:hover{
+  background: #241E2F;
+}
+.theme-btn-on {
+  display: flex;
+  align-items: center;
+}
+
+.theme-btn-on i {
+  margin-right: 10px; /* Adjust the margin as needed for space between icon and text */
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .area {
+    flex-direction: column;
+    text-align: center;
+    margin: 2%;
+  }
+
+  .message-bt {
+    margin-left: 0; /* Reset margin for better spacing in mobile view */
+    margin-top: 10px; /* Add margin to separate text and button in mobile view */
+  }
+}

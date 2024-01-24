@@ -6,10 +6,10 @@ export default function Home() {
     <>
       <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Privacy Policy">
         {/* sidebar-page-container */}
-        <section className="sidebar-page-container pt-1 pb-5">
+        {/* <section className="sidebar-page-container pt-1 pb-0"> */}
          
-              <div className="col-lg-12 col-md-12 col-sm-12">
-               <div className="main">
+              <div className="col-lg-12 col-md-12 col-sm-12 mb-0">
+               <div className="main mb-1">
                       <h4 className="title">OUR PHILOSOPHY</h4>
                         <p className="sub-title">
                         The philosophy of Blitz Learning Technologies Private Limited (referred to as Blitz Learning, BLT, we, us, or our) is that electronic privacy is essential to the Internet’s success. As such, we ensure the confidentiality of the personal information we receive and will not disclose identifiable information about our clients to any third party. When you register or contact us, we may request your name, contact information, business information, email address, website details, and details on your specific project requirements (Inquiry Data). We use this information to personalize our services and to send clients email notifications of new features or services available. We also make improvements to the Blitz Learning website regularly to provide clients with a more personalized, relevant, and intelligent service.
@@ -62,10 +62,20 @@ export default function Home() {
                         <p>
                         If you have any questions or concerns about this Privacy Policy or the use of your personal data, you can email us at marcom@blitzlearning.in. We reserve the right to change or update this policy at any time.
                         </p>
+                        <div className="area">
+                    <h3>Get Free Consultation for your Needs.</h3>
+                            <div className="message-bt">
+                              <button type="submit" className="theme-btn-on">
+                                <i className="icon-2"></i>
+                              +91-1204316127
+                              </button>
+                            </div>
+                    </div>
                  </div>
+                 
                  </div>
-           
-        </section>
+                 
+        {/* </section> */}
         {/* sidebar-page-container end */}
       </Layout>
     </>
