@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
+import '../../main.css'
 export default function Home() {
   const [formData, setFormData] = useState({
     name: '',
@@ -85,7 +86,7 @@ export default function Home() {
                           The Role of Animation Videos in Unveiling the Inner
                           Workings of Oil and Gas Machinery
                         </h2>
-                        <h4>Introduction :</h4>
+                        <h4 className="blog-heading">Introduction :</h4>
                         <p>
                           Imperdiet consectetur gravida vel rutrum tempus,
                           mattis sit massa lacus morbi feugiat aliquam sagittis
@@ -102,7 +103,7 @@ export default function Home() {
                           bibendum urna dictum. Aliquam gravida et proin
                           maecenas quis faucibus varius tristique.
                         </p>
-                        <h4>Visualizing Complexity:</h4>
+                        <h4 className="blog-heading">Visualizing Complexity:</h4>
                         <p>
                           Oil and gas machinery are intricate systems with
                           numerous components and processes working in tandem.
@@ -116,7 +117,7 @@ export default function Home() {
                           making it easier for both experts and novices to grasp
                           the nuances of their inner workings.
                         </p>
-                        <h4>Enhanced Learning Experience:</h4>
+                        <h4 className="blog-heading">Enhanced Learning Experience:</h4>
                         <p>
                           The use of animation videos in explaining oil and gas
                           machinery transcends traditional educational methods.
@@ -130,7 +131,7 @@ export default function Home() {
                           continual learning resource for those already in the
                           field.
                         </p>
-                        <h4> Simulation and Training:</h4>
+                        <h4 className="blog-heading"> Simulation and Training:</h4>
                         <p>
                           Simulation plays a crucial role in the oil and gas
                           industry, where real-world scenarios can be risky and
@@ -152,7 +153,7 @@ export default function Home() {
                           and repeatable training experiences, ensuring that
                           personnel are well-prepared for real-world situations.
                         </p>
-                        <h4>Showcasing Innovation:</h4>
+                        <h4 className="blog-heading">Showcasing Innovation:</h4>
                         <p>
                           As the oil and gas industry continues to evolve,
                           innovation becomes a driving force. Animation videos
@@ -165,7 +166,7 @@ export default function Home() {
                           innovation but also fosters a culture of continuous
                           improvement
                         </p>
-                        <h4>Effective Communication:</h4>
+                        <h4 className="blog-heading">Effective Communication:</h4>
                         <p>
                           In a global industry where communication spans across
                           diverse cultures and languages, animation videos
@@ -178,7 +179,7 @@ export default function Home() {
                           ensuring that key messages are conveyed accurately and
                           comprehensively.
                         </p>
-                        <h4>Conclusion:</h4>
+                        <h4 className="blog-heading">Conclusion:</h4>
                         <p>
                           Animation videos have become indispensable in the oil
                           and gas industry, serving as a bridge between

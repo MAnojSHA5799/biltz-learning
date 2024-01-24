@@ -1,6 +1,7 @@
 
 import Layout from "../components/layout/Layout"
 import Link from "next/link"
+
 export default function Home() {
 
     return (
@@ -102,14 +103,14 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">12 APRIL</span>
-                                                    <h3><Link href="/blog-details">Benefits of Our Custom e-learning Services</Link></h3>
+                                                    <h3><Link href="/blog/Benefits-of-Our-Custom-e-learning-Services">Benefits of Our Custom e-learning Services</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">0 Comnt</Link></li>
                                                     </ul> */}
                                                     <p>In a rapidly evolving world, education and training have become more important than....</p>
                                                     <div className="btn-box">
-                                                        <Link href="/blog-details" className="theme-btn-one">Read More</Link>
+                                                        <Link href="/blog/Benefits-of-Our-Custom-e-learning-Services" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -123,14 +124,14 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">11 APRIL</span>
-                                                    <h3><Link href="/blog-details">Unlocking the Benefits of e-learning for Manufacturing & Retail Key Sectors</Link></h3>
+                                                    <h3><Link href="/blog/Unlocking-the-Benefits-of-e-learning-for-Manufacturing-&-Retail-Key-Sectors">Unlocking the Benefits of e-learning for Manufacturing & Retail Key Sectors</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">2 Comnt</Link></li>
                                                     </ul> */}
                                                     <p>In today's rapidly evolving world, industries across the board are recognizing the importance....</p>
                                                     <div className="btn-box">
-                                                        <Link href="/blog-details" className="theme-btn-one">Read More</Link>
+                                                        <Link href="/blog/Unlocking-the-Benefits-of-e-learning-for-Manufacturing-&-Retail-Key-Sectors" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -140,11 +141,11 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/Blog/blog-7.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/blog/Revitalizing-E-learning-Strategies-for-Creating-Engaging-and-Effective-Training"><img src="/assets/images/Blog/blog-7.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">10 APRIL</span>
-                                                    <h3><Link href="/blog-details">Revitalizing E-learning: Strategies for Creating Engaging and Effective Training</Link></h3>
+                                                    <h3><Link href="/blog/Revitalizing-E-learning-Strategies-for-Creating-Engaging-and-Effective-Training">Revitalizing E-learning: Strategies for Creating Engaging and Effective Training</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">7 Comnt</Link></li>
@@ -153,7 +154,7 @@ export default function Home() {
 
 </p>
                                                     <div className="btn-box">
-                                                        <Link href="/blog-details" className="theme-btn-one">Read More</Link>
+                                                        <Link href="/blog/Revitalizing-E-learning-Strategies-for-Creating-Engaging-and-Effective-Training" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
