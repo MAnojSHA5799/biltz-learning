@@ -81,7 +81,7 @@ export default function Pricing() {
                     {/* Repeat the above service-block structure for other services */}
                     </div>
                     <div className="more-btn mt_80">
-                    <Link href="/services2" className="theme-btn-one">More Services</Link>
+                    <Link href="/Services" className="theme-btn-one">More Services</Link>
                     </div>
                 </div>
             </section>
