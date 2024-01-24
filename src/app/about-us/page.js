@@ -51,7 +51,7 @@ export default function Home() {
                             <div className="content_block_one">
                             <div className="content-box p_relative ml_30">
                                 <div className="sec-title mb_25">
-                                <span className="sub-title">About BizTech</span>
+                                <span className="sub-title">About  Blitz Learning Technologies</span>
                                 <h2>Dedicated And <br/>Professional Consulting Services</h2>
                                 </div>
                                 <div className="text mb_35">
