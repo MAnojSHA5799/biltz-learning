@@ -8,6 +8,7 @@ import Link from "next/link"
 import { useState } from 'react'
 import ReactCurvedText from 'react-curved-text'
 import ModalVideo from 'react-modal-video'
+import '../main.css'
 export default function Home() {
     const [isOpen, setOpen] = useState(false)
     const [isActive, setIsActive] = useState({

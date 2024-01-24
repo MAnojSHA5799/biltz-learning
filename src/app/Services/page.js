@@ -2,6 +2,7 @@
 import Layout from "../components/layout/Layout"
 import Link from "next/link"
 import { useState } from 'react'
+import '../main.css'
 export default function Services() {
     const [isActive, setIsActive] = useState({
         status: false,
@@ -32,7 +33,7 @@ export default function Services() {
                         <div className="auto-container">
                             <div className="sec-title centred mb_50">
                             <span className="sub-title">What We Do</span>
-                            <h2>Provide the Best Consulting <br />in This Industry</h2>
+                            <h2>Provide the Best Consulting in This Industry</h2>
                             </div>
                             <div className="row clearfix">
                             <div className="col-lg-4 col-md-6 col-sm-12 service-block">

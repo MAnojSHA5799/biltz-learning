@@ -254,3 +254,31 @@
 	font-weight: 600;
 	margin-bottom: 7px;
 }
+
+/* Service page */
+.sec-title{
+  position: relative;
+  display: block;
+}
+
+.sec-title .sub-title{
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+  line-height: 30px; 
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.sec-title h2{
+  position: relative;
+  display: block;
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.sec-title.light h2{
+  color: #fff;
+}
