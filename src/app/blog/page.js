@@ -19,7 +19,7 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">27 December</span>
-                                                    <h3><Link href="/blog-details">The Role of Animation Videos in Unveiling the Inner Workings of Oil and Gas Machinery</Link></h3>
+                                                    <h3><Link href="/blog/The-Role-of-Animation-Videos-in-Unveiling-the-Inner-Workings-of-Oil-and-Gas-Machinery">The Role of Animation Videos in Unveiling the Inner Workings of Oil and Gas Machinery</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">7 Comnt</Link></li>
@@ -36,7 +36,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="c"><img src="/assets/images/Blog/blog-2.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/blog/Evolving-Horizons-Revealing-the-Apex-of-e-Learning-Trends-in-2024"><img src="/assets/images/Blog/blog-2.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">14 APRIL</span>
@@ -57,7 +57,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/Blog/blog-3.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/blog/Innovate-to-Educate-Exploring-AI-Enhanced-e-Learning-with-ChatGPT"><img src="/assets/images/Blog/blog-3.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">13 APRIL</span>
@@ -78,7 +78,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/Blog/blog-4.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="blog/Achievement-Unlocked-Badge-Systems-in-e-Learning-and-Instructional-Design"><img src="/assets/images/Blog/blog-4.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">12 APRIL</span>
@@ -99,7 +99,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/Blog/blog-5.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/blog/Benefits-of-Our-Custom-e-learning-Services"><img src="/assets/images/Blog/blog-5.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">12 APRIL</span>
@@ -120,7 +120,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/Blog/blog-6.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/blog/Unlocking-the-Benefits-of-e-learning-for-Manufacturing-&-Retail-Key-Sectors"><img src="/assets/images/Blog/blog-6.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">11 APRIL</span>
