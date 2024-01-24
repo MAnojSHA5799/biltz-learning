@@ -1,5 +1,5 @@
 import Link from "next/link"
-
+import '../../../main.css'
 
 export default function Pro() {
     return (
