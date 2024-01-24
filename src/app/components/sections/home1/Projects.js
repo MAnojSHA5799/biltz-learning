@@ -190,10 +190,10 @@ export default function Cases() {
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div className="inner-box">
-                            <figure className="image-box"><img src="/assets/images/Custome-learning.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/images/our-works/our-work-11.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-7"></i></div> */}
-                            <h3><Link href="/">Web Based Tranining And Online Portal/Lms|Sales Academy Training</Link></h3>
+                            <h3><Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training">Web Based Tranining And Online Portal/Lms|Sales Academy Training</Link></h3>
                             <p>Branding, Design</p>
                           
                             </div>
@@ -203,10 +203,10 @@ export default function Cases() {
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div className="inner-box">
-                            <figure className="image-box"><img src="/assets/images/ContentServices.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/images/our-works/our-work-22.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-8"></i></div> */}
-                            <h3><Link href="/">Revamp And Localization|Company Policy Refersh Training</Link></h3>
+                            <h3><Link href="/our-works/revamp-and-localization-company-policy-refresh-training">Revamp And Localization|Company Policy Refersh Training</Link></h3>
                             <p>Branding, Design</p>
                            
                             </div>
@@ -216,10 +216,10 @@ export default function Cases() {
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div className="inner-box">
-                            <figure className="image-box"><img src="/assets/images/LearningConsulting.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/images/our-works/our-work-33.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-9"></i></div> */}
-                            <h3><Link href="/">Mobile Based Mentor Driven Training|Sales Call Training</Link></h3>
+                            <h3><Link href="/our-works/mobile-based-mentor-driven-trainingsales-call-training">Mobile Based Mentor Driven Training|Sales Call Training</Link></h3>
                             <p>Branding, Design</p>
                             </div>
                         </div>
@@ -229,10 +229,10 @@ export default function Cases() {
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block mt-5">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div className="inner-box">
-                            <figure className="image-box"><img src="/assets/images/LearningConsulting.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/images/our-works/our-work-44.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-9"></i></div> */}
-                            <h3><Link href="/">Content Development, Web Based Training, Localization| Workplace Hazards And Safety</Link></h3>
+                            <h3><Link href="/our-works/content-development-web-based-training-localization-workplace-hazards-and-safety">Content Development, Web Based Training, Localization| Workplace Hazards And Safety</Link></h3>
                             <p>Branding, Design</p>
                             </div>
                         </div>
@@ -243,10 +243,10 @@ export default function Cases() {
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block mt-5">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div className="inner-box">
-                            <figure className="image-box"><img src="/assets/images/LearningConsulting.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/images/our-works/our-work-55.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-9"></i></div> */}
-                            <h3><Link href="/">WEB BASED TRAINING AND LOCALIZATION| PRODUCT TRAINING</Link></h3>
+                            <h3><Link href="/our-works/web-based-training-and-localization-product-training">WEB BASED TRAINING AND LOCALIZATION| PRODUCT TRAINING</Link></h3>
                             <p>Branding, Design</p>
                             <br />
                             </div>
@@ -257,10 +257,10 @@ export default function Cases() {
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block mt-5">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div className="inner-box">
-                            <figure className="image-box"><img src="/assets/images/LearningConsulting.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/images/our-works/our-work-66.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-9"></i></div> */}
-                            <h3><Link href="/">Scenario-Based Training Workplace Integrity</Link></h3>
+                            <h3><Link href="/our-works/scenario-based-trainingworkplace-integrity">Scenario-Based Training Workplace Integrity</Link></h3>
                             <p>Branding, Design</p>
                             <br />
                             <br />

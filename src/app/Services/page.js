@@ -28,6 +28,7 @@ export default function Services() {
                 <div>
                     {/* service-style-two */}
                     <section className="service-style-two p_relative">
+    
                         <div className="auto-container">
                             <div className="sec-title centred mb_50">
                             <span className="sub-title">What We Do</span>
@@ -158,7 +159,7 @@ engagement and knowledge retention.</p>
 
 
                     {/* chooseus-style-two */}
-                    <section className="chooseus-style-two sec-pad">
+                    {/* <section className="chooseus-style-two sec-pad">
                         <div className="bg-layer parallax-bg" data-parallax='{"y": 100}' style={{ backgroundImage: 'url(/assets/images/services/Consultancy.jpg)' }}></div>
                         <div className="auto-container">
                             <div className="row clearfix">
@@ -170,7 +171,6 @@ engagement and knowledge retention.</p>
                                                 <h2>Reason For Choosing Our Consultancy</h2>
                                             </div>
                                             <ul className="accordion-box">
-                                                {/*Accordion Block*/}
                                                 <li className="accordion block">
                                                     <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
                                                         <div className="icon-box"></div>
@@ -183,7 +183,6 @@ engagement and knowledge retention.</p>
                                                         </div>
                                                     </div>
                                                 </li>
-                                                {/*Accordion Block*/}
                                                 <li className="accordion block">
                                                     <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(2)}><div className="icon-box"></div><h3>Experience Consultant</h3></div>
                                                     <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
@@ -193,7 +192,6 @@ engagement and knowledge retention.</p>
                                                         </div>
                                                     </div>
                                                 </li>
-                                                {/*Accordion Block*/}
                                                 <li className="accordion block">
                                                     <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(3)}><div className="icon-box"></div><h3>Flexible Payment</h3></div>
                                                     <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
@@ -209,13 +207,13 @@ engagement and knowledge retention.</p>
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                     {/* chooseus-style-two end */}
 
 
 
                     {/* working-process-section */}
-                    <section className="working-process-section alternat-2 sec-pad centred">
+                    {/* <section className="working-process-section alternat-2 sec-pad centred">
                         <div className="pattern-layer">
                             <div className="pattern-1" style={{ backgroundImage: 'url(assets/images/shape/shape-25.png)' }}></div>
                             <div className="pattern-2" style={{ backgroundImage: 'url(assets/images/shape/shape-26.png)' }}></div>
@@ -269,7 +267,7 @@ engagement and knowledge retention.</p>
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                     {/* working-process-section end */}
 
                 </div>

@@ -25,7 +25,7 @@ export default function Features() {
                             <figure className="image-box"><img src="/assets/images/Custome-learning.jpg" alt="" /></figure>
                             <div className="lower-content">
                             <div className="icon-box"><i className="icon-7"></i></div>
-                            <h3><Link href="/">Custom e-Learning</Link></h3>
+                            <h3><Link href="/Services/Custom-eLearning">Custom e-Learning</Link></h3>
                             <p>Crafted to meet speciﬁc learning objectives, our custom e-learning content with advanced e-Learning technology ensures
 engagement and knowledge retention.</p>
                             <br />
@@ -40,7 +40,7 @@ engagement and knowledge retention.</p>
                             <figure className="image-box"><img src="/assets/images/ContentServices.jpg" alt="" /></figure>
                             <div className="lower-content">
                             <div className="icon-box"><i className="icon-8"></i></div>
-                            <h3><Link href="/">Content Services</Link></h3>
+                            <h3><Link href="/Services/Content-Services">Content Services</Link></h3>
                             <p>We create and localize content for your e-learning to advance skills, improve performance, and get results. Our content team tailors content to match every requirement by using rich media; Our localization services for e-learning projects can help you translate and localize your content including text translation and audio recording.</p>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ engagement and knowledge retention.</p>
                             <figure className="image-box"><img src="/assets/images/LearningConsulting.jpg" alt="" /></figure>
                             <div className="lower-content">
                             <div className="icon-box"><i className="icon-9"></i></div>
-                            <h3><Link href="/">Learning Consulting</Link></h3>
+                            <h3><Link href="/Services/learning-consulting">Learning Consulting</Link></h3>
                             <p>Our learning consulting services focus on aligning education strategies with business goals, creating a seamless bridge between learning and organizational success, leveraging cutting-edge training technology.</p>
                             <br />
                          
