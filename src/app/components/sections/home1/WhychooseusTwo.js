@@ -125,7 +125,7 @@ export default function Home() {
                                 <div className="content_block_six">
                                     <div className="content-box p_relative ml_30">
                                         <div className="sec-title mb_50">
-                                            <span className="sub-title">Why Choose BizTech</span>
+                                            <span className="sub-title">Why Choose  Blitz Learning Technologies</span>
                                             <h2>Reason For Choosing Our Consultancy</h2>
                                         </div>
                                         <ul className="accordion-box">
