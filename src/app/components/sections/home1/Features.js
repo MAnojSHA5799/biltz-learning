@@ -1,5 +1,5 @@
 import Link from "next/link"
-
+import '../../../main.css'
 
 export default function Features() {
     return (
@@ -16,7 +16,7 @@ export default function Features() {
                     <h2>Elevating Learning Experiences with e-Learning Development 
                         {/* <br />Blitz Learning Technologies. */}
                         </h2>
-                        <span className="sub-title">Unleashing the Power of Customization</span>
+                        <span className="sub-title pt-3">Unleashing the Power of Customization</span>
                     </div>
                     <div className="row clearfix">
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block">

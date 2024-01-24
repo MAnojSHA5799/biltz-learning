@@ -35,9 +35,9 @@ export default function Footer1() {
                                     <div className="widget-content">
                                     <ul className="links-list clearfix">
                                         <li><Link href="/about-us">About Us</Link></li>
-                                        <li><Link href="/services1">Services</Link></li>
+                                        <li><Link href="/Services">Services</Link></li>
                                         <li><Link href="/career">Career</Link></li>
-                                        <li><Link href="/pricing-table">Pricing</Link></li>
+                                        {/* <li><Link href="/pricing-table">Pricing</Link></li> */}
                                         <li><Link href="/contact">Contact Us</Link></li>
                                     </ul>
                                     </div>
@@ -52,10 +52,10 @@ export default function Footer1() {
                                     <div className="widget-content">
                                     <ul className="links-list clearfix">
                                         <li><Link href="#">Privacy Policy</Link></li>
-                                        <li><Link href="#">Terms & Condition</Link></li>
+                                        {/* <li><Link href="#">Terms & Condition</Link></li>
                                         <li><Link href="#">Support</Link></li>
                                         <li><Link href="#">Disclaimer</Link></li>
-                                        <li><Link href="/faq">Faq</Link></li>
+                                        <li><Link href="/faq">Faq</Link></li> */}
                                     </ul>
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@ export default function Footer1() {
                                     <h3>Contact</h3>
                                     </div>
                                     <div className="widget-content">
-                                    <p>Tincidunt neque pretium lectus donec risus.</p>
+                                    {/* <p>Tincidunt neque pretium lectus donec risus.</p> */}
                                     <ul className="info-list clearfix">
                                         <li><i className="icon-23"></i>610, Tower B, iThum, Block A, Industrial Area, Sector 62, Noida, Uttar Pradesh</li>
                                         <li><i className="icon-3"></i><Link href="mailto:contactus@biltzlearning.in">contactus@biltzlearning.in</Link></li>
