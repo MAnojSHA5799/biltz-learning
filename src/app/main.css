@@ -52,4 +52,24 @@
     font-weight: 500;
     margin: 0px;
   }
-  
+
+.main{
+  padding: 50px;
+}
+.main .title {
+  color: rgb(219, 38, 38);
+  position: relative;
+  display: flex;
+  font-size: 20px;
+  line-height: 50px; /* Adjusted line height for better readability */
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Responsive styles for mobile view */
+@media only screen and (max-width: 480px) {
+  .main .title {
+    font-size: 20px; /* Adjusted font size for mobile view */
+    line-height: 30px; /* Adjusted line height for better readability on mobile */
+  }
+}
