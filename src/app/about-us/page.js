@@ -32,7 +32,7 @@ export default function Home() {
         <>
             <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="About Us">
                 {/* about-section */}
-                <section className="about-section p_relative">
+                <section className="about-section p_relative pb-0">
                     <div className="auto-container">
                         <div className="row clearfix">
                         <div className="col-lg-6 col-md-12 col-sm-12 image-column">
@@ -81,7 +81,7 @@ export default function Home() {
 
 
                 {/* service-style-two */}
-                <section className="service-style-two p_relative bg-color-1">
+                <section className="service-style-two p_relative bg-color-1 pt-5">
                     <div className="auto-container">
                         <div className="sec-title centred mb_50">
                             <span className="sub-title">What We Do</span>
@@ -213,7 +213,7 @@ export default function Home() {
 
 
                 {/* team-section */}
-                <section className="team-section sec-pad">
+                <section className="team-section sec-pad pt-5">
                     <div className="auto-container">
                         <div className="sec-title mb_50 centred">
                             <span className="sub-title">Team Member</span>
@@ -298,6 +298,20 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
+                    <section className="testimonial-style-two p_relative  pt-5 mt-1">
+                    <div className="auto-container">
+                        <div className="sec-title centred">
+                            <span className="sub-title">Testimonials</span>
+                            <h2>What They’re Say About Us?</h2>
+                        </div>
+                        <div className="col-lg-12 col-md-12 col-sm-12 content-column">
+                            <div className="content-box">
+                                {/*Theme Carousel*/}
+                                <TestimonialSlider0 />                        
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 </section>
                 {/* team-section end */}
 
@@ -359,20 +373,7 @@ export default function Home() {
 
 
                 {/* testimonial-style-two */}
-                <section className="testimonial-style-two p_relative">
-                    <div className="auto-container">
-                        <div className="sec-title mb_50 centred">
-                            <span className="sub-title">Testimonials</span>
-                            <h2>What They’re Say <br />About Us?</h2>
-                        </div>
-                        <div className="col-lg-12 col-md-12 col-sm-12 content-column">
-                            <div className="content-box">
-                                {/*Theme Carousel*/}
-                                <TestimonialSlider0 />                        
-                            </div>
-                        </div>
-                    </div>
-                </section>
+               
                 {/* testimonial-style-two end */}
 
 

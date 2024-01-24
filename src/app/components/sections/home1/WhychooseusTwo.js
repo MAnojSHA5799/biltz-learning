@@ -31,11 +31,11 @@ export default function Home() {
         <>
         
                 {/* service-style-two */}
-                <section className="service-style-two p_relative bg-color-1">
+                <section className="service-style-two bg-color-1 pt-5">
                     <div className="auto-container">
                         <div className="sec-title centred mb_50">
                             <span className="sub-title">What We Do</span>
-                            <h2>Provide the Best Consulting <br />in This Industry</h2>
+                            <h2>Provide the Best Consulting in This Industry</h2>
                         </div>
                         <div className="row clearfix">
                             <div className="col-lg-4 col-md-6 col-sm-12 service-block">
@@ -182,11 +182,11 @@ export default function Home() {
 
 
                 {/* testimonial-style-two */}
-                <section className="testimonial-style-two p_relative">
+                <section className="testimonial-style-two p_relative pt-5 mb-0">
                     <div className="auto-container">
                         <div className="sec-title mb-0 centred">
                             <span className="sub-title">Testimonials</span>
-                            <h2>What They’re Say <br />About Us?</h2>
+                            <h2>What They’re Say About Us?</h2>
                         </div>
                         <div className="col-lg-12 col-md-12 col-sm-12 content-column">
                             <div className="content-box">
