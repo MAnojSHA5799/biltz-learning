@@ -7,7 +7,7 @@ export default function Process() {
                 <div className="auto-container">
                     <div className="sec-title mb_100">
                     <span className="sub-title">Working Process</span>
-                    <h2>3 Easy Steps to Get <br />Quick Help</h2>
+                    <h2>3 Easy Steps to Get Quick Help</h2>
                     </div>
                     <div className="inner-container">
                     <div className="working-block-one">

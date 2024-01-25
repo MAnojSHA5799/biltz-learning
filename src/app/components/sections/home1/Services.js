@@ -15,7 +15,7 @@ export default function Pricing() {
                 <div className="auto-container">
                     <div className="sec-title mb_70">
                     <span className="sub-title">Key Advantages</span>
-                    <h2>Provide the Key Advantages <br />in This Industry</h2>
+                    <h2>Provide the Key Advantages in This Industry</h2>
                     </div>
                     <div className="row clearfix">
                         <div className="col-lg-4 col-md-6 col-sm-12 service-block">
@@ -80,7 +80,7 @@ export default function Pricing() {
                         </div>
                     {/* Repeat the above service-block structure for other services */}
                     </div>
-                    <div className="more-btn mt_80">
+                    <div className="more-btn mt_20">
                     <Link href="/Services" className="theme-btn-one">More Services</Link>
                     </div>
                 </div>

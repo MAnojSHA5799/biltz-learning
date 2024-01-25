@@ -1,5 +1,5 @@
 import Link from "next/link"
-
+import '../../../main.css'
 
 export default function Cases() {
     return (
@@ -176,7 +176,7 @@ export default function Cases() {
                 </div>
             </section> */}
 
-            <section className="feature-section pt-5 pb-5 centred">
+            <section className="feature-section pt-5 pb-5 centred bg-color-">
                 <div className="pattern-layer">
                     <div className="pattern-1" style={{ backgroundImage: 'url(assets/images/shape/shape-2.png)' }}></div>
                     <div className="pattern-2" style={{ backgroundImage: 'url(assets/images/shape/shape-3.png)' }}></div>

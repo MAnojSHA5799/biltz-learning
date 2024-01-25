@@ -51,9 +51,9 @@ export default function Home() {
                         <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                             <div className="content_block_one">
                             <div className="content-box p_relative ml_30">
-                                <div className="sec-title mb_25">
+                                <div className="sec-title mb-1">
                                 <span className="sub-title">About  Blitz Learning Technologies</span>
-                                <h2>Dedicated And <br/>Professional Consulting Services</h2>
+                                <h2>Dedicated And Professional Consulting Services</h2>
                                 </div>
                                 <div className="text mb_35">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing integer ultrices suspendisse varius etiam est. Est, felis, tempus nec vitae orci sodales Metus, velit nec at diam in sed. Massa dui ipsum ornare sagittis dolor sagittis amet odio est. Sit semper et velit fusce.</p>
@@ -236,7 +236,7 @@ export default function Home() {
                                         <div className="lower-content">
                                             <h3><Link href="/team-details">Rajeev Suman</Link></h3>
                                             <span className="designation">Co-founder and VP of Global Delivery</span>
-                                            <span className="designation">Rajeev Suman is known for his advisory and market insights acumen leverages his experience of over 15 years leading the global production at Blitz Learning Technologies.</span>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -255,7 +255,7 @@ export default function Home() {
                                         <div className="lower-content">
                                             <h3><Link href="/team-details">Abhishek Kumar</Link></h3>
                                             <span className="designation">Co-Founder and VP of Sales</span>
-                                            <span className="designation">Abhishek is the cornerstone of the sales function at Blitz Learning. With his deep expertise in sales techniques and 15 years of sales experience in eLearning sales, he heads our sales team.</span>
+                                           
                                         </div>
                                     </div>
                                 </div>

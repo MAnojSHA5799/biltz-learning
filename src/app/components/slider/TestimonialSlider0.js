@@ -59,9 +59,9 @@ export default function TestimonialSlider0() {
                     <div className="testimonial-block-two">
                         <figure className="thumb-box"><img src="assets/images/resource/testimonial-3.jpg" alt="" /></figure>
                         <div className="inner-box">
-                            <h3>Bessie Cooper</h3>
-                            <span className="designation">Manager</span>
-                            <p>“Dictum mauris facilisis tortor dictumst. Cursus mattis viera lobortis posuere molestie imperdiet diam scelerisque posuere magnis risus purus eu tempor. Odio iaculis tincidunt cras cursus id nunc nibh gravida.”</p>
+                            <h3>Rajeev Suman</h3>
+                            <span className="designation">Co-founder and VP of Global Delivery</span>
+                            <p>“Rajeev Suman is known for his advisory and market insights acumen leverages his experience of over 15 years leading the global production at Blitz Learning Technologies.”</p>
                             <ul className="rating clearfix">
                                 <li><i className="fas fa-star"></i></li>
                                 <li><i className="fas fa-star"></i></li>
@@ -76,9 +76,9 @@ export default function TestimonialSlider0() {
                     <div className="testimonial-block-two">
                         <figure className="thumb-box"><img src="assets/images/resource/testimonial-4.jpg" alt="" /></figure>
                         <div className="inner-box">
-                            <h3>Brooklyn Simmons</h3>
-                            <span className="designation">Manager</span>
-                            <p>“Dictum mauris facilisis tortor dictumst. Cursus mattis viera lobortis posuere molestie imperdiet diam scelerisque posuere magnis risus purus eu tempor. Odio iaculis tincidunt cras cursus id nunc nibh gravida vel consectetur aliquam vitae pulvinar gravida at faucibus. Ridiculus mauris porttitor sit nulla.”</p>
+                            <h3>Abhishek Kumar</h3>
+                            <span className="designation">Co-Founder and VP of Sales</span>
+                            <p>“Abhishek is the cornerstone of the sales function at Blitz Learning. With his deep expertise in sales techniques and 15 years of sales experience in eLearning sales, he heads our sales team.”</p>
                             <ul className="rating clearfix">
                                 <li><i className="fas fa-star"></i></li>
                                 <li><i className="fas fa-star"></i></li>
@@ -108,7 +108,7 @@ export default function TestimonialSlider0() {
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className="slide">
+                {/* <SwiperSlide className="slide">
                     <div className="testimonial-block-two">
                         <figure className="thumb-box"><img src="assets/images/resource/testimonial-3.jpg" alt="" /></figure>
                         <div className="inner-box">
@@ -160,7 +160,7 @@ export default function TestimonialSlider0() {
                         </ul>
                     </div>
                 </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
             </Swiper>
         </>
     )
