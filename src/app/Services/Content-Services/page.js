@@ -8,6 +8,7 @@ import { useRouter } from "next/navigation";
 import axios from "axios";
 export default function Services() {
   const router = useRouter();
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -25,6 +26,7 @@ export default function Services() {
   // Step 5: Handle the form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
     console.log("Form Data:", formData);
     
     try {
@@ -53,7 +55,7 @@ export default function Services() {
           email: '',
           phone: '',
         });
-
+        setIsSubmitting(false);
         // Optional: You can use router.reload() to refresh the page
         router.refresh();
         
@@ -388,7 +390,7 @@ export default function Services() {
           </div>
         </div>
         <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
-          <button type="submit" className="theme-btn-one">
+          <button type="submit" className="theme-btn-one"  disabled={isSubmitting}>
             Send Request
           </button>
         </div>

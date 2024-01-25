@@ -10,6 +10,8 @@ export default function Home() {
     email: '',
     message: '',
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -21,6 +23,7 @@ export default function Home() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
     console.log(formData)
 
     try {
@@ -45,6 +48,7 @@ export default function Home() {
         email: '',
         message: '',
       });
+      setIsSubmitting(false);
       router.refresh();
       // Optionally, you can handle success or show a message to the user
     } catch (error) {
@@ -200,7 +204,7 @@ export default function Home() {
         </div>
         <div className="col-lg-12 col-md-12 col-sm-12 form-group">
           <div className="message-btn">
-            <button type="submit" className="theme-btn-one">
+            <button type="submit" className="theme-btn-one" disabled={isSubmitting}>
               Post Comment
             </button>
           </div>

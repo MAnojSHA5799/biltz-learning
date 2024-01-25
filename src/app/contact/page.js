@@ -12,6 +12,7 @@ export default function Contact() {
     subject: "",
     message: "",
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const router = useRouter();
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -23,6 +24,7 @@ export default function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
     console.log("Form Data:", formData);
 
     try {
@@ -49,7 +51,7 @@ export default function Contact() {
         subject: "",
         message: "",
       });
-
+      setIsSubmitting(false);
       // Optional: You can use router.reload() to refresh the page
       router.refresh("/contact");
       // You can add logic here based on the response from the server
@@ -262,6 +264,7 @@ export default function Contact() {
                             className="theme-btn theme-btn-one"
                             type="submit"
                             name="submit-form"
+                            disabled={isSubmitting}
                           >
                             Send Message
                           </button>

@@ -1,12 +1,23 @@
 'use client'
+import React, { useState } from "react";
+import axios from "axios";
 import Layout from "../components/layout/Layout"
+import { useRouter } from "next/navigation";
 import Link from "next/link"
-import { useState } from 'react'
 export default function Home() {
     const [isActive, setIsActive] = useState({
         status: false,
         key: 1,
     })
+    const [formData, setFormData] = useState({
+        username: "",
+        email: "",
+        phone: "",
+        subject: "",
+        message: "",
+      });
+      const [isSubmitting, setIsSubmitting] = useState(false);
+      const router = useRouter();
 
     const handleToggle = (key) => {
         if (isActive.key === key) {
@@ -20,6 +31,52 @@ export default function Home() {
             })
         }
     }
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData((prevData) => ({
+          ...prevData,
+          [name]: value,
+        }));
+      };
+    
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+        setIsSubmitting(true);
+        console.log("Form Data:", formData);
+    
+        try {
+          // Make the Axios POST request http://localhost:2410/addDetails
+          // https://biltz-backend.vercel.app
+          const response = await axios.post(
+            "https://biltz-backend.vercel.app/addDetails",
+            formData,
+            {
+              headers: {
+                "Content-Type": "application/json",
+              },
+              withCredentials: false,
+            }
+          );
+          // Handle the response
+          console.log("Server Response:", response.data);
+    
+          // Reset form data
+          setFormData({
+            username: "",
+            email: "",
+            phone: "",
+            subject: "",
+            message: "",
+          });
+          setIsSubmitting(false);
+          // Optional: You can use router.reload() to refresh the page
+          router.refresh("/career");
+          // You can add logic here based on the response from the server
+        } catch (error) {
+          // Handle errors
+          console.error("Error posting data:", error);
+        }
+      };
 
     return (
         <>
@@ -33,8 +90,8 @@ export default function Home() {
                                     <div className="content-box mr_110">
                                     <div className="sec-title mb_50">
                                         <span className="sub-title">Get Opportunities</span>
-                                        <h2>Build Your Career with <br />BiltzLearning</h2>
-                                        <p className="mt_40">We welcome your expertise to help our team to transform learning and development function of our clients.</p>
+                                        <h2>Build Your Career with BiltzLearning</h2>
+                                        <p className="mt_10">We welcome your expertise to help our team to transform learning and development function of our clients.</p>
                                     </div>
                                         <ul className="accordion-box">
                                             {/*Accordion Block*/}
@@ -118,7 +175,7 @@ export default function Home() {
                                                 </div>
                                             </li>
                                             {/*Accordion Block*/}
-                                            <li className="accordion block">
+                                            {/* <li className="accordion block">
                                                 <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(3)}>
                                                     <div className="icon-box"></div>
                                                     <h3>Account Manager</h3>
@@ -144,9 +201,9 @@ export default function Home() {
                                                 </div>
                                             </div>
                                                 </div>
-                                            </li>
+                                            </li> */}
                                             {/*Accordion Block*/}
-                                            <li className="accordion block">
+                                            {/* <li className="accordion block">
                                                 <div className={isActive.key == 4 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(4)}>
                                                     <div className="icon-box"></div>
                                                     <h3>Financial Advisor</h3>
@@ -172,7 +229,7 @@ export default function Home() {
                                                 </div>
                                             </div>
                                                 </div>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                     </div>
                                 </div>
@@ -180,28 +237,67 @@ export default function Home() {
                                     <div className="career-sidebar ml_40">
                                         <h3>Quick Contact</h3>
                                         <div className="form-inner">
-                                            <form action="career.html" method="post">
-                                                <div className="form-group">
-                                                <input type="text" name="name" placeholder="Name" required />
-                                                </div>
-                                                <div className="form-group">
-                                                <input type="email" name="email" placeholder="Email" required />
-                                                </div>
-                                                <div className="form-group">
-                                                <input type="text" name="phone" placeholder="Phone" required />
-                                                </div>
-                                                <div className="form-group">
-                                                <input type="text" name="subject" placeholder="Subject" required />
-                                                </div>
-                                                <div className="form-group">
-                                                <textarea name="message" placeholder="Message"></textarea>
-                                                </div>
-                                                <div className="form-group message-btn">
-                                                <button type="submit" className="theme-btn-one">
-                                                    Submit Now
-                                                </button>
-                                                </div>
-                                            </form>
+                                        <form
+                        // action="career.html"
+                        method="post"
+                        onSubmit={handleSubmit}
+                      >
+                        <div className="form-group">
+                          <input
+                            type="text"
+                            name="username"
+                            value={formData.username}
+                            placeholder="Your Name"
+                            required
+                            pattern="[A-Za-z]+"
+                            onChange={handleChange}
+                          />
+                        </div>
+                        <div className="form-group">
+                          <input
+                            type="email"
+                            name="email"
+                            value={formData.email}
+                            placeholder="Your email"
+                            required
+                            onChange={handleChange}
+                          />
+                        </div>
+                        <div className="form-group">
+                        <input
+                            type="text"
+                            name="phone"
+                            value={formData.phone}
+                            required
+                            placeholder="Phone"
+                            onChange={handleChange}
+                          />
+                        </div>
+                        <div className="form-group">
+                          <input
+                            type="text"
+                            name="subject"
+                            value={formData.subject}
+                            required
+                            placeholder="Subject"
+                            onChange={handleChange}
+                          />
+                        </div>
+                        <div className="form-group">
+                          <textarea
+                            name="message"
+                            placeholder="Type message"
+                            value={formData.message}
+                            required
+                            onChange={handleChange}
+                          ></textarea>
+                        </div>
+                        <div className="form-group message-btn">
+                          <button type="submit" className="theme-btn-one" disabled={isSubmitting}>
+                            Submit Now
+                          </button>
+                        </div>
+                      </form>
                                         </div>
                                     </div>
                                 </div>
@@ -209,7 +305,6 @@ export default function Home() {
                         </div>
                     </section>
                 </div>
-
             </Layout>
         </>
     )
