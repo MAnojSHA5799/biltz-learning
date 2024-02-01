@@ -45,8 +45,8 @@ export default function Banner() {
                             <div className="content-box">
                             <div className="content-inner">
                                 {/* <span>Customized Learning</span> */}
-                                <h2>Learning Experiences with e-Learning Technology</h2>
-                                <p>At Blitz Learning Technologies, we specialize in crafting customized learning content using e-Learning technology.</p>
+                                <h2>Full service creative learning consulting and advisory firm</h2>
+                                <p>We specialize in industries facing knowledge retention challenges and disruption.</p>
                                 <Link href="/about-us" className="theme-btn-one">Discover More</Link>
                             </div>
                             </div>
@@ -61,9 +61,26 @@ export default function Banner() {
                         <div className="auto-container">
                             <div className="content-box">
                             <div className="content-inner">
-                                <span>Change The World</span>
-                                <h2>Learning Solutions with Training Technology</h2>
-                                <p>Our core service involves providing comprehensive learning solutions designed to enhance business performance.</p>
+                                {/* <span>Change The World</span> */}
+                                <h2>We are catalysts of knowledge retention</h2>
+                                <p>We are catalysts of knowledge retention helping clients translate learning and development efforts into knowledge repositories through scientific and strategic learning mechanism.</p>
+                                <Link href="/about-us" className="theme-btn-one">Discover More</Link>
+                            </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="slide-item p_relative">
+                        <div className="image-layer p_absolute" style={{ backgroundImage: 'url(/assets/images/homepage2.jpg)' }}></div>
+                        <div className="starshine">
+                            <div className="shine shine-1"></div>
+                            <div className="shine shine-2"></div>
+                        </div>
+                        <div className="auto-container">
+                            <div className="content-box">
+                            <div className="content-inner">
+                                {/* <span>Change The World</span> */}
+                                <h2>We're the architects of enduring learning experiences</h2>
+                                <p>Through innovative strategies, personalized content, and interactive engagement, we ignite the sparks that transform information into lasting wisdom.</p>
                                 <Link href="/about-us" className="theme-btn-one">Discover More</Link>
                             </div>
                             </div>

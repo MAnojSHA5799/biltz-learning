@@ -12,11 +12,12 @@ export default function Features() {
                 </div>
                 <div className="auto-container">
                     <div className="sec-title mb_50">
-                    
-                    <h2>Elevating Learning Experiences with e-Learning Development 
+                    <span className="sub-title pt-3">Elevating Learning Experiences with e-Learning Development</span>
+                    <p> 
                         {/* <br />Blitz Learning Technologies. */}
-                        </h2>
-                        <span className="sub-title pt-3">Unleashing the Power of Customization</span>
+                        We have a profound understanding of what motivates learners to retain knowledge. Our expertise lies in helping businesses translate these motivations into actions that promote lasting knowledge retention through creative strategies. We advise, consult, and design with a purpose of addressing complex challenges that require an agile approach and have a wide-reaching solution
+                        </p>
+                       
                     </div>
                     <div className="row clearfix">
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
@@ -28,6 +29,9 @@ export default function Features() {
                             <h3><Link href="/Services/Custom-eLearning">Custom e-Learning</Link></h3>
                             <p>Crafted to meet speciﬁc learning objectives, our custom e-learning content with advanced e-Learning technology ensures
 engagement and knowledge retention.</p>
+                            <br />
+                            <br />
+                            <br />
                             <br />
                             <br />
                             </div>
@@ -55,7 +59,9 @@ engagement and knowledge retention.</p>
                             <h3><Link href="/Services/learning-consulting">Learning Consulting</Link></h3>
                             <p>Our learning consulting services focus on aligning education strategies with business goals, creating a seamless bridge between learning and organizational success, leveraging cutting-edge training technology.</p>
                             <br />
-                         
+                            <br />
+                            <br />
+                            <br />
                             </div>
                         </div>
                         </div>

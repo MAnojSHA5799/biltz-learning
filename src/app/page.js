@@ -5,6 +5,7 @@ import BannerTwo from "./components/sections/home1/BannerTwo"
 import Services from "./components/sections/home1/Services"
  import Projects from "./components/sections/home1/Projects"
 import Features from "./components/sections/home1/Features"
+import FeaturesTwo from "./components/sections/home1/featuresTwo"
 import Pro from "./components/sections/home1/Pro"
  import Funfacts from "./components/sections/home1/Funfacts"
 import News from "./components/sections/home1/News"
@@ -19,6 +20,7 @@ export default function Home() {
         <>
             <Layout headerStyle={1} footerStyle={1}>
                 <Banner />
+                <FeaturesTwo />
                  <Features />
                <Services />
                <WhyChooseUs />
@@ -28,7 +30,7 @@ export default function Home() {
                 <Funfacts />
                 <Expertise /> 
                 <About />
-                <WhychooseusTwo />
+                {/* <WhychooseusTwo /> */}
                 {/* <BannerTwo /> */}
                 {/* <News />   */}
             </Layout>

@@ -3,6 +3,7 @@ import "./public/assets/css/bootstrap.css"
 import "./public/assets/css/style.css"
 import "./public/assets/css/responsive.css"
 import "./public/assets/css/color.css"
+import "./main.css"
 import 'swiper/css'
 import "swiper/css/pagination"
 import 'swiper/css/free-mode';

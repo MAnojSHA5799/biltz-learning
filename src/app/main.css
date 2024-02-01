@@ -95,12 +95,12 @@
   padding: 50px;
 }
 .main .title {
-  color: rgb(219, 38, 38);
+  color: rgb(23, 22, 22);
   position: relative;
   display: flex;
   font-size: 20px;
   line-height: 50px; /* Adjusted line height for better readability */
-  font-weight: 700;
+  font-weight: 600;
   margin: 0;
 }
 
@@ -303,4 +303,15 @@
 
 .sec-title.light h2{
   color: #fff;
+}
+.title1{
+  color: #000;
+}
+
+.banner-carousel .content-box h2{
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 25px;
 }

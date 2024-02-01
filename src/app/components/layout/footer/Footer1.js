@@ -19,11 +19,12 @@ export default function Footer1() {
                                         <img src="/white-Blitzlogo.png" alt="" />
                                     </Link>
                                     </figure>
-                                    <div className="text">
+                                    <div className="text pb-0">
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elitsollicit udin netus quis ornare. Massa pharetra in nec sed nunc.
+                                    Blitz Learning is a top learning consulting and training development firm specializing in industries facing learning and development challenges and disruption. 
+                                    
                                     </p>
-                                    <p>nisl viverra massa imperdiet. Dui mattis quis congue fames.</p>
+                                    {/* <p>We have a deep understanding of what drives learners into retaining knowledge and, we help businesses turn those driving forces into actions that helps retain the learning that is imparted through creativity.</p> */}
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +89,7 @@ export default function Footer1() {
                         <p>
                         {/* Copyright {new Date().getFullYear()} by <Link href="#">biztech</Link> theme All Right Reserved. */}
 
-                        © All rights reserved. • Blitz Learning • Maintained by Advert Rise
+                        © All rights reserved. • Blitz Learning • Maintained by Blitz Learning
                         </p>
                     </div>
                     </div>

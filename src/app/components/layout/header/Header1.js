@@ -19,7 +19,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                         </div>
                         <div className="top-right">
                             <div className="login">
-                                <Link href="#">Login</Link>
+                                <Link href="#" style={{ color: 'black' }}>.</Link>
                                 </div>
                             <ul className="social-links clearfix">
                             <li><Link href="https://www.facebook.com/blitzlearning.in/"><i className="fab fa-facebook-f"></i></Link></li>
