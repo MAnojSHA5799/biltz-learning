@@ -7,8 +7,11 @@ export default function Funfacts() {
         <>        
             <section className="funfact-section centred">
                 <div className="auto-container">
+                <p className="mb-4">Where excellence, creativity, and learner-centric approaches converge. We aspire to be the driving force that inspires transformation in mindset, actions, performance, and the motivation for improvement within your organization.
+</p>
                     <div className="inner-container">
                     <div className="shape">
+                       
                         <div
                         className="shape-1"
                         style={{ backgroundImage: 'url(assets/images/shape/shape-18.png)' }}
@@ -23,9 +26,29 @@ export default function Funfacts() {
                         <div className="funfact-block-one">
                             <div className="inner-box">
                             <div className="count-outer count-box">
-                                <CounterUp end={300} /><span>k+</span>
+                                <CounterUp end={25} /><span>k+</span>
                             </div>
-                            <p>elearning Hours</p>
+                            <p>Global Locations Served</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-12 funfact-block">
+                        <div className="funfact-block-one">
+                            <div className="inner-box">
+                            <div className="count-outer count-box">
+                                <CounterUp end={20} /><span>+</span>
+                            </div>
+                            <p>Satisfied Fortune Clients</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-12 funfact-block">
+                        <div className="funfact-block-one">
+                            <div className="inner-box">
+                            <div className="count-outer count-box">
+                                <CounterUp end={300} /><span>+</span>
+                            </div>
+                            <p>e-Learning hours</p>
                             </div>
                         </div>
                         </div>
@@ -36,26 +59,6 @@ export default function Funfacts() {
                                 <CounterUp end={35} /><span>+</span>
                             </div>
                             <p>Languages</p>
-                            </div>
-                        </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                        <div className="funfact-block-one">
-                            <div className="inner-box">
-                            <div className="count-outer count-box">
-                                <CounterUp end={4} /><span></span>
-                            </div>
-                            <p>Continents Served</p>
-                            </div>
-                        </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                        <div className="funfact-block-one">
-                            <div className="inner-box">
-                            <div className="count-outer count-box">
-                                <CounterUp end={20} /><span>+</span>
-                            </div>
-                            <p>Fortune 500 Clients</p>
                             </div>
                         </div>
                         </div>

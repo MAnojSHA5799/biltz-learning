@@ -30,7 +30,7 @@ export default function Home() {
                 <Funfacts />
                 <Expertise /> 
                 <About />
-                {/* <WhychooseusTwo /> */}
+                <WhychooseusTwo />
                 {/* <BannerTwo /> */}
                 {/* <News />   */}
             </Layout>

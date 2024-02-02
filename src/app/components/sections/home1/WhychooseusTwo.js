@@ -99,14 +99,14 @@ export default function Home() {
 
 
                 {/* clients-section */}
-                <section className="clients-section p_relative bg-color-2">
+                <section className="clients-section p_relative">
                     <div className="auto-container">
                         <div className="inner-box">
-                            <figure className="clients-logo"><Link href="/about-us"><img src="assets/images/clients/client-1.jpg" alt="" /></Link></figure>
-                            <figure className="clients-logo"><Link href="/about-us"><img src="assets/images/clients/client-2.png" alt="" /></Link></figure>
-                            <figure className="clients-logo"><Link href="/about-us"><img src="assets/images/clients/client-3.jpg" alt="" /></Link></figure>
-                            <figure className="clients-logo"><Link href="/about-us"><img src="assets/images/clients/client-4.jpg" alt="" /></Link></figure>
-                            <figure className="clients-logo"><Link href="/about-us"><img src="assets/images/clients/client_3.jpg" alt="" /></Link></figure>
+                            <figure className="clients-log"><Link href="/about-us"><img src="assets/images/clients/client-1.jpg" alt="" /></Link></figure>
+                            <figure className="clients-log"><Link href="/about-us"><img src="assets/images/clients/client-2.png" alt="" /></Link></figure>
+                            <figure className="clients-log"><Link href="/about-us"><img src="assets/images/clients/client-3.jpg" alt="" /></Link></figure>
+                            <figure className="clients-log"><Link href="/about-us"><img src="assets/images/clients/client-4.jpg" alt="" /></Link></figure>
+                            <figure className="clients-log"><Link href="/about-us"><img src="assets/images/clients/client_3.jpg" alt="" /></Link></figure>
                         </div>
                     </div>
                 </section>
@@ -190,7 +190,6 @@ export default function Home() {
                         </div>
                         <div className="col-lg-12 col-md-12 col-sm-12 content-column">
                             <div className="content-box">
-                                {/*Theme Carousel*/}
                                 <TestimonialSlider0 />                        
                             </div>
                         </div>

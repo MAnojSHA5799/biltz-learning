@@ -15,7 +15,7 @@ export default function Pricing() {
                 <div className="auto-container">
                     <div className="sec-title mb_70">
                     <span className="sub-title">Key Advantages</span>
-                    <h2>Provide the Key Advantages in This Industry</h2>
+                    <h2>Generating New Ideas. Solving Big Problems</h2>
                     </div>
                     <div className="row clearfix">
                         <div className="col-lg-4 col-md-6 col-sm-12 service-block">
@@ -24,13 +24,13 @@ export default function Pricing() {
                                 <div className="static-content">
                                 <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-4.png)' }}></div>
                                 <div className="icon-box"><i className="icon-7"></i></div>
-                                <h3><Link href="/strategy-planning">Reduced E-Learning Development costs</Link></h3>
+                                <h3><Link href="/">Measurable Cost Advantage</Link></h3>
                                 {/* <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p> */}
                                 </div>
                                 <div className="overlay-content">
                                 <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-5.png)' }}></div>
                                 {/* <h3><Link href="/strategy-planning">Strategy & Planning</Link></h3> */}
-                                <p>Not every business requirement needs creating content from scratch, we follow this approach very thoroughly. Our e-learning modernization techniques make learning content relevant and up-to-date.</p>
+                                <p>We provide a proven cost advantage of up to 30% over our competitors in India and around 50% over standard rates in the US and Europe.</p>
                                 {/* <div className="btn-box">
                                     <Link href="/strategy-planning" className="theme-btn-one">Read More</Link>
                                 </div> */}
@@ -43,14 +43,14 @@ export default function Pricing() {
                             <div className="inner-box">
                                 <div className="static-content">
                                 <div className="icon-box"><i className="icon-7"></i></div>
-                                <h3><Link href="/program-manager">Focus On Business Needs</Link></h3>
+                                <h3><Link href="/program-manager">Proven Growth Record</Link></h3>
                                 <br />
                                 <br />
                                 {/* <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p> */}
                                 </div>
                                 <div className="overlay-content">
                                 {/* <h3><Link href="/program-manager">Program Manager</Link></h3> */}
-                                <p>Whether the requirement is for a new product or enabling the sales team about new features, our custom learning content delivery meticulously matches what best fits the business needs.</p>
+                                <p>We have been growing at over 150% from past 9 years of our incorporation. The growth is attributed to 95% repeat business.</p>
                                 {/* <div className="btn-box">
                                     <Link href="/program-manager" className="theme-btn-one">Read More</Link>
                                 </div> */}
@@ -64,13 +64,13 @@ export default function Pricing() {
                                 <div className="static-content">
                                 <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-6.png)' }}></div>
                                 <div className="icon-box"><i className="icon-7"></i></div>
-                                <h3><Link href="/tax-management">Balancing Organizational And Employess Needs</Link></h3>
+                                <h3><Link href="/tax-management">Unparalleled value addition</Link></h3>
                                 {/* <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p> */}
                                 </div>
                                 <div className="overlay-content">
                                 <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-7.png)' }}></div>
                                 {/* <h3><Link href="/tax-management">Tax Management</Link></h3> */}
-                                <p>Our e-learning development teams have put in place a strategic framework to strengthen L&D initiatives with customized content solutions, which has a positive impact on both the career paths of employees.</p>
+                                <p>We provide extended support for up to 3 months for any course that we create. This includes minor changes and updates without any charge up to 3 sprints. We provide the source file along with the SCORM published file which is included in the project price agreed upon.</p>
                                 <div className="btn-box">
                                     {/* <Link href="/tax-management" className="theme-btn-one">Read More</Link> */}
                                 </div>
@@ -81,7 +81,7 @@ export default function Pricing() {
                     {/* Repeat the above service-block structure for other services */}
                     </div>
                     <div className="more-btn mt_20">
-                    <Link href="/Services" className="theme-btn-one">More Services</Link>
+                    <Link href="/about-us" className="theme-btn-one">More Services</Link>
                     </div>
                 </div>
             </section>
