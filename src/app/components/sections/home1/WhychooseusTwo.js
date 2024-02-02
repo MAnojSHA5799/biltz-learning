@@ -3,17 +3,44 @@ import VideoPopup from "../../elements/VideoPopup"
 import CounterUp from "../../elements/CounterUp"
 import Layout from "../../layout/Layout"
 import TestimonialSlider0 from '../../slider/TestimonialSlider0'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 // import AwardSlider1 from '../../AwardSlider1'
 import Link from "next/link"
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 // import ReactCurvedText from 'react-curved-text'
 import ModalVideo from 'react-modal-video'
 export default function Home() {
     const [isOpen, setOpen] = useState(false)
+    const [slidesToShow, setSlidesToShow] = useState(4);
     const [isActive, setIsActive] = useState({
         status: false,
         key: 1,
     })
+    useEffect(() => {
+        // Adjust slidesToShow based on screen width
+        const handleResize = () => {
+            if (window.innerWidth < 768) {
+                setSlidesToShow(2); // For mobile view, show 1 slide at a time
+            } else if (window.innerWidth < 992) {
+                setSlidesToShow(2); // For tablet view, show 2 slides at a time
+            } else {
+                setSlidesToShow(4); // For desktop view, show 4 slides at a time
+            }
+        };
+
+        // Initial call to set initial slidesToShow based on screen width
+        handleResize();
+
+        // Attach event listener for window resize
+        window.addEventListener('resize', handleResize);
+
+        // Clean up the event listener on component unmount
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
     const handleToggle = (key) => {
         if (isActive.key === key) {
@@ -27,11 +54,13 @@ export default function Home() {
             })
         }
     }
+
+    
     return (
         <>
         
                 {/* service-style-two */}
-                <section className="service-style-two bg-color-1 pt-5">
+                <section className="service-style-two bg-color-1 pt-5 pb-0">
                     <div className="auto-container">
                         <div className="sec-title centred mb_50">
                             <span className="sub-title">What We Do</span>
@@ -94,22 +123,78 @@ export default function Home() {
                             
                         </div>
                     </div>
+                   
                 </section>
                 {/* service-style-two end */}
 
 
                 {/* clients-section */}
-                <section className="clients-section p_relative">
-                    <div className="auto-container">
-                        <div className="inner-box">
-                            <figure className="clients-log"><Link href="/about-us"><img src="assets/images/clients/client-1.jpg" alt="" /></Link></figure>
-                            <figure className="clients-log"><Link href="/about-us"><img src="assets/images/clients/client-2.png" alt="" /></Link></figure>
-                            <figure className="clients-log"><Link href="/about-us"><img src="assets/images/clients/client-3.jpg" alt="" /></Link></figure>
-                            <figure className="clients-log"><Link href="/about-us"><img src="assets/images/clients/client-4.jpg" alt="" /></Link></figure>
-                            <figure className="clients-log"><Link href="/about-us"><img src="assets/images/clients/client_3.jpg" alt="" /></Link></figure>
-                        </div>
-                    </div>
-                </section>
+                <section className="clients-section p_relative mb-0 pb-2 pt-5">
+      <div className="auto-container">
+      <Slider
+                    infinite={true}
+                    speed={500}
+                    slidesToShow={slidesToShow}
+                    slidesToScroll={1}
+                >
+          <div className="inner-box">
+            <figure className="clients-log">
+              <Link href="/">
+                <img
+                  src="assets/images/clients/client-1.jpg"
+                  alt=""
+                  className="img-fluid"
+                />
+              </Link>
+            </figure>
+          </div>
+          <div className="inner-box">
+            <figure className="clients-log">
+              <Link href="/">
+                <img
+                  src="assets/images/clients/client-2.png"
+                  alt=""
+                  className="img-fluid"
+                />
+              </Link>
+            </figure>
+          </div>
+          <div className="inner-box">
+            <figure className="clients-log">
+              <Link href="/">
+                <img
+                  src="assets/images/clients/client-3.jpg"
+                  alt=""
+                  className="img-fluid"
+                />
+              </Link>
+            </figure>
+          </div>
+          <div className="inner-box">
+            <figure className="clients-log">
+              <Link href="/">
+                <img
+                  src="assets/images/clients/client-4.jpg"
+                  alt=""
+                  className="img-fluid"
+                />
+              </Link>
+            </figure>
+          </div>
+          <div className="inner-box">
+            <figure className="clients-log">
+              <Link href="/">
+                <img
+                  src="assets/images/clients/client_3.jpg"
+                  alt=""
+                  className="img-fluid"
+                />
+              </Link>
+            </figure>
+          </div>
+        </Slider>
+      </div>
+    </section>
                 {/* clients-section end */}
 
 
@@ -118,7 +203,7 @@ export default function Home() {
 
                 {/* chooseus-style-two */}
                 <section className="chooseus-style-two sec-pad">
-                    <div className="bg-layer parallax-bg" data-parallax='{"y": 100}' style={{ backgroundImage: 'url(/assets/images/ChoosingOurConsultancy.jpg)' }}></div>
+                    <div className="bg-layer parallax-bg" data-parallax='{"y": 1000}' style={{ backgroundImage: 'url(/assets/images/whyus4.jpg)' }}></div>
                     <div className="auto-container">
                         <div className="row clearfix">
                             <div className="col-xl-6 col-lg-12 offset-xl-6 content-column">

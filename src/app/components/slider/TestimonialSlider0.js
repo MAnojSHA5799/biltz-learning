@@ -108,7 +108,7 @@ export default function TestimonialSlider0() {
                         </div>
                     </div>
                 </SwiperSlide>
-                {/* <SwiperSlide className="slide">
+                 <SwiperSlide className="slide">
                     <div className="testimonial-block-two">
                         <figure className="thumb-box"><img src="assets/images/resource/testimonial-3.jpg" alt="" /></figure>
                         <div className="inner-box">
@@ -125,7 +125,7 @@ export default function TestimonialSlider0() {
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className="slide">
+             {/*   <SwiperSlide className="slide">
                     <div className="testimonial-block-two">
                         <figure className="thumb-box"><img src="assets/images/resource/testimonial-4.jpg" alt="" /></figure>
                         <div className="inner-box">

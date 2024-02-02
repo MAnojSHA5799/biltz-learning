@@ -5,7 +5,7 @@ import CounterUp from "../../elements/CounterUp.js";
 export default function Funfacts() {
     return (
         <>        
-            <section className="funfact-section centred">
+            <section className="funfact-section centred mb-0">
                 <div className="auto-container">
                 <p className="mb-4">Where excellence, creativity, and learner-centric approaches converge. We aspire to be the driving force that inspires transformation in mindset, actions, performance, and the motivation for improvement within your organization.
 </p>

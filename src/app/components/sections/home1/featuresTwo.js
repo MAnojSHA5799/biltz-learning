@@ -39,8 +39,8 @@ export default function Features() {
                             <figure className="image-box"><img src="/assets/images/ContentServices.jpg" alt="" /></figure>
                             <div className="lower-content">
                             <div className="icon-box"><i className="icon-8"></i></div>
-                            <h3><Link href="/">Stories That Shifts Perspective</Link></h3>
-                            <p>We don’t just deliver training. We tell stories that transform dry content into profound storytelling that  drives learners.</p>
+                            <h3><Link href="/">Stories that shift perspective</Link></h3>
+                            <p>We don’t just deliver training. We tell stories that transform dry content into profound storytelling that drives learners.</p>
                             <br />
                             <br />
                             <br />
@@ -55,8 +55,8 @@ export default function Features() {
                             <figure className="image-box"><img src="/assets/images/LearningConsulting.jpg" alt="" /></figure>
                             <div className="lower-content">
                             <div className="icon-box"><i className="icon-9"></i></div>
-                            <h3><Link href="/">Translating Learning Exercise Into Long Term Knowledge</Link></h3>
-                            <p>We are deeply embedded inside industries at the edge of transformation. During these critical periods, and all of the ones in between, clients trust us to help them translate their learning exercises into long term knowledge repository.</p>
+                            <h3><Link href="/">Translating learning exercise into long-term knowledge</Link></h3>
+                            <p>We are deeply embedded inside industries at the edge of transformation. During these critical periods, and all the ones in between, clients trust us to help them translate their learning exercises into long-term knowledge repositories.</p>
                             
                          
                             </div>

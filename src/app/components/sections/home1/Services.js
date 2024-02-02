@@ -50,7 +50,7 @@ export default function Pricing() {
                                 </div>
                                 <div className="overlay-content">
                                 {/* <h3><Link href="/program-manager">Program Manager</Link></h3> */}
-                                <p>We have been growing at over 150% from past 9 years of our incorporation. The growth is attributed to 95% repeat business.</p>
+                                <p>We have been growing at over 150% in the past 9 years of our incorporation. The growth is attributed to 95% repeat business.</p>
                                 {/* <div className="btn-box">
                                     <Link href="/program-manager" className="theme-btn-one">Read More</Link>
                                 </div> */}
@@ -70,7 +70,8 @@ export default function Pricing() {
                                 <div className="overlay-content">
                                 <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-7.png)' }}></div>
                                 {/* <h3><Link href="/tax-management">Tax Management</Link></h3> */}
-                                <p>We provide extended support for up to 3 months for any course that we create. This includes minor changes and updates without any charge up to 3 sprints. We provide the source file along with the SCORM published file which is included in the project price agreed upon.</p>
+                                <p>We provide extended support for up to 3 months for any course that we create. This includes minor changes and updates without any charge for up to three sprints. We provide the source file along with the SCORM published file, which is included in the project price agreed upon.
+</p>
                                 <div className="btn-box">
                                     {/* <Link href="/tax-management" className="theme-btn-one">Read More</Link> */}
                                 </div>

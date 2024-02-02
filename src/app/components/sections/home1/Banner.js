@@ -45,7 +45,7 @@ export default function Banner() {
                             <div className="content-box">
                             <div className="content-inner">
                                 {/* <span>Customized Learning</span> */}
-                                <h2>Full service creative learning consulting and advisory firm</h2>
+                                <h2>Full-service creative learning consulting and advisory firm</h2>
                                 <p>We specialize in industries facing knowledge retention challenges and disruption.</p>
                                 <Link href="/about-us" className="theme-btn-one">Discover More</Link>
                             </div>
@@ -63,7 +63,7 @@ export default function Banner() {
                             <div className="content-inner">
                                 {/* <span>Change The World</span> */}
                                 <h2>We are catalysts of knowledge retention</h2>
-                                <p>We are catalysts of knowledge retention helping clients translate learning and development efforts into knowledge repositories through scientific and strategic learning mechanism.</p>
+                                <p>We are catalysts of knowledge retention, helping clients translate learning and development efforts into knowledge repositories through scientific and strategic learning mechanisms.</p>
                                 <Link href="/about-us" className="theme-btn-one">Discover More</Link>
                             </div>
                             </div>

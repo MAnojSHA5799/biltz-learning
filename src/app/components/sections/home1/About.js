@@ -9,8 +9,8 @@ export default function About() {
                     <div className="col-lg-4 col-md-12 col-sm-12 image-column">
                         <div className="image_block_one">
                         <div className="image-box p_relative pr_50 mr_30">
-                            <figure className="image image-1"><img src="/assets/images/about us 550x550.jpg" alt="" /></figure>
-                            <figure className="image image-2"><img src="/assets/images/about_us_350x250.jpg" alt="" /></figure>
+                            <figure className="image image-1"><img src="/assets/images/aboutus-1.jpg" alt="" /></figure>
+                            {/* <figure className="image image-2"><img src="/assets/images/about_us_350x250.jpg" alt="" /></figure> */}
                             <div className="video-inner">
                                 <div className="video-btn">
                                     {/* <VideoPopup /> */}
@@ -22,11 +22,11 @@ export default function About() {
                     <div className="col-lg-8 col-md-12 col-sm-12 content-column">
                         <div className="content_block_one">
                         <div className="content-box p_relative ml_30">
-                            <div className="sec-title mb_25">
+                            <div className="sec-title mb-3">
                             <span className="sub-title">About  Blitz Learning Technologies</span>
                             <h2>We are the Ultimate Learning Partner for your Training Needs</h2>
                             </div>
-                            <div className="text mb_35">
+                            <div className="text mb-2">
                             <p>Founded in 2016, Blitz Learning Technologies was established with a goal to provide the highest quality eLearning content for an immersive experience.</p>
                             </div>
                             <div className="text mb_35">
