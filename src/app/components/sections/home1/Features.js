@@ -125,7 +125,7 @@ export default function Features() {
               >
                 <div className="inner-box">
                   <figure className="image-box">
-                    <img src="assets/images/resource/feature-3.jpg" alt="" />
+                    <img src="/assets/images/services/VideoProduction.jpg" alt="" />
                   </figure>
                   <div className="lower-content">
                     <div className="icon-box">
