@@ -25,7 +25,7 @@ export default function Features() {
                         <div className="inner-box">
                             <figure className="image-box"><img src="/assets/images/Custome-learning.jpg" alt="" /></figure>
                             <div className="lower-content">
-                            <div className="icon-box"><i className="icon-7"></i></div>
+                            <div className="icon-box"><i className="icon-27"></i></div>
                             <h3><Link href="/">Training Whitespaces Unearthed</Link></h3>
                             <p>We are a catalyst for training effectiveness. As L&D disruption scrambles the puzzle pieces across key industries, our agile approach and analytic craftsmanship help reassemble the way forward quickly and innovatively, so you can confidently keep moving.</p>
                            

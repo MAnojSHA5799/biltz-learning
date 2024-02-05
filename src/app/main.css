@@ -357,6 +357,8 @@
 .image_block_one .image-box .image-1{
 	position: relative;
 	overflow: hidden;
+	background-color: #3786ff;
+
 }
 
 .image_block_one .image-box .image-1:before{
