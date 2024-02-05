@@ -53,10 +53,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                             </nav>
                         </div>
                         <ul className="menu-right-content">
-                            <li className="search-box-outer search-toggler" onClick={handlePopup}><i className="icon-4"></i></li>
+                            {/* <li className="search-box-outer search-toggler" onClick={handlePopup}><i className="icon-4"></i></li>
                             <li className="btn-box">
                             <Link href="/contact">Free Consulting</Link>
-                            </li>
+                            </li> */}
                         </ul>
                         </div>
                     </div>
@@ -81,12 +81,12 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                             </nav>
                             </div>
                             <ul className="menu-right-content">
-                            <li className="search-box-outer search-toggler" onClick={handlePopup}>
+                            {/* <li className="search-box-outer search-toggler" onClick={handlePopup}>
                                 <i className="icon-4"></i>
                             </li>
                             <li className="btn-box">
                                 <Link href="/contact">Free Consulting</Link>
-                            </li>
+                            </li> */}
                             </ul>
                         </div>
                     </div>

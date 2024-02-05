@@ -32,7 +32,7 @@ export default function Home() {
         <>
             <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="About Us">
                 {/* about-section */}
-                <section className="about-section p_relative pb-0">
+                <section className="about-section p_relative pb-0 mt-5">
                     <div className="auto-container">
                         <div className="row clearfix">
                         <div className="col-lg-6 col-md-12 col-sm-12 image-column">

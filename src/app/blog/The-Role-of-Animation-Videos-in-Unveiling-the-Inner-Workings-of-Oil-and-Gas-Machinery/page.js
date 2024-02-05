@@ -200,9 +200,7 @@ export default function Home() {
                             <i className="icon-47"></i>
                           </div>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit amet sit purus tempor dui consequat nibh elit
-                            urna interdum.
+                          As a Digital Tech professional with significant experience, Neha Tyagi has mastered the art of teamwork. Throughout her career, she maintains a commitment to continuous learning. Currently, Neha is delving into innovative technologies aimed at transforming businesses.
                           </p>
                           <h4>Neha Tyagi</h4>
                         </blockquote>
@@ -230,14 +228,12 @@ export default function Home() {
                   </div>
                   <div className="author-box">
                     <figure className="author-thumb">
-                      <img src="/assets/images/news/author-1.jpg" alt="" />
+                      <img src="/assets/images/blog-author/neha.jpg" alt="" />
                     </figure>
                     <h3>Neha Tyagi</h3>
                     <span className="designation">About Author</span>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                      amet sit purus tempor dui pharetra consequat nibh elit
-                      urna interdum viera quam.
+                    As a Digital Tech professional with significant experience, Neha Tyagi has mastered the art of teamwork. Throughout her career, she maintains a commitment to continuous learning. Currently, Neha is delving into innovative technologies aimed at transforming businesses.
                     </p>
                   </div>
                   <div className="comment-form-area">
@@ -337,7 +333,7 @@ export default function Home() {
                       </ul>
                     </div>
                   </div> */}
-                  <div className="sidebar-widget post-widget">
+                 <div className="sidebar-widget post-widget">
                     <div className="widget-title">
                       <h3>Recent Article</h3>
                     </div>
@@ -345,12 +341,12 @@ export default function Home() {
                       <div className="post">
                         <figure className="post-thumb">
                           <Link href="/blog">
-                            <img src="/assets/images/news/post-1.jpg" alt="" />
+                            <img src="/assets/images/Blog/blogimage.jpg" alt="" />
                           </Link>
                         </figure>
                         <h5>
                           <Link href="/blog">
-                            How to Manage Online Business’s
+                          Where is e-Learning headed in 2024 and beyond?
                           </Link>
                         </h5>
                         <span className="post-date">Apr 17, 2022</span>
@@ -358,12 +354,12 @@ export default function Home() {
                       <div className="post">
                         <figure className="post-thumb">
                           <Link href="/blog">
-                            <img src="/assets/images/news/post-2.jpg" alt="" />
+                            <img src="/assets/images/Blog/blogimage2.jpg" alt="" />
                           </Link>
                         </figure>
                         <h5>
                           <Link href="/blog">
-                            Your Business is Ready For Integration
+                          Efficient e-Learning Development: Accelerating Your Path to Success
                           </Link>
                         </h5>
                         <span className="post-date">Apr 16, 2022</span>
@@ -371,19 +367,19 @@ export default function Home() {
                       <div className="post">
                         <figure className="post-thumb">
                           <Link href="/blog">
-                            <img src="/assets/images/news/post-3.jpg" alt="" />
+                            <img src="/assets/images/Blog/blogimage3.jpg" alt="" />
                           </Link>
                         </figure>
                         <h5>
                           <Link href="/blog">
-                            Ensure that Copies of Documents
+                          Unlock your potential through e-learning for Logistics and Supply Chain Management
                           </Link>
                         </h5>
                         <span className="post-date">Apr 15, 2022</span>
                       </div>
                     </div>
                   </div>
-                  <div className="sidebar-widget tags-widget">
+                  {/* <div className="sidebar-widget tags-widget">
                     <div className="widget-title">
                       <h3>Popular Tags</h3>
                     </div>
@@ -415,7 +411,7 @@ export default function Home() {
                         </li>
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
