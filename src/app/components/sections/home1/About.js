@@ -18,7 +18,15 @@ export default function About() {
                     playsInline
                     preload="false"
                     src="/assets/animations/Animation-1.mp4/"
-                    style={{ width: '400px', height: '50%' }}
+                    // style={{ width: '400px', height: '40%',}}
+                style={{
+                    width: '100%', // Default width for mobile
+                    height: 'auto', // Default height for mobile
+                    '@media (min-width: 768px)': { // Adjustments for desktop screens
+                      width: '50%', // Set width for desktop
+                      height: 'auto', // Adjust height accordingly
+                    },
+                  }}
                   />
                   {/* <figure className="image image-2"><img src="/assets/images/about_us_350x250.jpg" alt="" /></figure> */}
                   <div className="video-inner">

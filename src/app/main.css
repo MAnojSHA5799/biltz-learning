@@ -352,12 +352,14 @@
 .image_block_one .image-box .image img{
 	width: 100%;
 	border-radius: 10px;
+	
 }
 
 .image_block_one .image-box .image-1{
 	position: relative;
 	overflow: hidden;
 	background-color: #3786ff;
+	
 
 }
 
@@ -490,6 +492,7 @@
 	display: block;
 	overflow: hidden;
 	border-radius: 10px;
+	
 }
 
 .image_block_two .image-box .image:before{
@@ -651,9 +654,17 @@
 	font-weight: 700;
 	color: #fff;
 }
+.animation-1{
+	width: '100%';
+    height: 'auto'; 
+}
 
-
-
+@media (min-width: 768px) {
+	.image.image-1 {
+	  width: 50%; /* Set width for desktop */
+	  height: auto; /* Adjust height accordingly */
+	}
+  }
 
 
 
