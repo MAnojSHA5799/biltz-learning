@@ -155,7 +155,7 @@ export default function Services() {
                       <div className="text">
                         <h2>Strategic Learning Partnership with Training Technology</h2>
                         <p>
-                        Our learning consulting services focus on aligning education strategies with business goals, creating a seamless bridge between learning and organizational success, leveraging cutting-edge training technology.
+                        Our learning consulting services focus on aligning education strategies with business goals, creating a seamless bridge between learning and organizational success, and leveraging cutting-edge training technology.
                         </p>
                         {/* <p>
                                   Fringilla mauris magna sit elementum elit. Facilisi lacus, pharetra
@@ -217,8 +217,7 @@ export default function Services() {
                               <i className="icon-8"></i>
                             </div>
                             <h3>Learning effectiveness strategy</h3>
-                            <p>our expertise in designing learner-centric solutions, we understand how to cultivate and effective, engaging and result-driven learning environment using tested and trusted
-frameworks designed by industry veterans.
+                            <p>With our expertise in designing learner-centric solutions, we understand how to cultivate an effective, engaging, and result-driven learning environment using tested and trusted frameworks designed by industry veterans.
                             </p>
                             <br />
                           </div>
@@ -230,8 +229,7 @@ frameworks designed by industry veterans.
                             </div>
                             <h3>Learning execution strategy</h3>
                             <p>
-                            Blitz Learning’s domain-specific Learning Consultants conduct workshops in close collaboration with SMEs to identify the existing
-gaps, analyze existing infrastructure and thereby draft the right training strategy.
+                            Blitz Learning’s domain-specific learning consultants conduct workshops in close collaboration with SMEs to identify existing gaps, analyze existing infrastructure, and thereby draft the right training strategy.
                               <br />
                             </p>
                            
@@ -255,7 +253,7 @@ gaps, analyze existing infrastructure and thereby draft the right training strat
                       </div>
                       <div className="text mt_50">
                         <p>
-                        With our expertise in designing learner-centric solutions, we offer learning consulting to L&D departments in order to optimize actionable touch points of their L&D strategy.
+                        With our expertise in designing learner-centric solutions, we offer learning consulting to L&D departments to optimize actionable touch points of their L&D strategy.
                         </p>
                       </div>
                     </div>

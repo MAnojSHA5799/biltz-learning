@@ -211,7 +211,7 @@ export default function Services() {
                                       <i className="icon-8"></i>
                                     </div>
                                     <h3>Sales Coaching</h3>
-                                    <p>With a dedicated VR/AR team, Blitz Learning uses best in class 3D and special effects tools to design cross-platform VR solutions that simulate real-life scenarios for enhanced Learner engagement.</p>
+                                    <p>With a dedicated VR/AR team, Blitz Learning uses best-in-class 3D and special effects tools to design cross-platform VR solutions that simulate real-life scenarios for enhanced learner engagement.</p>
                                   </div>
                                 </div>
                                 
@@ -230,7 +230,7 @@ export default function Services() {
                                       <i className="icon-8"></i>
                                     </div>
                                     <h3>Mobile Learning</h3>
-                                    <p>Blitz Learning develops mobile training content across all platforms (iOS, Android,Windows) with interactive functionalities.</p>
+                                    <p>Blitz Learning creates interactive mobile training materials for all operating systems (Windows, iOS, and Android).</p>
                                   </div>
                                 </div>
 
@@ -246,7 +246,7 @@ export default function Services() {
                               </div>
                               <div className="text mt_50">
                                 <p>
-                                BlitzLearning is a leading e-learning platform that goal to provide the highest quality eLearning content for an immersive experience..
+                                Blitz Learning is a leading e-Learning platform that develops engaging, innovative, and cost-effective digital learning products to help clients increase their efficiency.
                                 </p>
                               </div>
                             </div>
@@ -267,7 +267,7 @@ export default function Services() {
                             <div className="sec-title mb_30">
                             <span className="sub-title">Why Work With Us?</span>
                             <h2>Trusted by some of the biggest brands…</h2>
-                            <p>BlitzLearning is a leading e-learning platform that goal to provide the highest quality eLearning content for an immersive experience.</p>
+                            <p>Blitz Learning is a leading e-Learning platform that provides the highest quality e-Learning content for an immersive experience.</p>
                             </div>
                             {/* <div className="progress-inner">
                             <div className="progress-box mb_30">

@@ -154,11 +154,7 @@ export default function Services() {
                       <div className="text">
                         <h2>Tailored Learning Modules with Content Services</h2>
                         <p>
-                          Our content team tailors content to match every
-                          requirement by using rich media; Our localization
-                          services for eLearning projects can help you translate
-                          and localize your content including text translation
-                          and audio recording.
+                        Our content team tailors content to match every requirement by using rich media. Our localization services for eLearning projects can help you translate and localize your content, including text translation and audio recording.
                         </p>
                         {/* <p>
                                   Fringilla mauris magna sit elementum elit. Facilisi lacus, pharetra
@@ -208,9 +204,7 @@ export default function Services() {
                             </div>
                             <h3>Authoring & Enrichment</h3>
                             <p>
-                              We provide high-quality writing and editorial
-                              services, marketing content management with the
-                              help of our content specialists– in any language.
+                            We provide high-quality writing and editorial services and marketing content management with the help of our content specialists, in any language.
                             </p>
                             <br />
                           </div>
@@ -238,14 +232,7 @@ export default function Services() {
                             </div>
                             <h3>Review and Summary</h3>
                             <p>
-                              You give us content and we will summarize it, for
-                              any industry.Our empaneled SMEs include
-                              researchers, academicians, software engineers, and
-                              PhDs in many academic disciplines.They review any
-                              kind of document and extract the relevant
-                              information, summarize it, and deliver those
-                              summaries in print, electronic, and mobile
-                              formats.
+                            You give us content, and we will summarize it for any industry. Our empaneled SMEs include researchers, academicians, software engineers, and PhDs in many academic disciplines. They review any kind of document and extract the relevant information, summarize it, and deliver those summaries in print, electronic, and mobile formats.
                               <br />
                             </p>
                            
@@ -261,21 +248,14 @@ export default function Services() {
                             </div>
                             <h3>Research and Report</h3>
                             <p>
-                              Our subject matter experts (SMEs) locate key
-                              information and assemble quality data from
-                              in-depth research on credible information sources
-                              (web pages, databases). We then synthesize that
-                              data into easy-to-comprehend reports, white
-                              papers, and databases with clear insights and
-                              knowledge to help you make informed business
-                              decisions.
+                            Our subject-matter experts (SMEs) locate key information and assemble quality data from in-depth research on credible information sources (web pages, databases). We then synthesize that data into easy-to-comprehend reports, white papers, and databases with clear insights and knowledge to help you make informed business decisions.
                             </p>
                           </div>
                         </div>
                       </div>
                       <div className="text mt_50">
                         <p>
-                        Blitz Learning develops mobile training content across all platforms (iOS, Android, Windows) with interactive functionalities..
+                        Blitz Learning develops mobile training content across all platforms (iOS, Android, and Windows) with interactive functionalities….
                         </p>
                       </div>
                     </div>
