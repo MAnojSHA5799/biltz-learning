@@ -73,7 +73,7 @@ export default function Home() {
                                     </div>
                                 </div> */}
                                  <video
-                    className="image image-1"
+                    className="image"
                     loop
                     muted
                     autoPlay
@@ -81,14 +81,7 @@ export default function Home() {
                     preload="false"
                     src="/assets/animations/Animation-1.mp4/"
                     // style={{ width: '400px', height: '40%',}}
-                style={{
-                    width: '120%', // Default width for mobile
-                    height: 'auto', // Default height for mobile
-                    '@media (min-width: 768px)': { // Adjustments for desktop screens
-                      width: '50%', // Set width for desktop
-                      height: 'auto', // Adjust height accordingly
-                    },
-                  }}
+                
                   />
 
                             </div>
