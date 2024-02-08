@@ -17,9 +17,14 @@ export default function About() {
                     autoPlay
                     playsInline
                     preload="false"
-                    src="/assets/animations/Animation-1.mp4/"
-                    // style={{ width: '400px', height: '40%',}}
-                  />
+                    width="400"
+                    height="40%"
+                  >
+                    <source
+                      src="/assets/animations/Animation-1.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
                   {/* <figure className="image image-2"><img src="/assets/images/about_us_350x250.jpg" alt="" /></figure> */}
                   <div className="video-inner">
                     <div className="video-btn">{/* <VideoPopup /> */}</div>

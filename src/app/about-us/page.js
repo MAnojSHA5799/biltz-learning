@@ -72,17 +72,21 @@ export default function Home() {
                                         <VideoPopup />
                                     </div>
                                 </div> */}
-                                 <video
+                                <video
                     className="image"
                     loop
                     muted
                     autoPlay
                     playsInline
                     preload="false"
-                    src="/assets/animations/Animation-1.mp4/"
-                    // style={{ width: '400px', height: '40%',}}
-                
-                  />
+                    width="400"
+                    height="40%"
+                  >
+                    <source
+                      src="/assets/animations/Animation-1.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
 
                             </div>
                             </div>
