@@ -1,6 +1,7 @@
 import Link from "next/link"
 import '../../../main.css'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee, faHandSparkles, faHome } from '@fortawesome/free-solid-svg-icons';
 export default function Features() {
     return (
         <>
@@ -25,7 +26,11 @@ export default function Features() {
                         <div className="inner-box">
                             <figure className="image-box"><img src="/assets/images/Custome-learning.jpg" alt="" /></figure>
                             <div className="lower-content">
-                            <div className="icon-box"><i className="icon-27"></i></div>
+                            <div className="icon-box">
+                            <div style={{ width: '50px', height: '8px', padding: '1px', marginLeft: '14px', marginTop: '-6px' }}>
+      <FontAwesomeIcon icon={faHandSparkles} />
+    </div>
+                            </div>
                             <h3><Link href="/">Training Whitespaces Unearthed</Link></h3>
                             <p>We are a catalyst for training effectiveness. As L&D disruption scrambles the puzzle pieces across key industries, our agile approach and analytic craftsmanship help reassemble the way forward quickly and innovatively, so you can confidently keep moving.</p>
                            

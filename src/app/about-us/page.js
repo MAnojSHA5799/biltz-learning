@@ -5,17 +5,44 @@ import Layout from "../components/layout/Layout"
 import TestimonialSlider0 from '../components/slider/TestimonialSlider0'
 import AwardSlider1 from '../components/slider/AwardSlider1'
 import Link from "next/link"
-import { useState } from 'react'
 import ReactCurvedText from 'react-curved-text'
 import ModalVideo from 'react-modal-video'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import { useState, useEffect } from 'react'
+
 import '../main.css'
 export default function Home() {
     const [isOpen, setOpen] = useState(false)
+    const [slidesToShow, setSlidesToShow] = useState(4);
     const [isActive, setIsActive] = useState({
         status: false,
         key: 1,
     })
+    useEffect(() => {
+        // Adjust slidesToShow based on screen width
+        const handleResize = () => {
+            if (window.innerWidth < 768) {
+                setSlidesToShow(2); // For mobile view, show 1 slide at a time
+            } else if (window.innerWidth < 992) {
+                setSlidesToShow(2); // For tablet view, show 2 slides at a time
+            } else {
+                setSlidesToShow(4); // For desktop view, show 4 slides at a time
+            }
+        };
 
+        // Initial call to set initial slidesToShow based on screen width
+        handleResize();
+
+        // Attach event listener for window resize
+        window.addEventListener('resize', handleResize);
+
+        // Clean up the event listener on component unmount
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
     const handleToggle = (key) => {
         if (isActive.key === key) {
             setIsActive({
@@ -72,23 +99,22 @@ export default function Home() {
                             <div className="content-box p_relative ml_30">
                                 <div className="sec-title mb-1">
                                 <span className="sub-title">About  Blitz Learning Technologies</span>
-                                <h2>We are the Ultimate Learning Partner for your Training Needs</h2>
+                                <h2>Dedicated And Professional Consulting Services</h2>
                                 </div>
                                 <div className="text mb_35">
-                                <p>Founded in 2016, Blitz Learning Technologies was established with a goal to provide the highest quality eLearning content for an immersive experience.</p>
-                                <br />
-                                <p>The founders of Blitz Learning Technologies identified the gaps in client delivery and decided to create a mechanism of extremely customized client delivery.</p>
+                                <p>Blitz Learning Technologies, established in 2016, exemplifies dedication and professionalism, delivering premier e-learning services worldwide. Our innovative approach and research-driven solutions cater to diverse organizational needs, offering unparalleled quality and effectiveness with expertise in highly customized client delivery and localization in over 35 languages.</p>
+                              
                                 </div>
                                 <div className="inner-box mb_35">
                                 <div className="single-item">
                                     <div className="icon-box"><i className="icon-11"></i></div>
-                                    <h3>Measurable Performance</h3>
-                                    <p>Putting people at the center of transformation to improve employee.</p>
+                                    <h3>Solution Focused</h3>
+                                    <p>We prioritize crafting meaningful and engaging learning experiences that captivate individuals at every stage of their learning journey.</p>
                                 </div>
                                 <div className="single-item">
                                     <div className="icon-box"><i className="icon-11"></i></div>
-                                    <h3>Intuitive Learning</h3>
-                                    <p>Designing meaningful & engaging learning experiences that attract and engage employees across every stage in the learning journey.</p>
+                                    <h3>99.99% Success</h3>
+                                    <p>Consistent ability to deliver the fastest, most accurate, and most engaging learning experience.</p>
                                 </div>
                                 </div>
                                 {/* <figure className="signature"><img src="assets/images/icons/signature-1.png" alt="" /></figure> */}
@@ -218,17 +244,72 @@ export default function Home() {
 
 
                 {/* clients-section */}
-                <section className="clients-section p_relative bg-color-2">
-                    <div className="auto-container">
-                        <div className="inner-box">
-                            <figure className="clients-logo"><Link href="/about-us"><img src="assets/images/clients/client-1.jpg" alt="" /></Link></figure>
-                            <figure className="clients-logo"><Link href="/about-us"><img src="assets/images/clients/client-2.png" alt="" /></Link></figure>
-                            <figure className="clients-logo"><Link href="/about-us"><img src="assets/images/clients/client-3.jpg" alt="" /></Link></figure>
-                            <figure className="clients-logo"><Link href="/about-us"><img src="assets/images/clients/client-4.jpg" alt="" /></Link></figure>
-                            <figure className="clients-logo"><Link href="/about-us"><img src="assets/images/clients/client_3.jpg" alt="" /></Link></figure>
-                        </div>
-                    </div>
-                </section>
+                <section className="clients-section p_relative mb-0 pb-2 pt-5">
+      <div className="auto-container">
+      <Slider
+                    infinite={true}
+                    speed={500}
+                    slidesToShow={slidesToShow}
+                    slidesToScroll={1}
+                >
+          <div className="inner-box">
+            <figure className="clients-log">
+              <Link href="/">
+                <img
+                  src="assets/images/clients/client-1.jpg"
+                  alt=""
+                  className="img-fluid"
+                />
+              </Link>
+            </figure>
+          </div>
+          <div className="inner-box">
+            <figure className="clients-log">
+              <Link href="/">
+                <img
+                  src="assets/images/clients/client-2.png"
+                  alt=""
+                  className="img-fluid"
+                />
+              </Link>
+            </figure>
+          </div>
+          <div className="inner-box">
+            <figure className="clients-log">
+              <Link href="/">
+                <img
+                  src="assets/images/clients/client-3.jpg"
+                  alt=""
+                  className="img-fluid"
+                />
+              </Link>
+            </figure>
+          </div>
+          <div className="inner-box">
+            <figure className="clients-log">
+              <Link href="/">
+                <img
+                  src="assets/images/clients/client-4.jpg"
+                  alt=""
+                  className="img-fluid"
+                />
+              </Link>
+            </figure>
+          </div>
+          <div className="inner-box">
+            <figure className="clients-log">
+              <Link href="/">
+                <img
+                  src="assets/images/clients/client_3.jpg"
+                  alt=""
+                  className="img-fluid"
+                />
+              </Link>
+            </figure>
+          </div>
+        </Slider>
+      </div>
+    </section>
                 {/* clients-section end */}
 
 
