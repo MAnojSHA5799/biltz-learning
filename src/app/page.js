@@ -29,8 +29,8 @@ export default function Home() {
                  <Process />
                 <Funfacts />
                 <Expertise /> 
-                <About />
-                <WhychooseusTwo />
+                {/* <About />
+                <WhychooseusTwo /> */}
                 {/* <BannerTwo /> */}
                 {/* <News />   */}
             </Layout>

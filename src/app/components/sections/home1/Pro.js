@@ -63,7 +63,7 @@ export default function Pro() {
                             <figure className="image-box"><img src="/assets/images/SupportFunctions.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-9"></i></div> */}
-                            <h3><Link href="/">Support Functions</Link></h3>
+                            <h3><Link href="/">Support functions</Link></h3>
                             <p>We design customer service training to meet four universal needs: consistency, responsiveness, personalization, and convenience.</p>
                             </div>
                         </div>

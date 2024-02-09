@@ -146,6 +146,7 @@ export default function MobileMenu({
                   <Link href="/about-us">About US</Link>
 
                 </li>
+                <li className=""><Link href="/why-us">Why Us</Link></li>
                 <li>
                   <Link href="/blog">Blog</Link>
                 </li>

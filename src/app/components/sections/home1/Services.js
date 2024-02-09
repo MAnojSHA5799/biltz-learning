@@ -14,8 +14,8 @@ export default function Pricing() {
                 <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-12.png)' }}></div>
                 <div className="auto-container">
                     <div className="sec-title mb_70">
-                    <span className="sub-title">Key Advantages</span>
-                    <h2>Generating New Ideas. Solving Big Problems</h2>
+                    <span className="sub-title">Key advantages</span>
+                    <h2>Generating new ideas. solving big problems</h2>
                     </div>
                     <div className="row clearfix">
                         <div className="col-lg-4 col-md-6 col-sm-12 service-block">
@@ -24,7 +24,7 @@ export default function Pricing() {
                                 <div className="static-content">
                                 <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-4.png)' }}></div>
                                 <div className="icon-box"><i className="icon-7"></i></div>
-                                <h3><Link href="/">Measurable Cost Advantage</Link></h3>
+                                <h3><Link href="/">Measurable cost advantage</Link></h3>
                                 {/* <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p> */}
                                 </div>
                                 <div className="overlay-content">
@@ -43,7 +43,7 @@ export default function Pricing() {
                             <div className="inner-box">
                                 <div className="static-content">
                                 <div className="icon-box"><i className="icon-7"></i></div>
-                                <h3><Link href="/program-manager">Proven Growth Record</Link></h3>
+                                <h3><Link href="/program-manager">Proven growth record</Link></h3>
                                 <br />
                                 <br />
                                 {/* <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p> */}
@@ -82,7 +82,7 @@ export default function Pricing() {
                     {/* Repeat the above service-block structure for other services */}
                     </div>
                     <div className="more-btn mt_20">
-                    <Link href="/about-us" className="theme-btn-one">More Services</Link>
+                    <Link href="/about-us" className="theme-btn-one">See more </Link>
                     </div>
                 </div>
             </section>

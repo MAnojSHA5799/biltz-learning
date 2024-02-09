@@ -6,8 +6,8 @@ export default function Process() {
             <section className="working-process-section pt-3 pb-5 centred">
                 <div className="auto-container">
                     <div className="sec-title mb_100">
-                    <span className="sub-title">Working Process</span>
-                    <h2>3 Easy Steps to Get Quick Help</h2>
+                    <span className="sub-title">Working process</span>
+                    <h2>3 Easy steps to get quick help</h2>
                     </div>
                     <div className="inner-container">
                     <div className="working-block-one">
@@ -18,7 +18,7 @@ export default function Process() {
                         </div>
                         <div className="text">
                             <div className="inner">
-                            <h3>Fill In The Required Form</h3>
+                            <h3>Fill in the required form</h3>
                             <p>Amet minim mollit no duis deserunt ulamco.</p>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ export default function Process() {
                         </div>
                         <div className="text">
                             <div className="inner">
-                            <h3>Submit <br />Your Documents</h3>
+                            <h3>Submit <br />Your documents</h3>
                             <p>Amet minim mollit no duis deserunt ulamco.</p>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ export default function Process() {
                         </div>
                         <div className="text">
                             <div className="inner">
-                            <h3>Get Ready To <br />Receive your Visa</h3>
+                            <h3>Get ready to <br />Receive your visa</h3>
                             <p>Amet minim mollit no duis deserunt ulamco.</p>
                             </div>
                         </div>

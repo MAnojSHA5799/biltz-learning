@@ -18,7 +18,7 @@ export default function Features() {
         <div className="auto-container">
           <div className="sec-title mb_50">
             <span className="sub-title pt-3">
-              Elevating Learning Experiences with e-Learning Development
+              Elevating learning experiences with e-Learning development
             </span>
             <p>
               {/* <br />Blitz Learning Technologies. */}
@@ -28,7 +28,7 @@ export default function Features() {
               knowledge retention through creative strategies. We advise,
               consult, and design with a purpose of addressing complex
               challenges that require an agile approach and have a wide-reaching
-              solution
+              solution.
             </p>
           </div>
           <div className="row clearfix">
@@ -76,7 +76,7 @@ export default function Features() {
                     </div>
                     <h3>
                       <Link href="/Services/Content-Services">
-                        Content Services
+                      Content services
                       </Link>
                     </h3>
                     <p>
@@ -84,6 +84,33 @@ export default function Features() {
                       advance skills, improve performance, and get results.
                     </p>
                     <br/>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+            <div className="col-lg-3 col-md-6 col-sm-12 feature-block">
+              <div
+                className="feature-block-one wow fadeInUp animated"
+                data-wow-delay="600ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="inner-box">
+                  <figure className="image-box">
+                    <img src="/assets/images/services/VideoProduction.jpg" alt="" />
+                  </figure>
+                  <div className="lower-content">
+                    <div className="icon-box">
+                      <i className="icon-9"></i>
+                    </div>
+                    <h3>
+                      <Link href="/">Video production</Link>
+                    </h3>
+                    <p>
+                      We specialize in analyzing your current learning gaps and
+                      designing effective roadmaps to address those gaps to
+                      drive measurable results.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -104,7 +131,7 @@ export default function Features() {
                     </div>
                     <h3>
                       <Link href="/Services/learning-consulting">
-                        Learning Consulting
+                      Learning consulting
                       </Link>
                     </h3>
                     <p>
@@ -113,32 +140,6 @@ export default function Features() {
                       seamless bridge.
                     </p>
                     
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-12 feature-block">
-              <div
-                className="feature-block-one wow fadeInUp animated"
-                data-wow-delay="600ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="inner-box">
-                  <figure className="image-box">
-                    <img src="/assets/images/services/VideoProduction.jpg" alt="" />
-                  </figure>
-                  <div className="lower-content">
-                    <div className="icon-box">
-                      <i className="icon-9"></i>
-                    </div>
-                    <h3>
-                      <Link href="/">Video Production</Link>
-                    </h3>
-                    <p>
-                      We specialize in analyzing your current learning gaps and
-                      designing effective roadmaps to address those gaps to
-                      drive measurable results.
-                    </p>
                   </div>
                 </div>
               </div>

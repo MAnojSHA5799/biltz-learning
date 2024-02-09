@@ -13,8 +13,7 @@ export default function Features() {
                 </div>
                 <div className="auto-container">
                     <div className="sec-title mb_50">
-                    <span className="sub-title pt-3">We are catalysts of knowledge retention
-</span>
+                    <span className="sub-title pt-3">We are catalysts of knowledge retention</span>
                     {/* <h2> 
                         Unleashing the Power of Customization
                         </h2> */}
@@ -31,7 +30,7 @@ export default function Features() {
       <FontAwesomeIcon icon={faHandSparkles} />
     </div>
                             </div>
-                            <h3><Link href="/">Training Whitespaces Unearthed</Link></h3>
+                            <h3><Link href="/">Training whitespaces unearthed</Link></h3>
                             <p>We are a catalyst for training effectiveness. As L&D disruption scrambles the puzzle pieces across key industries, our agile approach and analytic craftsmanship help reassemble the way forward quickly and innovatively, so you can confidently keep moving.</p>
                            
                             </div>

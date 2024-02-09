@@ -184,7 +184,7 @@ export default function Cases() {
                 <div className="auto-container">
                     <div className="sec-title mb_50">
                     <span className="sub-title">Projects</span>
-                    <h2>Recent Projects We’ve Completed For Our Clients</h2>
+                    <h2>Recent projects we’ve completed for our clients</h2>
                     </div>
                     <div className="row clearfix">
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
@@ -193,7 +193,7 @@ export default function Cases() {
                             <figure className="image-box"><img src="/assets/images/our-works/our-work-11.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-7"></i></div> */}
-                            <h3><Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training">Web-Based Training And Online Portal|Lms|Sales Academy Training</Link></h3>
+                            <h3><Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training">Web-Based Training And Online Portal|Lms|Sales Academy Traning</Link></h3>
                             <p>Branding, Design</p>
                           
                             </div>
@@ -246,7 +246,7 @@ export default function Cases() {
                             <figure className="image-box"><img src="/assets/images/our-works/our-work-55.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-9"></i></div> */}
-                            <h3><Link href="/our-works/web-based-training-and-localization-product-training">Web-Based Training And Localization| Product Tranining</Link></h3>
+                            <h3><Link href="/our-works/web-based-training-and-localization-product-training">Web-Based Training And Localization| Product Training</Link></h3>
                             <p>Branding, Design</p>
                             <br />
                             </div>
@@ -260,7 +260,7 @@ export default function Cases() {
                             <figure className="image-box"><img src="/assets/images/our-works/our-work-66.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-9"></i></div> */}
-                            <h3><Link href="/our-works/scenario-based-trainingworkplace-integrity">Scenario-Based Trainin| Workplace Integrity</Link></h3>
+                            <h3><Link href="/our-works/scenario-based-trainingworkplace-integrity">Scenario-Based Training| Workplace Integrity</Link></h3>
                             <p>Branding, Design</p>
                             <br />
                             <br />
