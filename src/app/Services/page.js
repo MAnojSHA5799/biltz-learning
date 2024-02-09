@@ -27,8 +27,45 @@ export default function Services() {
         <>
             <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Our services">
                 <div>
+                    
                     {/* service-style-two */}
                     <section className="service-style-two p_relative">
+                    <div className="auto-container">
+                            <div className="sec-title centred mb_50">
+                            <span className="sub-title">What We Do</span>
+                            <h2>Provide the Best Consulting in This Industry</h2>
+                            </div>
+                            <div className="row clearfix">
+                            <div className="col-lg-12 col-md-6 col-sm-12 service-block">
+
+                                <video
+                    className="image-services"
+                    loop
+                    muted
+                    autoPlay
+                    playsInline
+                    preload="false"
+                    // style={{ width: '300px', height: '200px' }}
+                  >
+                    <source
+                      src="/assets/animations/Our-Services.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                                    
+                                
+                            </div>
+                           
+                            
+                           
+                           
+                           
+                            </div>
+                        </div>
+
+
+
+                        {/* ASAS */}
     
                         <div className="auto-container">
                             <div className="sec-title centred mb_50">
@@ -114,45 +151,8 @@ engagement and knowledge retention.</p>
                                 </div>
                                 </div>
                             </div>
-                            {/* <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/service-5.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-14"></i></div>
-                                        <h3><Link href="/financial-advices">Financial Advices</Link></h3>
-                                        <p>Amet minim mollit no duis sit enim aliqua dolor do
-                                        </p>
-                                        <div className="btn-box">
-                                        <Link href="/financial-advices" className="theme-btn-one">Read More</Link>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div>
-                                </div>
-                            </div> */}
-                            {/* <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                    <img src="assets/images/service/service-6.jpg" alt="" />
-                                    </figure>
-                                    <div className="lower-content">
-                                    <div className="inner">
-                                        <div className="icon-box"><i className="icon-15"></i></div>
-                                        <h3><Link href="/insurance-strategy">Insurance Strategy</Link></h3>
-                                        <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
-                                        <div className="btn-box">
-                                        <Link href="/insurance-strategy" className="theme-btn-one">Read More</Link>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div>
-                                </div>
-                            </div> */}
+                           
+                           
                             </div>
                         </div>
                     </section>

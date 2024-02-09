@@ -58,72 +58,7 @@ export default function Home() {
     return (
         <>
             <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Why Us">
-                {/* about-section */}
-                <section className="about-sections p_relative pb-0 mt-5">
-                    <div className="auto-container">
-                        <div className="row clearfix">
-                        <div className="col-lg-4 col-md-12 col-sm-12 image-column">
-                            <div className="image_block_one">
-                            <div className="image-box p_relative pr_50 mr_30">
-                            {/* <figure className="image image-1"><img src="/assets/images/about us 550x550.jpg" alt="" /></figure> */}
-                            {/* <figure className="image image-2"><img src="/assets/images/about_us_350x250.jpg" alt="" /></figure> */}
-                                {/* <div className="video-inner">
-                                    <div className="video-btn">
-                                        <VideoPopup />
-                                    </div>
-                                </div> */}
-                                <video
-                    className="image"
-                    loop
-                    muted
-                    autoPlay
-                    playsInline
-                    preload="false"
-                    width="400"
-                    height="40%"
-                  >
-                    <source
-                      src="/assets/animations/Animation-1.mp4"
-                      type="video/mp4"
-                    />
-                  </video>
-
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-8 col-md-12 col-sm-12 content-column">
-                            <div className="content_block_one">
-                            <div className="content-box p_relative ml_30">
-                                <div className="sec-title mb-1">
-                                <span className="sub-title">About  Blitz Learning Technologies</span>
-                                <h2>Dedicated And Professional Consulting Services</h2>
-                                </div>
-                                <div className="text mb_35">
-                                <p>Blitz Learning Technologies, established in 2016, exemplifies dedication and professionalism, delivering premier e-learning services worldwide. Our innovative approach and research-driven solutions cater to diverse organizational needs, offering unparalleled quality and effectiveness with expertise in highly customized client delivery and localization in over 35 languages.</p>
-                              
-                                </div>
-                                <div className="inner-box mb_35">
-                                <div className="single-item">
-                                    <div className="icon-box"><i className="icon-11"></i></div>
-                                    <h3>Solution Focused</h3>
-                                    <p>We prioritize crafting meaningful and engaging learning experiences that captivate individuals at every stage of their learning journey.</p>
-                                </div>
-                                <div className="single-item">
-                                    <div className="icon-box"><i className="icon-11"></i></div>
-                                    <h3>99.99% Success</h3>
-                                    <p>Consistent ability to deliver the fastest, most accurate, and most engaging learning experience.</p>
-                                </div>
-                                </div>
-                                {/* <figure className="signature"><img src="assets/images/icons/signature-1.png" alt="" /></figure> */}
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
-                {/* about-section end */}
-
-
+               
                 {/* service-style-two */}
                 <section className="service-style-two p_relative bg-color-1 pt-5">
                     <div className="auto-container">

@@ -674,6 +674,18 @@
 	  height: auto;
 	}
   }
+.image-services{
+	width: 100%;
+	height: auto;
+	border-radius: 10px; /* Set your desired border radius */
+	border: 1px solid rgb(182, 179, 179); /* Set your desired border style and color */
+  
+	@media (min-width: 768px) {
+	  width: 100%;
+	  height: auto;
+
+	}
+  }
 
 
 
