@@ -206,7 +206,7 @@ export default function Services() {
                             <div className="icon-box">
                               <i className="icon-8"></i>
                             </div>
-                            <h3>Sales & Promotional Videos</h3>
+                            <h3>Sales and Promotional Videos</h3>
                             <p>
                             Close more sales and turn more leads into 
 customers with sales and promotional video 

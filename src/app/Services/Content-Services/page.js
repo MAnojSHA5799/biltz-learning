@@ -255,7 +255,7 @@ export default function Services() {
                             <div className="icon-box">
                               <i className="icon-13"></i>
                             </div>
-                            <h3>Authoring & Enrichment</h3>
+                            <h3>Authoring and Enrichment</h3>
                             <p>
                               We provide high quality writing and editorial
                               services, marketing content management with the
