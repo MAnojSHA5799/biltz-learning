@@ -23,13 +23,10 @@ export default function Features() {
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div className="inner-box">
-                            <figure className="image-box"><img src="/assets/images/Custome-learning.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/images/section-1/Training Whitespaces Unearthed.jpg" alt="" /></figure>
                             <div className="lower-content">
-                            <div className="icon-box">
-                            <div style={{ width: '50px', height: '8px', padding: '1px', marginLeft: '14px', marginTop: '-6px' }}>
-      <FontAwesomeIcon icon={faHandSparkles} />
-    </div>
-                            </div>
+                            
+                            <div className="icon-box"><img className="icon-02" src="/assets/images/New-Images/icon-1.png"></img></div>
                             <h3><Link href="/">Training whitespaces unearthed</Link></h3>
                             <p>We are a catalyst for training effectiveness. As L&D disruption scrambles the puzzle pieces across key industries, our agile approach and analytic craftsmanship help reassemble the way forward quickly and innovatively, so you can confidently keep moving.</p>
                            
@@ -40,9 +37,9 @@ export default function Features() {
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div className="inner-box">
-                            <figure className="image-box"><img src="/assets/images/ContentServices.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/images/section-1/Stories that shift perspective.jpg" alt="" /></figure>
                             <div className="lower-content">
-                            <div className="icon-box"><i className="icon-8"></i></div>
+                            <div className="icon-box"><img className="icon-02" src="/assets/images/New-Images/icon-2.png"></img></div>
                             <h3><Link href="/">Stories that shift perspective</Link></h3>
                             <p>We don’t just deliver training. We tell stories that transform dry content into profound storytelling that drives learners.</p>
                             <br />
@@ -56,9 +53,9 @@ export default function Features() {
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div className="inner-box">
-                            <figure className="image-box"><img src="/assets/images/LearningConsulting.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/images/section-1/Translating learning exercise into long-term knowledge.jpg" alt="" /></figure>
                             <div className="lower-content">
-                            <div className="icon-box"><i className="icon-9"></i></div>
+                            <div className="icon-box"><img className="icon-02" src="/assets/images/New-Images/icon-3.png"></img></div>
                             <h3><Link href="/">Translating learning exercise into long-term knowledge</Link></h3>
                             <p>We are deeply embedded inside industries at the edge of transformation. During these critical periods, and all the ones in between, clients trust us to help them translate their learning exercises into long-term knowledge repositories.</p>
                             

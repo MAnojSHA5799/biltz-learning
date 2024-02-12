@@ -678,13 +678,38 @@
 	width: 100%;
 	height: auto;
 	border-radius: 10px; /* Set your desired border radius */
-	border: 1px solid rgb(182, 179, 179); /* Set your desired border style and color */
+	border: 1px solid rgb(252, 251, 251); /* Set your desired border style and color */
   
 	@media (min-width: 768px) {
 	  width: 100%;
 	  height: auto;
 
 	}
+  }
+
+  .icon-01{
+	height: 70px;
+    padding: 12px;
+	margin-left: 7%;
+    margin-top: 5%;
+    border-radius: 30%; /* Use 50% to make it a perfect circle */
+    width: 70px;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+  }
+
+  .icon-02{
+    height: 70px;
+    padding: 12px;
+	margin-left: 7%;
+    margin-top: 5%;
+    border-radius: 30%; /* Use 50% to make it a perfect circle */
+    width: 70px;
+    display: flex;
+	
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
   }
 
 

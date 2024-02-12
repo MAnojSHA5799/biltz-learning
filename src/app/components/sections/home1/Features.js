@@ -44,13 +44,13 @@ export default function Features() {
                   </figure>
                   <div className="lower-content">
                     <div className="icon-box">
-                      <i className="icon-7"></i>
+                    <img className="icon-01" src="/assets/images/New-Images/10.jpg"></img>
                     </div>
-                    <h3>
-                      <Link href="/Services/Custom-eLearning">
-                      Custom e-Learning
-                      </Link>
-                    </h3>
+                    <h3 style={{ margin: '10px 0' }}>
+  <Link href="/Services/Custom-eLearning">
+    Custom e-Learning
+  </Link>
+</h3>
                     <p>
                       Crafted to meet speciﬁc learning objectives, our custom
                       e-learning content with advanced e-Learning technology
@@ -72,7 +72,7 @@ export default function Features() {
                   </figure>
                   <div className="lower-content">
                     <div className="icon-box">
-                      <i className="icon-8"></i>
+                    <img className="icon-01" src="/assets/images/New-Images/9.jpg"></img>
                     </div>
                     <h3>
                       <Link href="/Services/Content-Services">
@@ -101,7 +101,7 @@ export default function Features() {
                   </figure>
                   <div className="lower-content">
                     <div className="icon-box">
-                      <i className="icon-9"></i>
+                    <img className="icon-01" src="/assets/images/New-Images/VIDEO-PRODUCTION.png"></img>
                     </div>
                     <h3>
                       <Link href="/">Video production</Link>
@@ -127,7 +127,7 @@ export default function Features() {
                   </figure>
                   <div className="lower-content">
                     <div className="icon-box">
-                      <i className="icon-9"></i>
+                    <img className="icon-01" src="/assets/images/New-Images/learning consulting.png"></img>
                     </div>
                     <h3>
                       <Link href="/Services/learning-consulting">

@@ -30,8 +30,9 @@ export default function Services() {
           <section className="service-style-two p_relative">
             <div className="auto-container">
               <div className="sec-title centred mb_50">
-                <span className="sub-title">What We Do</span>
-                <h2>Provide the Best Consulting in This Industry</h2>
+                <span className="sub-title">At Blitz Learning, we deliver exceptional, tailored services with expertise and dedication, empowering businesses of all sizes in today's competitive landscape.
+</span>
+             a   {/* <h2>Provide the Best Consulting in This Industry</h2> */}
               </div>
               <div className="row clearfix">
                 <div className="col-lg-12 col-md-6 col-sm-12 service-block">
@@ -77,7 +78,7 @@ export default function Services() {
                       <div className="lower-content">
                         <div className="inner">
                           <div className="icon-box">
-                            <i className="icon-7"></i>
+                          <img className="icon-02" src="\assets\images\New-Images\10.jpg"></img>
                           </div>
                           <h3>
                             <Link href="/Services/Custom-eLearning">
@@ -119,7 +120,7 @@ export default function Services() {
                       <div className="lower-content">
                         <div className="inner">
                           <div className="icon-box">
-                            <i className="icon-12"></i>
+                          <img className="icon-02" src="\assets\images\New-Images\9.jpg"></img>
                           </div>
                           <h3>
                             <Link href="/Services/Content-Services">
@@ -162,7 +163,7 @@ export default function Services() {
                       <div className="lower-content">
                         <div className="inner">
                           <div className="icon-box">
-                            <i className="icon-13"></i>
+                          <img className="icon-01" src="/assets/images/New-Images/VIDEO-PRODUCTION.png"></img>
                           </div>
                           <h3>
                             <Link href="/Services/video-production">
@@ -204,7 +205,7 @@ export default function Services() {
                       <div className="lower-content">
                         <div className="inner">
                           <div className="icon-box">
-                            <i className="icon-8"></i>
+                          <img className="icon-01" src="/assets/images/New-Images/learning consulting.png"></img>
                           </div>
                           <h3>
                             <Link href="/Services/learning-consulting">

@@ -70,7 +70,7 @@ export default function Banner() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item p_relative">
-                        <div className="image-layer p_absolute" style={{ backgroundImage: 'url(/assets/images/banner-3.jpg)' }}></div>
+                        <div className="image-layer p_absolute" style={{ backgroundImage: 'url(/assets/images/homepage.jpg)' }}></div>
                         <div className="starshine">
                             <div className="shine shine-1"></div>
                             <div className="shine shine-2"></div>
