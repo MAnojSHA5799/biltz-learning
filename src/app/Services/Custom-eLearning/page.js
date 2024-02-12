@@ -218,7 +218,8 @@ routine situations.
 <br />
 We create gamified training content and create game 
 concepts, design gameplay, implement games, and 
-update and improve gameplay</p>
+update and improve gameplay.</p>
+
                                   </div>
                                 </div>
                                 
@@ -234,6 +235,7 @@ its micro-learning offerings. These nuggets contain
 short-term learning activities, lesson plans, projects, 
 and assignments.</p>
 <br />
+
                                   </div>
                                 </div>
                                 <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
@@ -242,9 +244,9 @@ and assignments.</p>
                                       <i className="icon-8"></i>
                                     </div>
                                     <h3>Mobile Learning</h3>
-                                    <p>Blitz Learning develops mobile training 
-content across all platforms (iOS, Android, 
+                                    <p>Blitz Learning develops mobile training content across all platforms (iOS, Android, 
 Windows) with interactive functionalities.</p>
+
                                   </div>
                                 </div>
 
@@ -256,7 +258,7 @@ Windows) with interactive functionalities.</p>
                                     <h3>VR/AR Based Training</h3>
                                     <p>With a dedicated VR/AR team, Blitz Learning uses best 
 in class 3D and special effects tools to design cross-platform VR solutions that simulate real-life scenarios 
-for enhanced learner engagemen
+for enhanced learner engagemen.
 </p>
                                   </div>
                                 </div>
