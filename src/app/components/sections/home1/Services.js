@@ -23,7 +23,7 @@ export default function Pricing() {
                             <div className="inner-box">
                                 <div className="static-content">
                                 <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-4.png)' }}></div>
-                                <div className="icon-box"><img className="icon-02" src="\assets\images\New-Images\14.jpg"></img></div>
+                                <div className="icon-box"><img className="icon-02" src="/assets/images/icon/measurable cost advantage.png"></img></div>
                                 <h3><Link href="/">Measurable cost advantage</Link></h3>
                                 {/* <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p> */}
                                 </div>
@@ -42,7 +42,7 @@ export default function Pricing() {
                             <div className="service-block-one wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div className="inner-box">
                                 <div className="static-content">
-                                <div className="icon-box"><img className="icon-02" src="\assets\images\New-Images\11.jpg"></img></div>
+                                <div className="icon-box"><img className="icon-02" src="/assets/images/icon/proven growth record.png"></img></div>
                                 <h3><Link href="/program-manager">Proven growth record</Link></h3>
                                 <br />
                                 <br />
@@ -63,7 +63,7 @@ export default function Pricing() {
                             <div className="inner-box">
                                 <div className="static-content">
                                 <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-6.png)' }}></div>
-                                <div className="icon-box"><img className="icon-02" src="\assets\images\New-Images\4.jpg"></img></div>
+                                <div className="icon-box"><img className="icon-02" src="/assets/images/icon/unparalled value addition .png"></img></div>
                                 <h3><Link href="/tax-management">Unparalleled value addition</Link></h3>
                                 {/* <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p> */}
                                 </div>

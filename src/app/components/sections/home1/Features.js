@@ -44,7 +44,7 @@ export default function Features() {
                   </figure>
                   <div className="lower-content">
                     <div className="icon-box">
-                    <img className="icon-01" src="/assets/images/New-Images/10.jpg"></img>
+                    <img className="icon-01" src="/assets/images/icon/custom e-learning .png"></img>
                     </div>
                     <h3 style={{ margin: '10px 0' }}>
   <Link href="/Services/Custom-eLearning">
@@ -72,7 +72,7 @@ export default function Features() {
                   </figure>
                   <div className="lower-content">
                     <div className="icon-box">
-                    <img className="icon-01" src="/assets/images/New-Images/9.jpg"></img>
+                    <img className="icon-01" src="/assets/images/icon/content services .png"></img>
                     </div>
                     <h3>
                       <Link href="/Services/Content-Services">
@@ -101,7 +101,7 @@ export default function Features() {
                   </figure>
                   <div className="lower-content">
                     <div className="icon-box">
-                    <img className="icon-01" src="/assets/images/New-Images/VIDEO-PRODUCTION.png"></img>
+                    <img className="icon-01" src="/assets/images/icon/VIDEO PRODUCTION.png"></img>
                     </div>
                     <h3>
                       <Link href="/">Video production</Link>

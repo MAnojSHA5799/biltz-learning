@@ -394,7 +394,7 @@ export default function Home() {
                     <div className="auto-container">
                         <div className="sec-title centred">
                             <span className="sub-title">Testimonials</span>
-                            <h2>What they’re say about us?</h2>
+                            <h2>What they’re saying about us?</h2>
                         </div>
                         <div className="col-lg-12 col-md-12 col-sm-12 content-column">
                             <div className="content-box">
