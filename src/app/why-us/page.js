@@ -109,7 +109,7 @@ export default function Home() {
                                             <div className="inner">
                                                 <div className="icon-box"><i className="icon-7"></i></div>
                                                 <h3><Link href="/tax-management">Operational efficency</Link></h3>
-                                                <p>Our global workforce, technology platforms, and governance models enable organizations to achieve improved speed and agility, at a reduced cost.</p>
+                                                <p>Our global workforce, technology platforms, and governance models enable organizations to achieve improved speed and agility at a reduced cost.</p>
                                                 {/* <div className="btn-box">
                                                     <Link href="/tax-management" className="theme-btn-one">Read More</Link>
                                                 </div> */}
@@ -260,7 +260,7 @@ export default function Home() {
                                 <div className="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
                                         <div className="image-box">
-                                            <figure className="image"><img src="assets/images/team/team-1.jpg" alt="" /></figure>
+                                        <figure className="image"><img src="/assets/images/Team-member/rajeev_sir_330x370.jpg" alt="" /></figure>
                                             <ul className="social-links clearfix">
                                                 <li><Link href="/about-us"><i className="fab fa-facebook-f"></i></Link></li>
                                                 <li><Link href="/about-us"><i className="fab fa-twitter"></i></Link></li>
@@ -279,7 +279,7 @@ export default function Home() {
                                 <div className="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
                                         <div className="image-box">
-                                            <figure className="image"><img src="assets/images/team/team-2.jpg" alt="" /></figure>
+                                        <figure className="image"><img src="/assets/images/Team-member/abhishek_sir_330x370.jpg" alt="" /></figure>
                                             <ul className="social-links clearfix">
                                                 <li><Link href="/about-us"><i className="fab fa-facebook-f"></i></Link></li>
                                                 <li><Link href="/about-us"><i className="fab fa-twitter"></i></Link></li>
@@ -294,7 +294,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 team-block">
+                            {/* <div className="col-lg-3 col-md-6 col-sm-12 team-block">
                                 <div className="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
                                         <div className="image-box">
@@ -311,8 +311,8 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 team-block">
+                            </div> */}
+                            {/* <div className="col-lg-3 col-md-6 col-sm-12 team-block">
                                 <div className="team-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                     <div className="inner-box">
                                         <div className="image-box">
@@ -329,7 +329,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <section className="testimonial-style-two p_relative  pt-5 mt-1">

@@ -16,15 +16,15 @@ export default function WhyChooseUs() {
                             <span className="sub-title">Crafting learning excellence with e-Learning technology</span>
                             <h2>We provide tailored</h2>
                               
-                            <h2 style={{ color: 'red' }}>& individualized learning experiences</h2>
+                            <h2>& individualized learning experiences</h2>
                             <p>At Blitz Learning Technologies, we are dedicated to crafting learning
 excellence through innovation and expertise in e-Learning technology. Our commitment to delivering tailored solutions is underlined by three key principles.
 <br />
-Customization: We tailor learning experiences to individual needs using advanced e-Learning development.
+<strong>Customization:</strong> We tailor learning experiences to individual needs using advanced e-Learning development.
 <br />
-Technology integration: Modern e-Learning technology enriches our educational approach.
+<strong>Technology integration:</strong> Modern e-Learning technology enriches our educational approach.
 <br />
-Performance focus: Our goal is to enhance business performance through effective learning with cutting-edge e-Learning technology.</p>
+<strong>Performance focus:</strong> Our goal is to enhance business performance through effective learning with cutting-edge e-Learning technology.</p>
                             </div>
                             <div className="inner-box">
                             <div className="single-item">

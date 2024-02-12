@@ -55,26 +55,10 @@ export default function TestimonialSlider0() {
     return (
         <>
             <Swiper {...swiperOptions} className="theme_carousel owl-theme">
+                
                 <SwiperSlide className="slide">
                     <div className="testimonial-block-two">
-                        <figure className="thumb-box"><img src="assets/images/resource/testimonial-3.jpg" alt="" /></figure>
-                        <div className="inner-box">
-                            <h3>Rajeev Suman</h3>
-                            <span className="designation">Co-founder and VP of Global Delivery</span>
-                            <p>“Rajeev Suman is known for his advisory and market insights acumen leverages his experience of over 15 years leading the global production at Blitz Learning Technologies.”</p>
-                            <ul className="rating clearfix">
-                                <li><i className="fas fa-star"></i></li>
-                                <li><i className="fas fa-star"></i></li>
-                                <li><i className="fas fa-star"></i></li>
-                                <li><i className="fas fa-star"></i></li>
-                                <li><i className="far fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className="slide">
-                    <div className="testimonial-block-two">
-                        <figure className="thumb-box"><img src="assets/images/resource/testimonial-4.jpg" alt="" /></figure>
+                        <figure className="thumb-box"><img src="/assets/images/Team-member/abhishek_sir_90x90.jpg" alt="" /></figure>
                         <div className="inner-box">
                             <h3>Abhishek Kumar</h3>
                             <span className="designation">Co-Founder and VP of Sales</span>
@@ -90,6 +74,23 @@ export default function TestimonialSlider0() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="slide">
+                    <div className="testimonial-block-two">
+                        <figure className="thumb-box"><img src="/assets/images/Team-member/rajeev_sir_90x90.jpg" alt="" /></figure>
+                        <div className="inner-box">
+                            <h3>Rajeev Suman</h3>
+                            <span className="designation">Co-founder and VP of Global Delivery</span>
+                            <p>“Rajeev Suman is known for his advisory and market insights acumen leverages his experience of over 15 years leading the global production at Blitz Learning Technologies.”</p>
+                            <ul className="rating clearfix">
+                                <li><i className="fas fa-star"></i></li>
+                                <li><i className="fas fa-star"></i></li>
+                                <li><i className="fas fa-star"></i></li>
+                                <li><i className="fas fa-star"></i></li>
+                                <li><i className="far fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                {/* <SwiperSlide className="slide">
                     <div className="testimonial-block-two">
                         <figure className="thumb-box"><img src="assets/images/resource/testimonial-5.jpg" alt="" /></figure>
                         <div className="inner-box">
@@ -107,8 +108,8 @@ export default function TestimonialSlider0() {
                             </ul>
                         </div>
                     </div>
-                </SwiperSlide>
-                 <SwiperSlide className="slide">
+                </SwiperSlide> */}
+                 {/* <SwiperSlide className="slide">
                     <div className="testimonial-block-two">
                         <figure className="thumb-box"><img src="assets/images/resource/testimonial-3.jpg" alt="" /></figure>
                         <div className="inner-box">
@@ -124,7 +125,7 @@ export default function TestimonialSlider0() {
                             </ul>
                         </div>
                     </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
              {/*   <SwiperSlide className="slide">
                     <div className="testimonial-block-two">
                         <figure className="thumb-box"><img src="assets/images/resource/testimonial-4.jpg" alt="" /></figure>

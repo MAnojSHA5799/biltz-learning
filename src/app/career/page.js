@@ -147,27 +147,56 @@ export default function Home() {
                                                 </div>
                                             </li>
                                             {/*Accordion Block*/}
+                                           
                                             <li className="accordion block">
                                                 <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(2)}>
                                                     <div className="icon-box"></div>
-                                                    <h3>HR Manager</h3>
+                                                    <h3>e-Learning Developer</h3>
                                                 </div>
                                                 <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
                                                 <div className="inner-box">
-                                                    <p>Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa.</p>
+                                                    <p>Bachelor's degree in Instructional Design, Educational Technology, Multimedia Design, Computer Science, or a related field.</p>
                                                     <h4>Duties and Responsibilities:</h4>
-                                                    <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p>
+                                                    <p>Understanding of instructional design principles and adult learning theory.
+Ability to analyze learning needs and design effective and engaging e-learning content.</p>
                                                     <ul className="list-style-one clearfix">
                                                         <li>Holiday Trash & Recycling</li>
                                                         <li>Things To Do In Govarnex</li>
                                                         <li>Rent a Picnic Shelter</li>
                                                     </ul>
-                                                    <h4>Qualifications:</h4>
+                                                    {/* <h4>Qualifications:</h4>
                                                     <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p>
                                                     <ul className="list-style-one clearfix">
                                                         <li>Holiday Trash & Recycling</li>
                                                         <li>Things To Do In Govarnex</li>
+                                                    </ul> */}
+                                                    <div className="btn-box">
+                                                        <Link href="/career" className="theme-btn-one">Apply Now</Link>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </li>
+                                            <li className="accordion block">
+                                                <div className={isActive.key == 5 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(5)}>
+                                                    <div className="icon-box"></div>
+                                                    <h3>IT Executive</h3>
+                                                </div>
+                                                <div className={isActive.key == 5 ? "acc-content current" : "acc-content"}>
+                                                <div className="inner-box">
+                                                    <p>IT (information technology) executives manage the information technology needs and systems of their employers, including implementing database and network designs, installing and upgrading software, ensuring systems security and troubleshooting computer issues throughout their organizations.</p>
+                                                    <h4>Duties and Responsibilities:</h4>
+                                                    <p>IT Support Specialist Resumes: Troubleshoot and resolve hardware and software issues for end-users. Install and configure software applications and updates. Manage user accounts and permissions in Active Directory.</p>
+                                                    <ul className="list-style-one clearfix">
+                                                        <li>Holiday Trash & Recycling</li>
+                                                        <li>Things To Do In Govarnex</li>
+                                                        <li>Rent a Picnic Shelter</li>
                                                     </ul>
+                                                    {/* <h4>Qualifications:</h4>
+                                                    <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p>
+                                                    <ul className="list-style-one clearfix">
+                                                        <li>Holiday Trash & Recycling</li>
+                                                        <li>Things To Do In Govarnex</li>
+                                                    </ul> */}
                                                     <div className="btn-box">
                                                         <Link href="/career" className="theme-btn-one">Apply Now</Link>
                                                     </div>

@@ -32,7 +32,7 @@ export default function Services() {
               <div className="sec-title centred mb_50">
                 <span className="sub-title">At Blitz Learning, we deliver exceptional, tailored services with expertise and dedication, empowering businesses of all sizes in today's competitive landscape.
 </span>
-             a   {/* <h2>Provide the Best Consulting in This Industry</h2> */}
+                {/* <h2>Provide the Best Consulting in This Industry</h2> */}
               </div>
               <div className="row clearfix">
                 <div className="col-lg-12 col-md-6 col-sm-12 service-block">

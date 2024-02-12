@@ -48,7 +48,7 @@ export default function Features() {
                     </div>
                     <h3 style={{ margin: '10px 0' }}>
   <Link href="/Services/Custom-eLearning">
-    Custom e-Learning
+    Custom <br />e-Learning
   </Link>
 </h3>
                     <p>
@@ -68,7 +68,7 @@ export default function Features() {
               >
                 <div className="inner-box">
                   <figure className="image-box">
-                    <img src="/assets/images/ContentServices.jpg" alt="" />
+                    <img src="/assets/images/services/Content-Services-image2.jpg" alt="" />
                   </figure>
                   <div className="lower-content">
                     <div className="icon-box">
