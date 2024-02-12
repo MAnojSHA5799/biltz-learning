@@ -15,7 +15,7 @@ export default function Pricing() {
                 <div className="auto-container">
                     <div className="sec-title mb_70">
                     <span className="sub-title">Key advantages</span>
-                    <h2>Generating new ideas. solving big problems</h2>
+                    <h2>Generating new ideas. Solving big problems</h2>
                     </div>
                     <div className="row clearfix">
                         <div className="col-lg-4 col-md-6 col-sm-12 service-block">
