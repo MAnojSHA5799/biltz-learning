@@ -99,7 +99,7 @@ export default function Services() {
                         </li>
                         <li>
                           <Link href="/Services/Custom-eLearning">
-                          Custom E-Learning
+                          Custom e-Learning
                           </Link>
                         </li>
                         <li>
@@ -205,7 +205,11 @@ export default function Services() {
                             </div>
                             <h3>Training needs analysis</h3>
                             <p>
-                            We specialize in analyzing an organization’s current learning function, employee skill gaps, strategic goals, and designing effective learning roadmaps that address the gaps and help drive measurable business results.
+                            We specialize in analyzing an organization’s current 
+learning function, employee skill gaps, strategic goals, 
+and designing effective learning roadmaps that 
+address the gaps and help drive measurable business 
+results.
                             </p>
                             <br />
                           </div>
@@ -216,9 +220,13 @@ export default function Services() {
                             <div className="icon-box">
                               <i className="icon-8"></i>
                             </div>
-                            <h3>Learning effectiveness strategy</h3>
-                            <p>With our expertise in designing learner-centric solutions, we understand how to cultivate an effective, engaging, and result-driven learning environment using tested and trusted frameworks designed by industry veterans.
+                            <h3>Design process analysis</h3>
+                            <p>Our consultants study your present L&D design 
+and suggest actionable improvements based on 
+internal data.
                             </p>
+                            <br />
+                            <br />
                             <br />
                           </div>
                         </div>
@@ -227,9 +235,13 @@ export default function Services() {
                             <div className="icon-box">
                               <i className="icon-8"></i>
                             </div>
-                            <h3>Learning execution strategy</h3>
+                            <h3>Learning effectiveness strateg</h3>
                             <p>
-                            Blitz Learning’s domain-specific learning consultants conduct workshops in close collaboration with SMEs to identify existing gaps, analyze existing infrastructure, and thereby draft the right training strategy.
+                            With our expertise in designing learner-centric 
+solutions, we understand how to cultivate an 
+effective, engaging and result-driven learning 
+environment using tested and trusted 
+frameworks designed by industry veterans.
                               <br />
                             </p>
                            
@@ -243,11 +255,16 @@ export default function Services() {
                             <div className="icon-box">
                               <i className="icon-13"></i>
                             </div>
-                            <h3>Design process analysis</h3>
+                            <h3>Learning execution strategy</h3>
                             <p>
-                            Our consultants study your present L&D design and suggest actionable improvements based on internal data.
+                            Blitz Learning’s domain-specific Learning 
+Consultants conduct workshops in close 
+collaboration with SMEs to identify the existing 
+gaps, analyze existing infrastructure and thereby 
+draft the right training .
+
                             </p>
-                            <br />
+                            
                           </div>
                         </div>
                       </div>

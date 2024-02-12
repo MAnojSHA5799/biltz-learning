@@ -103,7 +103,7 @@ export default function Services() {
                         </li>
                         <li>
                           <Link href="/Services/Custom-eLearning">
-                          Custom E-Learning
+                          Custom e-Learning
                           </Link>
                         </li>
                       </ul>
@@ -208,7 +208,14 @@ export default function Services() {
                             </div>
                             <h3>Sales & Promotional Videos</h3>
                             <p>
-                            Close more sales and turn more leads into customers with sales and promotional video production. Sales rest on logic and emotion. With the right balance of both useful information and authentic feeling, through the right medium, sales conversations are easier and more profitable.
+                            Close more sales and turn more leads into 
+customers with sales and promotional video 
+production. Sales rest on logic and emotion. 
+With the right balance of both useful 
+information and authentic feeling, through the 
+right medium, make sales conversations 
+easier and more profitable.
+
                             </p>
                             
                           </div>
@@ -221,7 +228,15 @@ export default function Services() {
                             </div>
                             <h3>Training Videos</h3>
                             <p>
-                            Educate, inspire, and drive real change with your training videos. Training content doesn’t have to be dry. Our training video experiences combine the important messages you need to deliver with a compelling experience or story. Your audience learns more effectively when they’re engaged, and most importantly, they retain that information longer.
+                            Educate, inspire & drive real change with your 
+training videos. Training content doesn't have 
+to be dry. Our training video experiences 
+combine the important messages you need 
+to deliver along with a compelling experience 
+or story. Your audience learns more 
+effectively when they're engaged, & most 
+importantly, they retain that information 
+longer.
                             </p>
                           </div>
                         </div>
@@ -232,7 +247,11 @@ export default function Services() {
                             </div>
                             <h3>Online Videos</h3>
                             <p>
-                            Be it a product demo, YouTube channel, or testimonial video, your online presence delivers your message 24 hours a day, 7 days a week, to viewers across the globe.
+                            Be it product demo, you tube channel, 
+or testimonial video, your online 
+presence delivers your message 24 
+hours a day 7 days a week to viewers 
+across the globe.
                             </p>
                           </div>
                         </div>
@@ -244,7 +263,10 @@ export default function Services() {
                             </div>
                             <h3>Corporate Videos</h3>
                             <p>
-                            Showcase your explainer videos, CSR initiatives, and onboarding process with a zing. Use videos to hit the emotional touchpoints.
+                            Showcase your explainer videos, CSR 
+initiatives, onboarding process with a zing. 
+Use videos to hit the emotional touchpoints.
+
                             </p>
                           </div>
                         </div>

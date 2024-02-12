@@ -1,19 +1,19 @@
-'use client'
+"use client";
 import Layout from "../../components/layout/Layout";
 import TestimonialSlider5 from "../../components/slider/TestimonialSlider5";
 import TestimonialSlider1 from "../../components/slider/TestimonialSlider1";
 import Link from "next/link";
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import axios from "axios";
 export default function Services() {
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    selectedOption: 'Content Services', // Default value for the select box
+    name: "",
+    email: "",
+    phone: "",
+    selectedOption: "Content Services", // Default value for the select box
   });
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -28,7 +28,7 @@ export default function Services() {
     e.preventDefault();
     setIsSubmitting(true);
     console.log("Form Data:", formData);
-    
+
     try {
       // Make the Axios POST request
       const response = await axios.post(
@@ -45,23 +45,20 @@ export default function Services() {
       // Handle the response
       console.log("Server Response:", response.data);
 
-      
-        // Show success alert
-        alert("Success! Data submitted successfully.");
+      // Show success alert
+      alert("Success! Data submitted successfully.");
 
-        // Reset form data
-        setFormData({
-          name: '',
-          email: '',
-          phone: '',
-        });
-        setIsSubmitting(false);
-        // Optional: You can use router.reload() to refresh the page
-        router.refresh();
-        
+      // Reset form data
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+      });
+      setIsSubmitting(false);
+      // Optional: You can use router.reload() to refresh the page
+      router.refresh();
 
-        // Optionally, you can reset the success alert after a certain delay
-     
+      // Optionally, you can reset the success alert after a certain delay
     } catch (error) {
       // Handle errors
       console.error("Error posting data:", error);
@@ -93,7 +90,7 @@ export default function Services() {
                         </li>
                         <li>
                           <Link href="/Services/Custom-eLearning">
-                          Custom E-Learning
+                            Custom e-Learning
                           </Link>
                         </li>
                         <li>
@@ -132,13 +129,11 @@ export default function Services() {
                         <div className="inner-box">
                           <p>
                             <Link href="mailto:contactus@biltzlearning.in">
-                            contactus@biltzlearning.in
+                              contactus@biltzlearning.in
                             </Link>
                           </p>
                           <h3>
-                            <Link href="tel:911204316127">
-                            +91-1204316127
-                            </Link>
+                            <Link href="tel:911204316127">+91-1204316127</Link>
                           </h3>
                         </div>
                       </div>
@@ -154,7 +149,11 @@ export default function Services() {
                       <div className="text">
                         <h2>Tailored Learning Modules with Content Services</h2>
                         <p>
-                        Our content team tailors content to match every requirement by using rich media. Our localization services for eLearning projects can help you translate and localize your content, including text translation and audio recording.
+                          Our content team tailors content to match every
+                          requirement by using rich media. Our localization
+                          services for eLearning projects can help you translate
+                          and localize your content, including text translation
+                          and audio recording.
                         </p>
                         {/* <p>
                                   Fringilla mauris magna sit elementum elit. Facilisi lacus, pharetra
@@ -202,11 +201,17 @@ export default function Services() {
                             <div className="icon-box">
                               <i className="icon-8"></i>
                             </div>
-                            <h3>Authoring & Enrichment</h3>
+                            <h3>Research and Report</h3>
                             <p>
-                            We provide high-quality writing and editorial services and marketing content management with the help of our content specialists, in any language.
+                              Our subject matter experts (SMEs) locate key
+                              information and assemble quality data from
+                              in-depth research on credible information sources
+                              (web pages, databases). We then synthesize that
+                              data into easy to comprehend reports, white
+                              papers, and databases with clear insights and
+                              knowledge to help you make informed business
+                              decisions.
                             </p>
-                            <br />
                           </div>
                         </div>
 
@@ -221,8 +226,9 @@ export default function Services() {
                               considerable segment of your potential audience.
                               There is no substitute for connecting with
                               employees, partners, and customers in their native
-                              tongues and regional dialects
+                              tongues and regional dialects.
                             </p>
+                            <br />
                           </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
@@ -232,30 +238,78 @@ export default function Services() {
                             </div>
                             <h3>Review and Summary</h3>
                             <p>
-                            You give us content, and we will summarize it for any industry. Our empaneled SMEs include researchers, academicians, software engineers, and PhDs in many academic disciplines. They review any kind of document and extract the relevant information, summarize it, and deliver those summaries in print, electronic, and mobile formats.
-                              <br />
+                              You give us content and we will summarize it, for
+                              any industry. Our empaneled SMEs include
+                              researchers, academicians, software engineers, and
+                              PhDs in many academic disciplines. They review any
+                              kind of document and extract the relevant
+                              information, summarize it, and deliver those
+                              summaries in print, electronic, and mobile
+                              formats.
                             </p>
-                           
                           </div>
                         </div>
-
-                        
 
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
                           <div className="single-item">
                             <div className="icon-box">
                               <i className="icon-13"></i>
                             </div>
-                            <h3>Research and Report</h3>
+                            <h3>Authoring & Enrichment</h3>
                             <p>
-                            Our subject-matter experts (SMEs) locate key information and assemble quality data from in-depth research on credible information sources (web pages, databases). We then synthesize that data into easy-to-comprehend reports, white papers, and databases with clear insights and knowledge to help you make informed business decisions.
+                              We provide high quality writing and editorial
+                              services, marketing content management with the
+                              help of our content specialists– in any language,
+                              for any industry.
                             </p>
+                            <br />
+                            <br />
+                            <br />
+                          </div>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
+                          <div className="single-item">
+                            <div className="icon-box">
+                              <i className="icon-13"></i>
+                            </div>
+                            <h3>Native Translators</h3>
+                            <p>
+                            Our localization services for eLearning 
+projects can help you translate and 
+localize your content including text 
+translation and audio recording. We 
+have a panel of voice-over artist i.e. 
+native translators in all major languages 
+of the world.
+                            </p>
+                           
+                          </div>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
+                          <div className="single-item">
+                            <div className="icon-box">
+                              <i className="icon-13"></i>
+                            </div>
+                            <h3>Multiple Formats</h3>
+                            <p>
+                            We translate or re-engineer content 
+in multiple formats as per your 
+needs. These include video, audio, 
+flash, PDF, PPTs, MS Word among 
+others.
+                            </p>
+                            <br />
+                           
                           </div>
                         </div>
                       </div>
+
+                      
                       <div className="text mt_50">
                         <p>
-                        Blitz Learning develops mobile training content across all platforms (iOS, Android, and Windows) with interactive functionalities….
+                          Blitz Learning develops mobile training content across
+                          all platforms (iOS, Android, and Windows) with
+                          interactive functionalities….
                         </p>
                       </div>
                     </div>
@@ -322,60 +376,78 @@ export default function Services() {
                           Consultation
                         </h3>
                         <div className="form-inner">
-                        <form action="index.html" method="post" className="default-form" onSubmit={handleSubmit}>
-                        <div className="row clearfix">
-        <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-          <input
-            type="text"
-            name="name"
-            placeholder="Your name"
-            value={formData.name}
-            onChange={handleInputChange}
-            required
-          />
-        </div>
-        <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-          <input
-            type="email"
-            name="email"
-            placeholder="Email address"
-            value={formData.email}
-            onChange={handleInputChange}
-            required
-          />
-        </div>
-        <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-          <input
-            type="text"
-            name="phone"
-            placeholder="Phone number"
-            value={formData.phone}
-            onChange={handleInputChange}
-            required
-          />
-        </div>
-        <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-          <div className="select-box">
-            <select
-              className="selectpicker"
-              name="selectedOption"
-              value={formData.selectedOption}
-              onChange={handleInputChange}
-            >
-              <option value="Content Services">Content Services</option>
-              <option value="Custom eLearning"> Custom eLearning</option>
-              <option value="Learning Consulting">Learning Consulting</option>
-              <option value="Video Production">Video Production</option>
-            </select>
-          </div>
-        </div>
-        <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
-          <button type="submit" className="theme-btn-one"  disabled={isSubmitting}>
-            Send Request
-          </button>
-        </div>
-        </div>
-      </form>
+                          <form
+                            action="index.html"
+                            method="post"
+                            className="default-form"
+                            onSubmit={handleSubmit}
+                          >
+                            <div className="row clearfix">
+                              <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+                                <input
+                                  type="text"
+                                  name="name"
+                                  placeholder="Your name"
+                                  value={formData.name}
+                                  onChange={handleInputChange}
+                                  required
+                                />
+                              </div>
+                              <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+                                <input
+                                  type="email"
+                                  name="email"
+                                  placeholder="Email address"
+                                  value={formData.email}
+                                  onChange={handleInputChange}
+                                  required
+                                />
+                              </div>
+                              <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+                                <input
+                                  type="text"
+                                  name="phone"
+                                  placeholder="Phone number"
+                                  value={formData.phone}
+                                  onChange={handleInputChange}
+                                  required
+                                />
+                              </div>
+                              <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+                                <div className="select-box">
+                                  <select
+                                    className="selectpicker"
+                                    name="selectedOption"
+                                    value={formData.selectedOption}
+                                    onChange={handleInputChange}
+                                  >
+                                    <option value="Content Services">
+                                      Content Services
+                                    </option>
+                                    <option value="Custom eLearning">
+                                      {" "}
+                                      Custom eLearning
+                                    </option>
+                                    <option value="Learning Consulting">
+                                      Learning Consulting
+                                    </option>
+                                    <option value="Video Production">
+                                      Video Production
+                                    </option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
+                                <button
+                                  type="submit"
+                                  className="theme-btn-one"
+                                  disabled={isSubmitting}
+                                >
+                                  Send Request
+                                </button>
+                              </div>
+                            </div>
+                          </form>
                         </div>
                       </div>
                     </div>

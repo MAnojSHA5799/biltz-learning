@@ -95,7 +95,7 @@ export default function Services() {
     };
     return (
         <>
-            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Custom eLearning">
+            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Custom e-Learning">
                 <div>
                 <section className="service-details p_relative">
                     <div className="auto-container">
@@ -107,7 +107,7 @@ export default function Services() {
                               <ul className="category-list clearfix">
                                 <li>
                                   <Link href="/Services/Custom-eLearning" className="current">
-                                    Custom E-Learning
+                                    Custom e-Learning
                                   </Link>
                                 </li>
                                 <li>
@@ -210,8 +210,15 @@ export default function Services() {
                                     <div className="icon-box">
                                       <i className="icon-8"></i>
                                     </div>
-                                    <h3>Sales Coaching</h3>
-                                    <p>With a dedicated VR/AR team, Blitz Learning uses best-in-class 3D and special effects tools to design cross-platform VR solutions that simulate real-life scenarios for enhanced learner engagement.</p>
+                                    <h3>Simulations & Gamification</h3>
+                                    <p>We create simulations to provide real life 
+understanding of difficult scenarios and help create 
+interactive modules based on practical examples from 
+routine situations.
+<br />
+We create gamified training content and create game 
+concepts, design gameplay, implement games, and 
+update and improve gameplay</p>
                                   </div>
                                 </div>
                                 
@@ -221,7 +228,12 @@ export default function Services() {
                                       <i className="icon-13"></i>
                                     </div>
                                     <h3>Micro Learning</h3>
-                                    <p>Blitz Learning provides learning in small and manageable nuggets in a focused and precise way via its micro-learning offerings. These nuggets contain short-term learning activities, lesson plans, projects, and assignments.</p>
+                                    <p>Blitz Learning provides learning in small and 
+manageable nuggets in a focused and precise way via 
+its micro-learning offerings. These nuggets contain 
+short-term learning activities, lesson plans, projects, 
+and assignments.</p>
+<br />
                                   </div>
                                 </div>
                                 <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
@@ -230,7 +242,9 @@ export default function Services() {
                                       <i className="icon-8"></i>
                                     </div>
                                     <h3>Mobile Learning</h3>
-                                    <p>Blitz Learning creates interactive mobile training materials for all operating systems (Windows, iOS, and Android).</p>
+                                    <p>Blitz Learning develops mobile training 
+content across all platforms (iOS, Android, 
+Windows) with interactive functionalities.</p>
                                   </div>
                                 </div>
 
@@ -239,8 +253,11 @@ export default function Services() {
                                     <div className="icon-box">
                                       <i className="icon-8"></i>
                                     </div>
-                                    <h3>Simulations & Gamification</h3>
-                                    <p>We create simulations to provide real life understanding of difficult scenarios and help create interactive modules based on practical examples from routine situations.</p>
+                                    <h3>VR/AR Based Training</h3>
+                                    <p>With a dedicated VR/AR team, Blitz Learning uses best 
+in class 3D and special effects tools to design cross-platform VR solutions that simulate real-life scenarios 
+for enhanced learner engagemen
+</p>
                                   </div>
                                 </div>
                               </div>

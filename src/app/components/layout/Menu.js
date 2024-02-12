@@ -25,8 +25,8 @@ export default function Menu() {
                     <ul>
                         <li><Link href="/Services/Custom-eLearning">Custom E-Learning</Link></li>
                         <li><Link href="/Services/Content-Services">Content Services</Link></li>
-                        <li><Link href="/Services/learning-consulting">Learning Consulting</Link></li>
                         <li><Link href="/Services/video-production">Video Production</Link></li>
+                        <li><Link href="/Services/learning-consulting">Learning Consulting</Link></li>
                         {/* <li><Link href="/program-manager">Program Manager</Link></li>
                         <li><Link href="/investment-policy">Investment Policy</Link></li>
                         <li><Link href="/financial-advices">Financial Advices</Link></li>
