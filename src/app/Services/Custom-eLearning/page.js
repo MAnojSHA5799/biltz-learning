@@ -258,7 +258,7 @@ Windows) with interactive functionalities.</p>
                                     <h3>VR/AR Based Training</h3>
                                     <p>With a dedicated VR/AR team, Blitz Learning uses best 
 in class 3D and special effects tools to design cross-platform VR solutions that simulate real-life scenarios 
-for enhanced learner engagemen.
+for enhanced learner engagement.
 </p>
                                   </div>
                                 </div>
