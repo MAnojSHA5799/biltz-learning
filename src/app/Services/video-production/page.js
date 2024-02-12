@@ -304,8 +304,8 @@ Use videos to hit the emotional touchpoints.
                           <span className="sub-title">Why Work With Us?</span>
                           <h2>Trusted by some of the biggest brands…</h2>
                           <p>
-                            BlitzLearning is a leading e-learning platform that
-                            goal to provide the highest quality eLearning
+                            BlitzLearning is a leading e-Learning platform that
+                            goal to provide the highest quality<br /> e-Learning
                             content for an immersive experience.
                           </p>
                         </div>

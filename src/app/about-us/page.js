@@ -121,7 +121,7 @@ export default function Home() {
                 <section className="service-style-two p_relative bg-color-1 pt-5">
                     <div className="auto-container">
                         <div className="sec-title centred mb_50">
-                            <span className="sub-title">What We Do</span>
+                            <span className="sub-title">What we do</span>
                             <h2>Consistent ability to deliver rapid, accurate and most immersive learning experience</h2>
                         </div>
                         <div className="row clearfix">
@@ -308,7 +308,7 @@ export default function Home() {
                 <section className="team-section sec-pad pt-5">
                     <div className="auto-container">
                         <div className="sec-title mb_50 centred">
-                            <span className="sub-title">Team Member</span>
+                            <span className="sub-title">Team member</span>
                             <h2>Meet our Gurus from Team
                         {/* <br /> */}
                         </h2>

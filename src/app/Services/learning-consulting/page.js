@@ -235,7 +235,7 @@ internal data.
                             <div className="icon-box">
                               <i className="icon-8"></i>
                             </div>
-                            <h3>Learning effectiveness strateg</h3>
+                            <h3>Learning effectiveness strategy</h3>
                             <p>
                             With our expertise in designing learner-centric 
 solutions, we understand how to cultivate an 
@@ -261,7 +261,7 @@ frameworks designed by industry veterans.
 Consultants conduct workshops in close 
 collaboration with SMEs to identify the existing 
 gaps, analyze existing infrastructure and thereby 
-draft the right training .
+draft the right training.
 
                             </p>
                             
@@ -301,8 +301,8 @@ draft the right training .
                           <span className="sub-title">Why Work With Us?</span>
                           <h2>Trusted by some of the biggest brands…</h2>
                           <p>
-                            BlitzLearning is a leading e-learning platform that
-                            goal to provide the highest quality eLearning
+                            BlitzLearning is a leading e-Learning platform that
+                            goal to provide the highest quality<br /> e-Learning
                             content for an immersive experience.
                           </p>
                         </div>

@@ -274,7 +274,7 @@ export default function Services() {
                             </div>
                             <h3>Native Translators</h3>
                             <p>
-                            Our localization services for eLearning 
+                            Our localization services for e-Learning 
 projects can help you translate and 
 localize your content including text 
 translation and audio recording. We 
@@ -340,8 +340,8 @@ others.
                           <span className="sub-title">Why Work With Us?</span>
                           <h2>Trusted by some of the biggest brands…</h2>
                           <p>
-                            BlitzLearning is a leading e-learning platform that
-                            goal to provide the highest quality eLearning
+                            BlitzLearning is a leading e-Learning platform that
+                            goal to provide the highest quality<br /> e-Learning
                             content for an immersive experience.
                           </p>
                         </div>

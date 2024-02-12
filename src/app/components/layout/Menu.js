@@ -43,7 +43,7 @@ export default function Menu() {
                         </li> */}
                         <li><Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training">Online Portal|Sales Academy</Link></li>
                         <li><Link href="/our-works/revamp-and-localization-company-policy-refresh-training">Revamp And Localization|Company Policy</Link></li>
-                        <li><Link href="/our-works/mobile-based-mentor-driven-trainingsales-call-training">Mobile Driven Trainin| Sales Call</Link></li>
+                        <li><Link href="/our-works/mobile-based-mentor-driven-trainingsales-call-training">Mobile Driven training| Sales Call</Link></li>
                         <li><Link href="/our-works/content-development-web-based-training-localization-workplace-hazards-and-safety">Content Development |Workplace Safety</Link></li>
                         <li><Link href="/our-works/web-based-training-and-localization-product-training">Localization |Product Training</Link></li>
                         <li><Link href="/our-works/scenario-based-trainingworkplace-integrity">Scenario based Training |Workplace Integrity</Link></li>

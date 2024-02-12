@@ -286,7 +286,7 @@ for enhanced learner engagement.
                             <div className="sec-title mb_30">
                             <span className="sub-title">Why Work With Us?</span>
                             <h2>Trusted by some of the biggest brands…</h2>
-                            <p>Blitz Learning is a leading e-Learning platform that provides the highest quality e-Learning content for an immersive experience.</p>
+                            <p>Blitz Learning is a leading e-Learning platform that provides the highest quality<br /> e-Learning content for an immersive experience.</p>
                             </div>
                             {/* <div className="progress-inner">
                             <div className="progress-box mb_30">

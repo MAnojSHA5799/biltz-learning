@@ -24,7 +24,7 @@ export default function Services() {
 
   return (
     <>
-      <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Our services">
+      <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Our Services">
         <div>
           {/* service-style-two */}
           <section className="service-style-two p_relative">
@@ -124,7 +124,7 @@ export default function Services() {
                           </div>
                           <h3>
                             <Link href="/Services/Content-Services">
-                              Content Services
+                              Content services
                             </Link>
                           </h3>
                           <p>
@@ -167,7 +167,7 @@ export default function Services() {
                           </div>
                           <h3>
                             <Link href="/Services/video-production">
-                              Video Production
+                              Video production
                             </Link>
                           </h3>
                           <p>
@@ -209,7 +209,7 @@ export default function Services() {
                           </div>
                           <h3>
                             <Link href="/Services/learning-consulting">
-                              Learning Consulting
+                              Learning consulting
                             </Link>
                           </h3>
                           <p>

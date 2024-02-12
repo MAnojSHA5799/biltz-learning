@@ -113,7 +113,7 @@ export default function MobileMenu({
                     </li>
                     <li>
                       <Link href="/our-works/mobile-based-mentor-driven-trainingsales-call-training">
-                        Mobile Driven Trainin| Sales Call
+                        Mobile Driven Training| Sales Call
                       </Link>
                     </li>
                     <li>
