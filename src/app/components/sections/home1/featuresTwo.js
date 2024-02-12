@@ -13,7 +13,7 @@ export default function Features() {
                 </div>
                 <div className="auto-container">
                     <div className="sec-title mb_50">
-                    <span className="sub-title pt-3">We are catalysts of knowledge retention</span>
+                    <span className="sub-title pt-3">We are catalysts for knowledge retention</span>
                     {/* <h2> 
                         Unleashing the Power of Customization
                         </h2> */}
