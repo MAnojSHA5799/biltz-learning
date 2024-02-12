@@ -219,7 +219,7 @@ export default function Cases() {
                             <figure className="image-box"><img src="/assets/images/our-works/our-work-33.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-9"></i></div> */}
-                            <h3><Link href="/our-works/mobile-based-mentor-driven-trainingsales-call-training">Mobile Based Mentor Driven Training|Sales Call Training</Link></h3>
+                            <h3><Link href="/our-works/mobile-based-mentor-driven-trainingsales-call-training">Mobile-Based Mentor Driven Training|Sales Call Training</Link></h3>
                             <p>Branding, Design</p>
                             </div>
                         </div>

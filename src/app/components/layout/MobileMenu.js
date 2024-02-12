@@ -61,7 +61,7 @@ export default function MobileMenu({
                   >
                     <li>
                       <Link href="/Services/Custom-eLearning">
-                        Custom E-Learning
+                        Custom e-Learning
                       </Link>
                     </li>
                     <li>
