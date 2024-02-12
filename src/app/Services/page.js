@@ -78,7 +78,7 @@ export default function Services() {
                       <div className="lower-content">
                         <div className="inner">
                           <div className="icon-box">
-                          <img className="icon-02" src="\assets\images\New-Images\10.jpg"></img>
+                          <img className="icon-02" src="/assets/images/icon/custom e-learning .png"></img>
                           </div>
                           <h3>
                             <Link href="/Services/Custom-eLearning">
@@ -120,7 +120,7 @@ export default function Services() {
                       <div className="lower-content">
                         <div className="inner">
                           <div className="icon-box">
-                          <img className="icon-02" src="\assets\images\New-Images\9.jpg"></img>
+                          <img className="icon-02" src="/assets/images/icon/content services .png"></img>
                           </div>
                           <h3>
                             <Link href="/Services/Content-Services">
@@ -163,7 +163,7 @@ export default function Services() {
                       <div className="lower-content">
                         <div className="inner">
                           <div className="icon-box">
-                          <img className="icon-01" src="/assets/images/New-Images/VIDEO-PRODUCTION.png"></img>
+                          <img className="icon-01" src="/assets/images/new-icon/Vdo Production.png"></img>
                           </div>
                           <h3>
                             <Link href="/Services/video-production">

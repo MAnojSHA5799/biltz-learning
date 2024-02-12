@@ -101,7 +101,7 @@ export default function Features() {
                   </figure>
                   <div className="lower-content">
                     <div className="icon-box">
-                    <img className="icon-01" src="/assets/images/icon/VIDEO PRODUCTION.png"></img>
+                    <img className="icon-01" src="/assets/images/new-icon/Vdo Production.png"></img>
                     </div>
                     <h3>
                       <Link href="/">Video production</Link>

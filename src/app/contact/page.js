@@ -76,7 +76,7 @@ export default function Contact() {
             <div className="auto-container">
               <div className="sec-title mb_100">
                 <span className="sub-title">Contact Info</span>
-                <h2>We’d Love To Help You</h2>
+                <h2>We’d love to help you</h2>
               </div>
               <div className="row clearfix">
                 <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
@@ -166,7 +166,7 @@ export default function Contact() {
                   <div className="content-box mr_70">
                     <div className="sec-title mb_35">
                       <span className="sub-title">Message</span>
-                      <h2>Feel Free to Contact with us</h2>
+                      <h2>Feel free to contact with us</h2>
                       <p className="mt_20">
                         Feel free to visit our development office or just pick
                         up the phone to chat with a client engagement team
@@ -198,7 +198,7 @@ export default function Contact() {
                   </div>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 form-column">
-                  <h3>Get In Touch</h3>
+                  <h3>Get in touch</h3>
                   <br />
                   <div className="form-inner">
                     <form

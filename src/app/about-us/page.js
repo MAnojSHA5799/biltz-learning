@@ -308,7 +308,7 @@ export default function Home() {
                 <section className="team-section sec-pad pt-5">
                     <div className="auto-container">
                         <div className="sec-title mb_50 centred">
-                            <span className="sub-title">Team member</span>
+                            <span className="sub-title">Team members</span>
                             <h2>Meet our Gurus from Team
                         {/* <br /> */}
                         </h2>
