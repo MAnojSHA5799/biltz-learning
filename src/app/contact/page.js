@@ -63,7 +63,7 @@ export default function Contact() {
 
   return (
     <>
-      <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Get in touch">
+      <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Get In Touch">
         <div>
           {/* Feature Section */}
           <section className="feature-style-three p_relative centred">
@@ -96,7 +96,7 @@ export default function Contact() {
                       <div className="icon-box">
                         <i className="icon-48"></i>
                       </div>
-                      <h3>Our Location</h3>
+                      <h3>Our location</h3>
                       <p>
                         610, Tower B, i-Thum IT Park, Block A, Industrial Area,
                         Sector 62, Noida
@@ -116,7 +116,7 @@ export default function Contact() {
                       <div className="icon-box">
                         <i className="icon-49"></i>
                       </div>
-                      <h3>Email Address</h3>
+                      <h3>Email address</h3>
                       <p>
                         <Link href="mailto:contactus@blitzlearning.in">
                           contactus@blitzlearning.in
@@ -143,7 +143,7 @@ export default function Contact() {
                       <div className="icon-box">
                         <i className="icon-50"></i>
                       </div>
-                      <h3>Phone Number</h3>
+                      <h3>Phone number</h3>
                       <p>
                         {/* Emergency Cases <br /> */}
                         <Link href="tel:+91-120 431 6127">
@@ -214,7 +214,7 @@ export default function Contact() {
                             type="text"
                             name="username"
                             value={formData.username}
-                            placeholder="Your Name"
+                            placeholder="Your name"
                             required
                             pattern="[A-Za-z]+"
                             onChange={handleChange}
