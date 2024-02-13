@@ -341,7 +341,7 @@ others.
                           <h2>Trusted by some of the biggest brands…</h2>
                           <p>
                             Blitz Learning is a leading e-Learning platform that
-                            goal to provide the highest quality<br /> e-Learning
+                            goal to provide the highest quality e-Learning
                             content for an immersive experience.
                           </p>
                         </div>
