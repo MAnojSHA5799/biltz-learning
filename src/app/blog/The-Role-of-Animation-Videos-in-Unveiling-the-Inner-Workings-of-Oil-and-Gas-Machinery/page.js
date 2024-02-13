@@ -89,7 +89,7 @@ export default function Home() {
                         </h2>
                         <h4 className="blog-heading">Introduction :</h4>
                         <p>
-                          AAA
+                        Animation videos are essential tools for understanding the intricate machinery of oil and gas exploration and production. They provide a comprehensive understanding of these systems through dynamic imagery and detailed representations, enhancing comprehension, streamlining processes, and fostering a deeper appreciation for the technical marvels of the sector.
                         </p>
                         <h4 className="blog-heading">Visualizing complexity:</h4>
                         <p>
