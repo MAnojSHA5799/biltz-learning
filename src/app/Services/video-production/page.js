@@ -123,8 +123,8 @@ export default function Services() {
                           />
                         </div>
                         <h3>
-                          Do You Need <br />
-                          Any <span>Help?</span>
+                          Do you need <br />
+                          any <span>help?</span>
                         </h3>
                         <div className="icon-box">
                           <i className="icon-29"></i>
@@ -153,7 +153,7 @@ export default function Services() {
                               </figure> */}
                       <div className="text">
                         <h2>
-                          Dynamic Visual Learning with e-Learning Development
+                          Dynamic visual learning with e-Learning development
                         </h2>
                         <p>
                           Through expert video production and e-Learning
@@ -247,7 +247,7 @@ longer.
                             </div>
                             <h3>Online Videos</h3>
                             <p>
-                            Be it product demo, you tube channel, 
+                            Be it product demo, youtube channel, 
 or testimonial video, your online 
 presence delivers your message 24 
 hours a day 7 days a week to viewers 
@@ -301,11 +301,11 @@ Use videos to hit the emotional touchpoints.
                     <div className="content_block_three">
                       <div className="content-box p_relative mr_30">
                         <div className="sec-title mb_30">
-                          <span className="sub-title">Why Work With Us?</span>
+                          <span className="sub-title">Why work with us?</span>
                           <h2>Trusted by some of the biggest brands…</h2>
                           <p>
-                            BlitzLearning is a leading e-Learning platform that
-                            goal to provide the highest quality<br /> e-Learning
+                            Blitz Learning is a leading e-Learning platform that
+                            goal to provide the highest quality.<br /> e-Learning
                             content for an immersive experience.
                           </p>
                         </div>
@@ -336,8 +336,8 @@ Use videos to hit the emotional touchpoints.
                     <div className="content_block_four">
                       <div className="content-box p_relative ml_30 mt_20 centred">
                         <h3>
-                          Request for Our Free <br />
-                          Consultation
+                          Request for our free <br />
+                          consultation
                         </h3>
                         <div className="form-inner">
                         <form action="index.html" method="post" className="default-form" onSubmit={handleSubmit}>
@@ -383,7 +383,7 @@ Use videos to hit the emotional touchpoints.
               <option value="Video Production">Video Production</option>
                <option value="Learning Consulting">Learning Consulting</option>
               <option value="Content Services">Content Services</option>
-              <option value="Custom eLearning"> Custom eLearning</option>
+              <option value="Custom eLearning"> Custom e-Learning</option>
              
               
             </select>

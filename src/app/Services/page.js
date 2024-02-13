@@ -58,8 +58,8 @@ export default function Services() {
 
             <div className="auto-container">
               <div className="sec-title centred mb_50">
-                <span className="sub-title">What We Do</span>
-                <h2>Provide the Best Consulting in This Industry</h2>
+                <span className="sub-title">What we do</span>
+                <h2>Provide the best consulting in this industry</h2>
               </div>
               <div className="row clearfix">
                 <div className="col-lg-6 col-md-6 col-sm-12 service-block">
@@ -87,7 +87,7 @@ export default function Services() {
                           </h3>
                           <p>
                             Crafted to meet speciﬁc learning objectives, our
-                            custom e-learning content with advanced e-Learning
+                            custom e-Learning content with advanced e-Learning
                             technology ensures engagement and knowledge
                             retention.
                           </p>
@@ -129,7 +129,7 @@ export default function Services() {
                           </h3>
                           <p>
                             Crafted to meet speciﬁc learning objectives, our
-                            custom e-learning content with advanced e-Learning
+                            custom e-Learning content with advanced e-Learning
                             technology ensures engagement and knowledge
                             retention.
                           </p>

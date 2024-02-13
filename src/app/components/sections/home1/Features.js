@@ -53,7 +53,7 @@ export default function Features() {
 </h3>
                     <p>
                       Crafted to meet speciﬁc learning objectives, our custom
-                      e-learning content with advanced e-Learning technology
+                      e-learning content with advanced<br /> e-Learning technology
                       ensures engagement.
                     </p>
                   </div>
@@ -80,7 +80,7 @@ export default function Features() {
                       </Link>
                     </h3>
                     <p>
-                      We create and localize content for your e-learning to
+                      We create and localize content for your e-Learning to
                       advance skills, improve performance, and get results.
                     </p>
                     <br/>
@@ -97,7 +97,7 @@ export default function Features() {
               >
                 <div className="inner-box">
                   <figure className="image-box">
-                    <img src="/assets/images/services/VideoProduction.jpg" alt="" />
+                    <img src="/assets/images/services/Video_Production_2.jpg" alt="" />
                   </figure>
                   <div className="lower-content">
                     <div className="icon-box">

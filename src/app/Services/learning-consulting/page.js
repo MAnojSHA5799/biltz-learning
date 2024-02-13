@@ -124,8 +124,8 @@ export default function Services() {
                           />
                         </div>
                         <h3>
-                          Do You Need <br />
-                          Any <span>Help?</span>
+                          Do you need <br />
+                          any <span>help?</span>
                         </h3>
                         <div className="icon-box">
                           <i className="icon-29"></i>
@@ -153,7 +153,7 @@ export default function Services() {
                                 <img src="/assets/images/services/Custome-Learning.jpg" alt="" />
                               </figure> */}
                       <div className="text">
-                        <h2>Strategic Learning Partnership with Training Technology</h2>
+                        <h2>Strategic learning partnership with training technology</h2>
                         <p>
                         Our learning consulting services focus on aligning education strategies with business goals, creating a seamless bridge between learning and organizational success, and leveraging cutting-edge training technology.
                         </p>
@@ -257,8 +257,8 @@ frameworks designed by industry veterans.
                             </div>
                             <h3>Learning execution strategy</h3>
                             <p>
-                            Blitz Learning’s domain-specific Learning 
-Consultants conduct workshops in close 
+                            Blitz Learning’s domain-specific learning 
+consultants conduct workshops in close 
 collaboration with SMEs to identify the existing 
 gaps, analyze existing infrastructure and thereby 
 draft the right training.
@@ -298,11 +298,11 @@ draft the right training.
                     <div className="content_block_three">
                       <div className="content-box p_relative mr_30">
                         <div className="sec-title mb_30">
-                          <span className="sub-title">Why Work With Us?</span>
+                          <span className="sub-title">Why work with us?</span>
                           <h2>Trusted by some of the biggest brands…</h2>
                           <p>
-                            BlitzLearning is a leading e-Learning platform that
-                            goal to provide the highest quality<br /> e-Learning
+                            Blitz Learning is a leading e-Learning platform that
+                            goal to provide the highest quality e-Learning
                             content for an immersive experience.
                           </p>
                         </div>
@@ -333,8 +333,8 @@ draft the right training.
                     <div className="content_block_four">
                       <div className="content-box p_relative ml_30 mt_20 centred">
                         <h3>
-                          Request for Our Free <br />
-                          Consultation
+                          Request for our free <br />
+                          consultation
                         </h3>
                         <div className="form-inner">
                         <form action="index.html" method="post" className="default-form" onSubmit={handleSubmit}>
@@ -379,7 +379,7 @@ draft the right training.
             >
                <option value="Learning Consulting">Learning Consulting</option>
               <option value="Content Services">Content Services</option>
-              <option value="Custom eLearning"> Custom eLearning</option>
+              <option value="Custom eLearning"> Custom e-Learning</option>
              
               <option value="Video Production">Video Production</option>
             </select>

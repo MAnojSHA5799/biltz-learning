@@ -130,7 +130,7 @@ export default function Services() {
                                   <img src="/assets/images/our-works/Scenario-Integrity.jpg" alt="" />
                                 </div>
                                 <h3>
-                                  Do You Need <br />Any <span>Help?</span>
+                                  Do you need <br />any <span>help?</span>
                                 </h3>
                                 <div className="icon-box">
                                   <i className="icon-29"></i>
@@ -160,9 +160,9 @@ export default function Services() {
                                 <img src="/assets/images/services/Custome-Learning.jpg" alt="" />
                               </figure> */}
                               <div className="text">
-                                <h2>Tailored Learning Modules with e-Learning Technology</h2>
+                                <h2>Tailored learning modules with e-Learning technology</h2>
                                 <p>
-                                Crafted to meet speciﬁc learning objectives, our custom e-learning content with advanced e-Learning technology ensures engagement and knowledge retention.
+                                Crafted to meet speciﬁc learning objectives, our custom e-Learning content with advanced e-Learning technology ensures engagement and knowledge retention.
                                 </p>
                                 {/* <p>
                                   Fringilla mauris magna sit elementum elit. Facilisi lacus, pharetra
@@ -284,9 +284,9 @@ for enhanced learner engagement.
                         <div className="content_block_three">
                         <div className="content-box p_relative mr_30">
                             <div className="sec-title mb_30">
-                            <span className="sub-title">Why Work With Us?</span>
+                            <span className="sub-title">Why work with us?</span>
                             <h2>Trusted by some of the biggest brands…</h2>
-                            <p>Blitz Learning is a leading e-Learning platform that provides the highest quality<br /> e-Learning content for an immersive experience.</p>
+                            <p>Blitz Learning is a leading e-Learning platform that provides the highest quality.<br /> e-Learning content for an immersive experience.</p>
                             </div>
                             {/* <div className="progress-inner">
                             <div className="progress-box mb_30">
@@ -314,7 +314,7 @@ for enhanced learner engagement.
                     <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                         <div className="content_block_four">
                         <div className="content-box p_relative ml_30 mt_20 centred">
-                            <h3>Request for Our Free <br />Consultation</h3>
+                            <h3>Request for our free <br />consultation</h3>
                             <div className="form-inner">
                             <form action="index.html" method="post" className="default-form" onSubmit={handleSubmit}>
                             <div className="row clearfix">
@@ -356,7 +356,7 @@ for enhanced learner engagement.
               value={formData.selectedOption}
               onChange={handleInputChange}
             >
-              <option value="Custom eLearning">Custom eLearning</option>
+              <option value="Custom eLearning">Custom e-Learning</option>
               <option value="Content Services">Content Services</option>
               <option value="Learning Consulting">Learning Consulting</option>
               <option value="Video Production">Video Production</option>
@@ -365,7 +365,7 @@ for enhanced learner engagement.
         </div>
         <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
           <button type="submit" className="theme-btn-one" disabled={isSubmitting}>
-            Send Request
+            Send request
           </button>
 
           {/* <button onClick={handleReload}>Reload</button> */}
