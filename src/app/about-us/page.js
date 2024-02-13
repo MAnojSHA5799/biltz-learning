@@ -89,16 +89,16 @@ export default function Home() {
                             <div className="content-box p_relative ml_30">
                                 <div className="sec-title mb-1">
                                 <span className="sub-title">About  Blitz Learning Technologies</span>
-                                <h2>Dedicated And Professional Consulting Services</h2>
+                                <h2>Dedicated and professional consulting services</h2>
                                 </div>
                                 <div className="text mb_35">
-                                <p>Blitz Learning Technologies, established in 2016, exemplifies dedication and professionalism, delivering premier e-learning services worldwide. Our innovative approach and research-driven solutions cater to diverse organizational needs, offering unparalleled quality and effectiveness with expertise in highly customized client delivery and localization in over 35 languages.</p>
+                                <p>Blitz Learning Technologies, established in 2016, exemplifies dedication and professionalism, delivering premier e-Learning services worldwide. Our innovative approach and research-driven solutions cater to diverse organizational needs, offering unparalleled quality and effectiveness with expertise in highly customized client delivery and localization in over 35 languages.</p>
                               
                                 </div>
                                 <div className="inner-box mb_35">
                                 <div className="single-item">
                                     <div className="icon-box"><i className="icon-11"></i></div>
-                                    <h3>Solution Focused</h3>
+                                    <h3>Solution focused</h3>
                                     <p>We prioritize crafting meaningful and engaging learning experiences that captivate individuals at every stage of their learning journey.</p>
                                 </div>
                                 <div className="single-item">
@@ -309,7 +309,7 @@ export default function Home() {
                     <div className="auto-container">
                         <div className="sec-title mb_50 centred">
                             <span className="sub-title">Team members</span>
-                            <h2>Meet our Gurus from Team
+                            <h2>Meet our gurus from the team
                         {/* <br /> */}
                         </h2>
                         </div>

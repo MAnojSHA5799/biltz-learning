@@ -251,7 +251,7 @@ export default function Home() {
                     <div className="auto-container">
                         <div className="sec-title mb_50 centred">
                             <span className="sub-title">Team members</span>
-                            <h2>Meet our Gurus from Team
+                            <h2>Meet our gurus from the team
                         {/* <br /> */}
                         </h2>
                         </div>

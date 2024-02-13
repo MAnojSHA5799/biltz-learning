@@ -62,7 +62,7 @@ export default function TestimonialSlider0() {
                         <div className="inner-box">
                             <h3>Abhishek Kumar</h3>
                             <span className="designation">Co-Founder and VP of Sales</span>
-                            <p>“Abhishek is the cornerstone of the sales function at Blitz Learning. With his deep expertise in sales techniques and 15 years of sales experience in eLearning sales, he heads our sales team.”</p>
+                            <p>“Abhishek is the cornerstone of the sales function at Blitz Learning. With his deep expertise in sales techniques and 15 years of sales experience in e-Learning sales, he heads our sales team.”</p>
                             <ul className="rating clearfix">
                                 <li><i className="fas fa-star"></i></li>
                                 <li><i className="fas fa-star"></i></li>
