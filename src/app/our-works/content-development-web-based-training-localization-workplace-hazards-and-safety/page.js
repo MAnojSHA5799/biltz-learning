@@ -42,7 +42,7 @@ export default function Home() {
                       </li>
                       <li>
                         <span>Authoring Tool: </span>
-                        Articulate Storyline
+                        Articulate storyline
                       </li>
                     </ul>
                     {/* <ul className="social-links clearfix">
@@ -86,7 +86,7 @@ export default function Home() {
                         facilisi dui vel at faucibus diam. Semper non vitae elit mattis eu
                         sodales. Sapien pellentesque sagittis enim.
                     </p> */}
-              <h3>Client Requirements</h3>
+              <h3>Client requirements</h3>
               <ul>
                 <li className="our-work-li">
                 Employees needed to learn about previous incidents on the manufacturing floor and adopt safety measures to minimize workplace accidents and hazardous incidents. The client had very raw content in the form of examples of incidents and some safety tips.
@@ -110,7 +110,7 @@ export default function Home() {
                 </li>
               </ul>
               <br />
-              <h3 className="mb-1">Outcome Achieved</h3>
+              <h3 className="mb-1">Outcome achieved</h3>
               <ul>
                 <li className="our-work-li">
                 Due to the efforts of our content development team, the client now had a comprehensive training module on workplace safety.
@@ -137,7 +137,7 @@ export default function Home() {
 
                       <blockquote>
                         <div className="icon-box">
-                          <h3 className="text-center">Blitz Solution</h3>
+                          <h3 className="text-center">Blitz solution</h3>
                         </div>
                         <ul>
                           <li className="our-work-li">

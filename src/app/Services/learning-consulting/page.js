@@ -203,7 +203,7 @@ export default function Services() {
                             <div className="icon-box">
                               <i className="icon-8"></i>
                             </div>
-                            <h3>Training needs analysis</h3>
+                            <h3>Training Needs Analysis</h3>
                             <p>
                             We specialize in analyzing an organization’s current 
 learning function, employee skill gaps, strategic goals, 
@@ -220,7 +220,7 @@ results.
                             <div className="icon-box">
                               <i className="icon-8"></i>
                             </div>
-                            <h3>Design process analysis</h3>
+                            <h3>Design Process Analysis</h3>
                             <p>Our consultants study your present L&D design 
 and suggest actionable improvements based on 
 internal data.
@@ -235,7 +235,7 @@ internal data.
                             <div className="icon-box">
                               <i className="icon-8"></i>
                             </div>
-                            <h3>Learning effectiveness strategy</h3>
+                            <h3>Learning Effectiveness Strategy</h3>
                             <p>
                             With our expertise in designing learner-centric 
 solutions, we understand how to cultivate an 
@@ -255,7 +255,7 @@ frameworks designed by industry veterans.
                             <div className="icon-box">
                               <i className="icon-13"></i>
                             </div>
-                            <h3>Learning execution strategy</h3>
+                            <h3>Learning Execution Strategy</h3>
                             <p>
                             Blitz Learning’s domain-specific learning 
 consultants conduct workshops in close 

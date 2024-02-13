@@ -40,7 +40,7 @@ export default function Home() {
                       </li>
                       <li>
                         <span>Authoring Tool: </span>
-                        Articulate Storyline
+                        Articulate storyline
                       </li>
                     </ul>
                     {/* <ul className="social-links clearfix">
@@ -85,7 +85,7 @@ export default function Home() {
                         sodales. Sapien pellentesque sagittis enim.
                     </p> */}
                     
-              <h3 className="mb-1">Client Requirements</h3>
+              <h3 className="mb-1">Client requirements</h3>
               <ul >
                 <li className="our-work-li"  >
                   The client needed to create a SCORM compliant interactive and
@@ -114,7 +114,7 @@ export default function Home() {
               </ul>
               <br />
 
-              <h3 className="mb-1">Outcome Achieved</h3>
+              <h3 className="mb-1">Outcome achieved</h3>
               <ul>
                 <li className="our-work-li">
                   The courses were rolled to over 80,000 employees and the
@@ -166,7 +166,7 @@ export default function Home() {
 
                       <blockquote>
                         <div className="icon-box">
-                          <h3 className="text-center">Blitz Solution</h3>
+                          <h3 className="text-center">Blitz solution</h3>
                         </div>
                         <ul>
                           <li className="our-work-li">
@@ -180,8 +180,8 @@ export default function Home() {
                           </li>
                           <li className="our-work-li">
                             Blitz Learning created a fully interactive course
-                            and an e Learning portal and integrated it with our
-                            partner’s LMS. The LMS had Admin and User login
+                            and an e Learning Portal and integrated it with our
+                            partner’s LMS. The LMS had admin and user login
                             panels and the learner needed to log in and take the
                             course progress of which was automatically reflected
                             in the LMS and a certificate of completion was

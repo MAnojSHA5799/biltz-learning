@@ -18,8 +18,8 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">27 December</span> */}
-                                                    <h3><Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training">Web Based Training And Online Portal/Lms|Sales Academy Training</Link></h3>
-                                                    <p>Web Based Training And Online Portal/Lms|Sales Academy Training A leading...</p>
+                                                    <h3><Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training">Web-Based Training and Online Portal/Lms|Sales Academy Training</Link></h3>
+                                                    <p>Web-based training and online portal/LMS|Sales Academy training a leading...</p>
                                                     <div className="btn-box">
                                                         <Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training" className="theme-btn-one">Read More</Link>
                                                     </div>
@@ -35,9 +35,9 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">14 APRIL</span> */}
-                                                    <h3><Link href="/our-works/revamp-and-localization-company-policy-refresh-training">Revamp And Localization |Company Policy Refresh Training</Link></h3>
+                                                    <h3><Link href="/our-works/revamp-and-localization-company-policy-refresh-training">Revamp and Localization |Company Policy Refresh Training</Link></h3>
                                                   
-                                                    <p>Revamp And Localization |Company Policy Refresh Training A leading UAE...</p>
+                                                    <p>Revamp and localization | Company Policy Refresh Training a leading UAE...</p>
                                                     <div className="btn-box">
                                                         <Link href="/our-works/revamp-and-localization-company-policy-refresh-training" className="theme-btn-one">Read More</Link>
                                                     </div>
@@ -53,9 +53,9 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">13 APRIL</span> */}
-                                                    <h3><Link href="/our-works/mobile-based-mentor-driven-trainingsales-call-training">Mobile Based Mentor Driven Training|Sales Call Training</Link></h3>
+                                                    <h3><Link href="/our-works/mobile-based-mentor-driven-trainingsales-call-training">Mobile-Based Mentor Driven Training|Sales Call Training</Link></h3>
                                                    
-                                                    <p>Mobile Based Mentor Driven Training|Sales Call Training A Middle East-based...</p>
+                                                    <p>Mobile-based mentor-driven training|Sales call training a Middle East-based...</p>
                                                     <div className="btn-box">
                                                         <Link href="/our-works/mobile-based-mentor-driven-trainingsales-call-training" className="theme-btn-one">Read More</Link>
                                                     </div>
@@ -71,9 +71,9 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">12 APRIL</span> */}
-                                                    <h3><Link href="/our-works/content-development-web-based-training-localization-workplace-hazards-and-safety">Content Development, Web Based Training, Localization| Workplace Hazards And Safety</Link></h3>
+                                                    <h3><Link href="/our-works/content-development-web-based-training-localization-workplace-hazards-and-safety">Content Development, Web-Based Training, Localization| Workplace Hazards and Safety</Link></h3>
                                                    
-                                                    <p>Content Development, Web Based Training, Localization| Workplace Hazards And Safety Manufacturing...</p>
+                                                    <p>Content development, web-based training, localization, workplace hazards and safety manufacturing...</p>
                                                     <div className="btn-box">
                                                         <Link href="/our-works/content-development-web-based-training-localization-workplace-hazards-and-safety" className="theme-btn-one">Read More</Link>
                                                     </div>
@@ -89,9 +89,9 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">12 APRIL</span> */}
-                                                    <h3><Link href="/our-works/web-based-training-and-localization-product-training">Web Based Training And Localization | Product Training</Link></h3>
+                                                    <h3><Link href="/our-works/web-based-training-and-localization-product-training">Web-Based Training and Localization | Product Training</Link></h3>
                                                     
-                                                    <p>WEB BASED TRAINING AND LOCALIZATION| PRODUCT TRAINING Logistics, Aviation...</p>
+                                                    <p>Web-based training and localization | Product training for logistics and aviation...</p>
                                                     <div className="btn-box">
                                                         <Link href="/our-works/web-based-training-and-localization-product-training" className="theme-btn-one">Read More</Link>
                                                     </div>
@@ -107,9 +107,9 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">11 APRIL</span> */}
-                                                    <h3><Link href="/our-works/scenario-based-trainingworkplace-integrity">Scenario Based Training | Workplace Integrity</Link></h3>
+                                                    <h3><Link href="/our-works/scenario-based-trainingworkplace-integrity">Scenario-Based Training | Workplace Integrity</Link></h3>
                                                    
-                                                    <p>Scenario-Based Training Workplace Integrity Client Requirements The client was...</p>
+                                                    <p>Scenario-based training for workplace integrity and client requirements. The client was...</p>
                                                     <div className="btn-box">
                                                         <Link href="/our-works/scenario-based-trainingworkplace-integrity" className="theme-btn-one">Read More</Link>
                                                     </div>

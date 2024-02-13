@@ -18,9 +18,9 @@ export default function Home() {
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                   <div className="content-box ml_30">
-                    <h3>WEB BASED TRAINING AND LOCALIZATION| PRODUCT TRAINING
+                    <h2>Web-Based Training and Localization| Product Training
 
-</h3>
+</h2>
                     {/* <span className="designation">Advisor</span> */}
                     <p>
                     {/* A Middle East-based leading retailer */}
@@ -38,11 +38,11 @@ export default function Home() {
                       </li>
                       <li>
                         <span>Target Learners: </span>
-                        Sales Teams
+                        Sales teams
                       </li>
                       <li>
                         <span>Authoring Tool: </span>
-                        Adobe Captivate
+                        Adobe captivate
                       </li>
                     </ul>
                     {/* <ul className="social-links clearfix">
@@ -86,7 +86,7 @@ export default function Home() {
                         facilisi dui vel at faucibus diam. Semper non vitae elit mattis eu
                         sodales. Sapien pellentesque sagittis enim.
                     </p> */}
-              <h3 className="mb-1">Client Requirements</h3>
+              <h3 className="mb-1">Client requirements</h3>
               <ul>
                 <li className="our-work-li">
                 The client needed to create web-based training to educate its sales teams about the latest line of freight containers.
@@ -106,7 +106,7 @@ export default function Home() {
                 
               </ul>
               <br />
-              <h3 className="mb-1">Outcome Achieved</h3>
+              <h3 className="mb-1">Outcome achieved</h3>
               <ul>
                 <li className="our-work-li">
                 The SME helped the client create a targeted content repository for the products.
@@ -133,7 +133,7 @@ export default function Home() {
 
                       <blockquote>
                         <div className="icon-box">
-                          <h3 className="text-center">Blitz Solution</h3>
+                          <h3 className="text-center">Blitz solution</h3>
                         </div>
                         <ul>
                           <li className="our-work-li">

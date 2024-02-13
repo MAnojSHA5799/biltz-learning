@@ -23,7 +23,7 @@ export default function Home() {
 </h2>
                     {/* <span className="designation">Advisor</span> */}
                     <p>
-                    A Middle East-based leading retailer
+                    A Middle East-based leading retailer.
                     </p>
                     <ul className="info-list clearfix">
                       <li>
@@ -42,7 +42,7 @@ export default function Home() {
                       </li>
                       <li>
                         <span>Authoring Tool: </span>
-                        Articulate Storyline
+                        Articulate storyline
                       </li>
                     </ul>
                     {/* <ul className="social-links clearfix">
@@ -86,7 +86,7 @@ export default function Home() {
                         facilisi dui vel at faucibus diam. Semper non vitae elit mattis eu
                         sodales. Sapien pellentesque sagittis enim.
                     </p> */}
-              <h3>Client Requirements</h3>
+              <h3>Client requirements</h3>
               <ul>
                 <li className="our-work-li">
                 The client wanted to create a sales call training snippet with an elevated level of interactivity which enables the learner to get hold of the best way to engage with the customers.
@@ -108,7 +108,7 @@ export default function Home() {
                 </li>
               </ul>
               <br />
-              <h3 className="mb-1">Outcome Achieved</h3>
+              <h3 className="mb-1">Outcome achieved</h3>
               <ul>
                 <li className="our-work-li">
                 The mobile based content saw increased attraction and learners accessed the courses frequently to learn and apply to the work floor.
@@ -135,7 +135,7 @@ export default function Home() {
 
                       <blockquote>
                         <div className="icon-box">
-                          <h3 className="text-center">Blitz Solution</h3>
+                          <h3 className="text-center">Blitz solution</h3>
                         </div>
                         <ul>
                           <li className="our-work-li">

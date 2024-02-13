@@ -18,10 +18,10 @@ export default function Home() {
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                   <div className="content-box ml_30">
-                    <h2>Revamp And Localization |Company Policy</h2>
+                    <h2>Revamp and Localization |Company Policy</h2>
                     {/* <span className="designation">Advisor</span> */}
                     <p>
-                    A leading UAE based conglomerate with business in multiple retail segments
+                    A leading UAE based conglomerate with business in multiple retail segments.
                     </p>
                     <ul className="info-list clearfix">
                       <li>
@@ -40,7 +40,7 @@ export default function Home() {
                       </li>
                       <li>
                         <span>Authoring Tool: </span>
-                        Articulate Storyline
+                        Articulate storyline
                       </li>
                     </ul>
                     {/* <ul className="social-links clearfix">
@@ -84,7 +84,7 @@ export default function Home() {
                         facilisi dui vel at faucibus diam. Semper non vitae elit mattis eu
                         sodales. Sapien pellentesque sagittis enim.
                     </p> */}
-              <h3 className="mb-1">Client Requirements</h3>
+              <h3 className="mb-1">Client requirements</h3>
               <ul>
                 <li className="our-work-li">
                 The client needed to impart various ethics and compliance training to its shop floor employees.
@@ -106,7 +106,7 @@ export default function Home() {
                 </li>
               </ul>
               <br />
-              <h3 className="mb-1">Outcome Achieved</h3>
+              <h3 className="mb-1">Outcome achieved</h3>
               <ul>
                 <li className="our-work-li">
                 The course was very well received and was rolled off to over 80,000 employees across all its retail units.
@@ -132,7 +132,7 @@ export default function Home() {
 
                       <blockquote>
                         <div className="icon-box">
-                          <h3 className="text-center">Blitz Solution</h3>
+                          <h3 className="text-center">Blitz solution</h3>
                         </div>
                         <ul>
                           <li className="our-work-li">
