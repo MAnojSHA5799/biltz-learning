@@ -85,27 +85,13 @@ export default function Home() {
                           </li>
                         </ul>
                         <h2>
-                          The Role of Animation Videos in Unveiling the Inner
-                          Workings of Oil and Gas Machinery
+                        The role of animation videos in unveiling the inner workings of oil and gas machinery
                         </h2>
                         <h4 className="blog-heading">Introduction :</h4>
                         <p>
-                          Imperdiet consectetur gravida vel rutrum tempus,
-                          mattis sit massa lacus morbi feugiat aliquam sagittis
-                          nunc neque sit nec lorem tincidunt arcu nunc accumsan
-                          risus felis in ornare Lorem ipsum dolor sit amet,
-                          consectetur adipiscing elit. cursus ornare non non
-                          massa elit rutrum. eros proin nibh neque interdum
-                          accumsan, neque vitae. Tortor etiam sed suspendisse
-                          faucibus ac volutpat mattis tortor nec. Orc velit
-                          posuere turpis amet. Lectus lacus lectus habitasse
-                          amet quam libero, lorem. Volutpat maecenas viverra
-                          consequat condimentum diam donec aliquet. Natoque quam
-                          vitae leo risus. Eget neque proin in dolor cursus
-                          bibendum urna dictum. Aliquam gravida et proin
-                          maecenas quis faucibus varius tristique.
+                          AAA
                         </p>
-                        <h4 className="blog-heading">Visualizing Complexity:</h4>
+                        <h4 className="blog-heading">Visualizing complexity:</h4>
                         <p>
                           Oil and gas machinery are intricate systems with
                           numerous components and processes working in tandem.
@@ -119,7 +105,7 @@ export default function Home() {
                           making it easier for both experts and novices to grasp
                           the nuances of their inner workings.
                         </p>
-                        <h4 className="blog-heading">Enhanced Learning Experience:</h4>
+                        <h4 className="blog-heading">Enhanced learning experience:</h4>
                         <p>
                           The use of animation videos in explaining oil and gas
                           machinery transcends traditional educational methods.
@@ -133,7 +119,7 @@ export default function Home() {
                           continual learning resource for those already in the
                           field.
                         </p>
-                        <h4 className="blog-heading"> Simulation and Training:</h4>
+                        <h4 className="blog-heading"> Simulation and training:</h4>
                         <p>
                           Simulation plays a crucial role in the oil and gas
                           industry, where real-world scenarios can be risky and
@@ -155,7 +141,7 @@ export default function Home() {
                           and repeatable training experiences, ensuring that
                           personnel are well-prepared for real-world situations.
                         </p>
-                        <h4 className="blog-heading">Showcasing Innovation:</h4>
+                        <h4 className="blog-heading">Showcasing innovation:</h4>
                         <p>
                           As the oil and gas industry continues to evolve,
                           innovation becomes a driving force. Animation videos
@@ -166,9 +152,9 @@ export default function Home() {
                           features of their innovations to a broader audience.
                           This not only enhances the industry’s reputation for
                           innovation but also fosters a culture of continuous
-                          improvement
+                          improvement.
                         </p>
-                        <h4 className="blog-heading">Effective Communication:</h4>
+                        <h4 className="blog-heading">Effective communication:</h4>
                         <p>
                           In a global industry where communication spans across
                           diverse cultures and languages, animation videos
@@ -231,13 +217,13 @@ export default function Home() {
                       <img src="/assets/images/blog-author/neha.jpg" alt="" />
                     </figure>
                     <h3>Neha Tyagi</h3>
-                    <span className="designation">About Author</span>
+                    <span className="designation">About author</span>
                     <p>
                     As a Digital Tech professional with significant experience, Neha Tyagi has mastered the art of teamwork. Throughout her career, she maintains a commitment to continuous learning. Currently, Neha is delving into innovative technologies aimed at transforming businesses.
                     </p>
                   </div>
                   <div className="comment-form-area">
-                    <h3>Leave A Comments</h3>
+                    <h3>Leave a comments</h3>
                     <div className="form-inner">
                     <form
       action="blog-details"
@@ -250,7 +236,7 @@ export default function Home() {
           <input
             type="text"
             name="name"
-            placeholder="Your Name"
+            placeholder="Your name"
             value={formData.name}
             onChange={handleInputChange}
             required
@@ -335,7 +321,7 @@ export default function Home() {
                   </div> */}
                  <div className="sidebar-widget post-widget">
                     <div className="widget-title">
-                      <h3>Recent Article</h3>
+                      <h3>Recent article</h3>
                     </div>
                     <div className="post-inner">
                       <div className="post">

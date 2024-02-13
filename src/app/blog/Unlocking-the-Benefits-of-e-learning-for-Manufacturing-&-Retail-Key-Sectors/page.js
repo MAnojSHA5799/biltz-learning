@@ -84,13 +84,13 @@ export default function Home() {
                           </li>
                         </ul>
                         <h2>
-                        Unlocking the Benefits of e-learning for Manufacturing & Retail Key Sectors
+                        Unlocking the benefits of e-Learning for manufacturing and retail key sectors
                         </h2>
                         <h4 className="blog-heading">Introduction</h4>
                         <p>
                         In today’s rapidly evolving world, industries across the board are recognizing the importance of e-learning as a powerful tool for workforce development and continuous learning. Among the sectors that have particularly benefited from this educational paradigm shift are Retail, Healthcare, Pharma, Automotive, and Banking, Financial Services, and Insurance (BFSI). E-learning has emerged as a game-changer, providing these industries with cost-effective and efficient ways to train employees, enhance their skills, and adapt to the ever-changing landscape of their respective markets. In this article, we will explore how e-learning is revolutionizing these sectors, delivering a range of benefits from cost savings to improved performance and compliance.
                         </p>
-                        <h4 className="blog-heading">Retail Revolution</h4>
+                        <h4 className="blog-heading">Retail revolution</h4>
                         <p>
                         The retail industry has always been known for its fast-paced nature and the need for constant adaptation to market trends. E-learning has played a pivotal role in helping retail organizations stay competitive and ensure that their workforce is well-equipped to meet the demands of today’s consumers.
                         </p>
@@ -106,7 +106,7 @@ export default function Home() {
                         <p>
                         Additionally, e-learning platforms in retail can track and measure employee progress and performance. This data can help identify areas where additional training is needed and where employees excel. This information is invaluable for managers and HR departments to make data-driven decisions about their workforce’s development and allocation.
                         </p>
-                        <h4 className="blog-heading">Healthcare and Pharma Proficiency</h4>
+                        <h4 className="blog-heading">Healthcare and pharma proficiency</h4>
                         <p>
                         In the healthcare and pharmaceutical sectors, where knowledge is critical, e-learning has proven to be a lifesaver. Medical professionals and pharmaceutical representatives must continually update their knowledge to keep up with the latest research, treatments, and regulations. E-learning offers a convenient and efficient way to achieve this.
                         </p>
@@ -122,7 +122,7 @@ export default function Home() {
                         <p>
                         E-learning also offers flexibility, allowing healthcare professionals to balance their work schedules with continuing education. Whether it’s a nurse completing a certification course or a pharmaceutical representative learning about a new drug, e-learning allows them to study at their own pace, reducing the disruption to their daily routines.
                         </p>
-                        <h4 className="blog-heading">Automotive Advancements</h4>
+                        <h4 className="blog-heading">Automotive advancements</h4>
                         <p>
                         In the automotive industry, where technology and innovation are constantly evolving, e-learning has become an indispensable tool for training and development. Manufacturers, dealerships, and repair shops have all embraced e-learning to keep their employees up to date with the latest automotive advancements.
                         </p>
@@ -138,7 +138,7 @@ export default function Home() {
                         <p>
                         Additionally, e-learning allows automotive companies to standardize training programs across their network of dealerships and service centers. This consistency ensures that customers receive the same level of service and expertise, regardless of where they go. It also simplifies the onboarding process for new employees, as they can access a centralized repository of training materials.
                         </p>
-                        <h4 className="blog-heading">BFSI Excellence</h4>
+                        <h4 className="blog-heading">BFSI excellence</h4>
                         <p>
                         The BFSI sector has witnessed significant transformations in recent years, driven by technological advancements and regulatory changes. E-learning has been instrumental in helping financial institutions and insurance companies stay compliant, reduce risks, and enhance the skills of their workforce.
                         </p>
@@ -195,13 +195,13 @@ export default function Home() {
                       <img src="/assets/images/blog-author/neha.jpg" alt="" />
                     </figure>
                     <h3>Neha Tyagi</h3>
-                    <span className="designation">About Author</span>
+                    <span className="designation">About author</span>
                     <p>
                     As a Digital Tech professional with significant experience, Neha Tyagi has mastered the art of teamwork. Throughout her career, she maintains a commitment to continuous learning. Currently, Neha is delving into innovative technologies aimed at transforming businesses.
                     </p>
                   </div>
                   <div className="comment-form-area">
-                    <h3>Leave A Comments</h3>
+                    <h3>Leave a comments</h3>
                     <div className="form-inner">
                     <form
       action="blog-details"
@@ -214,7 +214,7 @@ export default function Home() {
           <input
             type="text"
             name="name"
-            placeholder="Your Name"
+            placeholder="Your name"
             value={formData.name}
             onChange={handleInputChange}
             required
@@ -299,7 +299,7 @@ export default function Home() {
                   </div> */}
                  <div className="sidebar-widget post-widget">
                     <div className="widget-title">
-                      <h3>Recent Article</h3>
+                      <h3>Recent article</h3>
                     </div>
                     <div className="post-inner">
                       <div className="post">

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
-import '../../main.css'
+// import '../../main.css'
 export default function Home() {
   const [formData, setFormData] = useState({
     name: '',
@@ -86,30 +86,30 @@ export default function Home() {
                           </li>
                         </ul>
                         <h2>
-                        Benefits of Our Custom e-learning Services
+                        Benefits of our custom e-Learning services
                         </h2>
                         <h4 className="blog-heading">Introduction :</h4>
                         <p>
                         In a rapidly evolving world, education and training have become more important than ever. The traditional classroom model is no longer the sole means of acquiring knowledge and skills. The emergence of e-learning has revolutionized the way we learn, making education accessible to people around the globe. One size does not fit all when it comes to education, and that’s where custom e-learning services come into play. These services offer a myriad of benefits that cater to the unique needs and preferences of learners. In this blog, we will explore some of the key advantages of custom e-learning services and why they are crucial for modern learning and development teams.
                         </p>
-                        <h4 className="blog-heading">Tailored Learning Experience</h4>
+                        <h4 className="blog-heading">Tailored learning experience</h4>
                         <p>
                         Custom e-learning services enable a personalized and tailored learning experience. Unlike generic courses, custom e-learning is designed to meet the specific needs of a particular audience or organization. It takes into account the prior knowledge, learning pace, and preferences of the learners, resulting in a more engaging and effective learning experience. This personalization not only improves the learning outcomes but also keeps the learners motivated and engaged throughout their educational journey.
                         
                         </p>
-                        <h4 className="blog-heading">Cost-Effectiveness</h4>
+                        <h4 className="blog-heading">Cost-effectiveness</h4>
                         <p>
                         Custom e-learning services can be cost-effective in the long run. While initial development costs might be higher compared to off-the-shelf solutions, the ability to reuse and adapt content for different courses and learners can lead to significant cost savings over time. Moreover, custom e-learning can be integrated with an organization’s existing systems and processes, streamlining training efforts and reducing overhead expenses. Our e-learning services can save you up to 30% cost as compared to the cost in Europe and North America.
                         </p>
-                        <h4 className="blog-heading">Flexibility and Accessibility</h4>
+                        <h4 className="blog-heading">Flexibility and accessibility</h4>
                         <p>
                         The flexibility of custom e-learning services is one of their most significant advantages. They can be designed to fit the learners’ schedules and preferences. This means that learners can access the content from anywhere at any time, whether they’re on their commute, at home, or during lunch breaks. Such flexibility is especially valuable for working professionals and students juggling various commitments.
                         </p>
-                        <h4 className="blog-heading">Improved Engagement</h4>
+                        <h4 className="blog-heading">Improved engagement</h4>
                         <p>
                         Custom e-learning services are built with engagement in mind. They incorporate various interactive elements, such as quizzes, simulations, videos, and gamified content, making the learning process more engaging and enjoyable. The use of multimedia and interactive features not only captures the learners’ attention but also enhances their understanding and retention of the material.
                         </p>
-                        <h4 className="blog-heading">Better Learning Outcomes</h4>
+                        <h4 className="blog-heading">Better learning outcomes</h4>
                         <p>
                         One of the primary goals of education and training is to achieve desirable learning outcomes. Custom e-learning services can significantly contribute to this goal. They enable the alignment of the course content with the learning objectives, ensuring that learners acquire the knowledge and skills they need. This, in turn, leads to better performance and results.
                         </p>
@@ -121,15 +121,15 @@ export default function Home() {
                         <p>
                         Maintaining consistency in education and training materials is essential, especially for organizations aiming to ensure that all employees receive the same level of knowledge and skills. Custom e-learning services provide the means to maintain consistency in content delivery, assessment methods, and learning objectives. This consistency results in a more standardized and effective training process.
                         </p>
-                        <h4 className="blog-heading">Quick Updates</h4>
+                        <h4 className="blog-heading">Quick updates</h4>
                         <p>
                         In a rapidly changing world, educational content must stay up-to-date to remain relevant. Custom e-learning services allow for quick and seamless updates. If new information, regulations, or best practices emerge, the content can be modified or expanded to reflect these changes. This ensures that learners are always working with the most current information.
                         </p>
-                        <h4 className="blog-heading">Better Tracking and Reporting</h4>
+                        <h4 className="blog-heading">Better tracking and reporting</h4>
                         <p>
                         Custom e-learning services often come with robust tracking and reporting capabilities. This means that instructors, administrators, and learners can monitor progress, identify areas that need improvement, and assess the effectiveness of the training program. Detailed reports help in making data-driven decisions and continuous improvement efforts.
                         </p>
-                        <h4 className="blog-heading">Accessibility and Inclusivity</h4>
+                        <h4 className="blog-heading">Accessibility and inclusivity</h4>
                         <p>
                         Custom e-learning services can be designed with accessibility and inclusivity in mind. They can incorporate features like closed captioning, screen readers, and other accommodations to ensure that all learners, regardless of their abilities, have equal access to the content. This is not only ethical but also often a legal requirement.
                         </p>
@@ -173,13 +173,13 @@ export default function Home() {
                       <img src="/assets/images/blog-author/neha.jpg" alt="" />
                     </figure>
                     <h3>Neha Tyagi</h3>
-                    <span className="designation">About Author</span>
+                    <span className="designation">About author</span>
                     <p>
                     As a Digital Tech professional with significant experience, Neha Tyagi has mastered the art of teamwork. Throughout her career, she maintains a commitment to continuous learning. Currently, Neha is delving into innovative technologies aimed at transforming businesses.
                     </p>
                   </div>
                   <div className="comment-form-area">
-                    <h3>Leave A Comments</h3>
+                    <h3>Leave a comments</h3>
                     <div className="form-inner">
                     <form
       action="blog-details"
@@ -192,7 +192,7 @@ export default function Home() {
           <input
             type="text"
             name="name"
-            placeholder="Your Name"
+            placeholder="Your name"
             value={formData.name}
             onChange={handleInputChange}
             required
@@ -277,7 +277,7 @@ export default function Home() {
                   </div> */}
                   <div className="sidebar-widget post-widget">
                     <div className="widget-title">
-                      <h3>Recent Article</h3>
+                      <h3>Recent article</h3>
                     </div>
                     <div className="post-inner">
                       <div className="post">

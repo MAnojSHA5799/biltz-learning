@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
-import '../../main.css'
+// import '../../main.css'
 export default function Home() {
   const [formData, setFormData] = useState({
     name: '',
@@ -86,41 +86,41 @@ export default function Home() {
                           </li>
                         </ul>
                         <h2>
-                        Revitalizing-E-learning-Strategies-for-Creating-Engaging-and-Effective-Training
+                        Revitalizing e-Learning strategies for creating engaging and effective training
                         </h2>
                         <h4 className="blog-heading">Introduction</h4>
                         <p>
                         The field of education has been undergoing a remarkable transformation in recent years, with technology playing a pivotal role in reshaping how learning takes place. E-learning, in particular, has gained significant traction as a convenient and efficient way to deliver training and education across various domains. However, not all E-learning experiences are created equal. To truly make an impact, organizations and educators must focus on creating engaging and effective training modules that captivate learners and facilitate knowledge retention. In this blog, we will delve into some strategies that can help revitalize e-learning and elevate its effectiveness.
                         </p>
-                        <h4 className="blog-heading">Interactive Multimedia Content</h4>
+                        <h4 className="blog-heading">Interactive multimedia content</h4>
                         <p>
                         One of the most critical aspects of revitalizing e-learning is incorporating interactive multimedia content. Traditional text-heavy modules can lead to disengagement and reduced retention rates. By integrating videos, animations, infographics, and simulations, learners can interact with the content actively. Visual and auditory elements stimulate different senses, enhancing the learning experience and making it more memorable. Interactive scenarios also encourage learners to apply theoretical concepts to real-world situations, fostering a deeper understanding of the subject matter.
                         </p>
-                        <h4 className="blog-heading">Personalized Learning Paths</h4>
+                        <h4 className="blog-heading">Personalized learning paths</h4>
                         <p>
                         Every learner is unique, with varying levels of knowledge, skills, and learning preferences. Embracing personalized learning paths can greatly enhance engagement and effectiveness. By using technology to assess the learner’s initial proficiency and objectives, the training program can adapt to their needs. This could mean providing additional resources for struggling learners or fast-tracking those who grasp concepts quickly. Personalization fosters a sense of ownership over the learning process and increases the likelihood of achieving desired outcomes.
                         </p>
                         
                         
-                        <h4 className="blog-heading">Gamification Elements</h4>
+                        <h4 className="blog-heading">Gamification elements</h4>
                         <p>
                         Gamification has proven to be a game-changer in the e-learning landscape. By incorporating game-like elements such as quizzes, challenges, leaderboards, and rewards, training modules can become not only informative but also enjoyable. Gamification taps into the human inclination towards competition and achievement, boosting motivation to complete courses. When learners are invested in the process, they are more likely to retain information and apply it effectively.
                         </p>
                        
                        
-                        <h4 className="blog-heading">Bite-sized Modules</h4>
+                        <h4 className="blog-heading">Bite-sized modules</h4>
                         <p>
                         In a world characterized by information overload, attention spans have become shorter. Lengthy e-learning courses can lead to cognitive overload and disinterest. To counter this, breaking down content into bite-sized modules can have a significant impact. Microlearning involves delivering content in short, focused bursts, making it easier for learners to digest and retain information. This approach also accommodates the modern learner’s busy lifestyle, allowing them to learn on-the-go.
                         </p>
-                        <h4 className="blog-heading">Social Learning Communities</h4>
+                        <h4 className="blog-heading">Social learning communities</h4>
                         <p>
                         Learning is not a solitary activity; it thrives in a collaborative environment. Integrating social learning communities within e-learning platforms can rejuvenate the learning experience. Discussion boards, forums, and live chat sessions enable learners to connect, ask questions, share insights, and engage in meaningful discussions. Peer interaction promotes a deeper understanding of the subject matter through diverse perspectives and experiences.
                         </p>
-                        <h4 className="blog-heading">Real-world Application</h4>
+                        <h4 className="blog-heading">Real-world application</h4>
                         <p>
                         The ultimate goal of e-learning is to enable learners to apply their knowledge in real-world scenarios. Therefore, incorporating practical exercises and case studies is crucial. When learners can see the direct relevance of what they are learning to their work or life, their motivation and engagement levels soar. Real-world application not only solidifies understanding but also instils confidence in learners’ abilities.
                         </p>
-                        <h4 className="blog-heading">Continuous Assessment and Feedback</h4>
+                        <h4 className="blog-heading">Continuous assessment and feedback</h4>
                         <p>
                         Regular assessments provide learners with a sense of progress and achievement. Implementing quizzes, tests, and assignments at strategic intervals helps reinforce learning and identify areas that need further attention. Additionally, timely feedback – whether automated or instructor-led – guides learners towards improvement. Constructive feedback serves as a roadmap for enhancement and keeps learners engaged in the learning process.
                         </p>
@@ -164,13 +164,13 @@ export default function Home() {
                       <img src="/assets/images/blog-author/neha.jpg" alt="" />
                     </figure>
                     <h3>Neha Tyagi</h3>
-                    <span className="designation">About Author</span>
+                    <span className="designation">About author</span>
                     <p>
                     As a Digital Tech professional with significant experience, Neha Tyagi has mastered the art of teamwork. Throughout her career, she maintains a commitment to continuous learning. Currently, Neha is delving into innovative technologies aimed at transforming businesses.
                     </p>
                   </div>
                   <div className="comment-form-area">
-                    <h3>Leave A Comments</h3>
+                    <h3>Leave a comments</h3>
                     <div className="form-inner">
                     <form
       action="blog-details"
@@ -183,7 +183,7 @@ export default function Home() {
           <input
             type="text"
             name="name"
-            placeholder="Your Name"
+            placeholder="Your name"
             value={formData.name}
             onChange={handleInputChange}
             required
@@ -268,7 +268,7 @@ export default function Home() {
                   </div> */}
                   <div className="sidebar-widget post-widget">
                     <div className="widget-title">
-                      <h3>Recent Article</h3>
+                      <h3>Recent article</h3>
                     </div>
                     <div className="post-inner">
                       <div className="post">

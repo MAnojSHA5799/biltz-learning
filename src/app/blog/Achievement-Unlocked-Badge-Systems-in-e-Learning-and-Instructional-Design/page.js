@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
-import '../../main.css'
+// import '../../main.css'
 export default function Home() {
   const [formData, setFormData] = useState({
     name: '',
@@ -87,31 +87,31 @@ export default function Home() {
                           </li>
                         </ul>
                         <h2>
-                        Achievement Unlocked: Badge Systems in e-Learning and Instructional Design
+                        Achievement unlocked: Badge systems in e-Learning and instructional design
                         </h2>
                         <h4 className="blog-heading">Introduction :</h4>
                         <p>
                         In the ever-evolving world of education, e-Learning has become an indispensable tool for learners of all ages. With the rise of online courses and digital learning platforms, instructional designers are continually exploring innovative ways to engage and motivate learners. One of the game-changing developments in this realm is the implementation of badge systems. These digital badges, reminiscent of the achievements in video games, serve as a tangible representation of a learner’s accomplishments. This blog explores the world of badge systems in e-Learning and instructional design, shedding light on their significance and potential.
                         </p>
-                        <h4 className="blog-heading">The Birth of Digital Badges:</h4>
+                        <h4 className="blog-heading">The birth of digital badges:</h4>
                         <p>
                         The concept of digital badges may seem relatively new, but its roots can be traced back to traditional forms of credentialing and recognition. In the past, physical badges, medals, and certificates were used to reward and acknowledge achievements. The digital badge is the modern-day equivalent of these physical accolades. They are not just icons on a screen but a digital manifestation of one’s knowledge, skills, and accomplishments.
                   
                         <p>Digital badges were initially popularized by the Mozilla Foundation, which developed an open standard for badge metadata. This open standard made it easier for different organizations and platforms to issue and display badges consistently. As a result, badge systems began to proliferate in the realm of e-Learning and instructional design.</p>
                         </p>
-                        <h4 className="blog-heading">The Anatomy of a Digital Badge:</h4>
+                        <h4 className="blog-heading">The anatomy of a digital badge:</h4>
                         <p>
-                        A digital badge, at its core, is a visual representation of an achievement or accomplishment. It typically comprises the following elements:
+                        A digital badge, at its core, is a visual representation of an achievement or accomplishment. It typically comprises the following elements.
                         </p>
-                        <h4 className="blog-heading">The Role of Digital Badges in e-Learning:</h4>
+                        <h4 className="blog-heading">The role of digital badges in e-Learning:</h4>
                         <p>
-                        Digital badges have found their niche in e-Learning, and for good reason. Here’s how they can make a significant impact:
+                        Digital badges have found their niche in e-Learning, and for good reason. Here’s how they can make a significant impact.
                         </p>
-                        <h4 className="blog-heading">Integrate Badges into the Curriculum:</h4>
+                        <h4 className="blog-heading">Integrate badges into the curriculum:</h4>
                         <p>
                         Integrate badge-earning opportunities into the course curriculum. Badges should be seamlessly integrated into the learning experience and not feel like an afterthought.
                         </p>
-                        <h4 className="blog-heading">Provide Feedback and Recognition:</h4>
+                        <h4 className="blog-heading">Provide feedback and recognition:</h4>
                         <p>
                         When learners earn badges, provide them with feedback and recognition. Celebrate their achievements to reinforce their motivation and commitment.
                         </p>
@@ -155,13 +155,13 @@ export default function Home() {
                       <img src="/assets/images/blog-author/neha.jpg" alt="" />
                     </figure>
                     <h3>Neha Tyagi</h3>
-                    <span className="designation">About Author</span>
+                    <span className="designation">About author</span>
                     <p>
                     As a Digital Tech professional with significant experience, Neha Tyagi has mastered the art of teamwork. Throughout her career, she maintains a commitment to continuous learning. Currently, Neha is delving into innovative technologies aimed at transforming businesses.
                     </p>
                   </div>
                   <div className="comment-form-area">
-                    <h3>Leave A Comments</h3>
+                    <h3>Leave a comments</h3>
                     <div className="form-inner">
                     <form
       action="blog-details"
@@ -174,7 +174,7 @@ export default function Home() {
           <input
             type="text"
             name="name"
-            placeholder="Your Name"
+            placeholder="Your name"
             value={formData.name}
             onChange={handleInputChange}
             required
@@ -259,7 +259,7 @@ export default function Home() {
                   </div> */}
                   <div className="sidebar-widget post-widget">
                     <div className="widget-title">
-                      <h3>Recent Article</h3>
+                      <h3>Recent article</h3>
                     </div>
                     <div className="post-inner">
                       <div className="post">

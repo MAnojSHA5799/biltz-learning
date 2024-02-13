@@ -19,12 +19,12 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">27 December</span>
-                                                    <h3><Link href="/blog/The-Role-of-Animation-Videos-in-Unveiling-the-Inner-Workings-of-Oil-and-Gas-Machinery">The Role of Animation Videos in Unveiling the Inner Workings of Oil and Gas Machinery</Link></h3>
+                                                    <h3><Link href="/blog/The-Role-of-Animation-Videos-in-Unveiling-the-Inner-Workings-of-Oil-and-Gas-Machinery">The role of animation videos in unveiling the inner workings of oil and gas machinery</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">7 Comnt</Link></li>
                                                     </ul> */}
-                                                    <p>Introduction: The oil and gas industry stands at the forefront of technological innovation,</p>
+                                                    <p>The oil and gas industry stands at the forefront of technological innovation...</p>
                                                     <div className="btn-box">
                                                         <Link href="/blog/The-Role-of-Animation-Videos-in-Unveiling-the-Inner-Workings-of-Oil-and-Gas-Machinery" className="theme-btn-one">Read More</Link>
                                                     </div>
@@ -40,12 +40,12 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">14 APRIL</span>
-                                                    <h3><Link href="/blog/Evolving-Horizons-Revealing-the-Apex-of-e-Learning-Trends-in-2024">Evolving Horizons: Revealing the Apex of e-Learning Trends in 2024</Link></h3>
+                                                    <h3><Link href="/blog/Evolving-Horizons-Revealing-the-Apex-of-e-Learning-Trends-in-2024">Evolving horizons: Revealing the Apex of e-Learning Trends in 2024</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">0 Comnt</Link></li>
                                                     </ul> */}
-                                                    <p>In the dynamic landscape of education, e-Learning has emerged as a transformative force,....</p>
+                                                    <p>In the dynamic landscape of education, e-Learning has emerged as a transformative force...</p>
                                                     <div className="btn-box">
                                                         <Link href="/blog/Evolving-Horizons-Revealing-the-Apex-of-e-Learning-Trends-in-2024" className="theme-btn-one">Read More</Link>
                                                     </div>
@@ -61,12 +61,12 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">13 APRIL</span>
-                                                    <h3><Link href="/blog/Innovate-to-Educate-Exploring-AI-Enhanced-e-Learning-with-ChatGPT">Innovate to Educate: Exploring AI-Enhanced e-Learning with ChatGPT</Link></h3>
+                                                    <h3><Link href="/blog/Innovate-to-Educate-Exploring-AI-Enhanced-e-Learning-with-ChatGPT">Innovate to educate: Exploring AI-Enhanced e-Learning with ChatGPT</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">3 Comnt</Link></li>
                                                     </ul> */}
-                                                    <p>In the dynamic landscape of education, the integration of technology has become imperative....</p>
+                                                    <p>In the dynamic landscape of education, the integration of technology has become imperative...</p>
                                                     <div className="btn-box">
                                                         <Link href="/blog/Innovate-to-Educate-Exploring-AI-Enhanced-e-Learning-with-ChatGPT" className="theme-btn-one">Read More</Link>
                                                     </div>
@@ -82,12 +82,12 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">12 APRIL</span>
-                                                    <h3><Link href="blog/Achievement-Unlocked-Badge-Systems-in-e-Learning-and-Instructional-Design">Achievement Unlocked: Badge Systems in e-Learning and Instructional Design</Link></h3>
+                                                    <h3><Link href="blog/Achievement-Unlocked-Badge-Systems-in-e-Learning-and-Instructional-Design">Achievement unlocked: Badge systems in e-Learning and instructional design</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">8 Comnt</Link></li>
                                                     </ul> */}
-                                                    <p>In the ever-evolving world of education, e-Learning has become an indispensable tool for....</p>
+                                                    <p>In the ever-evolving world of education, e-Learning has become an indispensable tool for...</p>
                                                     <div className="btn-box">
                                                         <Link href="blog/Achievement-Unlocked-Badge-Systems-in-e-Learning-and-Instructional-Design" className="theme-btn-one">Read More</Link>
                                                     </div>
@@ -103,12 +103,12 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">12 APRIL</span>
-                                                    <h3><Link href="/blog/Benefits-of-Our-Custom-e-learning-Services">Benefits of Our Custom e-learning Services</Link></h3>
+                                                    <h3><Link href="/blog/Benefits-of-Our-Custom-e-learning-Services">Benefits of our custom e-Learning services</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">0 Comnt</Link></li>
                                                     </ul> */}
-                                                    <p>In a rapidly evolving world, education and training have become more important than....</p>
+                                                    <p>In a rapidly evolving world, education and training have become more important than...</p>
                                                     <div className="btn-box">
                                                         <Link href="/blog/Benefits-of-Our-Custom-e-learning-Services" className="theme-btn-one">Read More</Link>
                                                     </div>
@@ -124,12 +124,12 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">11 APRIL</span>
-                                                    <h3><Link href="/blog/Unlocking-the-Benefits-of-e-learning-for-Manufacturing-&-Retail-Key-Sectors">Unlocking the Benefits of e-learning for Manufacturing & Retail Key Sectors</Link></h3>
+                                                    <h3><Link href="/blog/Unlocking-the-Benefits-of-e-learning-for-Manufacturing-&-Retail-Key-Sectors">Unlocking the benefits of e-Learning for manufacturing and retail key sectors</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">2 Comnt</Link></li>
                                                     </ul> */}
-                                                    <p>In today's rapidly evolving world, industries across the board are recognizing the importance....</p>
+                                                    <p>In today's rapidly evolving world, industries across the board are recognizing the importance...</p>
                                                     <div className="btn-box">
                                                         <Link href="/blog/Unlocking-the-Benefits-of-e-learning-for-Manufacturing-&-Retail-Key-Sectors" className="theme-btn-one">Read More</Link>
                                                     </div>
@@ -145,12 +145,12 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">10 APRIL</span>
-                                                    <h3><Link href="/blog/Revitalizing-E-learning-Strategies-for-Creating-Engaging-and-Effective-Training">Revitalizing E-learning: Strategies for Creating Engaging and Effective Training</Link></h3>
+                                                    <h3><Link href="/blog/Revitalizing-E-learning-Strategies-for-Creating-Engaging-and-Effective-Training">Revitalizing e-Learning strategies for creating engaging and effective training</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">7 Comnt</Link></li>
                                                     </ul> */}
-                                                    <p>The field of education has been undergoing a remarkable transformation in recent years,....
+                                                    <p>The field of education has been undergoing a remarkable transformation in recent years...
 
 </p>
                                                     <div className="btn-box">

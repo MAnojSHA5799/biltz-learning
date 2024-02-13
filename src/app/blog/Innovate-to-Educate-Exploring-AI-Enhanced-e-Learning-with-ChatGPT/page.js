@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
-import '../../main.css'
+// import '../../main.css'
 export default function Home() {
   const [formData, setFormData] = useState({
     name: '',
@@ -87,29 +87,29 @@ export default function Home() {
                           </li>
                         </ul>
                         <h2>
-                        Innovate to Educate: Exploring AI-Enhanced e-Learning with ChatGPT
+                        Innovate to educate: Exploring AI-Enhanced e-Learning with ChatGPT
                         </h2>
                         <h4 className="blog-heading">Introduction :</h4>
                         <p>
                         In the dynamic landscape of education, the integration of technology has become imperative to foster engaging and effective learning environments. One such revolutionary advancement is the infusion of Artificial Intelligence (AI) into e-Learning platforms. Among the myriad of AI tools available, ChatGPT stands out as a powerful language model developed by OpenAI. This blog delves into the exciting possibilities that arise when ChatGPT is harnessed to enhance the e-Learning experience, fostering a new era of innovation in education.
                         </p>
-                        <h4 className="blog-heading">Empowering Personalized Learning:</h4>
+                        <h4 className="blog-heading">Empowering personalized learning:</h4>
                         <p>
                         Traditional education often struggles to address the diverse learning needs of individual students. AI, and specifically ChatGPT, can play a pivotal role in personalized learning experiences. The model’s ability to understand and generate human-like text enables it to tailor content to the unique pace, preferences, and comprehension levels of each learner. As a result, students can engage with educational material in a way that is best suited to their individual learning styles, promoting a more efficient and enjoyable learning journey.
                         </p>
-                        <h4 className="blog-heading">Real-time Feedback for Rapid Improvement:</h4>
+                        <h4 className="blog-heading">Real-time feedback for rapid improvement:</h4>
                         <p>
                         One of the key challenges in conventional education is the delayed feedback loop. Students submit assignments, wait for grading, and receive feedback days or even weeks later. AI-powered systems, like ChatGPT, can provide instantaneous feedback, enabling learners to correct mistakes and solidify their understanding in real time. This immediate feedback loop not only accelerates the learning process but also cultivates a sense of continuous improvement, encouraging students to actively participate in their own learning journey.
                         </p>
-                        <h4 className="blog-heading">Enhanced Interactivity in Virtual Classrooms:</h4>
+                        <h4 className="blog-heading">Enhanced interactivity in virtual classrooms:</h4>
                         <p>
                         The integration of ChatGPT in virtual classrooms transforms the learning experience into an interactive and dynamic process. The model can act as a virtual assistant, answering questions, facilitating discussions, and even simulating real-world scenarios for practical application of knowledge. This interactivity fosters a collaborative and engaging online learning environment, breaking down the barriers often associated with remote education.
                         </p>
-                        <h4 className="blog-heading">Natural Language Understanding for Simplified Communication:</h4>
+                        <h4 className="blog-heading">Natural language understanding for simplified communication:</h4>
                         <p>
                         Language barriers can hinder effective communication in educational settings, especially in diverse global classrooms. ChatGPT’s natural language understanding capabilities can bridge these gaps by providing real-time language translation and interpretation. This not only facilitates communication between students and educators from different linguistic backgrounds but also opens up a world of educational resources that might otherwise be inaccessible due to language constraints.
                         </p>
-                        <h4 className="blog-heading">Ethical Considerations in AI-Enhanced Education:</h4>
+                        <h4 className="blog-heading">Ethical considerations in AI-enhanced education:</h4>
                         <p>
                         While the integration of AI in education holds immense promise, it also raises ethical considerations. It is crucial to establish guidelines and ethical standards to ensure responsible use of AI, safeguarding against biases and maintaining the privacy and security of student data. Striking a balance between innovation and ethical considerations is paramount to realizing the full potential of AI-enhanced e-Learning.
                         </p>
@@ -153,13 +153,13 @@ export default function Home() {
                       <img src="/assets/images/blog-author/neha.jpg" alt="" />
                     </figure>
                     <h3>Neha Tyagi</h3>
-                    <span className="designation">About Author</span>
+                    <span className="designation">About author</span>
                     <p>
                     As a Digital Tech professional with significant experience, Neha Tyagi has mastered the art of teamwork. Throughout her career, she maintains a commitment to continuous learning. Currently, Neha is delving into innovative technologies aimed at transforming businesses.
                     </p>
                   </div>
                   <div className="comment-form-area">
-                    <h3>Leave A Comments</h3>
+                    <h3>Leave a comments</h3>
                     <div className="form-inner">
                     <form
       action="blog-details"
@@ -172,7 +172,7 @@ export default function Home() {
           <input
             type="text"
             name="name"
-            placeholder="Your Name"
+            placeholder="Your name"
             value={formData.name}
             onChange={handleInputChange}
             required
@@ -257,7 +257,7 @@ export default function Home() {
                   </div> */}
                   <div className="sidebar-widget post-widget">
                     <div className="widget-title">
-                      <h3>Recent Article</h3>
+                      <h3>Recent article</h3>
                     </div>
                     <div className="post-inner">
                       <div className="post">

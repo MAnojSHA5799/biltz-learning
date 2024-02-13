@@ -75,7 +75,7 @@ export default function Contact() {
             ></div>
             <div className="auto-container">
               <div className="sec-title mb_100">
-                <span className="sub-title">Contact Info</span>
+                <span className="sub-title">Contact info</span>
                 <h2>We’d love to help you</h2>
               </div>
               <div className="row clearfix">
