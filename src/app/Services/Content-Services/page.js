@@ -6,6 +6,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import axios from "axios";
+import '../../main.css'
 export default function Services() {
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -151,9 +152,9 @@ export default function Services() {
                         <p>
                           Our content team tailors content to match every
                           requirement by using rich media. Our localization
-                          services for e-Learning projects can help you translate
-                          and localize your content, including text translation
-                          and audio recording.
+                          services for e-Learning projects can help you
+                          translate and localize your content, including text
+                          translation and audio recording.
                         </p>
                         {/* <p>
                                   Fringilla mauris magna sit elementum elit. Facilisi lacus, pharetra
@@ -199,7 +200,10 @@ export default function Services() {
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                           <div className="single-item">
                             <div className="icon-box">
-                              <i className="icon-8"></i>
+                              <img
+                                className="icon-03"
+                                src="/assets/images/new-icon/Research and report (1).png"
+                              ></img>
                             </div>
                             <h3>Research and Report</h3>
                             <p>
@@ -218,7 +222,10 @@ export default function Services() {
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                           <div className="single-item">
                             <div className="icon-box">
-                              <i className="icon-8"></i>
+                              <img
+                                className="icon-03"
+                                src="/assets/images/new-icon/Regional connect (1).png"
+                              ></img>
                             </div>
                             <h3>Reginoal Connect</h3>
                             <p>
@@ -234,7 +241,10 @@ export default function Services() {
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
                           <div className="single-item">
                             <div className="icon-box">
-                              <i className="icon-8"></i>
+                              <img
+                                className="icon-03"
+                                src="/assets/images/new-icon/Review and summary (2).png"
+                              ></img>
                             </div>
                             <h3>Review and Summary</h3>
                             <p>
@@ -253,7 +263,10 @@ export default function Services() {
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
                           <div className="single-item">
                             <div className="icon-box">
-                              <i className="icon-13"></i>
+                              <img
+                                className="icon-03"
+                                src="/assets/images/new-icon/Authorization and enrichment (1).png"
+                              ></img>
                             </div>
                             <h3>Authoring and Enrichment</h3>
                             <p>
@@ -270,41 +283,40 @@ export default function Services() {
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
                           <div className="single-item">
                             <div className="icon-box">
-                              <i className="icon-13"></i>
+                              <img
+                                className="icon-03"
+                                src="/assets/images/new-icon/Native Translators.png"
+                              ></img>
                             </div>
                             <h3>Native Translators</h3>
                             <p>
-                            Our localization services for e-Learning 
-projects can help you translate and 
-localize your content including text 
-translation and audio recording. We 
-have a panel of voice-over artist i.e. 
-native translators in all major languages 
-of the world.
+                              Our localization services for e-Learning projects
+                              can help you translate and localize your content
+                              including text translation and audio recording. We
+                              have a panel of voice-over artist i.e. native
+                              translators in all major languages of the world.
                             </p>
-                           
                           </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
                           <div className="single-item">
                             <div className="icon-box">
-                              <i className="icon-13"></i>
+                              <img
+                                className="icon-03"
+                                src="/assets/images/new-icon/Multimedia .png"
+                              ></img>
                             </div>
                             <h3>Multiple Formats</h3>
                             <p>
-                            We translate or re-engineer content 
-in multiple formats as per your 
-needs. These include video, audio, 
-flash, PDF, PPTs, MS Word among 
-others.
+                              We translate or re-engineer content in multiple
+                              formats as per your needs. These include video,
+                              audio, flash, PDF, PPTs, MS Word among others.
                             </p>
                             <br />
-                           
                           </div>
                         </div>
                       </div>
 
-                      
                       <div className="text mt_50">
                         <p>
                           Blitz Learning develops mobile training content across

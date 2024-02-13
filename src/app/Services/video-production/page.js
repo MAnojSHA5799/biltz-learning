@@ -1,17 +1,18 @@
-'use client'
+"use client";
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import axios from "axios";
+import '../../main.css'
 import { useRouter } from "next/navigation";
 export default function Services() {
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    selectedOption: 'Video Production', // Default value for the select box
+    name: "",
+    email: "",
+    phone: "",
+    selectedOption: "Video Production", // Default value for the select box
   });
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -27,7 +28,7 @@ export default function Services() {
     setIsSubmitting(true);
 
     console.log("Form Data:", formData);
-    
+
     try {
       // Make the Axios POST request
       const response = await axios.post(
@@ -44,24 +45,21 @@ export default function Services() {
       // Handle the response
       console.log("Server Response:", response.data);
 
-      
-        // Show success alert
-        alert("Success! Data submitted successfully.");
+      // Show success alert
+      alert("Success! Data submitted successfully.");
 
-        // Reset form data
-        setFormData({
-          name: '',
-          email: '',
-          phone: '',
-        });
-        setIsSubmitting(false);
+      // Reset form data
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+      });
+      setIsSubmitting(false);
 
-        // Optional: You can use router.reload() to refresh the page
-        router.refresh();
-        
+      // Optional: You can use router.reload() to refresh the page
+      router.refresh();
 
-        // Optionally, you can reset the success alert after a certain delay
-     
+      // Optionally, you can reset the success alert after a certain delay
     } catch (error) {
       // Handle errors
       console.error("Error posting data:", error);
@@ -103,7 +101,7 @@ export default function Services() {
                         </li>
                         <li>
                           <Link href="/Services/Custom-eLearning">
-                          Custom e-Learning
+                            Custom e-Learning
                           </Link>
                         </li>
                       </ul>
@@ -132,13 +130,11 @@ export default function Services() {
                         <div className="inner-box">
                           <p>
                             <Link href="mailto:contactus@biltzlearning.in">
-                            contactus@biltzlearning.in
+                              contactus@biltzlearning.in
                             </Link>
                           </p>
                           <h3>
-                            <Link href="tel:911204316127">
-                            +91-1204316127
-                            </Link>
+                            <Link href="tel:911204316127">+91-1204316127</Link>
                           </h3>
                         </div>
                       </div>
@@ -204,54 +200,58 @@ export default function Services() {
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                           <div className="single-item">
                             <div className="icon-box">
-                              <i className="icon-8"></i>
+                            <img
+                                className="icon-03"
+                                src="/assets/images/new-icon/sales and promotional videos.png"
+                              ></img>
                             </div>
                             <h3>Sales and Promotional Videos</h3>
                             <p>
-                            Close more sales and turn more leads into 
-customers with sales and promotional video 
-production. Sales rest on logic and emotion. 
-With the right balance of both useful 
-information and authentic feeling, through the 
-right medium, make sales conversations 
-easier and more profitable.
-
+                              Close more sales and turn more leads into
+                              customers with sales and promotional video
+                              production. Sales rest on logic and emotion. With
+                              the right balance of both useful information and
+                              authentic feeling, through the right medium, make
+                              sales conversations easier and more profitable.
                             </p>
-                            
                           </div>
                         </div>
 
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                           <div className="single-item">
                             <div className="icon-box">
-                              <i className="icon-13"></i>
+                            <img
+                                className="icon-03"
+                                src="/assets/images/new-icon/training video.png"
+                              ></img>
                             </div>
                             <h3>Training Videos</h3>
                             <p>
-                            Educate, inspire & drive real change with your 
-training videos. Training content doesn't have 
-to be dry. Our training video experiences 
-combine the important messages you need 
-to deliver along with a compelling experience 
-or story. Your audience learns more 
-effectively when they're engaged, & most 
-importantly, they retain that information 
-longer.
+                              Educate, inspire & drive real change with your
+                              training videos. Training content doesn't have to
+                              be dry. Our training video experiences combine the
+                              important messages you need to deliver along with
+                              a compelling experience or story. Your audience
+                              learns more effectively when they're engaged, &
+                              most importantly, they retain that information
+                              longer.
                             </p>
                           </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
                           <div className="single-item">
                             <div className="icon-box">
-                              <i className="icon-8"></i>
+                            <img
+                                className="icon-03"
+                                src="/assets/images/new-icon/online-video .png"
+                              ></img>
                             </div>
                             <h3>Online Videos</h3>
                             <p>
-                            Be it product demo, youtube channel, 
-or testimonial video, your online 
-presence delivers your message 24 
-hours a day 7 days a week to viewers 
-across the globe.
+                              Be it product demo, youtube channel, or
+                              testimonial video, your online presence delivers
+                              your message 24 hours a day 7 days a week to
+                              viewers across the globe.
                             </p>
                           </div>
                         </div>
@@ -259,21 +259,25 @@ across the globe.
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
                           <div className="single-item">
                             <div className="icon-box">
-                              <i className="icon-8"></i>
+                            <img
+                                className="icon-03"
+                                src="/assets/images/new-icon/corporate videos.png"
+                              ></img>
                             </div>
                             <h3>Corporate Videos</h3>
                             <p>
-                            Showcase your explainer videos, CSR 
-initiatives, onboarding process with a zing. 
-Use videos to hit the emotional touchpoints.
-
+                              Showcase your explainer videos, CSR initiatives,
+                              onboarding process with a zing. Use videos to hit
+                              the emotional touchpoints.
                             </p>
                           </div>
                         </div>
                       </div>
                       <div className="text mt_50">
                         <p>
-                        We produce corporate videos and add campaigns for you to enable mass distribution of your key messages via video-sharing sites such as YouTube.
+                          We produce corporate videos and add campaigns for you
+                          to enable mass distribution of your key messages via
+                          video-sharing sites such as YouTube.
                         </p>
                       </div>
                     </div>
@@ -340,62 +344,78 @@ Use videos to hit the emotional touchpoints.
                           consultation
                         </h3>
                         <div className="form-inner">
-                        <form action="index.html" method="post" className="default-form" onSubmit={handleSubmit}>
-                        <div className="row clearfix">
-        <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-          <input
-            type="text"
-            name="name"
-            placeholder="Your name"
-            value={formData.name}
-            onChange={handleInputChange}
-            required
-          />
-        </div>
-        <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-          <input
-            type="email"
-            name="email"
-            placeholder="Email address"
-            value={formData.email}
-            onChange={handleInputChange}
-            required
-          />
-        </div>
-        <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-          <input
-            type="text"
-            name="phone"
-            placeholder="Phone number"
-            value={formData.phone}
-            onChange={handleInputChange}
-            required
-          />
-        </div>
-        <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-          <div className="select-box">
-            <select
-              className="selectpicker"
-              name="selectedOption"
-              value={formData.selectedOption}
-              onChange={handleInputChange}
-            >
-              <option value="Video Production">Video Production</option>
-               <option value="Learning Consulting">Learning Consulting</option>
-              <option value="Content Services">Content Services</option>
-              <option value="Custom eLearning"> Custom e-Learning</option>
-             
-              
-            </select>
-          </div>
-        </div>
-        <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
-          <button type="submit" className="theme-btn-one" disabled={isSubmitting}>
-            Send Request
-          </button>
-        </div>
-        </div>
-      </form>
+                          <form
+                            action="index.html"
+                            method="post"
+                            className="default-form"
+                            onSubmit={handleSubmit}
+                          >
+                            <div className="row clearfix">
+                              <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+                                <input
+                                  type="text"
+                                  name="name"
+                                  placeholder="Your name"
+                                  value={formData.name}
+                                  onChange={handleInputChange}
+                                  required
+                                />
+                              </div>
+                              <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+                                <input
+                                  type="email"
+                                  name="email"
+                                  placeholder="Email address"
+                                  value={formData.email}
+                                  onChange={handleInputChange}
+                                  required
+                                />
+                              </div>
+                              <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+                                <input
+                                  type="text"
+                                  name="phone"
+                                  placeholder="Phone number"
+                                  value={formData.phone}
+                                  onChange={handleInputChange}
+                                  required
+                                />
+                              </div>
+                              <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+                                <div className="select-box">
+                                  <select
+                                    className="selectpicker"
+                                    name="selectedOption"
+                                    value={formData.selectedOption}
+                                    onChange={handleInputChange}
+                                  >
+                                    <option value="Video Production">
+                                      Video Production
+                                    </option>
+                                    <option value="Learning Consulting">
+                                      Learning Consulting
+                                    </option>
+                                    <option value="Content Services">
+                                      Content Services
+                                    </option>
+                                    <option value="Custom eLearning">
+                                      {" "}
+                                      Custom e-Learning
+                                    </option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
+                                <button
+                                  type="submit"
+                                  className="theme-btn-one"
+                                  disabled={isSubmitting}
+                                >
+                                  Send Request
+                                </button>
+                              </div>
+                            </div>
+                          </form>
                         </div>
                       </div>
                     </div>

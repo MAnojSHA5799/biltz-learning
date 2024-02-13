@@ -73,7 +73,10 @@ export default function Home() {
                                         <figure className="image-box"><img src="/assets/images/whatDo/Measurable-performance.jpg" alt="" /></figure>
                                         <div className="lower-content">
                                             <div className="inner">
-                                                <div className="icon-box"><i className="icon-7"></i></div>
+                                                <div className="icon-box"> <img
+                                className="icon-04"
+                                src="/assets/images/new-icon/measurable performance.png"
+                              ></img></div>
                                                 <h3><Link href="/strategy-planning">Measurable performance</Link></h3>
                                                 <p>Putting people at the center of transformation to improve employee, partner, and customer performance with easy to assess learning content.</p>
                                                 {/* <div className="btn-box">
@@ -90,7 +93,10 @@ export default function Home() {
                                         <figure className="image-box"><img src="/assets/images/whatDo/Intuitive-learning.jpg" alt="" /></figure>
                                         <div className="lower-content">
                                             <div className="inner">
-                                                <div className="icon-box"><i className="icon-7"></i></div>
+                                                <div className="icon-box"><img
+                                className="icon-04"
+                                src="/assets/images/new-icon/intuitive learning .png"
+                              ></img></div>
                                                 <h3><Link href="/program-manager">Intuitive learning</Link></h3>
                                                 <p>Designing meaningful & engaging learning experiences that attract and engage employees across every stage in the learning journey.</p>
                                                 {/* <div className="btn-box">
@@ -107,7 +113,10 @@ export default function Home() {
                                         <figure className="image-box"><img src="/assets/images/whatDo/Operational-efficency.jpg" alt="" /></figure>
                                         <div className="lower-content">
                                             <div className="inner">
-                                                <div className="icon-box"><i className="icon-7"></i></div>
+                                                <div className="icon-box"><img
+                                className="icon-04"
+                                src="/assets/images/new-icon/Operational efficiency .png"
+                              ></img></div>
                                                 <h3><Link href="/tax-management">Operational efficency</Link></h3>
                                                 <p>Our global workforce, technology platforms, and governance models enable organizations to achieve improved speed and agility at a reduced cost.</p>
                                                 {/* <div className="btn-box">

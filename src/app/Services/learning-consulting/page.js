@@ -1,20 +1,21 @@
-'use client'
-import ServiceTabs1 from "../../components/elements/ServiceTabs1"
-import Layout from "../../components/layout/Layout"
-import AuditSlider1 from "../../components/slider/AuditSlider1"
-import ServiceSlider1 from "../../components/slider/ServiceSlider1"
-import Link from "next/link"
+"use client";
+import ServiceTabs1 from "../../components/elements/ServiceTabs1";
+import Layout from "../../components/layout/Layout";
+import AuditSlider1 from "../../components/slider/AuditSlider1";
+import ServiceSlider1 from "../../components/slider/ServiceSlider1";
+import Link from "next/link";
 import axios from "axios";
-import React, { useState } from 'react';
+import '../../main.css'
+import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 export default function Services() {
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    selectedOption: 'Learning Consulting', // Default value for the select box
+    name: "",
+    email: "",
+    phone: "",
+    selectedOption: "Learning Consulting", // Default value for the select box
   });
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -29,7 +30,7 @@ export default function Services() {
     e.preventDefault();
     setIsSubmitting(true);
     console.log("Form Data:", formData);
-    
+
     try {
       // Make the Axios POST request
       const response = await axios.post(
@@ -46,31 +47,28 @@ export default function Services() {
       // Handle the response
       console.log("Server Response:", response.data);
 
-      
-        // Show success alert
-        alert("Success! Data submitted successfully.");
+      // Show success alert
+      alert("Success! Data submitted successfully.");
 
-        // Reset form data
-        setFormData({
-          name: '',
-          email: '',
-          phone: '',
-        });
+      // Reset form data
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+      });
 
-        setIsSubmitting(false);
-        router.refresh();
-        
+      setIsSubmitting(false);
+      router.refresh();
 
-        // Optionally, you can reset the success alert after a certain delay
-     
+      // Optionally, you can reset the success alert after a certain delay
     } catch (error) {
       // Handle errors
       console.error("Error posting data:", error);
     }
   };
-    return (
-        <>
-           <Layout
+  return (
+    <>
+      <Layout
         headerStyle={2}
         footerStyle={1}
         breadcrumbTitle="Learning Consulting"
@@ -99,7 +97,7 @@ export default function Services() {
                         </li>
                         <li>
                           <Link href="/Services/Custom-eLearning">
-                          Custom e-Learning
+                            Custom e-Learning
                           </Link>
                         </li>
                         <li>
@@ -133,13 +131,11 @@ export default function Services() {
                         <div className="inner-box">
                           <p>
                             <Link href="mailto:contactus@biltzlearning.in">
-                            contactus@biltzlearning.in
+                              contactus@biltzlearning.in
                             </Link>
                           </p>
                           <h3>
-                            <Link href="tel:911204316127">
-                            +91-1204316127
-                            </Link>
+                            <Link href="tel:911204316127">+91-1204316127</Link>
                           </h3>
                         </div>
                       </div>
@@ -153,9 +149,16 @@ export default function Services() {
                                 <img src="/assets/images/services/Custome-Learning.jpg" alt="" />
                               </figure> */}
                       <div className="text">
-                        <h2>Strategic learning partnership with training technology</h2>
+                        <h2>
+                          Strategic learning partnership with training
+                          technology
+                        </h2>
                         <p>
-                        Our learning consulting services focus on aligning education strategies with business goals, creating a seamless bridge between learning and organizational success, and leveraging cutting-edge training technology.
+                          Our learning consulting services focus on aligning
+                          education strategies with business goals, creating a
+                          seamless bridge between learning and organizational
+                          success, and leveraging cutting-edge training
+                          technology.
                         </p>
                         {/* <p>
                                   Fringilla mauris magna sit elementum elit. Facilisi lacus, pharetra
@@ -201,15 +204,18 @@ export default function Services() {
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                           <div className="single-item">
                             <div className="icon-box">
-                              <i className="icon-8"></i>
+                            <img
+                                className="icon-03"
+                                src="/assets/images/new-icon/Training need analysis.png"
+                              ></img>
                             </div>
                             <h3>Training Needs Analysis</h3>
                             <p>
-                            We specialize in analyzing an organization’s current 
-learning function, employee skill gaps, strategic goals, 
-and designing effective learning roadmaps that 
-address the gaps and help drive measurable business 
-results.
+                              We specialize in analyzing an organization’s
+                              current learning function, employee skill gaps,
+                              strategic goals, and designing effective learning
+                              roadmaps that address the gaps and help drive
+                              measurable business results.
                             </p>
                             <br />
                           </div>
@@ -218,12 +224,16 @@ results.
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                           <div className="single-item">
                             <div className="icon-box">
-                              <i className="icon-8"></i>
+                            <img
+                                className="icon-03"
+                                src="/assets/images/new-icon/design process analysis.png"
+                              ></img>
                             </div>
                             <h3>Design Process Analysis</h3>
-                            <p>Our consultants study your present L&D design 
-and suggest actionable improvements based on 
-internal data.
+                            <p>
+                              Our consultants study your present L&D design and
+                              suggest actionable improvements based on internal
+                              data.
                             </p>
                             <br />
                             <br />
@@ -233,44 +243,48 @@ internal data.
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
                           <div className="single-item">
                             <div className="icon-box">
-                              <i className="icon-8"></i>
+                            <img
+                                className="icon-03"
+                                src="/assets/images/new-icon/learning effectiveness strategy.png"
+                              ></img>
                             </div>
                             <h3>Learning Effectiveness Strategy</h3>
                             <p>
-                            With our expertise in designing learner-centric 
-solutions, we understand how to cultivate an 
-effective, engaging and result-driven learning 
-environment using tested and trusted 
-frameworks designed by industry veterans.
+                              With our expertise in designing learner-centric
+                              solutions, we understand how to cultivate an
+                              effective, engaging and result-driven learning
+                              environment using tested and trusted frameworks
+                              designed by industry veterans.
                               <br />
                             </p>
-                           
                           </div>
                         </div>
-
-                        
 
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
                           <div className="single-item">
                             <div className="icon-box">
-                              <i className="icon-13"></i>
+                            <img
+                                className="icon-03"
+                                src="/assets/images/new-icon/learning execution strategy.png"
+                              ></img>
                             </div>
                             <h3>Learning Execution Strategy</h3>
                             <p>
-                            Blitz Learning’s domain-specific learning 
-consultants conduct workshops in close 
-collaboration with SMEs to identify the existing 
-gaps, analyze existing infrastructure and thereby 
-draft the right training.
-
+                              Blitz Learning’s domain-specific learning
+                              consultants conduct workshops in close
+                              collaboration with SMEs to identify the existing
+                              gaps, analyze existing infrastructure and thereby
+                              draft the right training.
                             </p>
-                            
                           </div>
                         </div>
                       </div>
                       <div className="text mt_50">
                         <p>
-                        With our expertise in designing learner-centric solutions, we offer learning consulting to L&D departments to optimize actionable touch points of their L&D strategy.
+                          With our expertise in designing learner-centric
+                          solutions, we offer learning consulting to L&D
+                          departments to optimize actionable touch points of
+                          their L&D strategy.
                         </p>
                       </div>
                     </div>
@@ -337,61 +351,79 @@ draft the right training.
                           consultation
                         </h3>
                         <div className="form-inner">
-                        <form action="index.html" method="post" className="default-form" onSubmit={handleSubmit}>
-                        <div className="row clearfix">
-        <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-          <input
-            type="text"
-            name="name"
-            placeholder="Your name"
-            value={formData.name}
-            onChange={handleInputChange}
-            required
-          />
-        </div>
-        <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-          <input
-            type="email"
-            name="email"
-            placeholder="Email address"
-            value={formData.email}
-            onChange={handleInputChange}
-            required
-          />
-        </div>
-        <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-          <input
-            type="text"
-            name="phone"
-            placeholder="Phone number"
-            value={formData.phone}
-            onChange={handleInputChange}
-            required
-          />
-        </div>
-        <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-          <div className="select-box">
-            <select
-              className="selectpicker"
-              name="selectedOption"
-              value={formData.selectedOption}
-              onChange={handleInputChange}
-            >
-               <option value="Learning Consulting">Learning Consulting</option>
-              <option value="Content Services">Content Services</option>
-              <option value="Custom eLearning"> Custom e-Learning</option>
-             
-              <option value="Video Production">Video Production</option>
-            </select>
-          </div>
-        </div>
-        <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
-          <button type="submit" className="theme-btn-one" disabled={isSubmitting}>
-            Send Request
-          </button>
-        </div>
-        </div>
-      </form>
+                          <form
+                            action="index.html"
+                            method="post"
+                            className="default-form"
+                            onSubmit={handleSubmit}
+                          >
+                            <div className="row clearfix">
+                              <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+                                <input
+                                  type="text"
+                                  name="name"
+                                  placeholder="Your name"
+                                  value={formData.name}
+                                  onChange={handleInputChange}
+                                  required
+                                />
+                              </div>
+                              <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+                                <input
+                                  type="email"
+                                  name="email"
+                                  placeholder="Email address"
+                                  value={formData.email}
+                                  onChange={handleInputChange}
+                                  required
+                                />
+                              </div>
+                              <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+                                <input
+                                  type="text"
+                                  name="phone"
+                                  placeholder="Phone number"
+                                  value={formData.phone}
+                                  onChange={handleInputChange}
+                                  required
+                                />
+                              </div>
+                              <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+                                <div className="select-box">
+                                  <select
+                                    className="selectpicker"
+                                    name="selectedOption"
+                                    value={formData.selectedOption}
+                                    onChange={handleInputChange}
+                                  >
+                                    <option value="Learning Consulting">
+                                      Learning Consulting
+                                    </option>
+                                    <option value="Content Services">
+                                      Content Services
+                                    </option>
+                                    <option value="Custom eLearning">
+                                      {" "}
+                                      Custom e-Learning
+                                    </option>
+
+                                    <option value="Video Production">
+                                      Video Production
+                                    </option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
+                                <button
+                                  type="submit"
+                                  className="theme-btn-one"
+                                  disabled={isSubmitting}
+                                >
+                                  Send Request
+                                </button>
+                              </div>
+                            </div>
+                          </form>
                         </div>
                       </div>
                     </div>

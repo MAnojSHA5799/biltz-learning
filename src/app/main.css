@@ -711,6 +711,30 @@
     justify-content: center; /* Horizontally center the content */
     align-items: center; /* Vertically center the content */
   }
+  .icon-03{
+    height: 80px;
+    padding: 12px;
+	margin-left: 10%;
+    margin-top: 12%;
+    border-radius: 30%; /* Use 50% to make it a perfect circle */
+    width: 80px;
+    display: flex;
+	
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+  }
+  .icon-04{
+    height: 60px;
+    padding: 2px;
+	margin-left: 12%;
+    margin-top: 12%;
+    border-radius: 30%; /* Use 50% to make it a perfect circle */
+    width: 60px;
+    display: flex;
+	
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+  }
 
 
 
