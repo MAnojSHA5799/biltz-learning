@@ -32,7 +32,7 @@ export default function Funfacts() {
                   <div className="inner-box">
                     <div className="count-outer count-box">
                       <CounterUp end={25} />
-                      <span>k+</span>
+                      <span>+</span>
                     </div>
                     <p>Global locations served</p>
                   </div>

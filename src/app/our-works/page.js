@@ -18,7 +18,7 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">27 December</span> */}
-                                                    <h3><Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training">Web-Based Training and Online Portal/Lms|Sales Academy Training</Link></h3>
+                                                    <h3><Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training">Web-Based Training and Online Portal/LMS|Sales Academy Training</Link></h3>
                                                     <p>Web-based training and online portal/LMS|Sales Academy training a leading...</p>
                                                     <div className="btn-box">
                                                         <Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training" className="theme-btn-one">Read More</Link>

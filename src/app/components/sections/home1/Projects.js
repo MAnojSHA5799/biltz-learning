@@ -193,7 +193,7 @@ export default function Cases() {
                             <figure className="image-box"><img src="/assets/images/our-works/our-work-11.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-7"></i></div> */}
-                            <h3><Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training">Web-Based Training and Online Portal|Lms|Sales Academy Traning</Link></h3>
+                            <h3><Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training">Web-Based Training and Online Portal|LMS|Sales Academy Traning</Link></h3>
                             <p>Branding, Design</p>
                           
                             </div>
