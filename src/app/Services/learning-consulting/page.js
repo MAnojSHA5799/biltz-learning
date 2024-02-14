@@ -240,7 +240,7 @@ export default function Services() {
                             <br />
                           </div>
                         </div>
-                        <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5 pb-3">
+                        <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
                           <div className="single-item">
                             <div className="icon-box">
                             <img
@@ -256,7 +256,7 @@ export default function Services() {
                               environment using tested and trusted frameworks
                               designed by industry veterans.
                             </p>
-                           
+                           <br />
                           </div>
                         </div>
 
