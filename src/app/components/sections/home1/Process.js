@@ -63,28 +63,30 @@ export default function Process() {
                       <h2> A proven approach to transform your L&D initiatives into performance centric digital assets for enhanced and continuous learning.
 </h2>
                     </div>
-                    <div className="text mb_35">
+                    <div className="text mb_10">
                       <p>
                       The performance-centric L&D model is a strategic approach aimed at aligning learning and development initiatives with organizational goals to enhance employee performance. By leveraging digital assets and focusing on continuous learning, this model promotes adaptability and competitiveness in the modern workplace.
                       </p>
                     </div>
-                    <div className="inner-box mb_35">
+                    <div className="inner-box mb_10">
                       <div className="single-item">
                         <div className="icon-box">
                           <i className="icon-11"></i>
                         </div>
-                        <h3>Evaluate</h3>
+                        <h3>Ideate</h3>
                         <p>
-                        Evaluate the learners’ requirements, skill sets, KPIs, and KRAs.
+                        This phase involves understanding the organization's learning needs and evaluating learners' requirements, skills, and performance metrics.
+                         
                         </p>
+                        {/* After grouping the learners based on similar skill sets, we define education goals along with suitable learning delivery methods, and then proceed to design, test, and adapt the content accordingly. */}
                       </div>
                       <div className="single-item">
                         <div className="icon-box">
                           <i className="icon-11"></i>
                         </div>
-                        <h3>Profile</h3>
+                        <h3>Delivery</h3>
                         <p>
-                        Profile the learners into multiple groups based on similar skill sets and learning requirements.
+                        During the delivery phase, we will integrate the content with the LMS, allowing each learner to access it based on their specific profile.
                         </p>
                       </div>
                       <p>
