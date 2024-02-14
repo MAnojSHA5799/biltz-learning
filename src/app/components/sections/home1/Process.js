@@ -75,7 +75,7 @@ export default function Process() {
                         </div>
                         <h3>Ideate</h3>
                         <p>
-                        This phase involves understanding the organization's learning needs and evaluating learners' requirements, skills, and performance metrics.
+                        The phase involves identifying the organization's learning needs, assessing learners' skills, defining education goals, and designing, testing, and adapting content to meet these needs.
                          
                         </p>
                         {/* After grouping the learners based on similar skill sets, we define education goals along with suitable learning delivery methods, and then proceed to design, test, and adapt the content accordingly. */}
