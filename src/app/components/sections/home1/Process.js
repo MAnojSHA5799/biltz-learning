@@ -60,11 +60,12 @@ export default function Process() {
                       <span className="sub-title">
                       Performance centric L&D model
                       </span>
-                      <h2>Dedicated and professional consulting services</h2>
+                      <h2> A proven approach to transform your L&D initiatives into performance centric digital assets for enhanced and continuous learning.
+</h2>
                     </div>
                     <div className="text mb_35">
                       <p>
-                      A proven approach to transform your L&D initiatives into performance centric digital assets for enhanced and continuous learning.
+                      The performance-centric L&D model is a strategic approach aimed at aligning learning and development initiatives with organizational goals to enhance employee performance. By leveraging digital assets and focusing on continuous learning, this model promotes adaptability and competitiveness in the modern workplace.
                       </p>
                     </div>
                     <div className="inner-box mb_35">
@@ -72,23 +73,23 @@ export default function Process() {
                         <div className="icon-box">
                           <i className="icon-11"></i>
                         </div>
-                        <h3>Solution focused</h3>
+                        <h3>Evaluate</h3>
                         <p>
-                          We prioritize crafting meaningful and engaging
-                          learning experiences that captivate individuals at
-                          every stage of their learning journey.
+                        Evaluate the learners’ requirements, skill sets, KPIs, and KRAs.
                         </p>
                       </div>
                       <div className="single-item">
                         <div className="icon-box">
                           <i className="icon-11"></i>
                         </div>
-                        <h3>99.99% Success</h3>
+                        <h3>Profile</h3>
                         <p>
-                          Consistent ability to deliver the fastest, most
-                          accurate, and most engaging learning experience.
+                        Profile the learners into multiple groups based on similar skill sets and learning requirements.
                         </p>
                       </div>
+                      <p>
+                        Profile the learners into multiple groups based on similar skill sets and learning requirements.
+                        </p>
                     </div>
                     {/* <figure className="signature"><img src="assets/images/icons/signature-1.png" alt="" /></figure> */}
                   </div>

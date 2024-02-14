@@ -98,7 +98,7 @@ export default function Features() {
               >
                 <div className="inner-box">
                   <figure className="image-box">
-                    <img src="/assets/images/services/Video_Production_2.jpg" alt="" />
+                    <img src="/assets/images/services/Video_Production_2.jpg" style={{ width: '220px', height: '135px' }} alt="" />
                   </figure>
                   <div className="lower-content">
                     <div className="icon-box">
