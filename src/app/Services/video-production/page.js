@@ -214,7 +214,7 @@ export default function Services() {
                               authentic feeling, through the right medium, make
                               sales conversations easier and more profitable.
                             </p>
-                            
+                            <br />
                           </div>
                         </div>
 
@@ -272,6 +272,7 @@ export default function Services() {
                               onboarding process with a zing. Use videos to hit
                               the emotional touchpoints.
                             </p>
+                            <br />
                             <br />
                           </div>
                         </div>
