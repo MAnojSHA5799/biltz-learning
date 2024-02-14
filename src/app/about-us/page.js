@@ -223,6 +223,7 @@ export default function Home() {
                           that attract and engage employees across every stage
                           in the learning journey.
                         </p>
+                        <br />
                         {/* <div className="btn-box">
                                                     <Link href="/program-manager" className="theme-btn-one">Read More</Link>
                                                 </div> */}
@@ -262,6 +263,8 @@ export default function Home() {
                           governance models enable organizations to achieve
                           improved speed and agility at a reduced cost.
                         </p>
+                        <br />
+
                         {/* <div className="btn-box">
                                                     <Link href="/tax-management" className="theme-btn-one">Read More</Link>
                                                 </div> */}

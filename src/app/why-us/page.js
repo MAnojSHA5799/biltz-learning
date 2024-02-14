@@ -107,6 +107,8 @@ export default function Home() {
                               ></img></div>
                                                 <h3><Link href="/program-manager">Intuitive learning</Link></h3>
                                                 <p>Designing meaningful & engaging learning experiences that attract and engage employees across every stage in the learning journey.</p>
+                        <br />
+
                                                 {/* <div className="btn-box">
                                                     <Link href="/program-manager" className="theme-btn-one">Read More</Link>
                                                 </div> */}
@@ -127,6 +129,8 @@ export default function Home() {
                               ></img></div>
                                                 <h3><Link href="/tax-management">Operational efficency</Link></h3>
                                                 <p>Our global workforce, technology platforms, and governance models enable organizations to achieve improved speed and agility at a reduced cost.</p>
+                        <br />
+
                                                 {/* <div className="btn-box">
                                                     <Link href="/tax-management" className="theme-btn-one">Read More</Link>
                                                 </div> */}
