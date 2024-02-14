@@ -237,6 +237,7 @@ export default function Services() {
                               most importantly, they retain that information
                               longer.
                             </p>
+                            <br />
                           </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
