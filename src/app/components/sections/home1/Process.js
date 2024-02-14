@@ -53,7 +53,7 @@ export default function Process() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+              <div className="col-lg-8 col-md-12 col-sm-12 content-column mb_30">
                 <div className="content_block_one">
                   <div className="content-box p_relative ml_30">
                     <div className="sec-title mb-1">
