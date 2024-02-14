@@ -272,6 +272,8 @@ export default function Services() {
                               across all platforms (iOS, Android, Windows) with
                               interactive functionalities.
                             </p>
+                            <br />
+                            <br />
                           </div>
                         </div>
 
