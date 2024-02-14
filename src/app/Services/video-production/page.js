@@ -213,6 +213,7 @@ export default function Services() {
                               the right balance of both useful information and
                               authentic feeling, through the right medium, make
                               sales conversations easier and more profitable.
+                              <br />
                             </p>
                             
                           </div>
