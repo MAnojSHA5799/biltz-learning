@@ -255,7 +255,7 @@ export default function Services() {
                               effective, engaging and result-driven learning
                               environment using tested and trusted frameworks
                               designed by industry veterans.
-                              <br />
+                            
                             </p>
                           </div>
                         </div>
@@ -276,7 +276,7 @@ export default function Services() {
                               gaps, analyze existing infrastructure and thereby
                               draft the right training.
                             </p>
-                            <br />
+                           
                           </div>
                         </div>
                       </div>
