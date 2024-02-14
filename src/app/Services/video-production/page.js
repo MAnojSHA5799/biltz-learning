@@ -214,7 +214,7 @@ export default function Services() {
                               authentic feeling, through the right medium, make
                               sales conversations easier and more profitable.
                             </p>
-                            <br />
+                            
                           </div>
                         </div>
 
