@@ -88,7 +88,7 @@ export default function Process() {
                         </p>
                       </div>
                       <p>
-                        Profile the learners into multiple groups based on similar skill sets and learning requirements.
+                      The developed content is delivered through the organization's Learning Management System (LMS). Each learner can access content tailored to their specific profile, allowing for personalized and continuous learning experiences.
                         </p>
                     </div>
                     {/* <figure className="signature"><img src="assets/images/icons/signature-1.png" alt="" /></figure> */}

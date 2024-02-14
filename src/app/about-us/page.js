@@ -319,72 +319,116 @@ export default function Home() {
         {/* service-style-two end */}
 
         {/* clients-section */}
-        <section className="clients-section p_relative mb-0 pb-2 pt-5">
-          <div className="auto-container">
-            <Slider
-              infinite={true}
-              speed={500}
-              slidesToShow={slidesToShow}
-              slidesToScroll={1}
-            >
-              <div className="inner-box">
-                <figure className="clients-log">
-                  <Link href="/">
-                    <img
-                      src="assets/images/clients/client-1.jpg"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </Link>
-                </figure>
-              </div>
-              <div className="inner-box">
-                <figure className="clients-log">
-                  <Link href="/">
-                    <img
-                      src="assets/images/clients/client-2.png"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </Link>
-                </figure>
-              </div>
-              <div className="inner-box">
-                <figure className="clients-log">
-                  <Link href="/">
-                    <img
-                      src="assets/images/clients/client-3.jpg"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </Link>
-                </figure>
-              </div>
-              <div className="inner-box">
-                <figure className="clients-log">
-                  <Link href="/">
-                    <img
-                      src="assets/images/clients/client-4.jpg"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </Link>
-                </figure>
-              </div>
-              <div className="inner-box">
-                <figure className="clients-log">
-                  <Link href="/">
-                    <img
-                      src="assets/images/clients/client_3.jpg"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </Link>
-                </figure>
-              </div>
-            </Slider>
-          </div>
-        </section>
+        <section className="clients-section p_relative mb-0 pb-2 pt-3">
+        <div className="auto-container">
+          <Slider
+            infinite={true}
+            speed={500}
+            slidesToShow={slidesToShow}
+            slidesToScroll={1}
+          >
+            <div className="inner-box">
+              <figure className="clients-log">
+                <Link href="/">
+                  <img
+                    src="/assets/web-logo/logo1.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+                </Link>
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+                <Link href="/">
+                  <img
+                    src="/assets/web-logo/logo2.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+                </Link>
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+                <Link href="/">
+                  <img
+                    src="/assets/web-logo/logo3.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+                </Link>
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+                <Link href="/">
+                  <img
+                    src="/assets/web-logo/logo4.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+                </Link>
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+                <Link href="/">
+                  <img
+                    src="/assets/web-logo/logo5.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+                </Link>
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+                <Link href="/">
+                  <img
+                    src="/assets/web-logo/logo-1.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+                </Link>
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+                <Link href="/">
+                  <img
+                    src="/assets/web-logo/logo-2.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+                </Link>
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+                <Link href="/">
+                  <img
+                    src="/assets/web-logo/logo-3.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+                </Link>
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+                <Link href="/">
+                  <img
+                    src="/assets/web-logo/logo-4.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+                </Link>
+              </figure>
+            </div>
+          </Slider>
+        </div>
+      </section>
         {/* clients-section end */}
 
         {/* team-section */}
