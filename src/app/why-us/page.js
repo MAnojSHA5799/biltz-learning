@@ -354,6 +354,7 @@ export default function Home() {
                                             <span className="designation">Co-Founder and VP of Sales</span>
                                            
                                         </div>
+                                        <br />
                                     </div>
                                 </div>
                             </div>
