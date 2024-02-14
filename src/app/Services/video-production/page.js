@@ -214,7 +214,7 @@ export default function Services() {
                               authentic feeling, through the right medium, make
                               sales conversations easier and more profitable.
                             </p>
-                            <br />
+                            
                           </div>
                         </div>
 
@@ -254,6 +254,7 @@ export default function Services() {
                               your message 24 hours a day 7 days a week to
                               viewers across the globe.
                             </p>
+                            <br />
                           </div>
                         </div>
 
