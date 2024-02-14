@@ -82,6 +82,7 @@ export default function Features() {
                     <p>
                       We create and localize content for your e-Learning to
                       advance skills, improve performance, and get results.
+                      <br/>
                     </p>
                     <br/>
                   </div>
