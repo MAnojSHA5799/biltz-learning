@@ -236,8 +236,9 @@ export default function Services() {
                               learns more effectively when they're engaged, &
                               most importantly, they retain that information
                               longer.
+                              <br />
                             </p>
-                            <br />
+                            
                           </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
