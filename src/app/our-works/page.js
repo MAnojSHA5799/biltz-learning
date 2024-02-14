@@ -56,6 +56,7 @@ export default function Home() {
                                                     <h3><Link href="/our-works/mobile-based-mentor-driven-trainingsales-call-training">Mobile-Based Mentor Driven Training|Sales Call Training</Link></h3>
                                                    
                                                     <p>Mobile-based mentor-driven training|Sales call training a Middle East-based...</p>
+                                                    <br />
                                                     <div className="btn-box">
                                                         <Link href="/our-works/mobile-based-mentor-driven-trainingsales-call-training" className="theme-btn-one">Read More</Link>
                                                     </div>
@@ -92,6 +93,7 @@ export default function Home() {
                                                     <h3><Link href="/our-works/web-based-training-and-localization-product-training">Web-Based Training and Localization | Product Training</Link></h3>
                                                     
                                                     <p>Web-based training and localization | Product training for logistics and aviation...</p>
+                                                    <br />
                                                     <div className="btn-box">
                                                         <Link href="/our-works/web-based-training-and-localization-product-training" className="theme-btn-one">Read More</Link>
                                                     </div>
@@ -110,6 +112,8 @@ export default function Home() {
                                                     <h3><Link href="/our-works/scenario-based-trainingworkplace-integrity">Scenario-Based Training | Workplace Integrity</Link></h3>
                                                    
                                                     <p>Scenario-based training for workplace integrity and client requirements. The client was...</p>
+                                                    <br />
+                                                    <br />
                                                     <div className="btn-box">
                                                         <Link href="/our-works/scenario-based-trainingworkplace-integrity" className="theme-btn-one">Read More</Link>
                                                     </div>
