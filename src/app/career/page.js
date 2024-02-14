@@ -242,6 +242,40 @@ export default function Home() {
                           }
                         >
                           <div className="inner-box">
+                          <ul>
+                              <li>
+                                <span
+                                  style={{ fontWeight: "bold", color: "black" }}
+                                >
+                                  Job Category:
+                                </span>{" "}
+                                Software Development
+                              </li>
+                              <li>
+                                <span
+                                  style={{ fontWeight: "bold", color: "black" }}
+                                >
+                                  Job Type:
+                                </span>{" "}
+                                Full Time
+                              </li>
+                              <li>
+                                <span
+                                  style={{ fontWeight: "bold", color: "black" }}
+                                >
+                                  Job Location:
+                                </span>{" "}
+                                Noida
+                              </li>
+                              <li>
+                                <span
+                                  style={{ fontWeight: "bold", color: "black" }}
+                                >
+                                  Experience:
+                                </span>{" "}
+                                2-3 Years
+                              </li>
+                            </ul>
                             <p>
                               Bachelor's degree in Instructional Design,
                               Educational Technology, Multimedia Design,
@@ -281,6 +315,7 @@ export default function Home() {
                           onClick={() => handleToggle(5)}
                         >
                           <div className="icon-box"></div>
+
                           <h3>IT executive</h3>
                         </div>
                         <div
@@ -291,6 +326,40 @@ export default function Home() {
                           }
                         >
                           <div className="inner-box">
+                          <ul>
+                              <li>
+                                <span
+                                  style={{ fontWeight: "bold", color: "black" }}
+                                >
+                                  Job Category:
+                                </span>{" "}
+                                Software Development
+                              </li>
+                              <li>
+                                <span
+                                  style={{ fontWeight: "bold", color: "black" }}
+                                >
+                                  Job Type:
+                                </span>{" "}
+                                Full Time
+                              </li>
+                              <li>
+                                <span
+                                  style={{ fontWeight: "bold", color: "black" }}
+                                >
+                                  Job Location:
+                                </span>{" "}
+                                Noida
+                              </li>
+                              <li>
+                                <span
+                                  style={{ fontWeight: "bold", color: "black" }}
+                                >
+                                  Experience:
+                                </span>{" "}
+                                0-6 Months
+                              </li>
+                            </ul>
                             <p>
                               IT (information technology) executives manage the
                               information technology needs and systems of their
@@ -302,11 +371,7 @@ export default function Home() {
                             </p>
                             <h4>Duties and responsibilities:</h4>
                             <p>
-                              IT Support Specialist Resumes: Troubleshoot and
-                              resolve hardware and software issues for
-                              end-users. Install and configure software
-                              applications and updates. Manage user accounts and
-                              permissions in Active Directory.
+                            Candidate with 6 months of relevant experience, having a good command on C#, ASP.NET, .NET Framework 2.0 &3.5, Ajax. SQL server, JAVA Script. Must be able to train and coach.
                             </p>
                             {/* <ul className="list-style-one clearfix">
                               <li>Holiday Trash & Recycling</li>
