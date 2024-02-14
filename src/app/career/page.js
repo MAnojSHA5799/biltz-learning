@@ -88,8 +88,8 @@ export default function Home() {
                 <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                   <div className="content-box mr_110">
                     <div className="sec-title mb_50">
-                      <span className="sub-title">Get Opportunities</span>
-                      <h2>Build Your Career with BiltzLearning</h2>
+                      <span className="sub-title">Get opportunities</span>
+                      <h2>Build your career with Biltz Learning</h2>
                       <p className="mt_10">
                         We welcome your expertise to help our team to transform
                         learning and development function of our clients.
@@ -187,7 +187,7 @@ export default function Home() {
                               <li>Things To Do In Govarnex</li>
                               <li>Rent a Picnic Shelter</li>
                             </ul> */}
-                            <h4>Skills & Experience</h4>
+                            <h4>Skills and experience</h4>
                             <ul
                               style={{ listStyleType: "disc", padding: "5px" }}
                             >
@@ -232,7 +232,7 @@ export default function Home() {
                           onClick={() => handleToggle(2)}
                         >
                           <div className="icon-box"></div>
-                          <h3>e-Learning Developer</h3>
+                          <h3>e-Learning developer</h3>
                         </div>
                         <div
                           className={
@@ -254,11 +254,11 @@ export default function Home() {
                               learning needs and design effective and engaging
                               e-learning content.
                             </p>
-                            <ul className="list-style-one clearfix">
+                            {/* <ul className="list-style-one clearfix">
                               <li>Holiday Trash & Recycling</li>
                               <li>Things To Do In Govarnex</li>
                               <li>Rent a Picnic Shelter</li>
-                            </ul>
+                            </ul> */}
                             {/* <h4>Qualifications:</h4>
                                                     <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p>
                                                     <ul className="list-style-one clearfix">
@@ -281,7 +281,7 @@ export default function Home() {
                           onClick={() => handleToggle(5)}
                         >
                           <div className="icon-box"></div>
-                          <h3>IT Executive</h3>
+                          <h3>IT executive</h3>
                         </div>
                         <div
                           className={
@@ -300,7 +300,7 @@ export default function Home() {
                               troubleshooting computer issues throughout their
                               organizations.
                             </p>
-                            <h4>Duties and Responsibilities:</h4>
+                            <h4>Duties and responsibilities:</h4>
                             <p>
                               IT Support Specialist Resumes: Troubleshoot and
                               resolve hardware and software issues for
@@ -308,11 +308,11 @@ export default function Home() {
                               applications and updates. Manage user accounts and
                               permissions in Active Directory.
                             </p>
-                            <ul className="list-style-one clearfix">
+                            {/* <ul className="list-style-one clearfix">
                               <li>Holiday Trash & Recycling</li>
                               <li>Things To Do In Govarnex</li>
                               <li>Rent a Picnic Shelter</li>
-                            </ul>
+                            </ul> */}
                             {/* <h4>Qualifications:</h4>
                                                     <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p>
                                                     <ul className="list-style-one clearfix">
@@ -388,7 +388,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-12 col-sm-12 sidebar-side">
                   <div className="career-sidebar ml_40">
-                    <h3>Quick Contact</h3>
+                    <h3>Quick contact</h3>
                     <div className="form-inner">
                       <form
                         // action="career.html"
@@ -400,7 +400,7 @@ export default function Home() {
                             type="text"
                             name="username"
                             value={formData.username}
-                            placeholder="Your Name"
+                            placeholder="Your name"
                             required
                             pattern="[A-Za-z]+"
                             onChange={handleChange}

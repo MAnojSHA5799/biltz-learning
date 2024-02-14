@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
-
+import '../../../main.css'
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 1,
@@ -36,7 +36,7 @@ export default function Banner() {
             <section className="banner-section style-one p_relative">
                 <Swiper {...swiperOptions} className="banner-carousel">                    
                     <SwiperSlide className="slide-item p_relative">
-                        <div className="image-layer p_absolute" style={{ backgroundImage: 'url(/assets/images/homepage.jpg)' }}></div>
+                        <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/homepage.jpg)' }}></div>
                         <div className="starshine">
                             <div className="shine shine-1"></div>
                             <div className="shine shine-2"></div>
@@ -52,7 +52,7 @@ export default function Banner() {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="slide-item p_relative">
+                    {/* <SwiperSlide className="slide-item p_relative">
                         <div className="image-layer p_absolute" style={{ backgroundImage: 'url(/assets/images/homepage2.jpg)' }}></div>
                         <div className="starshine">
                             <div className="shine shine-1"></div>
@@ -61,15 +61,14 @@ export default function Banner() {
                         <div className="auto-container">
                             <div className="content-box">
                             <div className="content-inner">
-                                {/* <span>Change The World</span> */}
                                 <h2>We are catalysts of knowledge retention</h2>
                                 <p>We are catalysts of knowledge retention, helping clients translate learning and development efforts into knowledge repositories through scientific and strategic learning mechanisms.</p>
                                 <Link href="/about-us" className="theme-btn-one">Discover More</Link>
                             </div>
                             </div>
                         </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="slide-item p_relative">
+                    </SwiperSlide> */}
+                    {/* <SwiperSlide className="slide-item p_relative">
                         <div className="image-layer p_absolute" style={{ backgroundImage: 'url(/assets/images/homepage.jpg)' }}></div>
                         <div className="starshine">
                             <div className="shine shine-1"></div>
@@ -78,14 +77,13 @@ export default function Banner() {
                         <div className="auto-container">
                             <div className="content-box">
                             <div className="content-inner">
-                                {/* <span>Change The World</span> */}
                                 <h2>We're the architects of enduring learning experiences</h2>
                                 <p>Through innovative strategies, personalized content, and interactive engagement, we ignite the sparks that transform information into lasting wisdom.</p>
                                 <Link href="/about-us" className="theme-btn-one">Discover More</Link>
                             </div>
                             </div>
                         </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                     <div className="owl-nav">
                         <button type="button" className="owl-prev h1p">
                             <span>‹</span>
