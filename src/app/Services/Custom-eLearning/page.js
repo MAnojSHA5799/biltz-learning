@@ -257,6 +257,7 @@ export default function Services() {
                               plans, projects, and assignments.
                             </p>
                             <br />
+                            <br />
                           </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
