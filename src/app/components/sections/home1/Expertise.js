@@ -1,12 +1,14 @@
-"use client";
+'use client'
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { useState, useEffect } from "react";
-import "../../../main.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "../../../main.css";
+
 export default function Feature() {
   const [slidesToShow, setSlidesToShow] = useState(4);
+
   useEffect(() => {
     // Adjust slidesToShow based on screen width
     const handleResize = () => {
@@ -31,115 +33,122 @@ export default function Feature() {
     };
   }, []);
 
+  const sliderSettings = {
+    infinite: true,
+    speed: 300,
+    slidesToShow: slidesToShow,
+    slidesToScroll: 1,
+    autoplay: true, // Enable autoplay
+    autoplaySpeed: 2000, // Set autoplay speed in milliseconds (e.g., 3000ms = 3 seconds)
+  };
+
   return (
     <>
       <section className="expertise-sections bg-color-1"></section>
 
       <section className="clients-section p_relative mb-0 pb-2 pt-3">
         <div className="auto-container">
-          <Slider
-            infinite={true}
-            speed={500}
-            slidesToShow={slidesToShow}
-            slidesToScroll={1}
-          >
+          <Slider {...sliderSettings}>
+            {/* Your slider items go here */}
+            {/* Example item: */}
+           
             <div className="inner-box">
               <figure className="clients-log">
-                <Link href="/">
+               
                   <img
                     src="/assets/web-logo/logo1.jpg"
                     alt=""
                     className="img-fluid"
                   />
-                </Link>
+               
               </figure>
             </div>
             <div className="inner-box">
               <figure className="clients-log">
-                <Link href="/">
+               
                   <img
                     src="/assets/web-logo/logo2.jpg"
                     alt=""
                     className="img-fluid"
                   />
-                </Link>
+               
               </figure>
             </div>
             <div className="inner-box">
               <figure className="clients-log">
-                <Link href="/">
+              
                   <img
                     src="/assets/web-logo/logo3.jpg"
                     alt=""
                     className="img-fluid"
                   />
-                </Link>
+               
               </figure>
             </div>
             <div className="inner-box">
               <figure className="clients-log">
-                <Link href="/">
+              
                   <img
                     src="/assets/web-logo/logo4.jpg"
                     alt=""
                     className="img-fluid"
                   />
-                </Link>
+               
               </figure>
             </div>
             <div className="inner-box">
               <figure className="clients-log">
-                <Link href="/">
+              
                   <img
                     src="/assets/web-logo/logo5.jpg"
                     alt=""
                     className="img-fluid"
                   />
-                </Link>
+                
               </figure>
             </div>
             <div className="inner-box">
               <figure className="clients-log">
-                <Link href="/">
+               
                   <img
                     src="/assets/web-logo/logo-1.jpg"
                     alt=""
                     className="img-fluid"
                   />
-                </Link>
+               
               </figure>
             </div>
             <div className="inner-box">
               <figure className="clients-log">
-                <Link href="/">
+                
                   <img
                     src="/assets/web-logo/logo-2.jpg"
                     alt=""
                     className="img-fluid"
                   />
-                </Link>
+                
               </figure>
             </div>
             <div className="inner-box">
               <figure className="clients-log">
-                <Link href="/">
+               
                   <img
                     src="/assets/web-logo/logo-3.jpg"
                     alt=""
                     className="img-fluid"
                   />
-                </Link>
+               
               </figure>
             </div>
             <div className="inner-box">
               <figure className="clients-log">
-                <Link href="/">
+               
                   <img
                     src="/assets/web-logo/logo-4.jpg"
                     alt=""
                     className="img-fluid"
                   />
-                </Link>
+                
               </figure>
             </div>
           </Slider>
@@ -148,3 +157,8 @@ export default function Feature() {
     </>
   );
 }
+
+
+
+
+
