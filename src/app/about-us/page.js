@@ -107,7 +107,7 @@ export default function Home() {
                         approach and research-driven solutions cater to diverse
                         organizational needs, offering unparalleled quality and
                         effectiveness with expertise in highly customized client
-                        delivery and localization in over 35 languages.
+                        delivery and localization in over 35+ languages.
                       </p>
                     </div>
                     <div className="inner-box mb_35">

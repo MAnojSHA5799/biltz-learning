@@ -61,7 +61,7 @@ export default function Menu() {
                     </ul> */}
                 </li>
                 <li className=""><Link href="/why-us">Why Us</Link></li>
-                <li className=""><Link href="/blog">Blog</Link>
+                <li className=""><Link href="/blog">Blogs</Link>
                     <ul>
                         <li><Link href="/blog">Blog Grid</Link></li>
                         <li><Link href="/blog-2">Blog Standard</Link></li>

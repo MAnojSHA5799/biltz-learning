@@ -149,7 +149,7 @@ export default function MobileMenu({
                 </li>
                 <li className=""><Link href="/why-us">Why Us</Link></li>
                 <li>
-                  <Link href="/blog">Blog</Link>
+                  <Link href="/blog">Blogs</Link>
                 </li>
                 <li>
                   <Link href="/contact">Contact</Link>
