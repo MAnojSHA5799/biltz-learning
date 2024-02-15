@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Menu from "../Menu"
 import MobileMenu from "../MobileMenu"
+import '@fortawesome/fontawesome-free/css/all.css';
 
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSidebar, handlePopup, handleSidebar }) {
     return (
@@ -23,7 +24,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                                 </div>
                             <ul className="social-links clearfix">
                             <li><Link href="https://www.facebook.com/blitzlearning.in/"><i className="fab fa-facebook-f"></i></Link></li>
-                            <li><Link href="https://twitter.com/"><i className="fab fa-twitter"></i></Link></li>
+                            <li><Link href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></Link></li>
                             <li><Link href="https://www.linkedin.com/company/blitz-learning-technologies-pvt.-ltd./"><i className="fab fa-linkedin-in"></i></Link></li>
                             </ul>
                         </div>

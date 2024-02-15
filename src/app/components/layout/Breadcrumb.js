@@ -5,7 +5,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
         <>
             
             <section className="page-title centred">
-                <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/Contact-Us.jpg)' }}></div>
+                <div className="bg-layer" style={{ backgroundImage: 'url(/assets/header-images/Aboutus3.jpg)' }}></div>
                 <div className="auto-container">
                     <div className="content-box">
                         <h1>{breadcrumbTitle}</h1>

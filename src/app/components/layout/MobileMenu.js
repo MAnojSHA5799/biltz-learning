@@ -162,7 +162,7 @@ export default function MobileMenu({
             <ul className="clearfix">
               <li>
                 <Link href="https://twitter.com/">
-                  <span className="fab fa-twitter" />
+                  <span className="fa-brands fa-x-twitter" />
                 </Link>
               </li>
               <li>
