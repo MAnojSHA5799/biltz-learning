@@ -284,7 +284,7 @@ export default function Contact() {
             <div className="map-outer">
               {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan Rafael%2C California%2C Hoa Kỳ!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" /> */}
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0500745226364!2d77.36209477495662!3d28.62826128427571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5cd075167d7%3A0xb6b5efb89ae0ae2c!2sBlitz%20learning%20Technologies%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1704951204254!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1751.0450558473642!2d77.37001486122604!3d28.627061253103868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5336becb191%3A0xa89caf8bfb9e7068!2siThum-Noida!5e0!3m2!1sen!2sin!4v1707985130355!5m2!1sen!2sin"
                 height={570}
                 style={{ border: 0, width: "100%" }}
                 allowFullScreen

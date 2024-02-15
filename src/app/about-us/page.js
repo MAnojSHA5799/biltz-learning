@@ -332,7 +332,7 @@ export default function Home() {
         {/* clients-section */}
         <section className="clients-section p_relative mb-0 pb-2 pt-3">
         <div className="auto-container">
-          <Slider {...sliderSettings}>
+        <Slider {...sliderSettings}>
             {/* Your slider items go here */}
             {/* Example item: */}
            
@@ -351,7 +351,7 @@ export default function Home() {
               <figure className="clients-log">
                
                   <img
-                    src="/assets/web-logo/logo2.jpg"
+                    src="/assets/web-logo/logo8.jpg"
                     alt=""
                     className="img-fluid"
                   />
@@ -363,6 +363,17 @@ export default function Home() {
               
                   <img
                     src="/assets/web-logo/logo3.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+               
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+              
+                  <img
+                    src="/assets/web-logo/logo6.jpg"
                     alt=""
                     className="img-fluid"
                   />
@@ -406,7 +417,7 @@ export default function Home() {
               <figure className="clients-log">
                 
                   <img
-                    src="/assets/web-logo/logo-2.jpg"
+                    src="/assets/web-logo/logo-8.jpg"
                     alt=""
                     className="img-fluid"
                   />
@@ -465,7 +476,7 @@ export default function Home() {
                           alt=""
                         />
                       </figure>
-                      <ul className="social-links clearfix">
+                      {/* <ul className="social-links clearfix">
                         <li>
                           <Link href="/about-us">
                             <i className="fab fa-facebook-f"></i>
@@ -481,7 +492,7 @@ export default function Home() {
                             <i className="fab fa-instagram"></i>
                           </Link>
                         </li>
-                      </ul>
+                      </ul> */}
                     </div>
                     <div className="lower-content">
                       <h3>
@@ -508,7 +519,7 @@ export default function Home() {
                           alt=""
                         />
                       </figure>
-                      <ul className="social-links clearfix">
+                      {/* <ul className="social-links clearfix">
                         <li>
                           <Link href="/about-us">
                             <i className="fab fa-facebook-f"></i>
@@ -524,7 +535,7 @@ export default function Home() {
                             <i className="fab fa-instagram"></i>
                           </Link>
                         </li>
-                      </ul>
+                      </ul> */}
                     </div>
                     <div className="lower-content">
                       <h3>

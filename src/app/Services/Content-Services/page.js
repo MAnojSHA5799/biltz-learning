@@ -227,7 +227,7 @@ export default function Services() {
                                 src="/assets/images/new-icon/Regional connect (1).png"
                               ></img>
                             </div>
-                            <h3>Reginoal Connect</h3>
+                            <h3>Regional Connect</h3>
                             <p>
                               Developing content only in English neglects a
                               considerable segment of your potential audience.

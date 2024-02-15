@@ -67,7 +67,7 @@ export default function Feature() {
               <figure className="clients-log">
                
                   <img
-                    src="/assets/web-logo/logo2.jpg"
+                    src="/assets/web-logo/logo8.jpg"
                     alt=""
                     className="img-fluid"
                   />
@@ -79,6 +79,17 @@ export default function Feature() {
               
                   <img
                     src="/assets/web-logo/logo3.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+               
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+              
+                  <img
+                    src="/assets/web-logo/logo6.jpg"
                     alt=""
                     className="img-fluid"
                   />
@@ -122,7 +133,7 @@ export default function Feature() {
               <figure className="clients-log">
                 
                   <img
-                    src="/assets/web-logo/logo-2.jpg"
+                    src="/assets/web-logo/logo-8.jpg"
                     alt=""
                     className="img-fluid"
                   />
