@@ -773,7 +773,7 @@
 	
   .banner-carousel .content-box .content-inner{
 	position: relative;
-	background: rgba(202, 57, 57, 0.2);
+	background: rgb(2, 28, 86);
 	border: 2px solid rgba(255, 255, 255, 0.15);
 	backdrop-filter: blur(7.5px);
 	border-radius: 10px;
