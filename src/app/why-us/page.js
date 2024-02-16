@@ -68,11 +68,14 @@ export default function Home() {
             <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Why Us">
                
                 {/* service-style-two */}
+                
+
                 <section className="service-style-two p_relative bg-color-1 pt-5">
                     <div className="auto-container">
                         <div className="sec-title centred mb_50">
-                            <span className="sub-title">What we do</span>
-                            <h2>Consistent ability to deliver rapid, accurate and most immersive learning experience</h2>
+                            <span className="sub-title">Why choose us?</span>
+                            <h2>We're the architects of enduring learning experiences through innovative strategies, personalized content, and interactive engagement
+</h2>
                         </div>
                         <div className="row clearfix">
                             <div className="col-lg-4 col-md-6 col-sm-12 service-block">

@@ -33,7 +33,7 @@ export default function Process() {
       <section className="about-sections p_relative pb-0 mt-5">
           <div className="auto-container">
             <div className="row clearfix">
-              <div className="col-lg-4 col-md-12 col-sm-12 image-column">
+              <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                 <div className="image_block_one">
                   <div className="image-box p_relative pr_50 mr_30">
                   <video
@@ -46,14 +46,14 @@ export default function Process() {
               // style={{ width: '300px', height: '200px' }}
             >
               <source
-                src="/assets/animations/L&D-2.mp4"
+                src="/assets/animations/L&D-1.mp4"
                 type="video/mp4"
               />
             </video>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-8 col-md-12 col-sm-12 content-column mb_30">
+              <div className="col-lg-6 col-md-12 col-sm-12 content-column mb_30">
                 <div className="content_block_one">
                   <div className="content-box p_relative ml_30">
                     <div className="sec-title mb-1">
@@ -68,7 +68,7 @@ export default function Process() {
                       The performance-centric L&D model is a strategic approach aimed at aligning learning and development initiatives with organizational goals to enhance employee performance. By leveraging digital assets and focusing on continuous learning, this model promotes adaptability and competitiveness in the modern workplace.
                       </p>
                     </div>
-                    <div className="inner-box mb_10">
+                    {/* <div className="inner-box mb_10">
                       <div className="single-item">
                         <div className="icon-box">
                           <i className="icon-11"></i>
@@ -78,7 +78,7 @@ export default function Process() {
                         The phase involves identifying the organization's learning needs, assessing learners' skills, defining education goals, and designing, testing, and adapting content to meet these needs.
                          
                         </p>
-                        {/* After grouping the learners based on similar skill sets, we define education goals along with suitable learning delivery methods, and then proceed to design, test, and adapt the content accordingly. */}
+                       
                       </div>
                       <div className="single-item">
                         <div className="icon-box">
@@ -92,7 +92,7 @@ export default function Process() {
                       <p>
                       The developed content is delivered through the organization's Learning Management System (LMS). Each learner can access content tailored to their specific profile, allowing for personalized and continuous learning experiences.
                         </p>
-                    </div>
+                    </div> */}
                     {/* <figure className="signature"><img src="assets/images/icons/signature-1.png" alt="" /></figure> */}
                   </div>
                 </div>

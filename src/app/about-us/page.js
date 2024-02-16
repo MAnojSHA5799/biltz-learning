@@ -79,8 +79,6 @@ export default function Home() {
                       autoPlay
                       playsInline
                       preload="false"
-                      width="400"
-                      height="40%"
                     >
                       <source
                         src="/assets/animations/Animation-1.mp4"
@@ -141,9 +139,35 @@ export default function Home() {
           </div>
         </section>
         {/* about-section end */}
-
-        {/* service-style-two */}
         <section className="service-style-two p_relative bg-color-1 pt-5">
+                    <div className="auto-container">
+                        <div className="sec-title centred mb_50">
+                            <span className="sub-title">We are catalysts of knowledge retention, and our DNA is made of four elements
+</span>
+                            {/* <h2>Consistent ability to deliver rapid, accurate and most immersive learning experience</h2> */}
+                        </div>
+                        <div className="row clearfix">
+                            <div className="col-lg-12 col-md-6 col-sm-12 service-block">
+                            <video
+                      className="Dna-animations"
+                      loop
+                      muted
+                      autoPlay
+                      playsInline
+                      preload="false"
+                     
+                    >
+                      <source
+                        src="/assets/animations/Dna_new.mp4"
+                        type="video/mp4"
+                      />
+                    </video>
+                            </div> 
+                        </div>
+                    </div>
+                </section>
+        {/* service-style-two */}
+        <section className="service-style-two p_relative bg-color-1 pt-1">
           <div className="auto-container">
             <div className="sec-title centred mb_50">
               <span className="sub-title">What we do</span>

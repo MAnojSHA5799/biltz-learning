@@ -689,7 +689,7 @@
 
   .image-services-1 {
 	width: 100%;
-	height: auto;
+	height: 600%;
 	border-radius: 10px; /* Set your desired border radius */
 	border: 2px solid rgb(252, 251, 251); /* Set your desired border style and color */
 	box-shadow: inset 0 0 0 10px rgb(252, 251, 251); /* Set the desired inner border width and color */
@@ -700,7 +700,7 @@
   
 	@media (min-width: 768px) {
 	  width: 120%;
-	  height: auto;
+	  height: 600%;
 	  border-radius: 10px; /* Set your desired border radius */
 	  border: -1px solid rgb(252, 248, 248); /* Set your desired border style and color */
 	  box-shadow: inset 0 0 0 10px rgb(252, 251, 251); /* Set the desired inner border width and color */
@@ -710,7 +710,28 @@
 	}
   }
 
+  .Dna-animations {
+	width: 100%;
+	height: auto;
+	border-radius: 10px; /* Set your desired border radius */
+	border: 2px solid rgb(252, 251, 251); /* Set your desired border style and color */
+	box-shadow: inset 0 0 0 10px rgb(252, 251, 251); /* Set the desired inner border width and color */
+	display: block;
+	outline: none;
+	overflow: hidden;
 
+  
+	@media (min-width: 768px) {
+	  width: 100%;
+	  height: auto;
+	  border-radius: 10px; /* Set your desired border radius */
+	  border: -1px solid rgb(252, 248, 248); /* Set your desired border style and color */
+	  box-shadow: inset 0 0 0 10px rgb(252, 251, 251); /* Set the desired inner border width and color */
+	  display: block;
+	  outline: none;
+	  overflow: hidden;
+	}
+  }
   .icon-01{
 	height: 70px;
     padding: 12px;

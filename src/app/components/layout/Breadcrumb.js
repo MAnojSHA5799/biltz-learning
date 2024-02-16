@@ -14,7 +14,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
 
                     // style = {{backgroundImage:breadcrumbTitle?'url(/assets/images/Contact-Us.jpg)':'none'}}
                     style={{
-                        backgroundImage: breadcrumbTitle === "Our Services" ? 'url(/assets/header-images/ourservice.jpg)' :
+                        backgroundImage: breadcrumbTitle === "Our Services" ? 'url(/assets/header-images/ourservice2.jpg)' :
                             breadcrumbTitle === "Custom e-Learning" ? 'url(/assets/header-images/Custome_e-learning.mp4)' :
                                 breadcrumbTitle === "Content Services" ? 'url(/assets/header-images/content_services.mp4)' :
                                     breadcrumbTitle === "Video Production" ? 'url(/assets/header-images/video_production.mp4)' :
