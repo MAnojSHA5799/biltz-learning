@@ -317,9 +317,7 @@ export default function Services() {
                           <span className="sub-title">Why work with us?</span>
                           <h2>Trusted by some of the biggest brands…</h2>
                           <p>
-                            Blitz Learning is a leading e-Learning firm that
-                            goal to provide the highest quality e-Learning
-                            content for an immersive experience.
+                          Blitz Learning is a leading e-learning firm with the goal of providing the highest quality e-learning content for an immersive experience.
                           </p>
                         </div>
                         {/* <div className="progress-inner">

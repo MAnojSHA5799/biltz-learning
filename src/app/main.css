@@ -759,8 +759,38 @@
     justify-content: center; /* Horizontally center the content */
     align-items: center; /* Vertically center the content */
   }
-
-
+  .banner-carousel .a1{
+	position: relative;
+	padding: 166px 0px;
+  }
+	
+  .banner-carousel .content-box{
+	position: relative;
+	max-width: 630px;
+	width: 100%;
+	z-index: 5;
+  }
+	
+  .banner-carousel .content-box .content-inner{
+	position: relative;
+	background: rgba(202, 57, 57, 0.2);
+	border: 2px solid rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(7.5px);
+	border-radius: 10px;
+	opacity: 0;
+	padding: 45px 50px 50px 50px;
+	-webkit-transform: translateY(100px);
+	-moz-transform: translateY(100px);
+	-ms-transform: translateY(100px);
+	-o-transform: translateY(100px);
+	transform: translateY(100px);
+	-webkit-transition: all 1000ms ease;
+	-moz-transition: all 1000ms ease;
+	-ms-transition: all 1000ms ease;
+	-o-transition: all 1000ms ease;
+	transition: all 1000ms ease;
+  }
+  
   .banner-carousel .swiper-slide-active .content-inner{
 	opacity: 1;
 	-webkit-transform: translateY(0);
@@ -775,7 +805,7 @@
 	transition-delay: 1000ms;
   }
 	
-  .banner-carousel .slide-item:before{
+  .banner-carousel .a1:before{
 	position: absolute;
 	content: '';
 	width: 100%;
@@ -783,11 +813,11 @@
 	background: #000;
 	top: 0px;
 	right: 0px;
-	opacity: 0.7;
+	opacity: 0.1;
 	z-index: 1;
   }
 	
-  .banner-carousel .slide-item .image-layer{
+  .banner-carousel .a1 .image-layer{
 	position: absolute;
 	left:0;
 	top:0;
@@ -806,11 +836,48 @@
 	transition: all 8000ms linear;
   }
 	
-  .banner-carousel .swiper-slide-active .slide-item .image-layer{
+  .banner-carousel .swiper-slide-active .a1 .image-layer{
 	-webkit-transform:scale(1.25);
 	-ms-transform:scale(1.25);
 	transform:scale(1.25);
   }
-
-
-
+  .banner-carousel .content-box1{
+	position: relative;
+	max-width: 630px;
+	width: 100%;
+	z-index: 5;
+  }
+	
+  .banner-carousel .content-box1 .content-inner{
+	position: relative;
+	background: rgba(255, 255, 255, 0.2);
+	border: 2px solid rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(7.5px);
+	border-radius: 10px;
+	opacity: 0;
+	padding: 45px 50px 50px 50px;
+	-webkit-transform: translateY(100px);
+	-moz-transform: translateY(100px);
+	-ms-transform: translateY(100px);
+	-o-transform: translateY(100px);
+	transform: translateY(100px);
+	-webkit-transition: all 1000ms ease;
+	-moz-transition: all 1000ms ease;
+	-ms-transition: all 1000ms ease;
+	-o-transition: all 1000ms ease;
+	transition: all 1000ms ease;
+  }
+  
+  .banner-carousel .swiper-slide-active .content-inner{
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+	-webkit-transition-delay: 1000ms;
+	-moz-transition-delay: 1000ms;
+	-ms-transition-delay: 1000ms;
+	-o-transition-delay: 1000ms;
+	transition-delay: 1000ms;
+  }

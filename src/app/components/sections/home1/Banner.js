@@ -35,12 +35,12 @@ export default function Banner() {
         <>
             <section className="banner-section style-one p_relative">
                 <Swiper {...swiperOptions} className="banner-carousel">                    
-                    <SwiperSlide className="slide-item p_relative">
+                    <SwiperSlide className="a1 p_relative">
                         <div className="image-layer" style={{ backgroundImage: 'url(/assets/banner/home-page-image.jpg)' }}></div>
-                        {/* <div className="starshine">
+                        <div className="starshine">
                             <div className="shine shine-1"></div>
                             <div className="shine shine-2"></div>
-                        </div> */}
+                        </div>
                         <div className="auto-container">
                             <div className="content-box">
                             <div className="content-inner">
@@ -52,8 +52,8 @@ export default function Banner() {
                             </div>
                         </div>
                     </SwiperSlide>
-                    {/* <SwiperSlide className="slide-item p_relative">
-                        <div className="image-layer p_absolute" style={{ backgroundImage: 'url(/assets/images/homepage2.jpg)' }}></div>
+                    <SwiperSlide className="a1 p_relative">
+                        <div className="image-layer p_absolute" style={{ backgroundImage: 'url(/assets/banner/home-page-image6.jpg)' }}></div>
                         <div className="starshine">
                             <div className="shine shine-1"></div>
                             <div className="shine shine-2"></div>
@@ -67,9 +67,9 @@ export default function Banner() {
                             </div>
                             </div>
                         </div>
-                    </SwiperSlide> */}
-                    {/* <SwiperSlide className="slide-item p_relative">
-                        <div className="image-layer p_absolute" style={{ backgroundImage: 'url(/assets/images/homepage.jpg)' }}></div>
+                    </SwiperSlide>
+                    <SwiperSlide className="a1 p_relative">
+                        <div className="image-layer p_absolute" style={{ backgroundImage: 'url(/assets/banner/home-page-image5.jpg)' }}></div>
                         <div className="starshine">
                             <div className="shine shine-1"></div>
                             <div className="shine shine-2"></div>
@@ -83,15 +83,8 @@ export default function Banner() {
                             </div>
                             </div>
                         </div>
-                    </SwiperSlide> */}
-                    <div className="owl-nav">
-                        <button type="button" className="owl-prev h1p">
-                            <span>‹</span>
-                        </button>
-                        <button type="button" className="owl-next h1n">
-                            <span>›</span>
-                        </button>
-                    </div>
+                    </SwiperSlide>
+                  
                 </Swiper>
 
             </section>
