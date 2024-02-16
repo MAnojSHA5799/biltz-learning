@@ -6,7 +6,7 @@ export default function WhyChooseUs() {
         <>
             <section className="chooseus-section p_relative bg-color-2">
                 <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-13.png)' }}></div>
-                <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/whyus.jpg)' }}></div>
+                <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/why-us-2.jpg)' }}></div>
                 <div className="auto-container">
                     <div className="row clearfix">
                     <div className="col-lg-5 col-md-12 col-sm-12 content-column">
