@@ -36,11 +36,11 @@ export default function Banner() {
             <section className="banner-section style-one p_relative">
                 <Swiper {...swiperOptions} className="banner-carousel">                    
                     <SwiperSlide className="slide-item p_relative">
-                        <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/homepage.jpg)' }}></div>
-                        <div className="starshine">
+                        <div className="image-layer" style={{ backgroundImage: 'url(/assets/banner/home-page-image.jpg)' }}></div>
+                        {/* <div className="starshine">
                             <div className="shine shine-1"></div>
                             <div className="shine shine-2"></div>
-                        </div>
+                        </div> */}
                         <div className="auto-container">
                             <div className="content-box">
                             <div className="content-inner">

@@ -331,7 +331,7 @@ export default function Services() {
                           <h2>Trusted by some of the biggest brands…</h2>
                           <p>
                             Blitz Learning is a leading e-Learning firm that
-                            provides the highest quality e-Learning content for
+                            provides the highest quality<br /> e-Learning content for
                             an immersive experience.
                           </p>
                         </div>
