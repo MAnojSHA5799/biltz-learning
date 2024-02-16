@@ -22,6 +22,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
                                             breadcrumbTitle === "Why Us" ? 'url(/assets/header-images/whyus.png)' :
                                                 breadcrumbTitle === "About Us" ? 'url(/assets/header-images/aboutus-1.jpg)' :
                                                     breadcrumbTitle === "Get In Touch" ? 'url(/assets/header-images/contact-us.png)' :
+                                                    breadcrumbTitle === "Blogs" ? 'url(/assets/header-images/blog.jpg)' :
                                                         'none'
                     }}
 
