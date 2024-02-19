@@ -353,7 +353,7 @@ export default function Home() {
           <div className="sec-title centred mb_50">
               <span className="sub-title">Our Approach: 5C framework combining ADDIE and AGILE</span>
               <h2>
-              We understand the L&D imperatives you are trying to drive through eLearning. Accordingly, we customize our development framework to align with your learning and development goals.
+              We understand the L&D imperatives you are trying to drive through e-Learning. Accordingly, we customize our development framework to align with your learning and development goals.
               </h2>
             </div>
             <div className="row clearfix">

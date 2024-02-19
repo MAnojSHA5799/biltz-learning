@@ -190,7 +190,7 @@ export default function Cases() {
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div className="inner-box">
-                            <figure className="image-box"><img src="/assets/images/our-works/our-work-11.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/images/our-works/sales training_410x280.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-7"></i></div> */}
                             <h3><Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training">Web-Based Training and Online Portal|LMS|Sales Academy Traning</Link></h3>
@@ -203,7 +203,7 @@ export default function Cases() {
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div className="inner-box">
-                            <figure className="image-box"><img src="/assets/images/our-works/our-work-22.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/images/our-works/revamp and localization 410x280.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-8"></i></div> */}
                             <h3><Link href="/our-works/revamp-and-localization-company-policy-refresh-training">Revamp and Localization|Company Policy Refersh Training</Link></h3>
@@ -229,7 +229,7 @@ export default function Cases() {
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block mt-5">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div className="inner-box">
-                            <figure className="image-box"><img src="/assets/images/our-works/our-work-44.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/images/our-works/content development 410x280.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-9"></i></div> */}
                             <h3><Link href="/our-works/content-development-web-based-training-localization-workplace-hazards-and-safety">Content Development, Web-Based Training, Localization| Workplace Hazards and Safety</Link></h3>
@@ -257,7 +257,7 @@ export default function Cases() {
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block mt-5">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div className="inner-box">
-                            <figure className="image-box"><img src="/assets/images/our-works/our-work-66.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/images/our-works/scenario based training 410x280.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-9"></i></div> */}
                             <h3><Link href="/our-works/scenario-based-trainingworkplace-integrity">Scenario-Based Training| Workplace Integrity</Link></h3>
