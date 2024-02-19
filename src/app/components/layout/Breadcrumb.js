@@ -25,6 +25,8 @@ export default function Breadcrumb({ breadcrumbTitle }) {
                                                     breadcrumbTitle === "Blogs" ? 'url(/assets/header-images/blog.jpg)' :
                                                     breadcrumbTitle === "Our Works" ? 'url(/assets/header-images/our-work.jpg)' :
                                                     breadcrumbTitle === "Blog Details" ? 'url(/assets/header-images/Blog-Detiails.jpg)' :
+                                                    breadcrumbTitle === "Career" ? 'url(/assets/header-images/career.jpg)' :
+                                                    breadcrumbTitle === "Privacy Policy" ? 'url(/assets/header-images/Privacy-Policy-1.jpg)' :
                                                         'none'
                     }}
 
