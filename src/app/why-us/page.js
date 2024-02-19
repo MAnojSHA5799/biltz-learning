@@ -215,7 +215,7 @@ export default function Home() {
                         <div className="icon-box">
                         <img
                             className="icon-04"
-                            src="/assets/why-us/heigh reliability.png"
+                            src="/assets/why-us/Picture4.png"
                           ></img>
                         </div>
                         <h3>
@@ -253,7 +253,7 @@ export default function Home() {
                         <div className="icon-box">
                         <img
                             className="icon-04"
-                            src="/assets/why-us/heigh reliability.png"
+                            src="/assets/why-us/Proven growth record2.png"
                           ></img>
                         </div>
                         <h3>
@@ -284,7 +284,7 @@ export default function Home() {
                 >
                   <div className="inner-box">
                     <figure className="image-box">
-                      <img src="/assets/why-us/high-quality.jpg" alt="" />
+                      <img src="/assets/why-us/crediblity.jpg" alt="" />
                     </figure>
                     <div className="lower-content">
                       <div className="inner">
@@ -327,7 +327,7 @@ export default function Home() {
                         <div className="icon-box">
                         <img
                             className="icon-04"
-                            src="/assets/why-us/heigh reliability.png"
+                            src="/assets/why-us/value-edtision.png"
                           ></img>
                         </div>
                         <h3>
