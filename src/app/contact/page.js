@@ -4,6 +4,7 @@ import axios from "axios";
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import '../config.js'
 export default function Contact() {
   const [formData, setFormData] = useState({
     username: "",
@@ -202,13 +203,16 @@ export default function Contact() {
                   <br />
                   <div className="form-inner">
                     <form
-                      method="post"
+                    action="https://api.web3forms.com/submit"
+                      method="Post"
                       // action="sendemail.php"
                       id="contact-form"
                       className="default-form"
-                      onSubmit={handleSubmit}
+                      // onSubmit={handleSubmit}
                     >
+                      {/* <form   action="https://api.web3forms.com/submit" method="POST" */}
                       <div className="row clearfix">
+                      <input type="hidden" name="access_key" value="52e44b56-38d8-47bf-9a35-90ed4ed7a791"/>
                         <div className="col-lg-6 col-md-6 col-sm-12 form-group">
                           <input
                             type="text"

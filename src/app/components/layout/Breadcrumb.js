@@ -1,6 +1,6 @@
 'use client'
 import Link from "next/link"
-
+import '../../main.css'
 export default function Breadcrumb({ breadcrumbTitle }) {
 
 
