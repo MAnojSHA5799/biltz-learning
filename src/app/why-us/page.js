@@ -350,6 +350,12 @@ export default function Home() {
         {/* service-style-two end */}
         <section className="about-sections p_relative pb-0 mt-5">
           <div className="auto-container">
+          <div className="sec-title centred mb_50">
+              <span className="sub-title">Our Approach: 5C framework combining ADDIE and AGILE</span>
+              <h2>
+              We understand the L&D imperatives you are trying to drive through eLearning. Accordingly, we customize our development framework to align with your learning and development goals.
+              </h2>
+            </div>
             <div className="row clearfix">
               <div className="col-lg-4 col-md-12 col-sm-12 image-column">
                 <div className="image_block_one">
@@ -373,31 +379,24 @@ export default function Home() {
               <div className="col-lg-8 col-md-12 col-sm-12 content-column">
                 <div className="content_block_one">
                   <div className="content-box p_relative ml_30">
-                    <div className="sec-title mb-1">
-                      <span className="sub-title">
-                      5C framework combining ADDIE and AGILE
-                      </span>
-                      <h2 className="mb-3">We understand the L&D imperatives you are trying to drive through eLearning. Accordingly, we customize our development framework to align with your learning and development goals.</h2>
-                    </div>
+                   
                     
-                    
-                      <p className="mb-2">
+                      <p className="content-1 mb-3">
                       <span class="bold-text">Capture :</span> The initial plan outlines your needs, desired outcomes for web-based training, potential barriers to knowledge impartment, and available resources for a well-structured solution.
                       </p>
                      
-                      <p className="mb-2">
+                      <p className="content-1 mb-3">
                       <span class="bold-text">Conceptualize :</span> The next step involves transforming information into a vision for an engaging learning experience, testing ideas, mapping content, and creating a prototype to ensure a successful learning experience.
                       </p>
 
-                      <p className="mb-2">
+                      <p className="content-1 mb-3">
                     <span class="bold-text">Create :</span>  We build your project on an authoring platform, breaking it into agile sub-processes, ensuring clear roles and responsibilities, and testing the concept with content before collaborating effectively.
                       </p>
-                      <p className="mb-2">
+                      <p className="content-1 mb-3">
                       <span class="bold-text">Cultivate :</span>  This is the crucial stage where we identify where the content could be tweaked to improve engagement. We track wider audience trends to improve your digital learning strategy thus aligning your L&D vision with the overall business KPIs.
                       </p>
-                      <p className="mb-2">
-                      <span class="bold-text">Commercialize :</span> Commercialize
-We developed a product aligned with your vision, improving digital learning ROI by increasing global reach without physical trainers. The interactivity and easy-to-use platform saves time and investment in the training.
+                      <p className="content-1 mb-3">
+                      <span class="bold-text">Commercialize :</span> We developed a product aligned with your vision, improving digital learning ROI by increasing global reach without physical trainers. The interactivity and easy-to-use platform saves time and investment in the training.
 
                       </p>
                     {/* <div className="inner-box mb_35">
