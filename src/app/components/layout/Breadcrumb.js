@@ -19,7 +19,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
                                 breadcrumbTitle === "Content Services" ? 'url(/assets/header-images/content_services.mp4)' :
                                     breadcrumbTitle === "Video Production" ? 'url(/assets/header-images/video_production.mp4)' :
                                         breadcrumbTitle === "Learning Consulting" ? 'url(/assets/header-images/learning_consulting.mp4)' :
-                                            breadcrumbTitle === "Why Us" ? 'url(/assets/header-images/whyus.png)' :
+                                            breadcrumbTitle === "Why Us" ? 'url(/assets/header-images/why-us-1.jpg)' :
                                                 breadcrumbTitle === "About Us" ? 'url(/assets/header-images/aboutus-3.jpg)' :
                                                     breadcrumbTitle === "Get In Touch" ? 'url(/assets/header-images/contact-us.png)' :
                                                     breadcrumbTitle === "Blogs" ? 'url(/assets/header-images/blog.jpg)' :
