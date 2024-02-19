@@ -88,7 +88,7 @@ export default function Home() {
                   <div className="inner-box">
                     <figure className="image-box">
                       <img
-                        src="/assets/why-us/crediblity.jpg"
+                        src="/assets/why-us/business-understanding.jpg"
                         alt=""
                       />
                     </figure>
@@ -98,7 +98,7 @@ export default function Home() {
                           {" "}
                           <img
                             className="icon-04"
-                            src="/assets/why-us/Picture1.png"
+                            src="/assets/why-us/crisp-business-understanding.png"
                           ></img>
                         </div>
                         <h3>
@@ -138,7 +138,7 @@ export default function Home() {
                         <div className="icon-box">
                           <img
                             className="icon-04"
-                            src="/assets/why-us/Picture2.png"
+                            src="/assets/why-us/measurable cost advantage (2).png"
                           ></img>
                         </div>
                         <h3>
@@ -215,7 +215,7 @@ export default function Home() {
                         <div className="icon-box">
                         <img
                             className="icon-04"
-                            src="/assets/why-us/Picture4.png"
+                            src="/assets/why-us/Picture5.png"
                           ></img>
                         </div>
                         <h3>
@@ -291,7 +291,7 @@ export default function Home() {
                         <div className="icon-box">
                         <img
                             className="icon-04"
-                            src="/assets/why-us/heigh reliability.png"
+                            src="/assets/why-us/Picture6.png"
                           ></img>
                         </div>
                         <h3>
@@ -355,7 +355,7 @@ export default function Home() {
                 <div className="image_block_one">
                   <div className="image-box p_relative pr_50 mr_30">
                     <video
-                      className="image"
+                      className="whyus-animations"
                       loop
                       muted
                       autoPlay
@@ -363,7 +363,7 @@ export default function Home() {
                       preload="false"
                     >
                       <source
-                        src="/assets/animations/Animation-1.mp4"
+                        src="\assets\animations\whyus.mp4"
                         type="video/mp4"
                       />
                     </video>
@@ -375,22 +375,32 @@ export default function Home() {
                   <div className="content-box p_relative ml_30">
                     <div className="sec-title mb-1">
                       <span className="sub-title">
-                        About Blitz Learning Technologies
+                      5C framework combining ADDIE and AGILE
                       </span>
-                      <h2>Dedicated and professional consulting services</h2>
+                      <h2 className="mb-3">We understand the L&D imperatives you are trying to drive through eLearning. Accordingly, we customize our development framework to align with your learning and development goals.</h2>
                     </div>
-                    <div className="text mb_35">
-                      <p>
-                        Blitz Learning Technologies, established in 2016,
-                        exemplifies dedication and professionalism, delivering
-                        premier e-Learning services worldwide. Our innovative
-                        approach and research-driven solutions cater to diverse
-                        organizational needs, offering unparalleled quality and
-                        effectiveness with expertise in highly customized client
-                        delivery and localization in over 35+ languages.
+                    
+                    
+                      <p className="mb-2">
+                      <span class="bold-text">Capture :</span> The initial plan outlines your needs, desired outcomes for web-based training, potential barriers to knowledge impartment, and available resources for a well-structured solution.
                       </p>
-                    </div>
-                    <div className="inner-box mb_35">
+                     
+                      <p className="mb-2">
+                      <span class="bold-text">Conceptualize :</span> The next step involves transforming information into a vision for an engaging learning experience, testing ideas, mapping content, and creating a prototype to ensure a successful learning experience.
+                      </p>
+
+                      <p className="mb-2">
+                    <span class="bold-text">Create :</span>  We build your project on an authoring platform, breaking it into agile sub-processes, ensuring clear roles and responsibilities, and testing the concept with content before collaborating effectively.
+                      </p>
+                      <p className="mb-2">
+                      <span class="bold-text">Cultivate :</span>  This is the crucial stage where we identify where the content could be tweaked to improve engagement. We track wider audience trends to improve your digital learning strategy thus aligning your L&D vision with the overall business KPIs.
+                      </p>
+                      <p className="mb-2">
+                      <span class="bold-text">Commercialize :</span> Commercialize
+We developed a product aligned with your vision, improving digital learning ROI by increasing global reach without physical trainers. The interactivity and easy-to-use platform saves time and investment in the training.
+
+                      </p>
+                    {/* <div className="inner-box mb_35">
                       <div className="single-item">
                         <div className="icon-box">
                           <i className="icon-11"></i>
@@ -412,7 +422,7 @@ export default function Home() {
                           accurate, and most engaging learning experience.
                         </p>
                       </div>
-                    </div>
+                    </div> */}
                     {/* <figure className="signature"><img src="assets/images/icons/signature-1.png" alt="" /></figure> */}
                   </div>
                 </div>
@@ -521,195 +531,7 @@ export default function Home() {
             </Slider>
           </div>
         </section>
-        {/* clients-section end */}
-
-        {/* team-section */}
-        <section className="team-section sec-pad pt-5">
-          <div className="auto-container">
-            <div className="sec-title mb_50 centred">
-              <span className="sub-title">Team members</span>
-              <h2>
-                Meet our gurus from the team
-                {/* <br /> */}
-              </h2>
-            </div>
-            <div className="row clearfix">
-              <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                <div
-                  className="team-block-one wow fadeInUp animated"
-                  data-wow-delay="00ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="inner-box">
-                    <div className="image-box">
-                      <figure className="image">
-                        <img
-                          src="/assets/images/Team-member/rajeev_sir_330x370.jpg"
-                          alt=""
-                        />
-                      </figure>
-                      {/* <ul className="social-links clearfix">
-                                                <li><Link href="/about-us"><i className="fab fa-facebook-f"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-twitter"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-instagram"></i></Link></li>
-                                            </ul> */}
-                    </div>
-                    <div className="lower-content">
-                      <h3>
-                        <Link href="/team-details">Rajeev Suman</Link>
-                      </h3>
-                      <span className="designation">
-                        Co-founder and VP of Global Delivery
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                <div
-                  className="team-block-one wow fadeInUp animated"
-                  data-wow-delay="200ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="inner-box">
-                    <div className="image-box">
-                      <figure className="image">
-                        <img
-                          src="/assets/images/Team-member/abhishek_sir_330x370.jpg"
-                          alt=""
-                        />
-                      </figure>
-                      {/* <ul className="social-links clearfix">
-                                                <li><Link href="/about-us"><i className="fab fa-facebook-f"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-twitter"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-instagram"></i></Link></li>
-                                            </ul> */}
-                    </div>
-                    <div className="lower-content">
-                      <h3>
-                        <Link href="/team-details">Abhishek Kumar</Link>
-                      </h3>
-                      <span className="designation">
-                        Co-Founder and VP of Sales
-                      </span>
-                    </div>
-                    <br />
-                  </div>
-                </div>
-              </div>
-              {/* <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                                <div className="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><img src="assets/images/team/team-3.jpg" alt="" /></figure>
-                                            <ul className="social-links clearfix">
-                                                <li><Link href="/about-us"><i className="fab fa-facebook-f"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-twitter"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-instagram"></i></Link></li>
-                                            </ul>
-                                        </div>
-                                        <div className="lower-content">
-                                            <h3><Link href="/team-details">Bessie Cooper</Link></h3>
-                                            <span className="designation">Advisor</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> */}
-              {/* <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                                <div className="team-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><img src="assets/images/team/team-4.jpg" alt="" /></figure>
-                                            <ul className="social-links clearfix">
-                                                <li><Link href="/about-us"><i className="fab fa-facebook-f"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-twitter"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-instagram"></i></Link></li>
-                                            </ul>
-                                        </div>
-                                        <div className="lower-content">
-                                            <h3><Link href="/team-details">Devon Lane</Link></h3>
-                                            <span className="designation">Manager</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> */}
-            </div>
-          </div>
-          <section className="testimonial-style-two p_relative  pt-5 mt-1">
-            <div className="auto-container">
-              <div className="sec-title centred">
-                <span className="sub-title">Testimonials</span>
-                <h2>What they’re saying about us?</h2>
-              </div>
-              <div className="col-lg-12 col-md-12 col-sm-12 content-column">
-                <div className="content-box">
-                  {/*Theme Carousel*/}
-                  <TestimonialSlider0 />
-                </div>
-              </div>
-            </div>
-          </section>
-        </section>
-        {/* team-section end */}
-
-        {/* chooseus-style-two */}
-        {/* <section className="chooseus-style-two sec-pad">
-                    <div className="bg-layer parallax-bg" data-parallax='{"y": 100}' style={{ backgroundImage: 'url(assets/images/background/chooseus-bg-2.jpg)' }}></div>
-                    <div className="auto-container">
-                        <div className="row clearfix">
-                            <div className="col-xl-6 col-lg-12 offset-xl-6 content-column">
-                                <div className="content_block_six">
-                                    <div className="content-box p_relative ml_30">
-                                        <div className="sec-title mb_50">
-                                            <span className="sub-title">Why Choose BizTech</span>
-                                            <h2>Reason For Choosing Our Consultancy</h2>
-                                        </div>
-                                        <ul className="accordion-box">
-                                            
-                                            <li className="accordion block">
-                                                <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
-                                                    <div className="icon-box"></div>
-                                                    <h3>Quick Response</h3>
-                                                </div>
-                                                <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
-                                                    <div className="content">
-                                                        <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            
-                                            <li className="accordion block">
-                                                <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(2)}><div className="icon-box"></div><h3>Experience Consultant</h3></div>
-                                                <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
-                                                    <div className="content">
-                                                        <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            
-                                            <li className="accordion block">
-                                                <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(3)}><div className="icon-box"></div><h3>Flexible Payment</h3></div>
-                                                <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
-                                                    <div className="content">
-                                                        <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
-        {/* chooseus-style-two end */}
-
-        {/* testimonial-style-two */}
-
-        {/* testimonial-style-two end */}
+       
 
         <ModalVideo
           channel="youtube"

@@ -674,6 +674,14 @@
 	  height: auto;
 	}
   }
+  .whyus-animations{
+	width: 100%;
+	height: 900%;
+	@media (min-width: 768px) {
+	  width: 130%;
+	  height: auto;
+	}
+  }
 .image-services{
 	width: 100%;
 	height: auto;
@@ -901,4 +909,9 @@
 	-ms-transition-delay: 1000ms;
 	-o-transition-delay: 1000ms;
 	transition-delay: 1000ms;
+  }
+  .bold-text {
+	font-weight: bold;
+	color: #000;
+	font-size: 50;
   }
