@@ -30,10 +30,17 @@ export default function Process() {
           </div>
         </div>
       </section> */}
-      <section className="about-sections p_relative pb-0 mt-5">
+      <section className="about-sections p_relative pb-0 mt-3 mb-2">
           <div className="auto-container">
+          <div className="sec-title text-center mb-1">
+                      <span className="sub-title ">
+                      Performance centric L&D model
+                      </span>
+                      <h2> A proven approach to transform your L&D initiatives into performance centric digital assets for enhanced and continuous learning.
+</h2>
+                    </div>
             <div className="row clearfix">
-              <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+              <div className="col-lg-12 col-md-12 col-sm-12 image-column">
                 <div className="image_block_one">
                   <div className="image-box p_relative pr_50 mr_30">
                   <video
@@ -53,22 +60,12 @@ export default function Process() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-12 col-sm-12 content-column mb_30">
+              {/* <div className="col-lg-6 col-md-12 col-sm-12 content-column mb_30">
                 <div className="content_block_one">
                   <div className="content-box p_relative ml_30">
-                    <div className="sec-title mb-1">
-                      <span className="sub-title">
-                      Performance centric L&D model
-                      </span>
-                      <h2> A proven approach to transform your L&D initiatives into performance centric digital assets for enhanced and continuous learning.
-</h2>
-                    </div>
-                    <div className="text mb_10">
-                      <p>
-                      The performance-centric L&D model is a strategic approach aimed at aligning learning and development initiatives with organizational goals to enhance employee performance. By leveraging digital assets and focusing on continuous learning, this model promotes adaptability and competitiveness in the modern workplace.
-                      </p>
-                    </div>
-                    {/* <div className="inner-box mb_10">
+                    
+                   
+                    <div className="inner-box mb_10">
                       <div className="single-item">
                         <div className="icon-box">
                           <i className="icon-11"></i>
@@ -92,11 +89,11 @@ export default function Process() {
                       <p>
                       The developed content is delivered through the organization's Learning Management System (LMS). Each learner can access content tailored to their specific profile, allowing for personalized and continuous learning experiences.
                         </p>
-                    </div> */}
-                    {/* <figure className="signature"><img src="assets/images/icons/signature-1.png" alt="" /></figure> */}
+                    </div>
+                    <figure className="signature"><img src="assets/images/icons/signature-1.png" alt="" /></figure>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>

@@ -14,7 +14,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training"><img src="/assets/images/our-works/Web-Based-Academy-Training.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training"><img src="/assets/images/our-works/sales training 410x300.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">27 December</span> */}
@@ -31,7 +31,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="c"><img src="/assets/images/our-works/Revamp-Refresh Training.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="c"><img src="/assets/images/our-works/revamp and localization 410x300.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">14 APRIL</span> */}
@@ -68,7 +68,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/our-works/Content-Development,Safety.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/our-works/content development 410x300.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">12 APRIL</span> */}
@@ -105,7 +105,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/our-works/Scenario-Integrity.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/our-works/scenario based training 410x300.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">11 APRIL</span> */}
