@@ -30,8 +30,11 @@ export default function Services() {
           <section className="service-style-two p_relative">
             <div className="auto-container">
               <div className="sec-title centred mb_50">
-                <span className="sub-title">At Blitz Learning, we deliver exceptional, tailored services with expertise and dedication, empowering businesses of all sizes in today's competitive landscape.
-</span>
+                <span className="sub-title">
+                  At Blitz Learning, we deliver exceptional, tailored services
+                  with expertise and dedication, empowering businesses of all
+                  sizes in today's competitive landscape.
+                </span>
                 {/* <h2>Provide the Best Consulting in This Industry</h2> */}
               </div>
               <div className="row clearfix">
@@ -78,7 +81,10 @@ export default function Services() {
                       <div className="lower-content">
                         <div className="inner">
                           <div className="icon-box">
-                          <img className="icon-02" src="/assets/images/icon/custom e-learning .png"></img>
+                            <img
+                              className="icon-02"
+                              src="/assets/images/icon/custom e-learning .png"
+                            ></img>
                           </div>
                           <h3>
                             <Link href="/Services/Custom-eLearning">
@@ -120,7 +126,10 @@ export default function Services() {
                       <div className="lower-content">
                         <div className="inner">
                           <div className="icon-box">
-                          <img className="icon-02" src="/assets/images/icon/content services .png"></img>
+                            <img
+                              className="icon-02"
+                              src="/assets/images/icon/content services .png"
+                            ></img>
                           </div>
                           <h3>
                             <Link href="/Services/Content-Services">
@@ -146,7 +155,7 @@ export default function Services() {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="col-lg-6 col-md-6 col-sm-12 service-block">
                   <div
                     className="service-block-two wow fadeInUp animated"
@@ -163,7 +172,10 @@ export default function Services() {
                       <div className="lower-content">
                         <div className="inner">
                           <div className="icon-box">
-                          <img className="icon-01" src="/assets/images/new-icon/Vdo Production.png"></img>
+                            <img
+                              className="icon-01"
+                              src="/assets/images/new-icon/Vdo Production.png"
+                            ></img>
                           </div>
                           <h3>
                             <Link href="/Services/video-production">
@@ -206,7 +218,10 @@ export default function Services() {
                       <div className="lower-content">
                         <div className="inner">
                           <div className="icon-box">
-                          <img className="icon-01" src="/assets/images/New-Images/learning consulting.png"></img>
+                            <img
+                              className="icon-01"
+                              src="/assets/images/New-Images/learning consulting.png"
+                            ></img>
                           </div>
                           <h3>
                             <Link href="/Services/learning-consulting">

@@ -71,7 +71,7 @@ export default function Footer1() {
                                     {/* <p>Tincidunt neque pretium lectus donec risus.</p> */}
                                     <ul className="info-list clearfix">
                                         <li><i className="icon-23"></i>610, Tower B, iThum, Block A, Industrial Area, Sector 62, Noida, Uttar Pradesh</li>
-                                        <li><i className="icon-3"></i><Link href="mailto:contactus@biltzlearning.in">contactus@biltzlearning.in</Link></li>
+                                        <li><i className="icon-3"></i><a href="mailto:contactus@biltzlearning.in">contactus@biltzlearning.in</a></li>
                                         <li><i className="icon-2"></i><Link href="tel:+911204316127">+91-1204316127</Link></li>
                                     </ul>
                                     </div>

@@ -155,9 +155,9 @@ export default function Services() {
                         </div>
                         <div className="inner-box">
                           <p>
-                            <Link href="mailto:contactus@biltzlearning.in">
+                            <a href="mailto:contactus@biltzlearning.in">
                               contactus@biltzlearning.in
-                            </Link>
+                            </a>
                           </p>
                           <h3>
                             <Link href="tel:911204316127">+91-1204316127</Link>

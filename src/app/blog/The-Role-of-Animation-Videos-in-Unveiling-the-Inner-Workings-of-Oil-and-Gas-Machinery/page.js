@@ -67,7 +67,7 @@ export default function Home() {
                     <div className="inner-box">
                       <div className="image-box">
                         <figure className="blog-images">
-                          <img src="/assets/images/Blog/blog-1.jpg" alt="" />
+                          <img className="blog-img01" src="/assets/images/Blog/blog-1.jpg" alt="" />
                         </figure>
                         <h2>
                           27<span>Dec</span>

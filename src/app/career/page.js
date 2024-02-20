@@ -215,9 +215,9 @@ export default function Home() {
                               <li>Things To Do In Govarnex</li>
                             </ul> */}
                             <div className="btn-box">
-                              <Link href="mailto:roshni.sarin@blitzlearning.in" className="theme-btn-one">
+                              <a href="mailto:roshni.sarin@blitzlearning.in" className="theme-btn-one">
                                 Apply Now
-                              </Link>
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -300,9 +300,9 @@ export default function Home() {
                                                         <li>Things To Do In Govarnex</li>
                                                     </ul> */}
                             <div className="btn-box">
-                              <Link href="mailto:roshni.sarin@blitzlearning.in" className="theme-btn-one">
+                              <a href="mailto:roshni.sarin@blitzlearning.in" className="theme-btn-one">
                                 Apply Now
-                              </Link>
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -385,9 +385,9 @@ export default function Home() {
                                                         <li>Things To Do In Govarnex</li>
                                                     </ul> */}
                             <div className="btn-box">
-                              <Link href="mailto:roshni.sarin@blitzlearning.in" className="theme-btn-one">
+                              <a href="mailto:roshni.sarin@blitzlearning.in" className="theme-btn-one">
                                 Apply Now
-                              </Link>
+                              </a>
                             </div>
                           </div>
                         </div>

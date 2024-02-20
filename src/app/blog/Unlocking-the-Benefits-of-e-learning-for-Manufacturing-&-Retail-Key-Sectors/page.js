@@ -67,7 +67,7 @@ export default function Home() {
                       <div className="image-box">
                         <figure className="blog-images">
                           {/* classname image to blog-images */}
-                          <img src="/assets/images/Blog/blog-6.jpg" alt="" />
+                          <img className="blog-img01" src="/assets/images/Blog/blog-6.jpg" alt="" />
                         </figure>
                         <h2>
                           27<span>Dec</span>
