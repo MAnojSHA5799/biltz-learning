@@ -170,7 +170,7 @@ export default function Home() {
         <section className="service-style-two p_relative bg-color-1 pt-1">
           <div className="auto-container">
             <div className="sec-title centred mb_50">
-              <span className="sub-title">What we do</span>
+              <span className="sub-title">What we do ?</span>
               <h2>
                 Consistent ability to deliver rapid, accurate and most immersive
                 learning experience
