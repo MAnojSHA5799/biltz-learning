@@ -29,8 +29,8 @@ export default function Home() {
             <h4 className="title">Access</h4>
             <p>
               If you want to know if we have any of your Personal Information, you can ask us and we’ll provide that information to you. 
-              If your Personal Information changes or is inaccurate, you can correct it by contacting <a className="mailto-link" href=" mailto:marcom@blitzlearning.in"> mailto:marcom@blitzlearning.in</a>. 
-              If you want to stop using our service, you can also contact <a className="mailto-link" href=" mailto:marcom@blitzlearning.in"> mailto:marcom@blitzlearning.in</a>. We’ll respond to your request within 30 days.
+              If your Personal Information changes or is inaccurate, you can correct it by contacting <a className="mailto-link" href=" mailto:marcom@blitzlearning.in"> marcom@blitzlearning.in </a>  
+               If you want to stop using our service, you can also contact <a className="mailto-link" href=" mailto:marcom@blitzlearning.in">marcom@blitzlearning.in</a> We’ll respond to your request within 30 days.
             </p>
             <h4 className="title">Security</h4>
             <p>
@@ -46,7 +46,7 @@ export default function Home() {
             </p>
             <h4 className="title">Opt-Out Policy</h4>
             <p>
-              You can opt out of receiving communications from us by emailing us at <a className="mailto-link" href=" mailto:marcom@blitzlearning.in"> mailto:marcom@blitzlearning.in</a> with your username and email address.
+              You can opt out of receiving communications from us by emailing us at <a className="mailto-link" href=" mailto:marcom@blitzlearning.in">marcom@blitzlearning.in</a> with your username and email address.
             </p>
             <h4 className="title">Deletion Of Your Account</h4>
             <p>
@@ -62,8 +62,7 @@ export default function Home() {
             </p>
             <h4 className="title">Contacting Biltz Learning</h4>
             <p>
-              If you have any questions or concerns about this Privacy Policy or the use of your personal data, you can email us at 
-               <a className="mailto-link" href=" mailto:marcom@blitzlearning.in"> mailto:marcom@blitzlearning.in</a>. We reserve the right to change or update this policy at any time.
+              If you have any questions or concerns about this Privacy Policy or the use of your personal data, you can email us at <a className="mailto-link" href=" mailto:marcom@blitzlearning.in">marcom@blitzlearning.in</a> We reserve the right to change or update this policy at any time.
             </p>
             <div className="area">
               <h3>Get Free Consultation for your Needs.</h3>

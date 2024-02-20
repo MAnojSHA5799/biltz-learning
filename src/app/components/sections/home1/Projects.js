@@ -226,26 +226,24 @@ export default function Cases() {
                         </div>
                     </div>
                     
-                    <div className="col-lg-4 col-md-6 col-sm-12 feature-block mt-5">
+                    {/* <div className="col-lg-4 col-md-6 col-sm-12 feature-block mt-5">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div className="inner-box">
                             <figure className="image-box"><img src="/assets/images/our-works/content development 410x280.jpg" alt="" /></figure>
                             <div className="lower-content">
-                            {/* <div className="icon-box"><i className="icon-9"></i></div> */}
                             <h3><Link href="/our-works/content-development-web-based-training-localization-workplace-hazards-and-safety">Content Development, Web-Based Training, Localization| Workplace Hazards and Safety</Link></h3>
                             <p>Branding, Design</p>
                             </div>
                         </div>
                         </div>
                        
-                    </div>
+                    </div> */}
 
-                    <div className="col-lg-4 col-md-6 col-sm-12 feature-block mt-5">
+                    {/* <div className="col-lg-4 col-md-6 col-sm-12 feature-block mt-5">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div className="inner-box">
                             <figure className="image-box"><img src="/assets/images/our-works/our-work-55.jpg" alt="" /></figure>
                             <div className="lower-content">
-                            {/* <div className="icon-box"><i className="icon-9"></i></div> */}
                             <h3><Link href="/our-works/web-based-training-and-localization-product-training">Web-Based Training and Localization| Product Training</Link></h3>
                             <p>Branding, Design</p>
                             <br />
@@ -253,13 +251,12 @@ export default function Cases() {
                         </div>
                         </div>
                        
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12 feature-block mt-5">
+                    </div> */}
+                    {/* <div className="col-lg-4 col-md-6 col-sm-12 feature-block mt-5">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div className="inner-box">
                             <figure className="image-box"><img src="/assets/images/our-works/scenario based training 410x280.jpg" alt="" /></figure>
                             <div className="lower-content">
-                            {/* <div className="icon-box"><i className="icon-9"></i></div> */}
                             <h3><Link href="/our-works/scenario-based-trainingworkplace-integrity">Scenario-Based Training| Workplace Integrity</Link></h3>
                             <p>Branding, Design</p>
                             <br />
@@ -269,6 +266,9 @@ export default function Cases() {
                         </div>
                         </div>
                        
+                    </div> */}
+                     <div className="more-btn mt_50">
+                    <Link href="/our-works" className="theme-btn-one">See more </Link>
                     </div>
                     </div>
                 </div>

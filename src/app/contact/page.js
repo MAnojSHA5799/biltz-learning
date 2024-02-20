@@ -23,41 +23,81 @@ export default function Contact() {
     }));
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    console.log("Form Data:", formData);
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   setIsSubmitting(true);
+  //   console.log("Form Data:", formData);
+  //   try {
+  //     const response = await axios.post(
+  //       "https://biltz-backend.vercel.app/addDetails",
+  //       formData,
+  //       {
+  //         headers: {
+  //           "Content-Type": "application/json",
+  //         },
+  //         withCredentials: false,
+  //       }
+  //     );
+  //     console.log("Server Response:", response.data);
+
+  //     setFormData({
+  //       username: "",
+  //       email: "",
+  //       phone: "",
+  //       subject: "",
+  //       message: "",
+  //     });
+  //     setIsSubmitting(false);
+  //     router.refresh("/contact");
+  //   } catch (error) {
+  //     console.error("Error posting data:", error);
+  //   }
+  // };
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    const formData = new FormData(event.target);
+    formData.append("access_key", "52e44b56-38d8-47bf-9a35-90ed4ed7a791");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+    console.log("111",json)
 
     try {
-      // Make the Axios POST request http://localhost:2410/addDetails
-      // https://biltz-backend.vercel.app
-      const response = await axios.post(
-        "https://biltz-backend.vercel.app/addDetails",
-        formData,
-        {
-          headers: {
-            "Content-Type": "application/json",
-          },
-          withCredentials: false,
-        }
-      );
-      // Handle the response
-      console.log("Server Response:", response.data);
-
-      // Reset form data
-      setFormData({
-        username: "",
-        email: "",
-        phone: "",
-        subject: "",
-        message: "",
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: json
       });
-      setIsSubmitting(false);
-      // Optional: You can use router.reload() to refresh the page
-      router.refresh("/contact");
-      // You can add logic here based on the response from the server
+
+      const result = await response.json();
+      
+      // Handle the response
+      if (result.success) {
+        console.log(result);
+        
+        // Reset form data
+        setFormData({
+          username: "",
+          email: "",
+          phone: "",
+          subject: "",
+          message: "",
+        });
+        setIsSubmitting(false);
+
+        // Optional: You can use router.reload() to refresh the page
+        router.refresh("/contact");
+
+        // You can add logic here based on the response from the server
+      } else {
+        console.error("Error posting data:", result);
+      }
     } catch (error) {
-      // Handle errors
       console.error("Error posting data:", error);
     }
   };
@@ -203,12 +243,9 @@ export default function Contact() {
                   <br />
                   <div className="form-inner">
                     <form
-                    action="https://api.web3forms.com/submit"
-                      method="Post"
-                      // action="sendemail.php"
                       id="contact-form"
                       className="default-form"
-                      // onSubmit={handleSubmit}
+                      onSubmit={handleSubmit}
                     >
                       {/* <form   action="https://api.web3forms.com/submit" method="POST" */}
                       <div className="row clearfix">

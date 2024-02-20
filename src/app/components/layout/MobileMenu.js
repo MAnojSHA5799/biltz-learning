@@ -42,12 +42,8 @@ export default function MobileMenu({
               id="navbarSupportedContent"
             >
               <ul className="navigation clearfix">
-                <li
-                 
-                >
-                  <Link href="/">Home</Link>
-                
-                </li>
+                <li><Link href="/">Home</Link></li>
+                <li><Link href="/about-us">About US</Link></li>
                 <li
                   className={
                     isActive.key == 2 ? "dropdown current" : "dropdown"
@@ -90,6 +86,7 @@ export default function MobileMenu({
                     <span className="fa fa-angle-right" />
                   </div>
                 </li>
+                <li className=""><Link href="/why-us">Why Us</Link></li>
                 <li
                   className={
                     isActive.key == 3 ? "dropdown current" : "dropdown"
@@ -141,13 +138,8 @@ export default function MobileMenu({
                     <span className="fa fa-angle-right" />
                   </div>
                 </li>
-                <li
-                 
-                >
-                  <Link href="/about-us">About US</Link>
-
-                </li>
-                <li className=""><Link href="/why-us">Why Us</Link></li>
+                
+                
                 <li>
                   <Link href="/blog">Blogs</Link>
                 </li>
