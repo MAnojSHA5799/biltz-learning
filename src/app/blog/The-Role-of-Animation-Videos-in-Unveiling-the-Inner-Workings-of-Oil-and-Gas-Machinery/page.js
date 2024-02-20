@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
-//  import '../../main.css'
+ import '../../main.css'
 export default function Home() {
   const [formData, setFormData] = useState({
     name: '',
@@ -66,7 +66,7 @@ export default function Home() {
                   <div className="news-block-one">
                     <div className="inner-box">
                       <div className="image-box">
-                        <figure className="image">
+                        <figure className="blog-images">
                           <img src="/assets/images/Blog/blog-1.jpg" alt="" />
                         </figure>
                         <h2>

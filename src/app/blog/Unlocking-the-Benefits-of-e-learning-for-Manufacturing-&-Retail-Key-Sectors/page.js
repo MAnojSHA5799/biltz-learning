@@ -65,7 +65,8 @@ export default function Home() {
                   <div className="news-block-one">
                     <div className="inner-box">
                       <div className="image-box">
-                        <figure className="image">
+                        <figure className="blog-images">
+                          {/* classname image to blog-images */}
                           <img src="/assets/images/Blog/blog-6.jpg" alt="" />
                         </figure>
                         <h2>
