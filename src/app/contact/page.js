@@ -159,9 +159,9 @@ export default function Contact() {
                       </div>
                       <h3>Email address</h3>
                       <p>
-                        <Link href="mailto:contactus@blitzlearning.in">
+                        <a href="mailto:contactus@blitzlearning.in">
                           contactus@blitzlearning.in
-                        </Link>
+                        </a>
                         {/* <br /><Link href="mailto:support@example.com">support@example.com</Link> */}
                       </p>
                     </div>
