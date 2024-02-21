@@ -61,7 +61,7 @@ export default function Services() {
 
             <div className="auto-container">
               <div className="sec-title centred mb_50">
-                <span className="sub-title">What we do</span>
+                <span className="sub-title">What we do ?</span>
                 <h2>Provide the best consulting in this industry</h2>
               </div>
               <div className="row clearfix">
@@ -93,10 +93,11 @@ export default function Services() {
                           </h3>
                           <p>
                             Crafted to meet speciﬁc learning objectives, our
-                            custom e-Learning content with advanced e-Learning
+                            custom <br /> e-Learning content with advanced e-Learning
                             technology ensures engagement and knowledge
                             retention.
                           </p>
+                          <br />
                           <div className="btn-box">
                             <Link
                               href="/Services/Custom-eLearning"
@@ -137,10 +138,7 @@ export default function Services() {
                             </Link>
                           </h3>
                           <p>
-                            Crafted to meet speciﬁc learning objectives, our
-                            custom e-Learning content with advanced e-Learning
-                            technology ensures engagement and knowledge
-                            retention.
+                          Our content team tailors content to match every requirement by using rich media. Our localization services for e-Learning projects can help you translate and localize your content, including text translation and audio recording.
                           </p>
                           <div className="btn-box">
                             <Link

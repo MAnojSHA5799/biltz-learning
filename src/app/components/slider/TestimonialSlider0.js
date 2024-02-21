@@ -1,10 +1,10 @@
 'use client'
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
-
+import '../../main.css'
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
-    slidesPerView: 3,
+    slidesPerView: 2,
     spaceBetween: 30,
     autoplay: {
         delay: 7000,
@@ -42,11 +42,11 @@ const swiperOptions = {
             // spaceBetween: 30,
         },
         1199: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             // spaceBetween: 30,
         },
         1350: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             // spaceBetween: 30,
         },
     }
@@ -55,31 +55,41 @@ export default function TestimonialSlider0() {
     return (
         <>
             <Swiper {...swiperOptions} className="theme_carousel owl-theme">
-            <SwiperSlide className="slide">
-                    <div className="testimonial-block-two">
-                        <figure className="thumb-box"><img src="/assets/images/Team-member/rajeev_sir_90x90.jpg" alt="" /></figure>
+            <SwiperSlide className="slide ">
+            
+                    <div className="testimonial-block-two1" >
                         <div className="inner-box">
-                            <h3>Rajeev Suman</h3>
-                            <span className="designation">Co-founder and VP of Global Delivery</span>
-                            <p>“Rajeev Suman is known for his advisory and market insights acumen leverages his experience of over 15 years leading the global production at Blitz Learning Technologies.”</p>
-                            <ul className="rating clearfix">
+                        <p>“I can’t express how impressed I am with the e-Learning courses provided by Blitz Learning. The courses are not only informative but also engaging. Our team has seen a significant improvement in their skills and knowledge, thanks to the tailored content and interactive learning experiences.”</p>
+                        <div className="inner-box1" >
+                        <h3>Integrity Engineer</h3>
+                            <span className="designation">Leading oil and gas company in North America</span>
+                            <ul className="rating clearfix center">
                                 <li><i className="fas fa-star"></i></li>
                                 <li><i className="fas fa-star"></i></li>
                                 <li><i className="fas fa-star"></i></li>
                                 <li><i className="fas fa-star"></i></li>
                                 <li><i className="far fa-star"></i></li>
                             </ul>
+                            </div>
                         </div>
                     </div>
+                 
+        
                 </SwiperSlide>
+               
+
                 <SwiperSlide className="slide">
-                    <div className="testimonial-block-two">
-                        <figure className="thumb-box"><img src="/assets/images/Team-member/abhishek_sir_90x90.jpg" alt="" /></figure>
+                    <div className="testimonial-block-two1">
+                        
                         <div className="inner-box">
-                            <h3>Abhishek Kumar</h3>
-                            <span className="designation">Co-Founder and VP of Sales</span>
-                            <p>“Abhishek is the cornerstone of the sales function at Blitz Learning. With his deep expertise in sales techniques and 15 years of sales experience in e-Learning sales, he heads our sales team.”</p>
-                            <ul className="rating clearfix">
+                        <div className="inner-box1" >
+                            
+                            <p>“Working with Blitz Learning has been a true partnership. Their commitment to creating high-quality e-Learning materials that align perfectly with our industry needs has been outstanding. We’ve seen a remarkable increase in employee satisfaction and performance since implementing their solutions.”</p>
+                           
+                        </div>
+                        <h3>Digital Marketing Content Manager</h3>
+                            <span className="designation">Leading European semiconductor manufacturer</span>
+                            <ul className="rating clearfix center">
                                 <li><i className="fas fa-star"></i></li>
                                 <li><i className="fas fa-star"></i></li>
                                 <li><i className="fas fa-star"></i></li>
@@ -90,50 +100,19 @@ export default function TestimonialSlider0() {
                     </div>
                 </SwiperSlide>
                 
-                {/* <SwiperSlide className="slide">
-                    <div className="testimonial-block-two">
-                        <figure className="thumb-box"><img src="assets/images/resource/testimonial-5.jpg" alt="" /></figure>
+                <SwiperSlide className="slide">
+                    <div className="testimonial-block-two1">
                         <div className="inner-box">
-                            <h3>Haris Gulati</h3>
-                            <span className="designation">Manager</span>
+                        <div className="inner-box1" >
+                            
                             <p>
-                            “Dictum mauris facilisis tortor dictumst. Cursus mattis viera lobortis posuere molestie imperdiet diam scelerisque posuere magnis risus purus eu tempor. Odio iaculis tincidunt cras cursus id nunc nibh gravida vel consectetur aliquam vitae pulvina.”
+                            “I am thoroughly impressed with Blitz Learning’s e-Learning solutions. The team’s expertise, attention to detail, and dedication to our success shine through in every aspect of their service. Our employees are now more engaged and motivated to learn, resulting in a noticeable improvement in our company’s performance.”
                             </p>
-                            <ul className="rating clearfix">
-                                <li><i className="fas fa-star"></i></li>
-                                <li><i className="fas fa-star"></i></li>
-                                <li><i className="fas fa-star"></i></li>
-                                <li><i className="fas fa-star"></i></li>
-                                <li><i className="far fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </SwiperSlide> */}
-                 {/* <SwiperSlide className="slide">
-                    <div className="testimonial-block-two">
-                        <figure className="thumb-box"><img src="assets/images/resource/testimonial-3.jpg" alt="" /></figure>
-                        <div className="inner-box">
-                            <h3>Bessie Cooper</h3>
-                            <span className="designation">Manager</span>
-                            <p>“Dictum mauris facilisis tortor dictumst. Cursus mattis viera lobortis posuere molestie imperdiet diam scelerisque posuere magnis risus purus eu tempor. Odio iaculis tincidunt cras cursus id nunc nibh gravida.”</p>
-                            <ul className="rating clearfix">
-                                <li><i className="fas fa-star"></i></li>
-                                <li><i className="fas fa-star"></i></li>
-                                <li><i className="fas fa-star"></i></li>
-                                <li><i className="fas fa-star"></i></li>
-                                <li><i className="far fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </SwiperSlide> */}
-             {/*   <SwiperSlide className="slide">
-                    <div className="testimonial-block-two">
-                        <figure className="thumb-box"><img src="assets/images/resource/testimonial-4.jpg" alt="" /></figure>
-                        <div className="inner-box">
-                            <h3>Brooklyn Simmons</h3>
-                            <span className="designation">Manager</span>
-                            <p>“Dictum mauris facilisis tortor dictumst. Cursus mattis viera lobortis posuere molestie imperdiet diam scelerisque posuere magnis risus purus eu tempor. Odio iaculis tincidunt cras cursus id nunc nibh gravida vel consectetur aliquam vitae pulvinar gravida at faucibus. Ridiculus mauris porttitor sit nulla.”</p>
-                            <ul className="rating clearfix">
+                            
+                            </div>
+                            <h3>Head of Global Technical Training</h3>
+                            <span className="designation">Leading European manufacturing company</span>
+                            <ul className="rating clearfix center">
                                 <li><i className="fas fa-star"></i></li>
                                 <li><i className="fas fa-star"></i></li>
                                 <li><i className="fas fa-star"></i></li>
@@ -143,25 +122,28 @@ export default function TestimonialSlider0() {
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className="slide">
-                <div className="testimonial-block-two">
-                    <figure className="thumb-box"><img src="assets/images/resource/testimonial-5.jpg" alt="" /></figure>
-                    <div className="inner-box">
-                        <h3>Haris Gulati</h3>
-                        <span className="designation">Manager</span>
-                        <p>
-                        “Dictum mauris facilisis tortor dictumst. Cursus mattis viera lobortis posuere molestie imperdiet diam scelerisque posuere magnis risus purus eu tempor. Odio iaculis tincidunt cras cursus id nunc nibh gravida vel consectetur aliquam vitae pulvina.”
-                        </p>
-                        <ul className="rating clearfix">
-                            <li><i className="fas fa-star"></i></li>
-                            <li><i className="fas fa-star"></i></li>
-                            <li><i className="fas fa-star"></i></li>
-                            <li><i className="fas fa-star"></i></li>
-                            <li><i className="far fa-star"></i></li>
-                        </ul>
+                 <SwiperSlide className="slide">
+                    <div className="testimonial-block-two1">
+                        <div className="inner-box">
+                        <div className="inner-box1">
+                          
+                            <p>“We have been using Blitz Learning’s e-Learning services for several months now, and the results have been outstanding. Our team’s knowledge and skills have improved, and we’ve seen a significant reduction in training costs.”</p>
+                            
+                        </div>
+                        <h3>Director, EHS</h3>
+                            <span className="designation">A leading process manufacturing company</span>
+                            <ul className="rating clearfix center">
+                                <li><i className="fas fa-star"></i></li>
+                                <li><i className="fas fa-star"></i></li>
+                                <li><i className="fas fa-star"></i></li>
+                                <li><i className="fas fa-star"></i></li>
+                                <li><i className="far fa-star"></i></li>
+                            </ul>
+                            <br />
+                        </div>
                     </div>
-                </div>
-                </SwiperSlide> */}
+                </SwiperSlide>
+            
             </Swiper>
         </>
     )

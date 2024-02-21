@@ -194,7 +194,7 @@ export default function Cases() {
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-7"></i></div> */}
                             <h3><Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training">Web-Based Training and Online Portal|LMS|Sales Academy Traning</Link></h3>
-                            <p>Branding, Design</p>
+                           
                           
                             </div>
                         </div>
@@ -207,7 +207,6 @@ export default function Cases() {
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-8"></i></div> */}
                             <h3><Link href="/our-works/revamp-and-localization-company-policy-refresh-training">Revamp and Localization|Company Policy Refersh Training</Link></h3>
-                            <p>Branding, Design</p>
                            
                             </div>
                         </div>
@@ -220,7 +219,6 @@ export default function Cases() {
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-9"></i></div> */}
                             <h3><Link href="/our-works/mobile-based-mentor-driven-trainingsales-call-training">Mobile-Based Mentor Driven Training|Sales Call Training</Link></h3>
-                            <p>Branding, Design</p>
                             </div>
                         </div>
                         </div>

@@ -967,3 +967,120 @@
 .blog-img01{
 	border-radius: 10px;
 }
+
+/** testimonial-style-two **/
+
+.testimonial-style-two{
+	padding: 143px 0px 135px 0px;
+}
+
+.testimonial-style-two .owl-carousel .owl-stage-outer{
+	overflow: visible;
+}
+
+.testimonial-style-two .owl-carousel .owl-stage-outer .owl-item{
+	opacity: 0;
+}
+
+.testimonial-style-two .owl-carousel .owl-stage-outer .owl-item.active{
+	opacity: 1;
+}
+
+.testimonial-block-two1{
+	position: relative;
+	padding-left: 45px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.testimonial-block-two1 .thumb-box{
+	position: absolute;
+	left: 0px;
+	top: 40px;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.testimonial-block-two1 .thumb-box img{
+	width: 100%;
+	border-radius: 50%;
+}
+
+.testimonial-block-two1 .inner-box{
+	position: relative;
+	background-color: hsl(241, 91%, 13%);
+	/* background-image: url('/assets/header-images/dfghfhg.jpg'); */
+	display: block;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 30px 20px 30px 30px;
+	/* width: 100%; */
+}
+
+.testimonial-block-two1 .inner-box1{
+	position: relative;
+	display: block;
+	
+	/* box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 60px 70px 50px 70px; */
+	
+}
+
+.testimonial-block-two1 .inner-box h3{
+	display: block;
+	font-size: 18px;
+	line-height: 32px;
+	font-weight: 600;
+	margin-bottom: 0px;
+	color: #fdf9f9;
+	text-align: center;
+}
+
+.testimonial-block-two1 .inner-box .designation{
+	position: relative;
+	display: block;
+	margin-bottom: 3px;
+	font-size: 15px;
+	color: #fdf9f9;
+	text-align: center;
+}
+
+.testimonial-block-two1 .inner-box p{
+	margin-bottom: 30px;
+	color: #fdf9f9;
+}
+.testimonial-block-two1 .inner-box .rating{
+	text-align: center;
+}
+.testimonial-block-two1 .inner-box .rating li{
+	position: relative;
+	display: inline-block;
+	float: center;
+	font-size: 16px;
+	margin-right: 5px;
+	color: #FFC93D;
+}
+
+.testimonial-block-two1 .inner-box .rating li:last-child{
+	margin: 0px;
+}
+
+.testimonial-style-two .owl-dots{
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-top: 45px;
+}
+
+.testimonial-page-section{
+	padding: 143px 0px 120px 0px;
+}
+
+.testimonial-page-section .testimonial-block-two1 .inner-box{
+	margin-bottom: 30px;
+}
+
+

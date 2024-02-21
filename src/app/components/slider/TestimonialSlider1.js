@@ -1,7 +1,7 @@
 'use client'
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
-
+import '../../main.css'
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 2,
@@ -60,12 +60,12 @@ export default function TestimonialSlider1() {
                         <div className="inner-box">
                             <div
                             className="shape"
-                            style={{ backgroundImage: 'url(assets/images/shape/shape-14.png)' }}
+                            style={{ backgroundImage: 'url(/assets/shape/shape-14.png)' }}
                             ></div>
                             <div className="icon-box"><i className="icon-19"></i></div>
-                            <figure className="thumb-box">
+                            {/* <figure className="thumb-box">
                             <img src="assets/images/resource/testimonial-1.jpg" alt="" />
-                            </figure>
+                            </figure> */}
                             <p>
                             “Mattis cras magna morb nula punar aenean aliquet in. Risus
                             a arcu eget mi hendrerit gravida elit scelerisque tempor
@@ -89,12 +89,12 @@ export default function TestimonialSlider1() {
                         <div className="inner-box">
                             <div
                             className="shape"
-                            style={{ backgroundImage: 'url(assets/images/shape/shape-15.png)' }}
+                            style={{ backgroundImage: 'url(/assets/shape/shape-15.png)' }}
                             ></div>
                             <div className="icon-box"><i className="icon-19"></i></div>
-                            <figure className="thumb-box">
+                            {/* <figure className="thumb-box">
                             <img src="assets/images/resource/testimonial-6.jpg" alt="" />
-                            </figure>
+                            </figure> */}
                             <p>
                             “Mattis cras magna morb nula punar aenean aliquet in. Risus
                             a arcu eget mi hendrerit gravida elit scelerisque tempor
@@ -118,12 +118,12 @@ export default function TestimonialSlider1() {
                         <div className="inner-box">
                             <div
                             className="shape"
-                            style={{ backgroundImage: 'url(assets/images/shape/shape-14.png)' }}
+                            style={{ backgroundImage: 'url(/assets/shape/shape-14.png)' }}
                             ></div>
                             <div className="icon-box"><i className="icon-19"></i></div>
-                            <figure className="thumb-box">
+                            {/* <figure className="thumb-box">
                             <img src="assets/images/resource/testimonial-1.jpg" alt="" />
-                            </figure>
+                            </figure> */}
                             <p>
                             “Mattis cras magna morb nula punar aenean aliquet in. Risus
                             a arcu eget mi hendrerit gravida elit scelerisque tempor
@@ -147,12 +147,12 @@ export default function TestimonialSlider1() {
                         <div className="inner-box">
                             <div
                             className="shape"
-                            style={{ backgroundImage: 'url(assets/images/shape/shape-15.png)' }}
+                            style={{ backgroundImage: 'url(/assets/shape/shape-15.png)' }}
                             ></div>
                             <div className="icon-box"><i className="icon-19"></i></div>
-                            <figure className="thumb-box">
+                            {/* <figure className="thumb-box">
                             <img src="assets/images/resource/testimonial-6.jpg" alt="" />
-                            </figure>
+                            </figure> */}
                             <p>
                             “Mattis cras magna morb nula punar aenean aliquet in. Risus
                             a arcu eget mi hendrerit gravida elit scelerisque tempor

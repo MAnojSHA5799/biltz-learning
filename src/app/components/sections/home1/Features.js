@@ -52,9 +52,7 @@ export default function Features() {
   </Link>
 </h3>
                     <p>
-                      Crafted to meet speciﬁc learning objectives, our custom
-                      e-learning content with advanced<br /> e-Learning technology
-                      ensures engagement.
+                    Our specialized e-Learning content, created to fulfill particular learning objectives, guarantees engagement with cutting-edge e-Learning technology.
                     </p>
                   </div>
                 </div>
@@ -105,7 +103,7 @@ export default function Features() {
                     <img className="icon-01" src="/assets/images/new-icon/Vdo Production.png"></img>
                     </div>
                     <h3>
-                      <Link href="/">Video production</Link>
+                      <Link href="/Services/video-production">Video production</Link>
                     </h3>
                     <p>
                       We specialize in analyzing your current learning gaps and
@@ -136,9 +134,7 @@ export default function Features() {
                       </Link>
                     </h3>
                     <p>
-                      Our learning consulting services focus on aligning
-                      education strategies with business goals, creating a
-                      seamless bridge.
+                    Our learning consulting services aim to blend education strategies with business goals, creating a seamless link between learning and organizational success through advanced training technology.
                     </p>
                     
                   </div>

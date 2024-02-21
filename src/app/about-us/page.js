@@ -170,7 +170,8 @@ export default function Home() {
         <section className="service-style-two p_relative bg-color-1 pt-1">
           <div className="auto-container">
             <div className="sec-title centred mb_50">
-              <span className="sub-title">What we do ?</span>
+              <span className="sub-title">What we deliver
+</span>
               <h2>
                 Consistent ability to deliver rapid, accurate and most immersive
                 learning experience
@@ -351,139 +352,12 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* service-style-two end */}
 
-        {/* clients-section */}
-        <section className="clients-section p_relative mb-0 pb-2 pt-3">
-        <div className="auto-container">
-        <Slider {...sliderSettings}>
-            {/* Your slider items go here */}
-            {/* Example item: */}
-           
-            <div className="inner-box">
-              <figure className="clients-log">
-               
-                  <img
-                    src="/assets/web-logo/logo1.jpg"
-                    alt=""
-                    className="img-fluid"
-                  />
-               
-              </figure>
-            </div>
-            <div className="inner-box">
-              <figure className="clients-log">
-               
-                  <img
-                    src="/assets/web-logo/logo8.jpg"
-                    alt=""
-                    className="img-fluid"
-                  />
-               
-              </figure>
-            </div>
-            <div className="inner-box">
-              <figure className="clients-log">
-              
-                  <img
-                    src="/assets/web-logo/logo3.jpg"
-                    alt=""
-                    className="img-fluid"
-                  />
-               
-              </figure>
-            </div>
-            <div className="inner-box">
-              <figure className="clients-log">
-              
-                  <img
-                    src="/assets/web-logo/logo6.jpg"
-                    alt=""
-                    className="img-fluid"
-                  />
-               
-              </figure>
-            </div>
-            <div className="inner-box">
-              <figure className="clients-log">
-              
-                  <img
-                    src="/assets/web-logo/logo4.jpg"
-                    alt=""
-                    className="img-fluid"
-                  />
-               
-              </figure>
-            </div>
-            <div className="inner-box">
-              <figure className="clients-log">
-              
-                  <img
-                    src="/assets/web-logo/logo5.jpg"
-                    alt=""
-                    className="img-fluid"
-                  />
-                
-              </figure>
-            </div>
-            <div className="inner-box">
-              <figure className="clients-log">
-               
-                  <img
-                    src="/assets/web-logo/logo-1.jpg"
-                    alt=""
-                    className="img-fluid"
-                  />
-               
-              </figure>
-            </div>
-            <div className="inner-box">
-              <figure className="clients-log">
-                
-                  <img
-                    src="/assets/web-logo/logo-8.jpg"
-                    alt=""
-                    className="img-fluid"
-                  />
-                
-              </figure>
-            </div>
-            <div className="inner-box">
-              <figure className="clients-log">
-               
-                  <img
-                    src="/assets/web-logo/logo-3.jpg"
-                    alt=""
-                    className="img-fluid"
-                  />
-               
-              </figure>
-            </div>
-            <div className="inner-box">
-              <figure className="clients-log">
-               
-                  <img
-                    src="/assets/web-logo/logo-4.jpg"
-                    alt=""
-                    className="img-fluid"
-                  />
-                
-              </figure>
-            </div>
-          </Slider>
-        </div>
-      </section>
-        {/* clients-section end */}
-
-        {/* team-section */}
         <section className="team-section sec-pad pt-5">
           <div className="auto-container">
             <div className="sec-title mb_50 centred">
               <span className="sub-title">Team members</span>
-              <h2>
-                Meet our gurus from the team
-                {/* <br /> */}
-              </h2>
+             
             </div>
             <div className="row clearfix">
               <div className="col-lg-3 col-md-6 col-sm-12 team-block">
@@ -612,82 +486,127 @@ export default function Home() {
                             </div> */}
             </div>
           </div>
-          <section className="testimonial-style-two p_relative  pt-5 mt-1">
-            <div className="auto-container">
-              <div className="sec-title centred">
-                <span className="sub-title">Testimonials</span>
-                <h2>What they’re saying about us?</h2>
-              </div>
-              <div className="col-lg-12 col-md-12 col-sm-12 content-column">
-                <div className="content-box">
-                  {/*Theme Carousel*/}
-                  <TestimonialSlider0 />
-                </div>
-              </div>
-            </div>
-          </section>
+          
         </section>
-        {/* team-section end */}
-
-        {/* chooseus-style-two */}
-        {/* <section className="chooseus-style-two sec-pad">
-                    <div className="bg-layer parallax-bg" data-parallax='{"y": 100}' style={{ backgroundImage: 'url(assets/images/background/chooseus-bg-2.jpg)' }}></div>
-                    <div className="auto-container">
-                        <div className="row clearfix">
-                            <div className="col-xl-6 col-lg-12 offset-xl-6 content-column">
-                                <div className="content_block_six">
-                                    <div className="content-box p_relative ml_30">
-                                        <div className="sec-title mb_50">
-                                            <span className="sub-title">Why Choose BizTech</span>
-                                            <h2>Reason For Choosing Our Consultancy</h2>
-                                        </div>
-                                        <ul className="accordion-box">
-                                            
-                                            <li className="accordion block">
-                                                <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
-                                                    <div className="icon-box"></div>
-                                                    <h3>Quick Response</h3>
-                                                </div>
-                                                <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
-                                                    <div className="content">
-                                                        <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            
-                                            <li className="accordion block">
-                                                <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(2)}><div className="icon-box"></div><h3>Experience Consultant</h3></div>
-                                                <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
-                                                    <div className="content">
-                                                        <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            
-                                            <li className="accordion block">
-                                                <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(3)}><div className="icon-box"></div><h3>Flexible Payment</h3></div>
-                                                <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
-                                                    <div className="content">
-                                                        <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
-        {/* chooseus-style-two end */}
-
-        {/* testimonial-style-two */}
-
-        {/* testimonial-style-two end */}
-       
+        <section className="clients-section p_relative mb-0 pb-2 pt-3">
+        <div className="auto-container">
+        <Slider {...sliderSettings}>
+            {/* Your slider items go here */}
+            {/* Example item: */}
+           
+            <div className="inner-box">
+              <figure className="clients-log">
+               
+                  <img
+                    src="/assets/web-logo/logo1.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+               
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+               
+                  <img
+                    src="/assets/web-logo/logo8.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+               
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+              
+                  <img
+                    src="/assets/web-logo/logo3.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+               
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+              
+                  <img
+                    src="/assets/web-logo/logo6.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+               
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+              
+                  <img
+                    src="/assets/web-logo/logo4.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+               
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+              
+                  <img
+                    src="/assets/web-logo/logo5.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+                
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+               
+                  <img
+                    src="/assets/web-logo/logo-1.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+               
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+                
+                  <img
+                    src="/assets/web-logo/logo-8.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+                
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+               
+                  <img
+                    src="/assets/web-logo/logo-3.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+               
+              </figure>
+            </div>
+            <div className="inner-box">
+              <figure className="clients-log">
+               
+                  <img
+                    src="/assets/web-logo/logo-4.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+                
+              </figure>
+            </div>
+          </Slider>
+        </div>
+      </section>
         <ModalVideo
           channel="youtube"
           autoplay

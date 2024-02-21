@@ -428,10 +428,27 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <section className="testimonial-style-two p_relative  pt-0 mt-1" >
+            <div className="auto-container" >
+              <div className="sec-title centred">
+                <span className="sub-title">Testimonials</span>
+                <h2>What they’re saying about us?</h2>
+              </div>
+              <div className="col-lg-12 col-md-12 col-sm-12 content-column">
+                <div className="content-box">
+                 
+                  <TestimonialSlider0 />
+                </div>
+              </div>
+            </div>
+          </section>
         </section>
 
         {/* clients-section */}
-        <section className="clients-section p_relative mb-0 pb-2 pt-3">
+       
+       
+
+<section className="clients-section p_relative mb-0 pb-2 pt-3">
           <div className="auto-container">
             <Slider {...sliderSettings}>
               {/* Your slider items go here */}
@@ -530,21 +547,6 @@ export default function Home() {
             </Slider>
           </div>
         </section>
-        <section className="testimonial-style-two p_relative  pt-5 mt-1">
-            <div className="auto-container">
-              <div className="sec-title centred">
-                <span className="sub-title">Testimonials</span>
-                <h2>What they’re saying about us?</h2>
-              </div>
-              <div className="col-lg-12 col-md-12 col-sm-12 content-column">
-                <div className="content-box">
-                  {/*Theme Carousel*/}
-                  <TestimonialSlider0 />
-                </div>
-              </div>
-            </div>
-          </section>
-
         <ModalVideo
           channel="youtube"
           autoplay

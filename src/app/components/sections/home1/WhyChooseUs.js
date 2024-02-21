@@ -50,7 +50,7 @@ excellence through innovation and expertise in e-Learning technology. Our commit
                 </div>
                 <div className="outer-box">
                     <h2>Looking for the best business <br />consulting?</h2>
-                    <Link href="/" className="theme-btn-one">Let’s Contact</Link>
+                    <Link href="/" className="theme-btn-one">Connect us</Link>
                 </div>
             </section>           
         </>
