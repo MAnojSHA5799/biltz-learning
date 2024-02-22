@@ -11,7 +11,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useState, useEffect } from "react";
-
+import 'swiper/swiper-bundle.css';
+import { Autoplay, Navigation, Pagination } from "swiper/modules"
+import { Swiper, SwiperSlide } from "swiper/react"
 import "../main.css";
 export default function Home() {
   const [isOpen, setOpen] = useState(false);
@@ -20,6 +22,17 @@ export default function Home() {
     status: false,
     key: 1,
   });
+    const swiperOptions = {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        spaceBetween: 30,
+    };
   useEffect(() => {
     // Adjust slidesToShow based on screen width
     const handleResize = () => {
@@ -63,290 +76,257 @@ export default function Home() {
       });
     }
   };
+  const swiperOptions1 = {
+    modules: [ Pagination, Navigation],
+    slidesPerView: 1,
+    spaceBetween: 30,
+    // autoplay: {
+    //     delay: 2000,
+    //     disableOnInteraction: false,
+    // },
+    // loop: true,
+
+    // Navigation
+    navigation: {
+        nextEl: '.h1n',
+        prevEl: '.h1p',
+    },
+
+    // Pagination
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            // spaceBetween: 30,
+        },
+        575: {
+            slidesPerView: 1,
+            // spaceBetween: 30,
+        },
+        767: {
+            slidesPerView: 2,
+            // spaceBetween: 30,
+        },
+        991: {
+            slidesPerView: 2,
+            // spaceBetween: 30,
+        },
+        1199: {
+            slidesPerView: 1,
+            // spaceBetween: 30,
+        },
+        1350: {
+            slidesPerView: 1,
+            // spaceBetween: 30,
+        },
+    }
+}
   return (
     <>
       <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Why Us">
-        {/* service-style-two */}
 
-        <section className="service-style-two p_relative bg-color-1 pt-5">
-          <div className="auto-container">
-            <div className="sec-title centred mb_50">
-              <span className="sub-title">Why choose us?</span>
-              <h2>
-                We're the architects of enduring learning experiences through
-                innovative strategies, personalized content, and interactive
-                engagement
-              </h2>
-            </div>
-            <div className="row clearfix">
-              <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                <div
-                  className="service-block-two wow fadeInUp animated"
-                  data-wow-delay="00ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="inner-box">
-                    <figure className="image-box">
-                      <img
-                        src="/assets/why-us/business-understanding.jpg"
-                        alt=""
-                      />
-                    </figure>
-                    <div className="lower-content">
-                      <div className="inner">
-                        <div className="icon-box">
-                          {" "}
-                          <img
-                            className="icon-04"
-                            src="/assets/why-us/crisp-business-understanding.png"
-                          ></img>
-                        </div>
-                        <h3>
-                          <Link href="/strategy-planning">
-                            Crisp business understanding
-                          </Link>
-                        </h3>
-                        <p>
-                          We understand the criticality of service quality for
-                          outsourced business requirements. We provide
-                          actionable and result-oriented training courses for
-                          your business processes with the highest quality.
-                        </p>
-                        <br />
-                        <br />
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                <div
-                  className="service-block-two wow fadeInUp animated"
-                  data-wow-delay="300ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="inner-box">
-                    <figure className="image-box">
-                      <img
-                        src="/assets/why-us/measurable-cost-advantage.jpg"
-                        alt=""
-                      />
-                    </figure>
-                    <div className="lower-content">
-                      <div className="inner">
-                        <div className="icon-box">
-                          <img
-                            className="icon-04"
-                            src="/assets/why-us/measurable cost advantage (2).png"
-                          ></img>
-                        </div>
-                        <h3>
-                          <Link href="/program-manager">
-                            Measurable cost advantage
-                          </Link>
-                        </h3>
-                        <p>
-                          We provide a proven cost advantage of up to 30% over
-                          our competitors in India and around 50% over standard
-                          rates in the US and Europe.
-                        </p>
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                <div
-                  className="service-block-two wow fadeInUp animated"
-                  data-wow-delay="600ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="inner-box">
-                    <figure className="image-box">
-                      <img
-                        src="/assets/why-us/high-quality.jpg"
-                        alt=""
-                      />
-                    </figure>
-                    <div className="lower-content">
-                      <div className="inner">
-                        <div className="icon-box">
-                          <img
-                            className="icon-04"
-                            src="/assets/why-us/heigh reliability.png"
-                          ></img>
-                        </div>
-                        <h3>
-                          <Link href="/tax-management">High quality</Link>
-                        </h3>
-                        <p>
-                          With a rigor to ensure the highest quality, we employ
-                          the best skills in the market with a deep
-                          understanding of organizational L&D initiatives and
-                          psychology. Our SMEs, developers, and designers are
-                          highly skilled with experience of multiple years in
-                          the industry.
-                        </p>
-                        <br />
-                       
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-12 service-block">
-                <div
-                  className="service-block-two wow fadeInUp animated"
-                  data-wow-delay="00ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="inner-box">
-                    <figure className="image-box">
-                      <img src="/assets/why-us/global-delivery.jpg" alt="" />
-                    </figure>
-                    <div className="lower-content">
-                      <div className="inner">
-                        <div className="icon-box">
-                        <img
-                            className="icon-04"
-                            src="/assets/why-us/Picture5.png"
-                          ></img>
-                        </div>
-                        <h3>
-                          <Link href="/investment-policy">
-                            Global delivery{" "}
-                          </Link>
-                        </h3>
-                        <p>
-                          We can deliver projects across 4 continents in over 35
-                          languages and growing. Our teams work as an extension
-                          of our clients.
-                        </p>
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-12 service-block">
-                <div
-                  className="service-block-two wow fadeInUp animated"
-                  data-wow-delay="300ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="inner-box">
-                    <figure className="image-box">
-                      <img src="/assets/why-us/growth-record.jpg" alt="" />
-                    </figure>
-                    <div className="lower-content">
-                      <div className="inner">
-                        <div className="icon-box">
-                        <img
-                            className="icon-04"
-                            src="/assets/why-us/Proven growth record2.png"
-                          ></img>
-                        </div>
-                        <h3>
-                          <Link href="/financial-advices">
-                            Proven growth record{" "}
-                          </Link>
-                        </h3>
-                        <p>
-                          We have grown by over 150% in the past nine years of
-                          our incorporation. The growth is attributed to 95%
-                          repeat business.
-                        </p>
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-12 service-block">
-                <div
-                  className="service-block-two wow fadeInUp animated"
-                  data-wow-delay="600ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="inner-box">
-                    <figure className="image-box">
-                      <img src="/assets/why-us/crediblity.jpg" alt="" />
-                    </figure>
-                    <div className="lower-content">
-                      <div className="inner">
-                        <div className="icon-box">
-                        <img
-                            className="icon-04"
-                            src="/assets/why-us/Picture6.png"
-                          ></img>
-                        </div>
-                        <h3>
-                          <Link href="/insurance-strategy">
-                            High credibility
-                          </Link>
-                        </h3>
-                        <p>
-                          In a very short span of time, we managed to onboard
-                          multiple fortune companies with a repeat business of
-                          over 95% from our first- and second-year clients.
-                        </p>
-                        <br />
-                        <br />
-                        <br />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-12 service-block">
-                <div
-                  className="service-block-two wow fadeInUp animated"
-                  data-wow-delay="300ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="inner-box">
-                    <figure className="image-box">
-                      <img src="/assets/why-us/value-addition.jpg" alt="" />
-                    </figure>
-                    <div className="lower-content">
-                      <div className="inner">
-                        <div className="icon-box">
-                        <img
-                            className="icon-04"
-                            src="/assets/why-us/value-edtision.png"
-                          ></img>
-                        </div>
-                        <h3>
-                          <Link href="/financial-advices">
-                          Unparalleled value addition 
-                          </Link>
-                        </h3>
-                        <p>
-                        We offer 3 months of extended support for our courses, covering minor updates for up to 3 sprints at no extra cost. Source files and SCORM published files are included in the agreed project price.
 
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+            <section className="service-section p_relative centred bg-color-1 sec-pad" style={{ padding: '50px' }}>
+            <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-12.png)' }}></div>
+            <div className="auto-container">
+                <div className="sec-title mb_70">
+                    <span className="sub-title">Why choose us?</span>
+                    <h2>We're the architects of enduring learning experiences through innovative strategies, personalized content, and interactive engagement</h2>
                 </div>
-              </div>
+                <Swiper {...swiperOptions1} className="theme_carousel owl-theme">
+            <SwiperSlide className="slide ">
+            <div className="testimonial-block-two1">
+                        
+                    <div className="row clearfix">
+                        <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                            <div className="service-block-one wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div className="inner-box">
+                                <div className="static-content">
+                                <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-4.png)' }}></div>
+                                <div className="icon-box"><img className="icon-02"  src="/assets/why-us/crisp-business-understanding.png"></img></div>
+                                <h3 ><Link href="/">Crisp business understanding</Link></h3>
+                                </div>
+                                <div className="overlay-content">
+                                <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-5.png)' }}></div>
+                                <p >We understand the criticality of service quality for outsourced business requirements. We provide actionable and result-oriented training courses for your business processes with the highest quality.</p>
+                              
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                            <div className="service-block-one wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div className="inner-box">
+                                <div className="static-content">
+                                <div className="icon-box"><img className="icon-02" src="/assets/images/icon/proven growth record.png"></img></div>
+                                <h3 ><Link href="/program-manager">Measurable cost advantage</Link></h3>
+                               
+                                </div>
+                                <div className="overlay-content">
+                                <p>We provide a proven cost advantage of up to 30% over our competitors in India and around 50% over standard rates in the US and Europe.</p>
+                                
+                                </div>
+                                <br />
+                                <br />
+                                
+                             
+                                
+                            </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 col-sm-12 service-block mb-2">
+                            <div className="service-block-one wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div className="inner-box">
+                                <div className="static-content">
+                                <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-6.png)' }}></div>
+                                <div className="icon-box"><img className="icon-02" src="/assets/images/icon/unparalled value addition .png"></img></div>
+                                <h3><Link href="/tax-management">High quality</Link></h3>
+                                </div>
+                                <div className="overlay-content">
+                                <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-7.png)' }}></div>
+                                <p>With a rigor to ensure the highest quality, we employ the best skills in the market with a deep understanding of organizational L&D initiatives and psychology. Our SMEs, developers, and designers are highly skilled with experience of multiple years in the industry.
+</p>
+                               
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+           
+                        
+        
+                </SwiperSlide>
+               
+
+                <SwiperSlide className="slide">
+                <div className="testimonial-block-two1">
+                        
+                        <div className="row clearfix">
+                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                <div className="service-block-one wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <div className="inner-box">
+                                    <div className="static-content">
+                                    <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-4.png)' }}></div>
+                                    <div className="icon-box"><img className="icon-02" src="/assets/images/icon/measurable cost advantage.png"></img></div>
+                                    <h3 ><Link href="/">Global delivery</Link></h3>
+                                    </div>
+                                    <div className="overlay-content">
+                                    <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-5.png)' }}></div>
+                                    <p >We can deliver projects across 4 continents in over 35 languages and growing. Our teams work as an extension of our clients.</p>
+                                  
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                                <div className="service-block-one wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <div className="inner-box">
+                                    <div className="static-content">
+                                    <div className="icon-box"><img className="icon-02" src="/assets/images/icon/proven growth record.png"></img></div>
+                                    <h3 ><Link href="/program-manager">Proven growth record</Link></h3>
+                                    <br />
+                                    <br />
+                                    </div>
+                                    <div className="overlay-content">
+                                    <p className="mb_20" style={{ fontSize: '15px' }}>We have been growing at over 150% in the past 9 years of our incorporation. The growth is attributed to 95% repeat business.We have grown by over 150% in the past nine years of our incorporation. The growth is attributed to 95% repeat business.</p>
+                                   
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-12 service-block mb-2">
+                                <div className="service-block-one wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <div className="inner-box">
+                                    <div className="static-content">
+                                    <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-6.png)' }}></div>
+                                    <div className="icon-box"><img className="icon-02" src="/assets/images/icon/unparalled value addition .png"></img></div>
+                                    <h3><Link href="/tax-management">High credibility</Link></h3>
+                                    </div>
+                                    <div className="overlay-content">
+                                    <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-7.png)' }}></div>
+                                    <p >In a very short span of time, we managed to onboard multiple fortune companies with a repeat business of over 95% from our first- and second-year clients.
+    </p>
+                                   
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                </SwiperSlide>
+                <SwiperSlide className="slide ">
+            <div className="testimonial-block-two1">
+                        
+                    <div className="row clearfix">
+                        <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                            <div className="service-block-one wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div className="inner-box">
+                                <div className="static-content">
+                                <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-4.png)' }}></div>
+                                <div className="icon-box"><img className="icon-02" src="/assets/images/icon/measurable cost advantage.png"></img></div>
+                                <h3 ><Link href="/">Unparalleled value addition</Link></h3>
+                                </div>
+                                <div className="overlay-content">
+                                <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-5.png)' }}></div>
+                                <p >We offer 3 months of extended support for our courses, covering minor updates for up to 3 sprints at no extra cost. Source files and SCORM published files are included in the agreed project price.</p>
+                              
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 col-sm-12 service-block">
+                            <div className="service-block-one wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div className="inner-box">
+                                <div className="static-content">
+                                <div className="icon-box"><img className="icon-02" src="/assets/images/icon/proven growth record.png"></img></div>
+                                <h3 ><Link href="/program-manager">Measurable cost advantage</Link></h3>
+                                <br />
+                                <br />
+                                </div>
+                                <div className="overlay-content">
+                                <p >We provide a proven cost advantage of up to 30% over our competitors in India and around 50% over standard rates in the US and Europe.</p>
+                               
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 col-sm-12 service-block mb-2">
+                            <div className="service-block-one wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div className="inner-box">
+                                <div className="static-content">
+                                <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-6.png)' }}></div>
+                                <div className="icon-box"><img className="icon-02" src="/assets/images/icon/unparalled value addition .png"></img></div>
+                                <h3><Link href="/tax-management">High quality</Link></h3>
+                                </div>
+                                <div className="overlay-content">
+                                <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-7.png)' }}></div>
+                                <p >With a rigor to ensure the highest quality, we employ the best skills in the market with a deep understanding of organizational L&D initiatives and psychology. Our SMEs, developers, and designers are highly skilled with experience of multiple years in the industry.
+</p>
+                               
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+           
+                        
+        
+                </SwiperSlide>
+               
+            
+            </Swiper>
             </div>
-          </div>
         </section>
+
+
+
+
         {/* service-style-two end */}
         <section className="about-sections p_relative pb-0 mt-5">
           <div className="auto-container">
@@ -399,30 +379,6 @@ export default function Home() {
                       <span class="bold-text">Commercialize :</span> We developed a product aligned with your vision, improving digital learning ROI by increasing global reach without physical trainers. The interactivity and easy-to-use platform saves time and investment in the training.
 
                       </p>
-                    {/* <div className="inner-box mb_35">
-                      <div className="single-item">
-                        <div className="icon-box">
-                          <i className="icon-11"></i>
-                        </div>
-                        <h3>Solution focused</h3>
-                        <p>
-                          We prioritize crafting meaningful and engaging
-                          learning experiences that captivate individuals at
-                          every stage of their learning journey.
-                        </p>
-                      </div>
-                      <div className="single-item">
-                        <div className="icon-box">
-                          <i className="icon-11"></i>
-                        </div>
-                        <h3>99.99% Success</h3>
-                        <p>
-                          Consistent ability to deliver the fastest, most
-                          accurate, and most engaging learning experience.
-                        </p>
-                      </div>
-                    </div> */}
-                    {/* <figure className="signature"><img src="assets/images/icons/signature-1.png" alt="" /></figure> */}
                   </div>
                 </div>
               </div>
@@ -481,7 +437,7 @@ export default function Home() {
                   />
                 </figure>
               </div>
-              <div className="inner-box">
+              {/* <div className="inner-box">
                 <figure className="clients-log">
                   <img
                     src="/assets/web-logo/logo6.jpg"
@@ -489,7 +445,7 @@ export default function Home() {
                     className="img-fluid"
                   />
                 </figure>
-              </div>
+              </div> */}
               <div className="inner-box">
                 <figure className="clients-log">
                   <img

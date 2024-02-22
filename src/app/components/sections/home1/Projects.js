@@ -219,7 +219,10 @@ export default function Cases() {
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-9"></i></div> */}
                             <h3><Link href="/our-works/mobile-based-mentor-driven-trainingsales-call-training">Mobile-Based Mentor Driven Training|Sales Call Training</Link></h3>
+                            <br />
                             </div>
+                          
+                        
                         </div>
                         </div>
                     </div>

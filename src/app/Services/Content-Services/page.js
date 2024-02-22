@@ -289,10 +289,12 @@ export default function Services() {
                               ></img>
                             </div>
                             <h3>Native Translators</h3>
+                            
                             <p>
                               Our localization services for e-Learning projects
                               can help you translate and localize your content
                               including text translation and audio recording. We have a panel of native translators in all major languages of the world.
+                            
                             </p>
                           </div>
                         </div>

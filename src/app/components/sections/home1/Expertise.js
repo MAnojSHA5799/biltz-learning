@@ -85,7 +85,7 @@ export default function Feature() {
                
               </figure>
             </div>
-            <div className="inner-box">
+            {/* <div className="inner-box">
               <figure className="clients-log">
               
                   <img
@@ -95,7 +95,7 @@ export default function Feature() {
                   />
                
               </figure>
-            </div>
+            </div> */}
             <div className="inner-box">
               <figure className="clients-log">
               

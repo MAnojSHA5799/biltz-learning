@@ -131,7 +131,6 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
-                    {/* <figure className="signature"><img src="assets/images/icons/signature-1.png" alt="" /></figure> */}
                   </div>
                 </div>
               </div>
@@ -140,38 +139,38 @@ export default function Home() {
         </section>
         {/* about-section end */}
         <section className="service-style-two p_relative bg-color-1 pt-5">
-                    <div className="auto-container">
-                        <div className="sec-title centred mb_50">
-                            <span className="sub-title">We are catalysts of knowledge retention, and our DNA is made of four elements
-</span>
-                            {/* <h2>Consistent ability to deliver rapid, accurate and most immersive learning experience</h2> */}
-                        </div>
-                        <div className="row clearfix">
-                            <div className="col-lg-12 col-md-6 col-sm-12 service-block">
-                            <video
-                      className="Dna-animations"
-                      loop
-                      muted
-                      autoPlay
-                      playsInline
-                      preload="false"
-                     
-                    >
-                      <source
-                        src="/assets/animations/Dna_new.mp4"
-                        type="video/mp4"
-                      />
-                    </video>
-                            </div> 
-                        </div>
-                    </div>
-                </section>
+          <div className="auto-container">
+            <div className="sec-title centred mb_50">
+              <span className="sub-title">
+                We are catalysts of knowledge retention, and our DNA is made of
+                four elements
+              </span>
+              {/* <h2>Consistent ability to deliver rapid, accurate and most immersive learning experience</h2> */}
+            </div>
+            <div className="row clearfix">
+              <div className="col-lg-12 col-md-6 col-sm-12 service-block">
+                <video
+                  className="Dna-animations"
+                  loop
+                  muted
+                  autoPlay
+                  playsInline
+                  preload="false"
+                >
+                  <source
+                    src="/assets/animations/Dna_new.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+          </div>
+        </section>
         {/* service-style-two */}
         <section className="service-style-two p_relative bg-color-1 pt-1">
           <div className="auto-container">
             <div className="sec-title centred mb_50">
-              <span className="sub-title">What we deliver
-</span>
+              <span className="sub-title">What we deliver</span>
               <h2>
                 Consistent ability to deliver rapid, accurate and most immersive
                 learning experience
@@ -194,10 +193,10 @@ export default function Home() {
                     <div className="lower-content">
                       <div className="inner">
                         <div className="icon-box">
-                        <img
-                                className="icon-04"
-                                src="/assets/images/new-icon/measurable performance.png"
-                              ></img>
+                          <img
+                            className="icon-04"
+                            src="/assets/images/new-icon/measurable performance.png"
+                          ></img>
                         </div>
                         <h3>
                           <Link href="/strategy-planning">
@@ -233,10 +232,10 @@ export default function Home() {
                     <div className="lower-content">
                       <div className="inner">
                         <div className="icon-box">
-                        <img
-                                className="icon-04"
-                                src="/assets/images/new-icon/intuitive learning .png"
-                              ></img>
+                          <img
+                            className="icon-04"
+                            src="/assets/images/new-icon/intuitive learning .png"
+                          ></img>
                         </div>
                         <h3>
                           <Link href="/program-manager">
@@ -273,10 +272,10 @@ export default function Home() {
                     <div className="lower-content">
                       <div className="inner">
                         <div className="icon-box">
-                        <img
-                                className="icon-04"
-                                src="/assets/images/new-icon/Operational efficiency .png"
-                              ></img>
+                          <img
+                            className="icon-04"
+                            src="/assets/images/new-icon/Operational efficiency .png"
+                          ></img>
                         </div>
                         <h3>
                           <Link href="/tax-management">
@@ -357,7 +356,6 @@ export default function Home() {
           <div className="auto-container">
             <div className="sec-title mb_50 centred">
               <span className="sub-title">Team members</span>
-             
             </div>
             <div className="row clearfix">
               <div className="col-lg-3 col-md-6 col-sm-12 team-block">
@@ -444,7 +442,6 @@ export default function Home() {
                       </span>
                     </div>
                     <br />
-
                   </div>
                 </div>
               </div>
@@ -486,127 +483,106 @@ export default function Home() {
                             </div> */}
             </div>
           </div>
-          
         </section>
         <section className="clients-section p_relative mb-0 pb-2 pt-3">
-        <div className="auto-container">
-        <Slider {...sliderSettings}>
-            {/* Your slider items go here */}
-            {/* Example item: */}
-           
-            <div className="inner-box">
-              <figure className="clients-log">
-               
+          <div className="auto-container">
+            <Slider {...sliderSettings}>
+              {/* Your slider items go here */}
+              {/* Example item: */}
+
+              <div className="inner-box">
+                <figure className="clients-log">
                   <img
                     src="/assets/web-logo/logo1.jpg"
                     alt=""
                     className="img-fluid"
                   />
-               
-              </figure>
-            </div>
-            <div className="inner-box">
-              <figure className="clients-log">
-               
+                </figure>
+              </div>
+              <div className="inner-box">
+                <figure className="clients-log">
                   <img
                     src="/assets/web-logo/logo8.jpg"
                     alt=""
                     className="img-fluid"
                   />
-               
-              </figure>
-            </div>
-            <div className="inner-box">
-              <figure className="clients-log">
-              
+                </figure>
+              </div>
+              <div className="inner-box">
+                <figure className="clients-log">
                   <img
                     src="/assets/web-logo/logo3.jpg"
                     alt=""
                     className="img-fluid"
                   />
-               
-              </figure>
-            </div>
-            <div className="inner-box">
-              <figure className="clients-log">
-              
+                </figure>
+              </div>
+              {/* <div className="inner-box">
+                <figure className="clients-log">
                   <img
                     src="/assets/web-logo/logo6.jpg"
                     alt=""
                     className="img-fluid"
                   />
-               
-              </figure>
-            </div>
-            <div className="inner-box">
-              <figure className="clients-log">
-              
+                </figure>
+              </div> */}
+              <div className="inner-box">
+                <figure className="clients-log">
                   <img
                     src="/assets/web-logo/logo4.jpg"
                     alt=""
                     className="img-fluid"
                   />
-               
-              </figure>
-            </div>
-            <div className="inner-box">
-              <figure className="clients-log">
-              
+                </figure>
+              </div>
+              <div className="inner-box">
+                <figure className="clients-log">
                   <img
                     src="/assets/web-logo/logo5.jpg"
                     alt=""
                     className="img-fluid"
                   />
-                
-              </figure>
-            </div>
-            <div className="inner-box">
-              <figure className="clients-log">
-               
+                </figure>
+              </div>
+              <div className="inner-box">
+                <figure className="clients-log">
                   <img
                     src="/assets/web-logo/logo-1.jpg"
                     alt=""
                     className="img-fluid"
                   />
-               
-              </figure>
-            </div>
-            <div className="inner-box">
-              <figure className="clients-log">
-                
+                </figure>
+              </div>
+              <div className="inner-box">
+                <figure className="clients-log">
                   <img
                     src="/assets/web-logo/logo-8.jpg"
                     alt=""
                     className="img-fluid"
                   />
-                
-              </figure>
-            </div>
-            <div className="inner-box">
-              <figure className="clients-log">
-               
+                </figure>
+              </div>
+              <div className="inner-box">
+                <figure className="clients-log">
                   <img
                     src="/assets/web-logo/logo-3.jpg"
                     alt=""
                     className="img-fluid"
                   />
-               
-              </figure>
-            </div>
-            <div className="inner-box">
-              <figure className="clients-log">
-               
+                </figure>
+              </div>
+              <div className="inner-box">
+                <figure className="clients-log">
                   <img
                     src="/assets/web-logo/logo-4.jpg"
                     alt=""
                     className="img-fluid"
                   />
-                
-              </figure>
-            </div>
-          </Slider>
-        </div>
-      </section>
+                </figure>
+              </div>
+            </Slider>
+          </div>
+        </section>
         <ModalVideo
           channel="youtube"
           autoplay
