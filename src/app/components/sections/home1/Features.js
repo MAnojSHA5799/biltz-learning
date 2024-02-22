@@ -172,7 +172,8 @@ export default function Features() {
                 data-wow-delay="00ms"
                 data-wow-duration="1500ms"
               >
-                <div className="inner-box" style={{ padding: '20px', margin: '10px', width: '600px' }}>
+                <div className="inner-box" >
+                {/* style={{ padding: '10px', margin: '10px', width: '600px' }} */}
                   <figure className="image-box">
                     <img src="/assets/images/Custome-learning.jpg" alt="" />
                   </figure>
@@ -205,7 +206,8 @@ export default function Features() {
                 data-wow-delay="300ms"
                 data-wow-duration="1500ms"
               >
-                <div className="inner-box" style={{ padding: '20px', margin: '10px', width: '600px' }}>
+                <div className="inner-box">
+                {/* style={{ padding: '20px', margin: '10px', width: '600px' }} */}
                   <figure className="image-box">
                     <img
                       src="/assets/images/services/Content-Services-image2.jpg"
@@ -241,7 +243,8 @@ export default function Features() {
                 data-wow-delay="600ms"
                 data-wow-duration="1500ms"
               >
-                <div className="inner-box" style={{ padding: '20px', margin: '10px', width: '600px' }}>
+                <div className="inner-box" >
+                {/* style={{ padding: '20px', margin: '10px', width: '600px' }} */}
                   <figure className="image-box">
                     <img
                       src="/assets/images/services/Video_Production_2.jpg"
@@ -277,7 +280,8 @@ export default function Features() {
                 data-wow-delay="600ms"
                 data-wow-duration="1500ms"
               >
-                <div className="inner-box" style={{ padding: '20px', margin: '10px', width: '600px' }}>
+                <div className="inner-box" >
+                {/* style={{ padding: '20px', margin: '10px', width: '600px' }} */}
                   <figure className="image-box">
                     <img src="/assets/images/LearningConsulting.jpg" alt="/" />
                   </figure>
