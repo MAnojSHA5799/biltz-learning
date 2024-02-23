@@ -1329,7 +1329,7 @@
 	display: block;
 	padding: 40px 55px 22px 55px;
 	margin-bottom: 3px;
-	
+	/* border: 2px solid red; */
 }
 .service-block-one .inner-box .overlay-content p{
 	color: #fff;
