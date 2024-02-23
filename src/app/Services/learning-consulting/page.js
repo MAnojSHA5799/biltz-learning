@@ -6,6 +6,7 @@ import ServiceSlider1 from "../../components/slider/ServiceSlider1";
 import Link from "next/link";
 import axios from "axios";
 import '../../main.css'
+import '../../cards.css'
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 export default function Services() {
@@ -145,9 +146,7 @@ export default function Services() {
                 <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                   <div className="service-details-content">
                     <div className="content-one mb_90">
-                      {/* <figure className="image-box">
-                                <img src="/assets/images/services/Custome-Learning.jpg" alt="" />
-                              </figure> */}
+                     
                       <div className="text">
                         <h2>
                           Strategic learning partnership with training
@@ -160,136 +159,125 @@ export default function Services() {
                           success, and leveraging cutting-edge training
                           technology.
                         </p>
-                        {/* <p>
-                                  Fringilla mauris magna sit elementum elit. Facilisi lacus, pharetra
-                                  quam eu urna amet aenean. Nunc mattis vitae tellus bibendum a eu,
-                                  nunc. Consequat commodo ac cursus in donec orci tempus. Massa sed sit
-                                  faucibus neque habitant consequat.
-                                </p> */}
+                       
                       </div>
                     </div>
-                    <div className="content-two mb_90">
-                      {/* <div className="row clearfix">
-                                <div className="col-lg-6 col-md-6 col-sm-12 text-column">
-                                  <div className="text-box">
-                                    <h3>Overview</h3>
-                                    <p>
-                                    We develop engaging, innovative, and cost-effective digital learning products to help clients increase their efficiency.
-                                    </p>
-                                    <ul className="list-style-one clearfix">
-                                      <li>Holiday Trash & Recycling</li>
-                                      <li>Things To Do In Govarnex</li>
-                                      <li>Rent a Picnic Shelter</li>
-                                    </ul>
-                                  </div>
-                                </div>
-                                <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                  <figure className="image-box">
-                                    <img src="/assets/images/service/service-9.jpg" alt="" />
-                                  </figure>
-                                </div>
-                              </div> */}
-                    </div>
-                    <div className="content-three mb_85">
-                      {/* <div className="text mb_100">
-                                <h3>Our Solutions</h3>
-                                <p>
-                                  Enim justo, in mauris posuere dolor. Dolor felis sapien sit egestas. Ut
-                                  venenatis faucibus non sed faucibus mauris ultricies. Cras varius proin
-                                  amet vehicula magna. Ultricies gravida vel volutpat sed. Platea sed fames
-                                  at egestas amet feugiat laoreet sed potenti integer.
-                                </p>
-                              </div> */}
-                      <div className="row clearfix">
-                        <div className="col-lg-6 col-md-6 col-sm-12 single-column">
-                          <div className="single-item">
-                            <div className="icon-box">
-                            <img
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="card card-flip custom-card-height">
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Training-need-analysis-410x280.jpg)' }}>
+                              <div class="card-body">
+                              <img
                                 className="icon-03"
                                 src="/assets/images/new-icon/Training need analysis.png"
                               ></img>
+                                <h3 class="card-title text-white">Training Needs Analysis</h3>
+                               
+                              </div>
                             </div>
-                            <h3>Training Needs Analysis</h3>
-                            <p>
-                              We specialize in analyzing an organization’s
+                            <div class="card-back bg-dark">
+                              <div class="card-body">
+                                <p class="card-text text-white">
+                                We specialize in analyzing an organization’s
                               current learning function, employee skill gaps,
                               strategic goals, and designing effective learning
                               roadmaps that address the gaps and help drive
                               measurable business results.
-                            </p>
-                            <br />
+                                </p>
+                               
+                              </div>
+                            </div>
                           </div>
                         </div>
-
-                        <div className="col-lg-6 col-md-6 col-sm-12 single-column">
-                          <div className="single-item">
-                            <div className="icon-box">
-                            <img
+                        <div class="col-sm-6">
+                          <div class="card card-flip custom-card-height">
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/design-process-analysis-410x280.jpg)' }}>
+                              <div class="card-body">
+                              <img
                                 className="icon-03"
                                 src="/assets/images/new-icon/design process analysis.png"
                               ></img>
+                                <h3 class="card-title text-white">Design Process Analysis</h3>
+                               
+                              </div>
                             </div>
-                            <h3>Design Process Analysis</h3>
-                            <p>
-                              Our consultants study your present L&D design and
+                            <div class="card-back bg-dark">
+                              <div class="card-body">
+                                <p class="card-text text-white">
+                                Our consultants study your present L&D design and
                               suggest actionable improvements based on internal
                               data.
-                            </p>
-                            <br />
-                            <br />
-                            <br />
+                                </p>
+                          
+                              </div>
+                            </div>
                           </div>
                         </div>
-                        <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
-                          <div className="single-item">
-                            <div className="icon-box">
-                            <img
+                        <div class="col-sm-6 my-5">
+                          <div class="card card-flip custom-card-height">
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/learning-effectiveness-strategy-410x280.jpg)' }}>
+                              <div class="card-body">
+                              <img
                                 className="icon-03"
                                 src="/assets/images/new-icon/learning effectiveness strategy.png"
                               ></img>
+                                <h3 class="card-title text-white">Learning Effectiveness Strategy</h3>
+                              </div>
                             </div>
-                            <h3>Learning Effectiveness Strategy</h3>
-                            <p>
-                              With our expertise in designing learner-centric
+                            <div class="card-back bg-dark">
+                              <div class="card-body text-primary">
+                                <p class="card-text text-white">
+                                With our expertise in designing learner-centric
                               solutions, we understand how to cultivate an
                               effective, engaging and result-driven learning
                               environment using tested and trusted frameworks
                               designed by industry veterans.
-                            </p>
-                           <br />
+                                </p>
+                               
+                              </div>
+                            </div>
                           </div>
                         </div>
-
-                        <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
-                          <div className="single-item">
-                            <div className="icon-box">
-                            <img
+                        <div class="col-sm-6 my-5">
+                          <div class="card card-flip custom-card-height">
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Learning-execution-strategy-410x280.jpg)' }}>
+                              <div class="card-body">
+                              <img
                                 className="icon-03"
                                 src="/assets/images/new-icon/learning execution strategy.png"
                               ></img>
+                                <h3 class="card-title text-white">Learning Execution Strategy</h3>
+                                
+                              </div>
                             </div>
-                            <h3>Learning Execution Strategy</h3>
-                            <p>
-                              Blitz Learning’s domain-specific learning
+                            <div class="card-back bg-dark">
+                              <div class="card-body">
+                                <p class="card-text text-white">
+                                Blitz Learning’s domain-specific learning
                               consultants conduct workshops in close
                               collaboration with SMEs to identify the existing
                               gaps, analyze existing infrastructure and thereby
                               draft the right training.
-                            </p>
-                           <br />
-                           <br />
+                                </p>
+                            
+                              </div>
+                            </div>
                           </div>
                         </div>
+                        
+                        
                       </div>
-                      <div className="text mt_50">
+                      <div className="text mt_10">
                         <p>
-                          With our expertise in designing learner-centric
+                        With our expertise in designing learner-centric
                           solutions, we offer learning consulting to L&D
                           departments to optimize actionable touch points of
                           their L&D strategy.
                         </p>
                       </div>
                     </div>
+                    
                   </div>
                 </div>
               </div>
@@ -309,7 +297,7 @@ export default function Services() {
                 ></div>
               </div>
               <div className="auto-container">
-                <div className="row clearfix">
+                <div className="row clearfix mt_90">
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div className="content_block_three">
                       <div className="content-box p_relative mr_30">
@@ -320,32 +308,13 @@ export default function Services() {
                           Blitz Learning is a leading e-learning firm with the goal of providing the highest quality e-learning content for an immersive experience.
                           </p>
                         </div>
-                        {/* <div className="progress-inner">
-                            <div className="progress-box mb_30">
-                                <p>Financial Advice</p>
-                                <div className="bar">
-                                <div className="bar-inner count-bar" style={{ width: '85%' }} ><div className="count-text">85%</div></div>
-                                </div>
-                            </div>
-                            <div className="progress-box mb_30">
-                                <p>Business Consulting</p>
-                                <div className="bar">
-                                <div className="bar-inner count-bar" style={{ width: '90%' }} ><div className="count-text">90%</div></div>
-                                </div>
-                            </div>
-                            <div className="progress-box">
-                                <p>Investment Strategy</p>
-                                <div className="bar">
-                                <div className="bar-inner count-bar" style={{ width: '70%' }} ><div className="count-text">70%</div></div>
-                                </div>
-                            </div>
-                            </div> */}
+                       
                       </div>
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div className="content_block_four">
-                      <div className="content-box p_relative ml_30 mt_20 centred">
+                      <div className="content-box p_relative ml_30  centred">
                         <h3>
                           Request for our free <br />
                           consultation

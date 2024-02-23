@@ -33,28 +33,28 @@ export default function Breadcrumb({ breadcrumbTitle }) {
                 >
                     {breadcrumbTitle === "Custom e-Learning" && (
                         <video autoPlay loop muted className="bg-video">
-                            <source src="/assets/header-images/Custome_e-learning.mp4" type="video/mp4" />
+                            <source src="/assets/header-images/Custome E-Learning.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                     )}
 
                     {breadcrumbTitle === "Content Services" && (
                         <video autoPlay loop muted className="bg-video">
-                            <source src="/assets/header-images/content_services.mp4" type="video/mp4" />
+                            <source src="/assets/header-images/Content Services.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                     )}
 
                     {breadcrumbTitle === "Video Production" && (
                         <video autoPlay loop muted className="bg-video">
-                            <source src="/assets/header-images/video_production.mp4" type="video/mp4" />
+                            <source src="/assets/header-images/Video Production.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                     )}
 
                     {breadcrumbTitle === "Learning Consulting" && (
                         <video autoPlay loop muted className="bg-video">
-                            <source src="/assets/header-images/learning_consulting.mp4" type="video/mp4" />
+                            <source src="/assets/header-images/Learning Consulting.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                     )}

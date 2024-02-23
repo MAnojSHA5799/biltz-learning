@@ -48,7 +48,7 @@ export default function Home() {
     slidesToShow: slidesToShow,
     slidesToScroll: 1,
     autoplay: true, // Enable autoplay
-    autoplaySpeed: 2000, // Set autoplay speed in milliseconds (e.g., 3000ms = 3 seconds)
+    autoplaySpeed: 1000, // Set autoplay speed in milliseconds (e.g., 3000ms = 3 seconds)
   };
   const handleToggle = (key) => {
     if (isActive.key === key) {

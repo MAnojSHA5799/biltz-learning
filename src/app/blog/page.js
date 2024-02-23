@@ -40,7 +40,7 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">14 APRIL</span>
-                                                    <h3><Link href="/blog/Evolving-Horizons-Revealing-the-Apex-of-e-Learning-Trends-in-2024">Evolving horizons: Revealing the Apex of e-Learning Trends in 2024</Link></h3>
+                                                    <h3><Link href="/blog/Evolving-Horizons-Revealing-the-Apex-of-e-Learning-Trends-in-2024">Evolving horizons: Revealing the apex of e-Learning trends in 2024</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">0 Comnt</Link></li>
@@ -61,7 +61,7 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">13 APRIL</span>
-                                                    <h3><Link href="/blog/Innovate-to-Educate-Exploring-AI-Enhanced-e-Learning-with-ChatGPT">Innovate to educate: Exploring AI-Enhanced e-Learning with ChatGPT</Link></h3>
+                                                    <h3><Link href="/blog/Innovate-to-Educate-Exploring-AI-Enhanced-e-Learning-with-ChatGPT">Innovate to educate: Exploring AI-Enhanced<br /> e-Learning with ChatGPT</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">3 Comnt</Link></li>
@@ -103,7 +103,7 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">12 APRIL</span>
-                                                    <h3><Link href="/blog/Benefits-of-Our-Custom-e-learning-Services">Benefits of our custom e-Learning services</Link></h3>
+                                                    <h3><Link href="/blog/Benefits-of-Our-Custom-e-learning-Services">Benefits of our custom<br /> e-Learning services</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">0 Comnt</Link></li>
@@ -124,7 +124,7 @@ export default function Home() {
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">11 APRIL</span>
-                                                    <h3><Link href="/blog/Unlocking-the-Benefits-of-e-learning-for-Manufacturing-&-Retail-Key-Sectors">Unlocking the benefits of e-Learning for manufacturing and retail key sectors</Link></h3>
+                                                    <h3><Link href="/blog/Unlocking-the-Benefits-of-e-learning-for-Manufacturing-&-Retail-Key-Sectors">Unlocking the benefits of<br /> e-Learning for manufacturing and retail key sectors</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">2 Comnt</Link></li>

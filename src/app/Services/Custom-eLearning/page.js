@@ -4,6 +4,7 @@ import Layout from "../../components/layout/Layout";
 import Link from "next/link";
 import axios from "axios";
 import "../../main.css";
+import '../../cards.css'
 
 // import { useState } from 'react'
 import React, { useState } from "react";
@@ -170,9 +171,6 @@ export default function Services() {
                 <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                   <div className="service-details-content">
                     <div className="content-one mb_90">
-                      {/* <figure className="image-box">
-                                <img src="/assets/images/services/Custome-Learning.jpg" alt="" />
-                              </figure> */}
                       <div className="text">
                         <h2>
                           Tailored learning modules with e-Learning technology
@@ -182,56 +180,23 @@ export default function Services() {
                           custom e-Learning content with advanced e-Learning
                           technology ensures engagement and knowledge retention.
                         </p>
-                        {/* <p>
-                                  Fringilla mauris magna sit elementum elit. Facilisi lacus, pharetra
-                                  quam eu urna amet aenean. Nunc mattis vitae tellus bibendum a eu,
-                                  nunc. Consequat commodo ac cursus in donec orci tempus. Massa sed sit
-                                  faucibus neque habitant consequat.
-                                </p> */}
                       </div>
                     </div>
-                    <div className="content-two mb_90">
-                      {/* <div className="row clearfix">
-                                <div className="col-lg-6 col-md-6 col-sm-12 text-column">
-                                  <div className="text-box">
-                                    <h3>Overview</h3>
-                                    <p>
-                                    We develop engaging, innovative, and cost-effective digital learning products to help clients increase their efficiency.
-                                    </p>
-                                    <ul className="list-style-one clearfix">
-                                      <li>Holiday Trash & Recycling</li>
-                                      <li>Things To Do In Govarnex</li>
-                                      <li>Rent a Picnic Shelter</li>
-                                    </ul>
-                                  </div>
-                                </div>
-                                <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                  <figure className="image-box">
-                                    <img src="/assets/images/service/service-9.jpg" alt="" />
-                                  </figure>
-                                </div>
-                              </div> */}
-                    </div>
-                    <div className="content-three mb_85">
-                      {/* <div className="text mb_100">
-                                <h3>Our Solutions</h3>
-                                <p>
-                                  Enim justo, in mauris posuere dolor. Dolor felis sapien sit egestas. Ut
-                                  venenatis faucibus non sed faucibus mauris ultricies. Cras varius proin
-                                  amet vehicula magna. Ultricies gravida vel volutpat sed. Platea sed fames
-                                  at egestas amet feugiat laoreet sed potenti integer.
-                                </p>
-                              </div> */}
-                      <div className="row clearfix">
-                        <div className="col-lg-6 col-md-6 col-sm-12 single-column">
-                          <div className="single-item">
-                            <div className="icon-box">
-                            <img className="icon-03" src="/assets/images/new-icon/gamification.png"></img>
-
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="card card-flip custom-card-height">
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/simulation-and-gamification--410x280.jpg)' }}>
+                              <div class="card-body">
+                              <img className="icon-03" src="/assets/images/new-icon/gamification.png"></img>
+                                <h3 class="card-title text-white">Simulations & Gamification</h3>
+                               
+                              </div>
                             </div>
-                            <h3>Simulations & Gamification</h3>
-                            <p>
-                              We create simulations to provide real life
+                            <div class="card-back bg-dark">
+                              <div class="card-body">
+                                <p class="card-text text-white">
+                                We create simulations to provide real life
                               understanding of difficult scenarios and help
                               create interactive modules based on practical
                               examples from routine situations.
@@ -239,64 +204,84 @@ export default function Services() {
                               We create gamified training content and create
                               game concepts, design gameplay, implement games,
                               and update and improve gameplay.
-                            </p>
+                                </p>
+                               
+                              </div>
+                            </div>
                           </div>
                         </div>
-
-                        <div className="col-lg-6 col-md-6 col-sm-12 single-column">
-                          <div className="single-item">
-                            <div className="icon-box">
+                        <div class="col-sm-6">
+                          <div class="card card-flip custom-card-height">
+                            <div class="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/microlearning-410x280.jpg)' }}>
+                              <div class="card-body">
                               <img className="icon-03" src="/assets/images/new-icon/Micro learning logo (1).png"></img>
+                                <h3 class="card-title text-white">Micro Learning</h3>
+                               
+                              </div>
                             </div>
-                            <h3>Micro Learning</h3>
-                            <p>
-                              Blitz Learning provides learning in small and
+                            <div class="card-back bg-dark">
+                              <div class="card-body">
+                                <p class="card-text text-white">
+                                Blitz Learning provides learning in small and
                               manageable nuggets in a focused and precise way
                               via its micro-learning offerings. These nuggets
                               contain short-term learning activities, lesson
                               plans, projects, and assignments.
-                            </p>
-                            <br />
-                            <br />
+                                </p>
+                          
+                              </div>
+                            </div>
                           </div>
                         </div>
-                        <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
-                          <div className="single-item">
-                            <div className="icon-box">
-                            <img className="icon-03" src="/assets/images/new-icon/mobile learning.png"></img>
-
+                        <div class="col-sm-6 my-5">
+                          <div class="card card-flip custom-card-height">
+                            <div class="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/mobile-learning-410x280.jpg)' }}>
+                              <div class="card-body">
+                              <img className="icon-03" src="/assets/images/new-icon/mobile learning.png"></img>
+                                <h3 class="card-title text-white">Mobile Learning</h3>
+                              </div>
                             </div>
-                            <h3>Mobile Learning</h3>
-                            <p>
-                              Blitz Learning develops mobile training content
+                            <div class="card-back bg-dark">
+                              <div class="card-body text-primary">
+                                <p class="card-text text-white">
+                                Blitz Learning develops mobile training content
                               across all platforms (iOS, Android, Windows) with
                               interactive functionalities.
-                            </p>
-                            <br />
-                            
+                                </p>
+                               
+                              </div>
+                            </div>
                           </div>
                         </div>
-
-                        <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
-                          <div className="single-item">
-                            <div className="icon-box">
-                            <img className="icon-03" src="/assets/images/new-icon/AR,VR vdo training.png"></img>
-
+                        <div class="col-sm-6 my-5">
+                          <div class="card card-flip custom-card-height">
+                            <div class="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/VR-AR-410x280.jpg)' }}>
+                              <div class="card-body">
+                              <img className="icon-03" src="/assets/images/new-icon/AR,VR vdo training.png"></img>
+                                <h3 class="card-title text-white">VR/AR Based Training</h3>
+                                
+                              </div>
                             </div>
-                            <h3>VR/AR Based Training</h3>
-                            <p>
-                              With a dedicated VR/AR team, Blitz Learning uses
+                            <div class="card-back bg-dark">
+                              <div class="card-body">
+                                <p class="card-text text-white">
+                                With a dedicated VR/AR team, Blitz Learning uses
                               best in class 3D and special effects tools to
                               design cross-platform VR solutions that simulate
                               real-life scenarios for enhanced learner
                               engagement.
-                            </p>
+                                </p>
+                            
+                              </div>
+                            </div>
                           </div>
                         </div>
+                        
+                        
                       </div>
-                      <div className="text mt_50">
+                      <div className="text mt_10">
                         <p>
-                          Blitz Learning is a leading e-Learning platform that
+                        Blitz Learning is a leading e-Learning platform that
                           develops engaging, innovative, and cost-effective
                           digital learning products to help clients increase
                           their efficiency.
@@ -322,7 +307,7 @@ export default function Services() {
                 ></div>
               </div>
               <div className="auto-container">
-                <div className="row clearfix">
+                <div className="row clearfix mt_90">
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div className="content_block_three">
                       <div className="content-box p_relative mr_30">
@@ -360,7 +345,7 @@ export default function Services() {
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div className="content_block_four">
-                      <div className="content-box p_relative ml_30 mt_20 centred">
+                      <div className="content-box p_relative ml_30 centred">
                         <h3>
                           Request for our free <br />
                           consultation

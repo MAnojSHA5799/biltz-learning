@@ -1,0 +1,45 @@
+.custom-card-height {
+    height: 300px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  .custom-card-image {
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9; 
+  border-radius: 10px; 
+  }
+ .card-flip > div {
+	backface-visibility: hidden;
+	transition: transform 300ms;
+	transition-timing-function: linear;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: flex;
+  }
+  
+  .card-front {
+	transform: rotateY(0deg);
+    border-radius: 10px; 
+
+  }
+  
+  .card-back {
+	transform: rotateY(180deg);
+	position: absolute;
+	top: 0;
+    border-radius: 10px; 
+  }
+  
+  .card-flip:hover .card-front {
+	transform: rotateY(-180deg);
+  }
+	
+  .card-flip:hover .card-back {
+	transform: rotateY(0deg);
+  }
+  .card card-flip{
+    height: 200%;
+  }

@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import axios from "axios";
 import '../../main.css'
+import '../../cards.css'
 import { useRouter } from "next/navigation";
 export default function Services() {
   const router = useRouter();
@@ -144,9 +145,7 @@ export default function Services() {
                 <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                   <div className="service-details-content">
                     <div className="content-one mb_90">
-                      {/* <figure className="image-box">
-                                <img src="/assets/images/services/Custome-Learning.jpg" alt="" />
-                              </figure> */}
+                     
                       <div className="text">
                         <h2>
                           Dynamic visual learning with e-Learning development
@@ -156,80 +155,54 @@ export default function Services() {
                           development, we transform concepts into dynamic visual
                           content, enhancing the overall learning experience.
                         </p>
-                        {/* <p>
-                                  Fringilla mauris magna sit elementum elit. Facilisi lacus, pharetra
-                                  quam eu urna amet aenean. Nunc mattis vitae tellus bibendum a eu,
-                                  nunc. Consequat commodo ac cursus in donec orci tempus. Massa sed sit
-                                  faucibus neque habitant consequat.
-                                </p> */}
+                        
                       </div>
                     </div>
-                    <div className="content-two mb_90">
-                      {/* <div className="row clearfix">
-                                <div className="col-lg-6 col-md-6 col-sm-12 text-column">
-                                  <div className="text-box">
-                                    <h3>Overview</h3>
-                                    <p>
-                                    We develop engaging, innovative, and cost-effective digital learning products to help clients increase their efficiency.
-                                    </p>
-                                    <ul className="list-style-one clearfix">
-                                      <li>Holiday Trash & Recycling</li>
-                                      <li>Things To Do In Govarnex</li>
-                                      <li>Rent a Picnic Shelter</li>
-                                    </ul>
-                                  </div>
-                                </div>
-                                <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                  <figure className="image-box">
-                                    <img src="/assets/images/service/service-9.jpg" alt="" />
-                                  </figure>
-                                </div>
-                              </div> */}
-                    </div>
-                    <div className="content-three mb_85">
-                      {/* <div className="text mb_100">
-                                <h3>Our Solutions</h3>
-                                <p>
-                                  Enim justo, in mauris posuere dolor. Dolor felis sapien sit egestas. Ut
-                                  venenatis faucibus non sed faucibus mauris ultricies. Cras varius proin
-                                  amet vehicula magna. Ultricies gravida vel volutpat sed. Platea sed fames
-                                  at egestas amet feugiat laoreet sed potenti integer.
-                                </p>
-                              </div> */}
-                      <div className="row clearfix">
-                        <div className="col-lg-6 col-md-6 col-sm-12 single-column">
-                          <div className="single-item">
-                            <div className="icon-box">
-                            <img
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="card card-flip custom-card-height">
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/sales-and-promotional-video-410x280.jpg)' }}>
+                              <div class="card-body">
+                              <img
                                 className="icon-03"
                                 src="/assets/images/new-icon/sales and promotional videos.png"
                               ></img>
+                                <h3 class="card-title text-white">Sales and Promotional Videos</h3>
+                               
+                              </div>
                             </div>
-                            <h3>Sales and Promotional Videos</h3>
-                            <p>
-                              Close more sales and turn more leads into
+                            <div class="card-back bg-dark">
+                              <div class="card-body">
+                                <p class="card-text text-white">
+                                Close more sales and turn more leads into
                               customers with sales and promotional video
                               production. Sales rest on logic and emotion. With
                               the right balance of both useful information and
                               authentic feeling, through the right medium, make
                               sales conversations easier and more profitable.
-                             
-                            </p>
-                            <br />
+                                </p>
+                               
+                              </div>
+                            </div>
                           </div>
                         </div>
-
-                        <div className="col-lg-6 col-md-6 col-sm-12 single-column">
-                          <div className="single-item">
-                            <div className="icon-box">
-                            <img
+                        <div class="col-sm-6 ">
+                          <div class="card card-flip custom-card-height">
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/training-videos-410x280.jpg)' }}>
+                              <div class="card-body">
+                              <img
                                 className="icon-03"
                                 src="/assets/images/new-icon/training video.png"
                               ></img>
+                                <h3 class="card-title text-white">Training Videos</h3>
+                               
+                              </div>
                             </div>
-                            <h3>Training Videos</h3>
-                            <p>
-                              Educate, inspire & drive real change with your
+                            <div class="card-back bg-dark">
+                              <div class="card-body">
+                                <p class="card-text text-white">
+                                Educate, inspire & drive real change with your
                               training videos. Training content doesn't have to
                               be dry. Our training video experiences combine the
                               important messages you need to deliver along with
@@ -237,53 +210,66 @@ export default function Services() {
                               learns more effectively when they're engaged, &
                               most importantly, they retain that information
                               longer.
-                              <br />
-                              <br />
-                            </p>
-                            
+                                </p>
+                          
+                              </div>
+                            </div>
                           </div>
                         </div>
-                        <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
-                          <div className="single-item">
-                            <div className="icon-box">
-                            <img
+                        <div class="col-sm-6 my-5">
+                          <div class="card card-flip custom-card-height">
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/online-videos-410x280.jpg)' }}>
+                              <div class="card-body">
+                              <img
                                 className="icon-03"
                                 src="/assets/images/new-icon/online-video .png"
                               ></img>
+                                <h3 class="card-title text-white">Online Videos</h3>
+                              </div>
                             </div>
-                            <h3>Online Videos</h3>
-                            <p>
-                              Be it product demo, youtube channel, or
+                            <div class="card-back bg-dark">
+                              <div class="card-body text-primary">
+                                <p class="card-text text-white">
+                                Be it product demo, youtube channel, or
                               testimonial video, your online presence delivers
                               your message 24 hours a day 7 days a week to
                               viewers across the globe.
-                            </p>
-                            <br />
+                                </p>
+                               
+                              </div>
+                            </div>
                           </div>
                         </div>
-
-                        <div className="col-lg-6 col-md-6 col-sm-12 single-column mt-5">
-                          <div className="single-item">
-                            <div className="icon-box">
-                            <img
+                        <div class="col-sm-6 my-5">
+                          <div class="card card-flip custom-card-height">
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/corporate-videos-410x280.jpg)' }}>
+                              <div class="card-body">
+                              <img
                                 className="icon-03"
                                 src="/assets/images/new-icon/corporate videos.png"
                               ></img>
+                                <h3 class="card-title text-white">Corporate Videos</h3>
+                                
+                              </div>
                             </div>
-                            <h3>Corporate Videos</h3>
-                            <p>
-                              Showcase your explainer videos, CSR initiatives,
+                            <div class="card-back bg-dark">
+                              <div class="card-body">
+                                <p class="card-text text-white">
+                                Showcase your explainer videos, CSR initiatives,
                               onboarding process with a zing. Use videos to hit
                               the emotional touchpoints.
-                            </p>
-                            <br />
-                            <br />
+                                </p>
+                            
+                              </div>
+                            </div>
                           </div>
                         </div>
+                        
+                        
                       </div>
-                      <div className="text mt_50">
+                      <div className="text mt_10">
                         <p>
-                          We produce corporate videos and add campaigns for you
+                        We produce corporate videos and add campaigns for you
                           to enable mass distribution of your key messages via
                           video-sharing sites such as YouTube.
                         </p>
@@ -308,7 +294,7 @@ export default function Services() {
                 ></div>
               </div>
               <div className="auto-container">
-                <div className="row clearfix">
+                <div className="row clearfix mt_90">
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div className="content_block_three">
                       <div className="content-box p_relative mr_30">
@@ -319,32 +305,13 @@ export default function Services() {
                           Blitz Learning is a leading e-learning firm with the goal of providing the highest quality e-learning content for an immersive experience.
                           </p>
                         </div>
-                        {/* <div className="progress-inner">
-                            <div className="progress-box mb_30">
-                                <p>Financial Advice</p>
-                                <div className="bar">
-                                <div className="bar-inner count-bar" style={{ width: '85%' }} ><div className="count-text">85%</div></div>
-                                </div>
-                            </div>
-                            <div className="progress-box mb_30">
-                                <p>Business Consulting</p>
-                                <div className="bar">
-                                <div className="bar-inner count-bar" style={{ width: '90%' }} ><div className="count-text">90%</div></div>
-                                </div>
-                            </div>
-                            <div className="progress-box">
-                                <p>Investment Strategy</p>
-                                <div className="bar">
-                                <div className="bar-inner count-bar" style={{ width: '70%' }} ><div className="count-text">70%</div></div>
-                                </div>
-                            </div>
-                            </div> */}
+                       
                       </div>
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div className="content_block_four">
-                      <div className="content-box p_relative ml_30 mt_20 centred">
+                      <div className="content-box p_relative ml_30  centred">
                         <h3>
                           Request for our free <br />
                           consultation

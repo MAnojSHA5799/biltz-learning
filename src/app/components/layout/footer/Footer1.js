@@ -89,7 +89,7 @@ export default function Footer1() {
                         <p>
                         {/* Copyright {new Date().getFullYear()} by <Link href="#">biztech</Link> theme All Right Reserved. */}
 
-                        © All rights reserved. • Blitz Learning • Maintained by Blitz Learning
+                        © Blitz Learning Technologies Pvt. Ltd., 2024. All rights reserved. Maintained by Blitz Learning Technologies Pvt. Ltd.
                         </p>
                     </div>
                     </div>
