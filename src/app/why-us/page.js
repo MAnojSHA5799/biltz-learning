@@ -15,6 +15,7 @@ import 'swiper/swiper-bundle.css';
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 import "../main.css";
+import '../cards.css'
 export default function Home() {
   const [isOpen, setOpen] = useState(false);
   const [slidesToShow, setSlidesToShow] = useState(4);
@@ -24,8 +25,8 @@ export default function Home() {
   });
     const swiperOptions = {
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
         },
         pagination: {
             el: '.swiper-pagination',
@@ -128,6 +129,8 @@ export default function Home() {
   return (
     <>
       <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Why Us">
+      
+
 
 
             <section className="service-section p_relative centred bg-color-1 sec-pad" style={{ padding: '50px' }}>
@@ -138,6 +141,8 @@ export default function Home() {
                     <h2>We're the architects of enduring learning experiences through innovative strategies, personalized content, and interactive engagement</h2>
                 </div>
                 <Swiper {...swiperOptions1} className="theme_carousel owl-theme">
+                <div className="swiper-button-next"></div>
+                <div className="swiper-button-prev"></div>
             <SwiperSlide className="slide ">
             <div className="testimonial-block-two1">
                         
