@@ -7,7 +7,6 @@
 @media only screen and (max-width: 768px) {
   .custom-card-height {
     height: 300px;
-    border: 2px solid rgb(12, 242, 39);
   }
 }
 
@@ -15,7 +14,6 @@
 @media only screen and (max-width: 480px) {
   .custom-card-height {
     height: 600px; 
-    border: 2px solid rgb(6, 54, 249);
     margin-bottom: 20px;
   }
 }

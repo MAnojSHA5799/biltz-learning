@@ -249,7 +249,7 @@ export default function Contact() {
                     >
                       {/* <form   action="https://api.web3forms.com/submit" method="POST" */}
                       <div className="row clearfix">
-                      <input type="hidden" name="access_key" value="52e44b56-38d8-47bf-9a35-90ed4ed7a791"/>
+                      <input type="hidden" name="access_key" value="15cf9264-6c64-493d-9d22-5c01c43df043"/>
                         <div className="col-lg-6 col-md-6 col-sm-12 form-group">
                           <input
                             type="text"
@@ -291,6 +291,7 @@ export default function Contact() {
                             onChange={handleChange}
                           />
                         </div>
+                        
                         <div className="col-lg-12 col-md-12 col-sm-12 form-group">
                           <textarea
                             name="message"

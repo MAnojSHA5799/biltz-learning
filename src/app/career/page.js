@@ -15,6 +15,7 @@ export default function Home() {
     phone: "",
     subject: "",
     message: "",
+    resume: null,
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const router = useRouter();
@@ -32,50 +33,50 @@ export default function Home() {
     }
   };
   const handleChange = (e) => {
-    const { name, value } = e.target;
+    const { name, value, type } = e.target;
     setFormData((prevData) => ({
       ...prevData,
-      [name]: value,
+      [name]: type === 'file' ? e.target.files[0] : value,
     }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsSubmitting(true);
+    // setIsSubmitting(true);
     console.log("Form Data:", formData);
 
-    try {
-      // Make the Axios POST request http://localhost:2410/addDetails
-      // https://biltz-backend.vercel.app
-      const response = await axios.post(
-        "https://biltz-backend.vercel.app/addDetails",
-        formData,
-        {
-          headers: {
-            "Content-Type": "application/json",
-          },
-          withCredentials: false,
-        }
-      );
-      // Handle the response
-      console.log("Server Response:", response.data);
+    // try {
+    //   // Make the Axios POST request http://localhost:2410/addDetails
+    //   // https://biltz-backend.vercel.app
+    //   const response = await axios.post(
+    //     "https://biltz-backend.vercel.app/addDetails",
+    //     formData,
+    //     {
+    //       headers: {
+    //         "Content-Type": "application/json",
+    //       },
+    //       withCredentials: false,
+    //     }
+    //   );
+    //   // Handle the response
+    //   console.log("Server Response:", response.data);
 
-      // Reset form data
-      setFormData({
-        username: "",
-        email: "",
-        phone: "",
-        subject: "",
-        message: "",
-      });
-      setIsSubmitting(false);
-      // Optional: You can use router.reload() to refresh the page
-      router.refresh("/career");
-      // You can add logic here based on the response from the server
-    } catch (error) {
-      // Handle errors
-      console.error("Error posting data:", error);
-    }
+    //   // Reset form data
+    //   setFormData({
+    //     username: "",
+    //     email: "",
+    //     phone: "",
+    //     subject: "",
+    //     message: "",
+    //   });
+    //   setIsSubmitting(false);
+    //   // Optional: You can use router.reload() to refresh the page
+    //   router.refresh("/career");
+    //   // You can add logic here based on the response from the server
+    // } catch (error) {
+    //   // Handle errors
+    //   console.error("Error posting data:", error);
+    // }
   };
 
   return (
@@ -215,7 +216,10 @@ export default function Home() {
                               <li>Things To Do In Govarnex</li>
                             </ul> */}
                             <div className="btn-box">
-                              <a href="mailto:roshni.sarin@blitzlearning.in" className="theme-btn-one">
+                              <a
+                                href="mailto:roshni.sarin@blitzlearning.in"
+                                className="theme-btn-one"
+                              >
                                 Apply Now
                               </a>
                             </div>
@@ -242,7 +246,7 @@ export default function Home() {
                           }
                         >
                           <div className="inner-box">
-                          <ul>
+                            <ul>
                               <li>
                                 <span
                                   style={{ fontWeight: "bold", color: "black" }}
@@ -288,19 +292,12 @@ export default function Home() {
                               learning needs and design effective and engaging
                               e-learning content.
                             </p>
-                            {/* <ul className="list-style-one clearfix">
-                              <li>Holiday Trash & Recycling</li>
-                              <li>Things To Do In Govarnex</li>
-                              <li>Rent a Picnic Shelter</li>
-                            </ul> */}
-                            {/* <h4>Qualifications:</h4>
-                                                    <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p>
-                                                    <ul className="list-style-one clearfix">
-                                                        <li>Holiday Trash & Recycling</li>
-                                                        <li>Things To Do In Govarnex</li>
-                                                    </ul> */}
+
                             <div className="btn-box">
-                              <a href="mailto:roshni.sarin@blitzlearning.in" className="theme-btn-one">
+                              <a
+                                href="mailto:roshni.sarin@blitzlearning.in"
+                                className="theme-btn-one"
+                              >
                                 Apply Now
                               </a>
                             </div>
@@ -326,7 +323,7 @@ export default function Home() {
                           }
                         >
                           <div className="inner-box">
-                          <ul>
+                            <ul>
                               <li>
                                 <span
                                   style={{ fontWeight: "bold", color: "black" }}
@@ -371,83 +368,23 @@ export default function Home() {
                             </p>
                             <h4>Duties and responsibilities:</h4>
                             <p>
-                            Candidate with 6 months of relevant experience, having a good command on C#, ASP.NET, .NET Framework 2.0 &3.5, Ajax. SQL server, JAVA Script. Must be able to train and coach.
+                              Candidate with 6 months of relevant experience,
+                              having a good command on C#, ASP.NET, .NET
+                              Framework 2.0 &3.5, Ajax. SQL server, JAVA Script.
+                              Must be able to train and coach.
                             </p>
-                            {/* <ul className="list-style-one clearfix">
-                              <li>Holiday Trash & Recycling</li>
-                              <li>Things To Do In Govarnex</li>
-                              <li>Rent a Picnic Shelter</li>
-                            </ul> */}
-                            {/* <h4>Qualifications:</h4>
-                                                    <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p>
-                                                    <ul className="list-style-one clearfix">
-                                                        <li>Holiday Trash & Recycling</li>
-                                                        <li>Things To Do In Govarnex</li>
-                                                    </ul> */}
+
                             <div className="btn-box">
-                              <a href="mailto:roshni.sarin@blitzlearning.in" className="theme-btn-one">
+                              <a
+                                href="mailto:roshni.sarin@blitzlearning.in"
+                                className="theme-btn-one"
+                              >
                                 Apply Now
                               </a>
                             </div>
                           </div>
                         </div>
                       </li>
-                      {/*Accordion Block*/}
-                      {/* <li className="accordion block">
-                                                <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(3)}>
-                                                    <div className="icon-box"></div>
-                                                    <h3>Account Manager</h3>
-                                                </div>
-                                                <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
-                                                <div className="inner-box">
-                                                <p>Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa.</p>
-                                                <h4>Duties and Responsibilities:</h4>
-                                                <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p>
-                                                <ul className="list-style-one clearfix">
-                                                    <li>Holiday Trash & Recycling</li>
-                                                    <li>Things To Do In Govarnex</li>
-                                                    <li>Rent a Picnic Shelter</li>
-                                                </ul>
-                                                <h4>Qualifications:</h4>
-                                                <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p>
-                                                <ul className="list-style-one clearfix">
-                                                    <li>Holiday Trash & Recycling</li>
-                                                    <li>Things To Do In Govarnex</li>
-                                                </ul>
-                                                <div className="btn-box">
-                                                    <Link href="/career" className="theme-btn-one">Apply Now</Link>
-                                                </div>
-                                            </div>
-                                                </div>
-                                            </li> */}
-                      {/*Accordion Block*/}
-                      {/* <li className="accordion block">
-                                                <div className={isActive.key == 4 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(4)}>
-                                                    <div className="icon-box"></div>
-                                                    <h3>Financial Advisor</h3>
-                                                </div>
-                                                <div className={isActive.key == 4 ? "acc-content current" : "acc-content"}>
-                                                <div className="inner-box">
-                                                <p>Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa.</p>
-                                                <h4>Duties and Responsibilities:</h4>
-                                                <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p>
-                                                <ul className="list-style-one clearfix">
-                                                    <li>Holiday Trash & Recycling</li>
-                                                    <li>Things To Do In Govarnex</li>
-                                                    <li>Rent a Picnic Shelter</li>
-                                                </ul>
-                                                <h4>Qualifications:</h4>
-                                                <p>Scelerisque porttitor faucibus faucibus at diam in cursus dictum enim egestas eget id odio morbi rhoncus pellentesque quis enim.</p>
-                                                <ul className="list-style-one clearfix">
-                                                    <li>Holiday Trash & Recycling</li>
-                                                    <li>Things To Do In Govarnex</li>
-                                                </ul>
-                                                <div className="btn-box">
-                                                    <Link href="/career" className="theme-btn-one">Apply Now</Link>
-                                                </div>
-                                            </div>
-                                                </div>
-                                            </li> */}
                     </ul>
                   </div>
                 </div>
@@ -498,6 +435,16 @@ export default function Home() {
                             value={formData.subject}
                             required
                             placeholder="Subject"
+                            onChange={handleChange}
+                          />
+                        </div>
+                        <div className="col-lg-12 col-md-12 col-sm-12 form-group">
+                          <label htmlFor="resume">Resume</label>
+                          <input
+                            type="file"
+                            id="resume"
+                            name="resume"
+                            accept=".pdf, .doc, .docx"
                             onChange={handleChange}
                           />
                         </div>
