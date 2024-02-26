@@ -216,24 +216,24 @@ export default function Contact() {
                     </div>
                     <ul className="social-links clearfix">
                       <li>
-                        <Link href="https://www.facebook.com/blitzlearning.in/">
+                        <a href="https://www.facebook.com/blitzlearning.in/" target="_blank">
                           <i className="fab fa-facebook-f"></i>
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link href="https://twitter.com/i/flow/login?redirect_after_login=%2FBlitzLearrning%2F">
+                        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FBlitzLearrning%2F" target="_blank">
                           <i className="fa-brands fa-x-twitter"></i>
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F13189833%2F">
+                        <a href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F13189833%2F" target="_blank">
                           <i className="fab fa-linkedin"></i>
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link href="https://www.youtube.com/channel/UCCS6m2rYmcz1zysoDIPYcqA">
+                        <a href="https://www.youtube.com/channel/UCCS6m2rYmcz1zysoDIPYcqA" target="_blank">
                           <i className="fab fa-youtube"></i>
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>

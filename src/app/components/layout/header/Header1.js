@@ -23,9 +23,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                                 <Link href="#" style={{ color: 'black' }}>.</Link>
                                 </div>
                             <ul className="social-links clearfix">
-                            <li><Link href="https://www.facebook.com/blitzlearning.in/"><i className="fab fa-facebook-f"></i></Link></li>
-                            <li><Link href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></Link></li>
-                            <li><Link href="https://www.linkedin.com/company/blitz-learning-technologies-pvt.-ltd./"><i className="fab fa-linkedin-in"></i></Link></li>
+                            <li>
+                            <a href="https://www.facebook.com/blitzlearning.in/" target="_blank">
+    <i className="fab fa-facebook-f"></i>
+  </a>
+</li>
+                            <li><a href="https://twitter.com/"><i class="fa-brands fa-x-twitter" target="_blank"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/blitz-learning-technologies-pvt.-ltd./" target="_blank"><i className="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </div>
                         </div>
