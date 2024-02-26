@@ -2,6 +2,23 @@
   height: 300px;
   border-radius: 10px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border: 2px solid red;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .custom-card-height {
+    height: 300px;
+    border: 2px solid rgb(12, 242, 39);
+  }
+}
+
+/* Media Query for Mobile */
+@media only screen and (max-width: 480px) {
+  .custom-card-height {
+    height: 600px; 
+    border: 2px solid rgb(6, 54, 249);
+    margin-bottom: 20px;
+  }
 }
 .custom-card-image {
   background-size: cover;

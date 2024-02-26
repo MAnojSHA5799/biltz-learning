@@ -14,7 +14,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                                 <ul className="info clearfix">
                                 <li><i className="icon-1"></i>Mon-Fri 9:30 am-6:30 pm</li>
                             <li><i className="icon-2"></i><Link href="tel:911204316127">+91-1204316127</Link></li>
-                            <li><i className="icon-3"></i><a href="mailto:contactus@biltzlearning.in">contactus@biltzlearning.in</a></li>
+                            <li><i className="icon-3"></i><a href="mailto:contactus@blitzlearning.in">contactus@blitzlearning.in</a></li>
                                 </ul>
                             </div>
                             <div className="top-right">

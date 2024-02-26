@@ -182,20 +182,20 @@ export default function Services() {
                         </p>
                       </div>
                     </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-sm-6">
-                          <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/simulation-and-gamification--410x280.jpg)' }}>
-                              <div class="card-body">
+                    <div className="container">
+                      <div className="row">
+                        <div className="col-sm-6">
+                          <div className="card card-flip custom-card-height">
+                            <div className="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/simulation-and-gamification--410x280.jpg)' }}>
+                              <div className="card-body">
                               <img className="icon-03" src="/assets/images/new-icon/gamification.png"></img>
-                                <h3 class="card-title text-white">Simulations & Gamification</h3>
+                                <h3 className="card-title text-white">Simulations & Gamification</h3>
                                
                               </div>
                             </div>
-                            <div class="card-back bg-dark">
-                              <div class="card-body">
-                                <p class="card-text text-white">
+                            <div className="card-back bg-dark">
+                              <div className="card-body">
+                                <p className="card-text text-white">
                                 We create simulations to provide real life
                               understanding of difficult scenarios and help
                               create interactive modules based on practical
@@ -210,18 +210,18 @@ export default function Services() {
                             </div>
                           </div>
                         </div>
-                        <div class="col-sm-6">
-                          <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/microlearning-410x280.jpg)' }}>
-                              <div class="card-body">
+                        <div className="col-sm-6">
+                          <div className="card card-flip custom-card-height">
+                            <div className="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/microlearning-410x280.jpg)' }}>
+                              <div className="card-body">
                               <img className="icon-03" src="/assets/images/new-icon/Micro learning logo (1).png"></img>
-                                <h3 class="card-title text-white">Micro Learning</h3>
+                                <h3 className="card-title text-white">Micro Learning</h3>
                                
                               </div>
                             </div>
-                            <div class="card-back bg-dark">
-                              <div class="card-body">
-                                <p class="card-text text-white">
+                            <div className="card-back bg-dark">
+                              <div className="card-body">
+                                <p className="card-text text-white">
                                 Blitz Learning provides learning in small and
                               manageable nuggets in a focused and precise way
                               via its micro-learning offerings. These nuggets
@@ -233,17 +233,17 @@ export default function Services() {
                             </div>
                           </div>
                         </div>
-                        <div class="col-sm-6 my-5">
-                          <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/mobile-learning-410x280.jpg)' }}>
-                              <div class="card-body">
+                        <div className="col-sm-6">
+                          <div className="card card-flip custom-card-height">
+                            <div className="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/mobile-learning-410x280.jpg)' }}>
+                              <div className="card-body">
                               <img className="icon-03" src="/assets/images/new-icon/mobile learning.png"></img>
-                                <h3 class="card-title text-white">Mobile Learning</h3>
+                                <h3 className="card-title text-white">Mobile Learning</h3>
                               </div>
                             </div>
-                            <div class="card-back bg-dark">
-                              <div class="card-body text-primary">
-                                <p class="card-text text-white">
+                            <div className="card-back bg-dark">
+                              <div className="card-body text-primary">
+                                <p className="card-text text-white">
                                 Blitz Learning develops mobile training content
                               across all platforms (iOS, Android, Windows) with
                               interactive functionalities.
@@ -253,20 +253,20 @@ export default function Services() {
                             </div>
                           </div>
                         </div>
-                        <div class="col-sm-6 my-5">
-                          <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/VR-AR-410x280.jpg)' }}>
-                              <div class="card-body">
+                        <div className="col-sm-6">
+                          <div className="card card-flip custom-card-height">
+                            <div className="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/VR-AR-410x280.jpg)' }}>
+                              <div className="card-body">
                               <img className="icon-03" src="/assets/images/new-icon/AR,VR vdo training.png"></img>
-                                <h3 class="card-title text-white">VR/AR Based Training</h3>
+                                <h3 className="card-title text-white">VR/AR Based Training</h3>
                                 
                               </div>
                             </div>
-                            <div class="card-back bg-dark">
-                              <div class="card-body">
-                                <p class="card-text text-white">
+                            <div className="card-back bg-dark">
+                              <div className="card-body">
+                                <p className="card-text text-white">
                                 With a dedicated VR/AR team, Blitz Learning uses
-                              best in class 3D and special effects tools to
+                              best in className 3D and special effects tools to
                               design cross-platform VR solutions that simulate
                               real-life scenarios for enhanced learner
                               engagement.

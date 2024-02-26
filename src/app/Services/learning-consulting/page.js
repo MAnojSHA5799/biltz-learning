@@ -214,7 +214,7 @@ export default function Services() {
                             </div>
                           </div>
                         </div>
-                        <div class="col-sm-6 my-5">
+                        <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/learning-effectiveness-strategy-410x280.jpg)' }}>
                               <div class="card-body">
@@ -239,7 +239,7 @@ export default function Services() {
                             </div>
                           </div>
                         </div>
-                        <div class="col-sm-6 my-5">
+                        <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Learning-execution-strategy-410x280.jpg)' }}>
                               <div class="card-body">

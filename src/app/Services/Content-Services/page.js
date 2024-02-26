@@ -203,18 +203,14 @@ export default function Services() {
                             <div class="card-back bg-dark">
                               <div class="card-body">
                                 <p class="card-text text-white">
-                                Developing content only in English neglects a
-                              considerable segment of your potential audience.
-                              There is no substitute for connecting with
-                              employees, partners, and customers in their native
-                              tongues and regional dialects.
+                                We assist companies in diversifying their content by incorporating local languages, as local languages add different segments and audiences to broaden their reach and increase communication with employees, partners, and customers across the globe. 
                                 </p>
                           
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div class="col-sm-6 my-5">
+                        <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Review-and-summary-410x280.jpg)' }}>
                               <div class="card-body">
@@ -242,13 +238,13 @@ export default function Services() {
                             </div>
                           </div>
                         </div>
-                        <div class="col-sm-6 my-5">
+                        <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Authoring-and-enrichment-410x280.jpg)' }}>
                               <div class="card-body">
                               <img
                                 className="icon-03"
-                                src="/assets/images/new-icon/Authorization and enrichment (1).png"
+                                src="/assets/images/icon/Authorization and enrichment (2).png"
                               ></img>
                                 <h3 class="card-title text-white">Authoring and Enrichment</h3>
                                 
@@ -267,7 +263,7 @@ export default function Services() {
                             </div>
                           </div>
                         </div>
-                        <div class="col-sm-6 my-2">
+                        <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Native-translator-410x280.jpg)' }}>
                               <div class="card-body">
@@ -294,7 +290,7 @@ export default function Services() {
                             </div>
                           </div>
                         </div>
-                        <div class="col-sm-6 my-2">
+                        <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/multiple-formats-410x280.jpg)' }}>
                               <div class="card-body">
