@@ -195,7 +195,7 @@ export default function Services() {
                             </div>
                             <div className="card-back bg-dark">
                               <div className="card-body">
-                                <p className="card-text text-white">
+                                <p>
                                 We create simulations to provide real life
                               understanding of difficult scenarios and help
                               create interactive modules based on practical
@@ -221,7 +221,7 @@ export default function Services() {
                             </div>
                             <div className="card-back bg-dark">
                               <div className="card-body">
-                                <p className="card-text text-white">
+                                <p>
                                 Blitz Learning provides learning in small and
                               manageable nuggets in a focused and precise way
                               via its micro-learning offerings. These nuggets
@@ -243,7 +243,7 @@ export default function Services() {
                             </div>
                             <div className="card-back bg-dark">
                               <div className="card-body text-primary">
-                                <p className="card-text text-white">
+                                <p>
                                 Blitz Learning develops mobile training content
                               across all platforms (iOS, Android, Windows) with
                               interactive functionalities.
@@ -264,7 +264,7 @@ export default function Services() {
                             </div>
                             <div className="card-back bg-dark">
                               <div className="card-body">
-                                <p className="card-text text-white">
+                                <p>
                                 With a dedicated VR/AR team, Blitz Learning uses
                               best in className 3D and special effects tools to
                               design cross-platform VR solutions that simulate

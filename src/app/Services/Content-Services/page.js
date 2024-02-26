@@ -173,7 +173,7 @@ export default function Services() {
                             </div>
                             <div class="card-back bg-dark">
                               <div class="card-body">
-                                <p class="card-text text-white">
+                                <p>
                                 Our subject matter experts (SMEs) locate key
                                   information and assemble quality data from
                                   in-depth research on credible information
@@ -202,7 +202,7 @@ export default function Services() {
                             </div>
                             <div class="card-back bg-dark">
                               <div class="card-body">
-                                <p class="card-text text-white">
+                                <p >
                                 We assist companies in diversifying their content by incorporating local languages, as local languages add different segments and audiences to broaden their reach and increase communication with employees, partners, and customers across the globe. 
                                 </p>
                           
@@ -223,7 +223,7 @@ export default function Services() {
                             </div>
                             <div class="card-back bg-dark">
                               <div class="card-body text-primary">
-                                <p class="card-text text-white">
+                                <p >
                                 You give us content and we will summarize it, for
                               any industry. Our empaneled SMEs include
                               researchers, academicians, software engineers, and
@@ -252,7 +252,7 @@ export default function Services() {
                             </div>
                             <div class="card-back bg-dark">
                               <div class="card-body">
-                                <p class="card-text text-white">
+                                <p >
                                 We provide high quality writing and editorial
                               services, marketing content management with the
                               help of our content specialists– in any language,
@@ -304,7 +304,7 @@ export default function Services() {
                             <div class="card-back bg-dark">
                               <div class="card-body">
                              
-                                <p class="card-text text-white">
+                                <p >
                                 We translate or re-engineer content in multiple
                               formats as per your needs. These include video,
                               audio, flash, PDF, PPTs, MS Word among others.

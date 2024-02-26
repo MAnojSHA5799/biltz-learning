@@ -178,7 +178,7 @@ export default function Services() {
                             </div>
                             <div class="card-back bg-dark">
                               <div class="card-body">
-                                <p class="card-text text-white">
+                                <p >
                                 We specialize in analyzing an organization’s
                               current learning function, employee skill gaps,
                               strategic goals, and designing effective learning
@@ -204,7 +204,7 @@ export default function Services() {
                             </div>
                             <div class="card-back bg-dark">
                               <div class="card-body">
-                                <p class="card-text text-white">
+                                <p >
                                 Our consultants study your present L&D design and
                               suggest actionable improvements based on internal
                               data.
@@ -227,7 +227,7 @@ export default function Services() {
                             </div>
                             <div class="card-back bg-dark">
                               <div class="card-body text-primary">
-                                <p class="card-text text-white">
+                                <p >
                                 With our expertise in designing learner-centric
                               solutions, we understand how to cultivate an
                               effective, engaging and result-driven learning
@@ -253,7 +253,7 @@ export default function Services() {
                             </div>
                             <div class="card-back bg-dark">
                               <div class="card-body">
-                                <p class="card-text text-white">
+                                <p >
                                 Blitz Learning’s domain-specific learning
                               consultants conduct workshops in close
                               collaboration with SMEs to identify the existing

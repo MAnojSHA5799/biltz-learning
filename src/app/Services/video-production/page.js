@@ -174,7 +174,7 @@ export default function Services() {
                             </div>
                             <div class="card-back bg-dark">
                               <div class="card-body">
-                                <p class="card-text text-white">
+                                <p >
                                 Close more sales and turn more leads into
                               customers with sales and promotional video
                               production. Sales rest on logic and emotion. With
@@ -201,7 +201,7 @@ export default function Services() {
                             </div>
                             <div class="card-back bg-dark">
                               <div class="card-body">
-                                <p class="card-text text-white">
+                                <p >
                                 Educate, inspire & drive real change with your
                               training videos. Training content doesn't have to
                               be dry. Our training video experiences combine the
@@ -229,7 +229,7 @@ export default function Services() {
                             </div>
                             <div class="card-back bg-dark">
                               <div class="card-body text-primary">
-                                <p class="card-text text-white">
+                                <p >
                                 Be it product demo, youtube channel, or
                               testimonial video, your online presence delivers
                               your message 24 hours a day 7 days a week to
@@ -254,7 +254,7 @@ export default function Services() {
                             </div>
                             <div class="card-back bg-dark">
                               <div class="card-body">
-                                <p class="card-text text-white">
+                                <p >
                                 Showcase your explainer videos, CSR initiatives,
                               onboarding process with a zing. Use videos to hit
                               the emotional touchpoints.
