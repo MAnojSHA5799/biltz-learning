@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Our Works">
+      <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Our Work">
         <section className="team-details p_relative">
           <div className="auto-container">
             <div className="team-details-content mb_90">

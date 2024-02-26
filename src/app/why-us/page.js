@@ -157,7 +157,7 @@ export default function Home() {
                                 src="/assets/why-us/crisp-business-understanding.png"
                               ></img>
                            
-                        <h3 className="text-white">Crisp business understanding</h3>
+                        <h3 className="text-white" >Crisp business understanding</h3>
                       </div>
                       <div class="back bg-dark ">
                        
