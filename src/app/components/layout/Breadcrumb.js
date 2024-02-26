@@ -23,7 +23,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
                                                 breadcrumbTitle === "About Us" ? 'url(/assets/header-images/aboutus-3.jpg)' :
                                                     breadcrumbTitle === "Get In Touch" ? 'url(/assets/header-images/contact-us.png)' :
                                                     breadcrumbTitle === "Blogs" ? 'url(/assets/header-images/blog.jpg)' :
-                                                    breadcrumbTitle === "Our Works" ? 'url(/assets/header-images/our-work.jpg)' :
+                                                    breadcrumbTitle === "Our Work" ? 'url(/assets/header-images/our-work.jpg)' :
                                                     breadcrumbTitle === "Blog Details" ? 'url(/assets/header-images/Blog-Detiails.jpg)' :
                                                     breadcrumbTitle === "Career" ? 'url(/assets/header-images/career.jpg)' :
                                                     breadcrumbTitle === "Privacy Policy" ? 'url(/assets/header-images/Privacy-Policy-1.jpg)' :
