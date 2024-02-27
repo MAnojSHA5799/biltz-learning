@@ -172,7 +172,7 @@ export default function Services() {
                                 className="icon-05"
                                 src="/assets/images/new-icon/Training need analysis.png"
                               ></img>
-                                <h3 class="card-title text-white">Training Needs Analysis</h3>
+                                <h3 class="card-title text-white text-center">Training Needs Analysis</h3>
                                
                               </div>
                             </div>
@@ -198,7 +198,7 @@ export default function Services() {
                                 className="icon-05"
                                 src="/assets/images/new-icon/design process analysis.png"
                               ></img>
-                                <h3 class="card-title text-white">Design Process Analysis</h3>
+                                <h3 class="card-title text-white text-center">Design Process Analysis</h3>
                                
                               </div>
                             </div>
@@ -222,7 +222,7 @@ export default function Services() {
                                 className="icon-05"
                                 src="/assets/images/new-icon/learning effectiveness strategy.png"
                               ></img>
-                                <h3 class="card-title text-white">Learning Effectiveness Strategy</h3>
+                                <h3 class="card-title text-white text-center">Learning Effectiveness Strategy</h3>
                               </div>
                             </div>
                             <div class="card-back bg-dark">
@@ -247,7 +247,7 @@ export default function Services() {
                                 className="icon-05"
                                 src="/assets/images/new-icon/learning execution strategy.png"
                               ></img>
-                                <h3 class="card-title text-white">Learning Execution Strategy</h3>
+                                <h3 class="card-title text-white text-center">Learning Execution Strategy</h3>
                                 
                               </div>
                             </div>

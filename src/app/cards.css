@@ -98,18 +98,29 @@ font-family: 'Arial', sans-serif;
   .card p {
     font-size: 1em;
     line-height: 1.6;
-    color: rgb(243, 251, 248);
+    color: rgb(247, 255, 252);
+    text-align: center;
     font-family: 'Arial', sans-serif;
+  margin-top: 25px;
+    /* Center text horizontally and vertically */
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 /* Additional styling for mobile view */
 @media screen and (max-width: 767px) {
   .card p {
+    margin-top: 30px;
     font-size: 1.7em;
     line-height: 1.1;
     color: #f3f8f1;
     font-family: 'Arial', sans-serif; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 

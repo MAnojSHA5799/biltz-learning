@@ -168,7 +168,7 @@ export default function Services() {
                                 className="icon-05"
                                 src="/assets/images/new-icon/sales and promotional videos.png"
                               ></img>
-                                <h3 class="card-title text-white">Sales and Promotional Videos</h3>
+                                <h3 class="card-title text-white text-center">Sales and Promotional Videos</h3>
                                
                               </div>
                             </div>
@@ -195,7 +195,7 @@ export default function Services() {
                                 className="icon-05"
                                 src="/assets/images/new-icon/training video.png"
                               ></img>
-                                <h3 class="card-title text-white">Training Videos</h3>
+                                <h3 class="card-title text-white text-center">Training Videos</h3>
                                
                               </div>
                             </div>
@@ -224,7 +224,7 @@ export default function Services() {
                                 className="icon-05"
                                 src="/assets/images/new-icon/online-video .png"
                               ></img>
-                                <h3 class="card-title text-white">Online Videos</h3>
+                                <h3 class="card-title text-white text-center">Online Videos</h3>
                               </div>
                             </div>
                             <div class="card-back bg-dark">
@@ -248,7 +248,7 @@ export default function Services() {
                                 className="icon-05"
                                 src="/assets/images/new-icon/corporate videos.png"
                               ></img>
-                                <h3 class="card-title text-white">Corporate Videos</h3>
+                                <h3 class="card-title text-white text-center">Corporate Videos</h3>
                                 
                               </div>
                             </div>

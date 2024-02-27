@@ -167,7 +167,7 @@ export default function Services() {
                                     class="icon-05"
                                     src="/assets/images/new-icon/Research and report (1).png"
                                   />
-                                <h3 class="card-title text-white"> Research and Report</h3>
+                                <h3 class="card-title text-white text-center"> Research and Report</h3>
                                
                               </div>
                             </div>
@@ -196,7 +196,7 @@ export default function Services() {
                                 className="icon-05"
                                 src="/assets/images/new-icon/Regional connect (1).png"
                               ></img>
-                                <h3 class="card-title text-white"> Regional Connect</h3>
+                                <h3 class="card-title text-white text-center"> Regional Connect</h3>
                                
                               </div>
                             </div>
@@ -218,7 +218,7 @@ export default function Services() {
                                 className="icon-05"
                                 src="/assets/images/new-icon/Review and summary (2).png"
                               ></img>
-                                <h3 class="card-title text-white">Review and Summary</h3>
+                                <h3 class="card-title text-white text-center">Review and Summary</h3>
                               </div>
                             </div>
                             <div class="card-back bg-dark">
@@ -246,7 +246,7 @@ export default function Services() {
                                 className="icon-05"
                                 src="/assets/images/icon/Authorization and enrichment (2).png"
                               ></img>
-                                <h3 class="card-title text-white">Authoring and Enrichment</h3>
+                                <h3 class="card-title text-white text-center">Authoring and Enrichment</h3>
                                 
                               </div>
                             </div>
@@ -271,14 +271,14 @@ export default function Services() {
                                 className="icon-05"
                                 src="/assets/images/new-icon/Native Translators.png"
                               ></img>
-                                <h3 class="card-title text-white">Native Translators</h3>
+                                <h3 class="card-title text-white text-center">Native Translators</h3>
                                
                               </div>
                             </div>
                             <div class="card-back bg-dark">
                               <div class="card-body">
                           
-                                <p class="card-text text-white ">
+                                <p>
                                 Our localization services for e-Learning projects
                               can help you translate and localize your content
                               including text translation and audio recording. We
@@ -298,7 +298,7 @@ export default function Services() {
                                 className="icon-05"
                                 src="/assets/images/new-icon/Multimedia .png"
                               ></img>
-                                <h3 class="card-title text-white">Multiple Formats</h3>
+                                <h3 class="card-title text-white text-center">Multiple Formats</h3>
                               </div>
                             </div>
                             <div class="card-back bg-dark">
