@@ -1,3 +1,15 @@
+.icon-05{
+  height: 80px;
+  padding: 12px;
+margin-left: 35%;
+  margin-top: 12%;
+  border-radius: 30%; /* Use 50% to make it a perfect circle */
+  width: 80px;
+  display: flex;
+
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+}
 .custom-card-height {
   height: 300px;
   border-radius: 10px; 
@@ -393,7 +405,7 @@ to {
 .swiper-button-prev {
 width: 40px; /* Adjust the width as needed */
 height: 40px; /* Adjust the height as needed */
-color: #fff; /* Set your desired text color */
+color: #ad9999; /* Set your desired text color */
 border-radius: 5px; /* Optional: Add border-radius for rounded corners */
 margin: 0 10px; /* Adjust the margin as needed */
 margin-top: 4%;

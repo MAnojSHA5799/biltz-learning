@@ -165,7 +165,7 @@ export default function Services() {
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/sales-and-promotional-video-410x280.jpg)' }}>
                               <div class="card-body">
                               <img
-                                className="icon-03"
+                                className="icon-05"
                                 src="/assets/images/new-icon/sales and promotional videos.png"
                               ></img>
                                 <h3 class="card-title text-white">Sales and Promotional Videos</h3>
@@ -192,7 +192,7 @@ export default function Services() {
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/training-videos-410x280.jpg)' }}>
                               <div class="card-body">
                               <img
-                                className="icon-03"
+                                className="icon-05"
                                 src="/assets/images/new-icon/training video.png"
                               ></img>
                                 <h3 class="card-title text-white">Training Videos</h3>
@@ -221,7 +221,7 @@ export default function Services() {
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/online-videos-410x280.jpg)' }}>
                               <div class="card-body">
                               <img
-                                className="icon-03"
+                                className="icon-05"
                                 src="/assets/images/new-icon/online-video .png"
                               ></img>
                                 <h3 class="card-title text-white">Online Videos</h3>
@@ -245,7 +245,7 @@ export default function Services() {
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/corporate-videos-410x280.jpg)' }}>
                               <div class="card-body">
                               <img
-                                className="icon-03"
+                                className="icon-05"
                                 src="/assets/images/new-icon/corporate videos.png"
                               ></img>
                                 <h3 class="card-title text-white">Corporate Videos</h3>

@@ -188,8 +188,8 @@ export default function Services() {
                           <div className="card card-flip custom-card-height">
                             <div className="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/simulation-and-gamification--410x280.jpg)' }}>
                               <div className="card-body">
-                              <img className="icon-03" src="/assets/images/new-icon/gamification.png"></img>
-                                <h3 className="card-title text-white">Simulations & Gamification</h3>
+                              <img className="icon-05" src="/assets/images/new-icon/gamification.png"></img>
+                                <h3 className="card-title text-white text-center">Simulations & Gamification</h3>
                                
                               </div>
                             </div>
@@ -214,8 +214,8 @@ export default function Services() {
                           <div className="card card-flip custom-card-height">
                             <div className="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/microlearning-410x280.jpg)' }}>
                               <div className="card-body">
-                              <img className="icon-03" src="/assets/images/new-icon/Micro learning logo (1).png"></img>
-                                <h3 className="card-title text-white">Micro Learning</h3>
+                              <img className="icon-05" src="/assets/images/new-icon/Micro learning logo (1).png"></img>
+                                <h3 className="card-title text-white text-center">Micro Learning</h3>
                                
                               </div>
                             </div>
@@ -237,8 +237,8 @@ export default function Services() {
                           <div className="card card-flip custom-card-height">
                             <div className="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/mobile-learning-410x280.jpg)' }}>
                               <div className="card-body">
-                              <img className="icon-03" src="/assets/images/new-icon/mobile learning.png"></img>
-                                <h3 className="card-title text-white">Mobile Learning</h3>
+                              <img className="icon-05" src="/assets/images/new-icon/mobile learning.png"></img>
+                                <h3 className="card-title text-white text-center">Mobile Learning</h3>
                               </div>
                             </div>
                             <div className="card-back bg-dark">
@@ -257,8 +257,8 @@ export default function Services() {
                           <div className="card card-flip custom-card-height">
                             <div className="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/VR-AR-410x280.jpg)' }}>
                               <div className="card-body">
-                              <img className="icon-03" src="/assets/images/new-icon/AR,VR vdo training.png"></img>
-                                <h3 className="card-title text-white">VR/AR Based Training</h3>
+                              <img className="icon-05" src="/assets/images/new-icon/AR,VR vdo training.png"></img>
+                                <h3 className="card-title text-white text-center">VR/AR Based Training</h3>
                                 
                               </div>
                             </div>

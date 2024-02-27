@@ -164,7 +164,7 @@ export default function Services() {
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Research-and-report-410x280.jpg)' }}>
                               <div class="card-body">
                               <img
-                                    class="icon-03"
+                                    class="icon-05"
                                     src="/assets/images/new-icon/Research and report (1).png"
                                   />
                                 <h3 class="card-title text-white"> Research and Report</h3>
@@ -193,7 +193,7 @@ export default function Services() {
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Regional-connect-410x280.jpg)' }}>
                               <div class="card-body">
                               <img
-                                className="icon-03"
+                                className="icon-05"
                                 src="/assets/images/new-icon/Regional connect (1).png"
                               ></img>
                                 <h3 class="card-title text-white"> Regional Connect</h3>
@@ -215,7 +215,7 @@ export default function Services() {
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Review-and-summary-410x280.jpg)' }}>
                               <div class="card-body">
                               <img
-                                className="icon-03"
+                                className="icon-05"
                                 src="/assets/images/new-icon/Review and summary (2).png"
                               ></img>
                                 <h3 class="card-title text-white">Review and Summary</h3>
@@ -243,7 +243,7 @@ export default function Services() {
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Authoring-and-enrichment-410x280.jpg)' }}>
                               <div class="card-body">
                               <img
-                                className="icon-03"
+                                className="icon-05"
                                 src="/assets/images/icon/Authorization and enrichment (2).png"
                               ></img>
                                 <h3 class="card-title text-white">Authoring and Enrichment</h3>
@@ -268,7 +268,7 @@ export default function Services() {
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Native-translator-410x280.jpg)' }}>
                               <div class="card-body">
                               <img
-                                className="icon-03"
+                                className="icon-05"
                                 src="/assets/images/new-icon/Native Translators.png"
                               ></img>
                                 <h3 class="card-title text-white">Native Translators</h3>
@@ -295,7 +295,7 @@ export default function Services() {
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/multiple-formats-410x280.jpg)' }}>
                               <div class="card-body">
                               <img
-                                className="icon-03"
+                                className="icon-05"
                                 src="/assets/images/new-icon/Multimedia .png"
                               ></img>
                                 <h3 class="card-title text-white">Multiple Formats</h3>

@@ -169,7 +169,7 @@ export default function Services() {
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Training-need-analysis-410x280.jpg)' }}>
                               <div class="card-body">
                               <img
-                                className="icon-03"
+                                className="icon-05"
                                 src="/assets/images/new-icon/Training need analysis.png"
                               ></img>
                                 <h3 class="card-title text-white">Training Needs Analysis</h3>
@@ -195,7 +195,7 @@ export default function Services() {
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/design-process-analysis-410x280.jpg)' }}>
                               <div class="card-body">
                               <img
-                                className="icon-03"
+                                className="icon-05"
                                 src="/assets/images/new-icon/design process analysis.png"
                               ></img>
                                 <h3 class="card-title text-white">Design Process Analysis</h3>
@@ -219,7 +219,7 @@ export default function Services() {
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/learning-effectiveness-strategy-410x280.jpg)' }}>
                               <div class="card-body">
                               <img
-                                className="icon-03"
+                                className="icon-05"
                                 src="/assets/images/new-icon/learning effectiveness strategy.png"
                               ></img>
                                 <h3 class="card-title text-white">Learning Effectiveness Strategy</h3>
@@ -244,7 +244,7 @@ export default function Services() {
                             <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Learning-execution-strategy-410x280.jpg)' }}>
                               <div class="card-body">
                               <img
-                                className="icon-03"
+                                className="icon-05"
                                 src="/assets/images/new-icon/learning execution strategy.png"
                               ></img>
                                 <h3 class="card-title text-white">Learning Execution Strategy</h3>

@@ -221,7 +221,7 @@ export default function Home() {
                       <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/global-delivery-410x280.jpg)' }}>
                       <img
                                 className="icon-02"
-                                src="/assets/why-us/global delivery.png"
+                                src="/assets/why-us/global delivery (1).png"
                               ></img>
                            
                         <h3 className="text-white">Global delivery</h3>
@@ -263,7 +263,7 @@ export default function Home() {
                       <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/crediblity-410x280.jpg)' }}>
                       <img
                                 className="icon-02"
-                                src="/assets/why-us/Picture6.png"
+                                src="/assets/why-us/high credibility.png"
                               ></img>
                         <h3 className="text-white">High credibility</h3>
                       </div>

@@ -1516,3 +1516,16 @@
 	background-position: center;
 	opacity: 0.4;
 }
+
+/* / testimonials / */
+  .director{
+	padding-top: 55px;
+  }
+
+  .digital{
+	padding-top: 30px;
+  }
+
+  .engineer{
+	padding-top: 30px;
+  }
