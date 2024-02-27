@@ -144,7 +144,7 @@ export default function Services() {
                 </div>
                 <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                   <div className="service-details-content">
-                    <div className="content-one mb_90">
+                    <div className="content-one mb_40">
                      
                       <div className="text">
                         <h2>
