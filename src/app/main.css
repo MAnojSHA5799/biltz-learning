@@ -1529,3 +1529,13 @@
   .engineer{
 	padding-top: 30px;
   }
+
+  /* services-footer-images */
+  .services-images {
+
+	box-shadow: 3px 3px 5px #000;
+
+	border: 2px solid #ddd; 
+	border-radius: 10px;   
+	box-shadow: 3px 3px 10px #000;
+  }

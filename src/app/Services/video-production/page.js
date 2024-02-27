@@ -297,13 +297,12 @@ export default function Services() {
                 <div className="row clearfix mt_90">
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div className="content_block_three">
-                      <div className="content-box p_relative mr_30">
+                      <div className="content-box p_relative">
                         <div className="sec-title mb_30">
-                          <span className="sub-title">Why work with us?</span>
-                          <h2>Trusted by some of the biggest brands…</h2>
-                          <p>
-                          Blitz Learning is a leading e-learning firm with the goal of providing the highest quality e-learning content for an immersive experience.
-                          </p>
+                        <img
+                                className="services-images"
+                                src="/assets/services-footer/vdo-producation-750x470.jpg"
+                              ></img>
                         </div>
                        
                       </div>
@@ -311,7 +310,7 @@ export default function Services() {
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div className="content_block_four">
-                      <div className="content-box p_relative ml_30  centred">
+                      <div className="content-box p_relative  centred">
                         <h3>
                           Request for our free <br />
                           consultation

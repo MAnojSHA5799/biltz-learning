@@ -310,42 +310,20 @@ export default function Services() {
                 <div className="row clearfix mt_90">
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div className="content_block_three">
-                      <div className="content-box p_relative mr_30">
+                      <div className="content-box p_relative ">
                         <div className="sec-title mb_30">
-                          <span className="sub-title">Why work with us?</span>
-                          <h2>Trusted by some of the biggest brands…</h2>
-                          <p>
-                            Blitz Learning is a leading e-Learning firm that
-                            provides the highest quality<br /> e-Learning content for
-                            an immersive experience.
-                          </p>
+                        <img
+                                className="services-images"
+                                src="/assets/services-footer/custom--750x470.jpg"
+                              ></img>
                         </div>
-                        {/* <div className="progress-inner">
-                            <div className="progress-box mb_30">
-                                <p>Financial Advice</p>
-                                <div className="bar">
-                                <div className="bar-inner count-bar" style={{ width: '85%' }} ><div className="count-text">85%</div></div>
-                                </div>
-                            </div>
-                            <div className="progress-box mb_30">
-                                <p>Business Consulting</p>
-                                <div className="bar">
-                                <div className="bar-inner count-bar" style={{ width: '90%' }} ><div className="count-text">90%</div></div>
-                                </div>
-                            </div>
-                            <div className="progress-box">
-                                <p>Investment Strategy</p>
-                                <div className="bar">
-                                <div className="bar-inner count-bar" style={{ width: '70%' }} ><div className="count-text">70%</div></div>
-                                </div>
-                            </div>
-                            </div> */}
+                        
                       </div>
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div className="content_block_four">
-                      <div className="content-box p_relative ml_30 centred">
+                      <div className="content-box p_relative centred">
                         <h3>
                           Request for our free <br />
                           consultation
