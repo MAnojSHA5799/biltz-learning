@@ -285,7 +285,7 @@ export default function Home() {
                       <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/value-addition-410x280.jpg)' }}>
                       <img
                                 className="icon-02"
-                                src="/assets/why-us/Picture7.png"
+                                src="/assets/why-us/value-edtision.png"
                               ></img>
                            
                         <h3 className="text-white">Unparalleled value addition</h3>

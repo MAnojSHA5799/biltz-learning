@@ -55,7 +55,7 @@ export default function Services() {
     try {
       // Make the Axios POST request
       const response = await axios.post(
-        "https://biltz-backend.vercel.app/consultationQuery",
+        "http://localhost:2410/consultationQuery",
         formData,
         {
           headers: {
@@ -156,8 +156,8 @@ export default function Services() {
                         </div>
                         <div className="inner-box">
                           <p>
-                            <a href="mailto:contactus@biltzlearning.in">
-                              contactus@biltzlearning.in
+                            <a href="mailto:contactus@blitzlearning.in">
+                            contactus@blitzlearning.in
                             </a>
                           </p>
                           <h3>

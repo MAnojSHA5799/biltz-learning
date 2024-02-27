@@ -132,7 +132,7 @@ export default function Services() {
                         <div className="inner-box">
                           <p>
                             <a href="mailto:contactus@biltzlearning.in">
-                              contactus@biltzlearning.in
+                            contactus@blitzlearning.in
                             </a>
                           </p>
                           <h3>
