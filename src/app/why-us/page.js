@@ -177,7 +177,7 @@ export default function Home() {
                      
                               <img
                                 className="icon-02"
-                                src="/assets/images/icon/proven growth record.png"
+                                src="/assets/why-us/measurable cost advantage (2).png"
                               ></img>
                         <h3 className="text-white"> Measurable cost advantage</h3>
                       </div>
@@ -196,7 +196,7 @@ export default function Home() {
                       <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/heigh-Quality-410x280.jpg)' }}>
                               <img
                                 className="icon-02"
-                                src="/assets/images/icon/unparalled value addition .png"
+                                src="/assets/why-us/heigh reliability.png"
                               ></img>
                         <h3 className="text-white">High quality</h3>
                       </div>
@@ -221,7 +221,7 @@ export default function Home() {
                       <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/global-delivery-410x280.jpg)' }}>
                       <img
                                 className="icon-02"
-                                src="/assets/images/icon/measurable cost advantage.png"
+                                src="/assets/why-us/global delivery.png"
                               ></img>
                            
                         <h3 className="text-white">Global delivery</h3>
@@ -241,7 +241,7 @@ export default function Home() {
                      
                       <img
                                 className="icon-02"
-                                src="/assets/images/icon/proven growth record.png"
+                                src="/assets/why-us/Proven growth record2.png"
                               ></img>
                         <h3 className="text-white">Proven growth record</h3>
                       </div>
@@ -263,7 +263,7 @@ export default function Home() {
                       <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/crediblity-410x280.jpg)' }}>
                       <img
                                 className="icon-02"
-                                src="/assets/images/icon/unparalled value addition .png"
+                                src="/assets/why-us/Picture6.png"
                               ></img>
                         <h3 className="text-white">High credibility</h3>
                       </div>
@@ -285,7 +285,7 @@ export default function Home() {
                       <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/value-addition-410x280.jpg)' }}>
                       <img
                                 className="icon-02"
-                                src="/assets/images/icon/measurable cost advantage.png"
+                                src="/assets/why-us/Picture7.png"
                               ></img>
                            
                         <h3 className="text-white">Unparalleled value addition</h3>
