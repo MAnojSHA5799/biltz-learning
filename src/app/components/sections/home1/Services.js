@@ -56,7 +56,7 @@ export default function Pricing() {
                         backgroundImage: "url(assets/images/shape/shape-5.png)",
                       }}
                     ></div>
-                    <p>
+                    <p className="key-1">
                       We provide a proven cost advantage of up to 30% over our
                       competitors in India and around 50% over standard rates in
                       the US and Europe.
@@ -128,7 +128,7 @@ export default function Pricing() {
                         backgroundImage: "url(assets/images/shape/shape-7.png)",
                       }}
                     ></div>
-                    <p >
+                    <p className="key-3">
                       We provide extended support for up to 3 months for any
                       course that we create. This includes minor changes and
                       updates without any charge for up to three sprints. We

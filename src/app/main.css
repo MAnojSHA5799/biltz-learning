@@ -1539,3 +1539,14 @@
 	border-radius: 10px;   
 	box-shadow: 3px 3px 10px #000;
   }
+
+  /* key-advantage */
+  .key-1{
+	text-align: center;
+	padding-top: 50px;
+  }
+
+  .key-3{
+	text-align: center;
+	padding-top: 20px;
+  }
