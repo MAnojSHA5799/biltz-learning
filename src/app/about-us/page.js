@@ -382,7 +382,9 @@ export default function Home() {
                     </div>
                     <div className="lower-content">
                       <h3>
-                        <Link href="/team-details">Rajeev Suman</Link>
+                        {/* <Link href="/team-details">
+                          </Link> */}
+                          Rajeev Suman
                       </h3>
                       <span className="designation">
                         Co-founder and VP of Global Delivery
@@ -425,7 +427,8 @@ export default function Home() {
                     </div>
                     <div className="lower-content">
                       <h3>
-                        <Link href="/team-details">Abhishek Kumar</Link>
+                        {/* <Link href="/team-details"></Link> */}
+                        Abhishek Kumar
                       </h3>
                       <span className="designation">
                         Co-Founder and VP of Sales
