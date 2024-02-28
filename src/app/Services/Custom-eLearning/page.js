@@ -330,10 +330,10 @@ export default function Services() {
                         </h3>
                         <div className="form-inner">
                           <form
-                            action="index.html"
+                            action="index.php" 
                             method="post"
                             className="default-form"
-                            onSubmit={handleSubmit}
+                            // onSubmit={handleSubmit}
                           >
                             <div className="row clearfix">
                               <div className="col-lg-6 col-md-6 col-sm-12 form-group">
@@ -341,8 +341,8 @@ export default function Services() {
                                   type="text"
                                   name="name"
                                   placeholder="Your name"
-                                  value={formData.name}
-                                  onChange={handleInputChange}
+                                  // value={formData.name}
+                                  // onChange={handleInputChange}
                                   required
                                 />
                               </div>
@@ -351,8 +351,8 @@ export default function Services() {
                                   type="email"
                                   name="email"
                                   placeholder="Email address"
-                                  value={formData.email}
-                                  onChange={handleInputChange}
+                                  // value={formData.email}
+                                  // onChange={handleInputChange}
                                   required
                                 />
                               </div>
@@ -361,8 +361,8 @@ export default function Services() {
                                   type="text"
                                   name="phone"
                                   placeholder="Phone number"
-                                  value={formData.phone}
-                                  onChange={handleInputChange}
+                                  // value={formData.phone}
+                                  // onChange={handleInputChange}
                                   required
                                 />
                               </div>
@@ -371,8 +371,8 @@ export default function Services() {
                                   <select
                                     className="selectpicker"
                                     name="selectedOption"
-                                    value={formData.selectedOption}
-                                    onChange={handleInputChange}
+                                    // value={formData.selectedOption}
+                                    // onChange={handleInputChange}
                                   >
                                     <option value="Custom eLearning">
                                       Custom e-Learning
@@ -391,9 +391,10 @@ export default function Services() {
                               </div>
                               <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
                                 <button
-                                  type="submit"
-                                  className="theme-btn-one"
-                                  disabled={isSubmitting}
+                                  // type="submit"
+                                  // className="theme-btn-one"
+                                  // disabled={isSubmitting}
+                                  type="submit" className="theme-btn-one" value="Submit"
                                 >
                                   Send request
                                 </button>
