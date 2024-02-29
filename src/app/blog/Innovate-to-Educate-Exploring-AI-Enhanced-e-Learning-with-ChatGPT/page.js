@@ -56,6 +56,31 @@ export default function Home() {
       console.error('Error posting data:', error);
     }
   };
+  async function handleSubmit1(event) {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "608eed31-27ef-4c3a-909a-9aaf76a7596f");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: json
+    });
+    const result = await response.json();
+    if (result.success) {
+        console.log(result);
+        alert("Data is submitted is sucessfully")
+        document.getElementById("contact-form").reset();
+       
+    }
+}
   return (
     <>
       <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Blog Details">
@@ -162,10 +187,11 @@ export default function Home() {
                     <h3>Leave a comments</h3>
                     <div className="form-inner">
                     <form
-      action="blog-details"
-      method="post"
+      // action="blog-details"
+      // method="post"
+      id="contact-form"
       className="default-form"
-      onSubmit={handleSubmit}
+      onSubmit={handleSubmit1}
     >
       <div className="row clearfix">
         <div className="col-lg-6 col-md-6 col-sm-12 form-group">
@@ -173,8 +199,8 @@ export default function Home() {
             type="text"
             name="name"
             placeholder="Your name"
-            value={formData.name}
-            onChange={handleInputChange}
+            // value={formData.name}
+            // onChange={handleInputChange}
             required
           />
         </div>
@@ -183,8 +209,8 @@ export default function Home() {
             type="email"
             name="email"
             placeholder="Your email"
-            value={formData.email}
-            onChange={handleInputChange}
+            // value={formData.email}
+            // onChange={handleInputChange}
             required
           />
         </div>
@@ -192,13 +218,15 @@ export default function Home() {
           <textarea
             name="message"
             placeholder="Type message"
-            value={formData.message}
-            onChange={handleInputChange}
+            // value={formData.message}
+            // onChange={handleInputChange}
           ></textarea>
         </div>
         <div className="col-lg-12 col-md-12 col-sm-12 form-group">
           <div className="message-btn">
-            <button type="submit" className="theme-btn-one"  disabled={isSubmitting}>
+            <button type="submit" className="theme-btn-one"  
+            // disabled={isSubmitting}
+            >
               Post Comment
             </button>
           </div>

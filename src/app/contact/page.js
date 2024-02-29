@@ -102,6 +102,32 @@ export default function Contact() {
     }
   };
 
+  async function handleSubmit1(event) {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "608eed31-27ef-4c3a-909a-9aaf76a7596f");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: json
+    });
+    const result = await response.json();
+    if (result.success) {
+        console.log(result);
+        alert("Data is submitted is sucessfully")
+        document.getElementById("contact-form").reset();
+        router.refresh("/contact");
+    }
+}
+
   return (
     <>
       <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Get In Touch">
@@ -245,50 +271,50 @@ export default function Contact() {
                     <form
                       id="contact-form"
                       className="default-form"
-                      onSubmit={handleSubmit}
+                      onSubmit={handleSubmit1}
                     >
                       {/* <form   action="https://api.web3forms.com/submit" method="POST" */}
                       <div className="row clearfix">
-                      <input type="hidden" name="access_key" value="15cf9264-6c64-493d-9d22-5c01c43df043"/>
+                      {/* <input type="hidden" name="access_key" value="15cf9264-6c64-493d-9d22-5c01c43df043"/> */}
                         <div className="col-lg-6 col-md-6 col-sm-12 form-group">
                           <input
                             type="text"
                             name="username"
-                            value={formData.username}
+                            // value={formData.username}
                             placeholder="Your name"
                             required
-                            pattern="[A-Za-z]+"
-                            onChange={handleChange}
+                            // pattern="[A-Za-z]+"
+                            // onChange={handleChange}
                           />
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 form-group">
                           <input
                             type="email"
                             name="email"
-                            value={formData.email}
+                            // value={formData.email}
                             placeholder="Your email"
                             required
-                            onChange={handleChange}
+                            // onChange={handleChange}
                           />
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 form-group">
                           <input
                             type="number"
                             name="phone"
-                            value={formData.phone}
+                            // value={formData.phone}
                             required
                             placeholder="Phone"
-                            onChange={handleChange}
+                            // onChange={handleChange}
                           />
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 form-group">
                           <input
                             type="text"
                             name="subject"
-                            value={formData.subject}
+                            // value={formData.subject}
                             required
                             placeholder="Subject"
-                            onChange={handleChange}
+                            // onChange={handleChange}
                           />
                         </div>
                         
@@ -296,9 +322,9 @@ export default function Contact() {
                           <textarea
                             name="message"
                             placeholder="Type message"
-                            value={formData.message}
+                            // value={formData.message}
                             required
-                            onChange={handleChange}
+                            // onChange={handleChange}
                           ></textarea>
                         </div>
                         <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
@@ -306,13 +332,20 @@ export default function Contact() {
                             className="theme-btn theme-btn-one"
                             type="submit"
                             name="submit-form"
-                            disabled={isSubmitting}
+                            // disabled={isSubmitting}
                           >
                             Send Message
                           </button>
                         </div>
                       </div>
                     </form>
+
+                    {/* <form onSubmit={handleSubmit1}>
+          <input type="text" name="name"/>
+          <input type="email" name="email"/>
+          <textarea name="message"></textarea>
+          <button type="submit">Submit Form</button>
+        </form> */}
                   </div>
                 </div>
               </div>

@@ -92,6 +92,31 @@ export default function Services() {
   const handleReload = () => {
     router.reload("/");
   };
+  async function handleSubmit1(event) {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "608eed31-27ef-4c3a-909a-9aaf76a7596f");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: json
+    });
+    const result = await response.json();
+    if (result.success) {
+        console.log(result);
+        alert("Data is submitted is sucessfully")
+        document.getElementById("contact-form").reset();
+       
+    }
+}
   return (
     <>
       <Layout
@@ -330,10 +355,11 @@ export default function Services() {
                         </h3>
                         <div className="form-inner">
                           <form
-                            action="index.php" 
-                            method="post"
+                          id="contact-form"
+                            // action="index.php" 
+                            // method="post"
                             className="default-form"
-                            // onSubmit={handleSubmit}
+                            onSubmit={handleSubmit1}
                           >
                             <div className="row clearfix">
                               <div className="col-lg-6 col-md-6 col-sm-12 form-group">
