@@ -240,6 +240,7 @@ export default function Home() {
                               <li>Holiday Trash & Recycling</li>
                               <li>Things To Do In Govarnex</li>
                             </ul> */}
+                            <br />
                             <div className="btn-box">
                               <a
                                 href="mailto:roshni.sarin@blitzlearning.in"
@@ -306,18 +307,76 @@ export default function Home() {
                               </li>
                             </ul>
                             <p>
-                              Bachelor's degree in Instructional Design,
-                              Educational Technology, Multimedia Design,
-                              Computer Science, or a related field.
+                            We are looking for eLearning developers having hands-on experience in developing web-based training (WBT) modules in a rapid authoring environment. The candidate must have:
                             </p>
-                            <h4>Duties and Responsibilities:</h4>
-                            <p>
-                              Understanding of instructional design principles
-                              and adult learning theory. Ability to analyze
-                              learning needs and design effective and engaging
-                              e-learning content.
-                            </p>
-
+                            <ul
+                              style={{ listStyleType: "disc", padding: "5px" }}
+                            >
+                              <li style={{ listStyleType: "disc" }}>
+                              Strong analytical skills.
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Ability to change rapid authoring templates to provide custom user interfaces.
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Ability to understand complex topics and represent them in an intuitive manner.
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Ability to develop engaging learning activities
+                              </li>
+                            
+                            </ul>
+                            
+                            <h4>Responsibilities:</h4>
+                            <ul
+                              style={{ listStyleType: "disc", padding: "5px" }}
+                            >
+                              <li style={{ listStyleType: "disc" }}>
+                              Work with the Instructional Des1ign team to identify the requirements for training development.
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Remodel existing content and instructional material based on the practice of the training (WBT or Blended).
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Utilize best practices in a rapid authoring development environment to create visually engaging and appropriate e-learning interventions.
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Create media to support learning (e.g., audio-visual aids, supplementary content in various multimedia formats).
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Develop assessments and learning activities.
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Work with instructional design teams to plan effort estimations, timelines and ensure that output is delivered within expected project timelines.
+                              </li>
+                            </ul>
+                            <h4>key Skills:</h4>
+                            <ul
+                              style={{ listStyleType: "disc", padding: "5px" }}
+                            >
+                              <li style={{ listStyleType: "disc" }}>
+                              Experience in Content Development for WBT and Blended learning.
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Thorough knowledge of rapid authoring tools such as the latest versions of Articulate Storyline, Articulate RISE, Adobe Captivate etc.
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Experience in developing learner engagement through advanced interactivities for learning games, etc.
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Knowledge of Tincan (xAPI) and SCORM reporting into Learning Management Systems (LMS) such as Moodle, Blackboard, BBLearn or Canvas is preferable.
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Experience in current instructional technologies and trends.
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Excellent communication skills.
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Ability to take on additional responsibilities in content development/ web-based training development.
+                              </li>
+                            </ul>
+<br />
                             <div className="btn-box">
                               <a
                                 href="mailto:roshni.sarin@blitzlearning.in"
@@ -379,7 +438,7 @@ export default function Home() {
                                 >
                                   Experience:
                                 </span>{" "}
-                                0-6 Months
+                                1+ years
                               </li>
                             </ul>
                             <p>
@@ -391,14 +450,54 @@ export default function Home() {
                               troubleshooting computer issues throughout their
                               organizations.
                             </p>
-                            <h4>Duties and responsibilities:</h4>
+                            <h4>Description:</h4>
                             <p>
-                              Candidate with 6 months of relevant experience,
-                              having a good command on C#, ASP.NET, .NET
-                              Framework 2.0 &3.5, Ajax. SQL server, JAVA Script.
-                              Must be able to train and coach.
+                            We are looking for React developers who are interested in experimentation and challenging the convention for our projects.
                             </p>
-
+                            <h4 className="mb-1">Responsibilities:</h4>
+                            <ul
+                              style={{ listStyleType: "disc", padding: "5px" }}
+                            >
+                              <li style={{ listStyleType: "disc" }}>
+                              Work alongside a broader team with a focus on Back End processes, DevOps Efficiency with the goal of delivering high-quality projects using the latest tech stack.
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Championing Web Development: You will be responsible for handling web development from ideation to production.
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Continuously evaluate and implement new technologies to maximize development efficiency.
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Contribute best-in-class programming skills to develop highly innovative, consumer-facing web products.
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Collaboration with product manager and other developers, owning a large part of the process from problem understanding to shipping the solution.
+                              </li>
+                            </ul>
+                            <h4 className="mb-1">Qualifications:</h4>
+                            <ul
+                              style={{ listStyleType: "disc", padding: "5px" }}
+                            >
+                              <li style={{ listStyleType: "disc" }}>
+                              1+ years of experience in React
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Hands on experience with integrating RESTful APIs
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Strong proficiency with JavaScript ES6 / TypeScript
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Understanding of MVC & MVVM architectures
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Understanding the nature of asynchronous programming, its quirks and workarounds
+                              </li>
+                              <li style={{ listStyleType: "disc" }}>
+                              Basic knowledge of React is a plus.
+                              </li>
+                            </ul>
+<br />
                             <div className="btn-box">
                               <a
                                 href="mailto:roshni.sarin@blitzlearning.in"
@@ -465,7 +564,7 @@ export default function Home() {
                           />
                         </div>
                         <div className="col-lg-12 col-md-12 col-sm-12 form-group">
-                          <label htmlFor="resume">Resume</label>
+                          <label htmlFor="resume">Upload Resume</label>
                           <input
                             type="file"
                             id="resume"
