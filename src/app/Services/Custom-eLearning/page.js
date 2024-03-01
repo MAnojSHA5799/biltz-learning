@@ -96,12 +96,12 @@ export default function Services() {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "15cf9264-6c64-493d-9d22-5c01c43df043");
+    // formData.append("access_key", "15cf9264-6c64-493d-9d22-5c01c43df043");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
 
-    const response = await fetch("https://api.web3forms.com/submit", {
+    const response = await fetch("https://demo.blitzlearning.in/index.php", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
