@@ -109,24 +109,24 @@ export default function Services() {
                       <ul className="category-list clearfix">
                         <li>
                           <Link
-                            href="/Services/video-production"
+                            href="/video-production"
                             className="current"
                           >
                             Video Production
                           </Link>
                         </li>
                         <li>
-                          <Link href="/Services/Content-Services">
+                          <Link href="/content-services">
                             Content Services
                           </Link>
                         </li>
                         <li>
-                          <Link href="/Services/learning-consulting">
+                          <Link href="/learning-consulting">
                             Learning Consulting
                           </Link>
                         </li>
                         <li>
-                          <Link href="/Services/Custom-eLearning">
+                          <Link href="/custom-elearning">
                             Custom e-Learning
                           </Link>
                         </li>
