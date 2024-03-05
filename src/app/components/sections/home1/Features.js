@@ -223,7 +223,7 @@ export default function Features() {
                         ></img>
                       </div>
                       <h3 style={{ textAlign: "left" }}>
-                        <Link href="/Content-services">
+                        <Link href="/content-services">
                           Content services
                         </Link>
                       </h3>
