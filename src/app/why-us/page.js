@@ -151,7 +151,7 @@ export default function Home() {
                 <div class="boxesContainer">
                   <div class="cardBox">
                     <div class="card">
-                      <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/business-understanding-410x280.jpg)' }}>
+                      <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/business-understanding.jpg)' }}>
                       <img
                                 className="icon-02"
                                 src="/assets/why-us/crisp-business-understanding.png"
@@ -173,7 +173,7 @@ export default function Home() {
 
                   <div class="cardBox">
                     <div class="card">
-                      <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/measurable-cost-advantage-410x280.jpg)' }}>
+                      <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/measurable-cost-advantage.jpg)' }}>
                      
                               <img
                                 className="icon-02"
@@ -193,7 +193,7 @@ export default function Home() {
 
                   <div class="cardBox">
                     <div class="card">
-                      <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/heigh-Quality-410x280.jpg)' }}>
+                      <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/heigh-Quality.jpg)' }}>
                               <img
                                 className="icon-02"
                                 src="/assets/why-us/heigh reliability.png"
@@ -218,7 +218,7 @@ export default function Home() {
               <div class="boxesContainer">
                   <div class="cardBox">
                     <div class="card">
-                      <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/global-delivery-410x280.jpg)' }}>
+                      <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/global-delivery.jpg)' }}>
                       <img
                                 className="icon-02"
                                 src="/assets/why-us/global delivery (1).png"
@@ -237,7 +237,7 @@ export default function Home() {
 
                   <div class="cardBox">
                     <div class="card">
-                      <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/growth-record-410x280.jpg)' }}>
+                      <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/growth-record.jpg)' }}>
                      
                       <img
                                 className="icon-02"
@@ -260,7 +260,7 @@ export default function Home() {
 
                   <div class="cardBox">
                     <div class="card">
-                      <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/crediblity-410x280.jpg)' }}>
+                      <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/crediblity.jpg)' }}>
                       <img
                                 className="icon-02"
                                 src="/assets/why-us/high credibility.png"
@@ -282,7 +282,7 @@ export default function Home() {
               <div class="boxesContainer">
                   <div class="cardBox">
                     <div class="card">
-                      <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/value-addition-410x280.jpg)' }}>
+                      <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/value-addition.jpg)' }}>
                       <img
                                 className="icon-02"
                                 src="/assets/why-us/value-edtision.png"
@@ -302,7 +302,7 @@ export default function Home() {
                   </div>
                   <div class="cardBox">
                     <div class="card">
-                      <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/business-understanding-410x280.jpg)' }}>
+                      <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/business-understanding.jpg)' }}>
                       <img
                                 className="icon-02"
                                 src="/assets/why-us/crisp-business-understanding.png"
@@ -324,7 +324,7 @@ export default function Home() {
 
                   <div class="cardBox">
                     <div class="card">
-                      <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/measurable-cost-advantage-410x280.jpg)' }}>
+                      <div class="front custom-card-image" style={{ backgroundImage: 'url(/assets/why-us/measurable-cost-advantage.jpg)' }}>
                      
                               <img
                                 className="icon-02"

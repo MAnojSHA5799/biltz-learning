@@ -10,7 +10,7 @@ export default function WhyChooseUs() {
         ></div>
         <div
           className="bg-layer"
-          style={{ backgroundImage: "url(/assets/images/why-us-2.jpg)" }}
+          style={{ backgroundImage: "url(/assets/Image/home_page/why-us.jpg)" }}
         ></div>
         <div className="auto-container">
           <div className="row clearfix">

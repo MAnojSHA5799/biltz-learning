@@ -175,7 +175,7 @@ export default function Features() {
                 <div className="inner-box" >
                 {/* style={{ padding: '10px', margin: '10px', width: '600px' }} */}
                   <figure className="image-box">
-                    <img src="/assets/images/Custome-learning.jpg" alt="" />
+                    <img src="/assets/Image/home_page/Custom-e-learning.jpg" alt="" />
                   </figure>
                   <div className="lower-content">
                     <div className="inner">
@@ -210,7 +210,7 @@ export default function Features() {
                 {/* style={{ padding: '20px', margin: '10px', width: '600px' }} */}
                   <figure className="image-box">
                     <img
-                      src="/assets/images/services/Content-Services-image2.jpg"
+                      src="/assets/Image/home_page/Content-Services-image.jpg"
                       alt="/"
                     />
                   </figure>
@@ -247,7 +247,7 @@ export default function Features() {
                 {/* style={{ padding: '20px', margin: '10px', width: '600px' }} */}
                   <figure className="image-box">
                     <img
-                      src="/assets/images/services/Video_Production_2.jpg"
+                      src="/assets/Image/home_page/Video-Production.jpg"
                       alt="/"
                     />
                   </figure>
@@ -283,7 +283,7 @@ export default function Features() {
                 <div className="inner-box" >
                 {/* style={{ padding: '20px', margin: '10px', width: '600px' }} */}
                   <figure className="image-box">
-                    <img src="/assets/images/LearningConsulting.jpg" alt="/" />
+                    <img src="/assets/Image/home_page/Learning-Consulting.jpg" alt="/" />
                   </figure>
                   <div className="lower-content">
                     <div className="inner">

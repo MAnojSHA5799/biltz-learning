@@ -80,7 +80,7 @@ export default function Features() {
                   <div className="inner-box">
                     <figure className="image-box">
                       <img
-                       src="/assets/images/section-1/Training Whitespaces Unearthed.jpg" alt=""
+                       src="/assets/Image/home_page/Training-Whitespaces-Unearthed.jpg" alt=""
                       />
                     </figure>
                     <div className="lower-content">
@@ -114,7 +114,7 @@ export default function Features() {
                   <div className="inner-box">
                     <figure className="image-box">
                       <img
-                        src="/assets/images/section-1/Stories that shift perspective.jpg" alt=""
+                        src="/assets/Image/home_page/Stories-that-shift-perspective.jpg" alt=""
                       />
                     </figure>
                     <div className="lower-content">
@@ -152,7 +152,7 @@ export default function Features() {
                   <div className="inner-box">
                     <figure className="image-box">
                       <img
-                        src="/assets/images/section-1/Translating learning exercise into long-term knowledge.jpg" alt="/"
+                        src="/assets/Image/home_page/Translating-learning-exercise-into-long-term-knowledge.jpg" alt="/"
                       />
                     </figure>
                     <div className="lower-content">

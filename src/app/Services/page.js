@@ -74,8 +74,8 @@ export default function Services() {
                     <div className="inner-box">
                       <figure className="image-box">
                         <img
-                          src="/assets/images/services/Custome-Learning.jpg"
-                          alt=""
+                          src="/assets/Image/Our-Services/Custom-e-learning.jpg"
+                          alt="/"
                         />
                       </figure>
                       <div className="lower-content">
@@ -120,8 +120,8 @@ export default function Services() {
                     <div className="inner-box">
                       <figure className="image-box">
                         <img
-                          src="/assets/images/services/ContentServices.jpg"
-                          alt=""
+                          src="/assets/Image/Our-Services/Content-Services-image.jpg"
+                          alt="/"
                         />
                       </figure>
                       <div className="lower-content">
@@ -163,7 +163,7 @@ export default function Services() {
                     <div className="inner-box">
                       <figure className="image-box">
                         <img
-                          src="/assets/images/services/VideoProduction.jpg"
+                          src="/assets/Image/Our-Services/Video-Production.jpg"
                           alt=""
                         />
                       </figure>
@@ -209,8 +209,8 @@ export default function Services() {
                     <div className="inner-box">
                       <figure className="image-box">
                         <img
-                          src="/assets/images/services/LearningConsulting.jpg"
-                          alt=""
+                          src="/assets/Image/Our-Services/Learning-Consulting.jpg"
+                          alt="/"
                         />
                       </figure>
                       <div className="lower-content">

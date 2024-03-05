@@ -13,7 +13,7 @@ export default function Home() {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                   <figure className="image-box mr_30">
-                    <img src="/assets/images/our-works/our-work-3.jpg" alt="" />
+                    <img src="/assets/Image/Our-Work/Mobile-Based-Mentor-1.jpg" alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">

@@ -96,12 +96,12 @@ export default function Services() {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    // formData.append("access_key", "15cf9264-6c64-493d-9d22-5c01c43df043");
+    formData.append("access_key", "15cf9264-6c64-493d-9d22-5c01c43df043");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
 
-    const response = await fetch("https://demo.blitzlearning.in/index.php", {
+    const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -211,7 +211,7 @@ export default function Services() {
                       <div className="row">
                         <div className="col-sm-6">
                           <div className="card card-flip custom-card-height">
-                            <div className="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/simulation-and-gamification--410x280.jpg)' }}>
+                            <div className="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/simulation-and-gamification.jpg)' }}>
                               <div className="card-body">
                               <img className="icon-05" src="/assets/images/new-icon/gamification.png"></img>
                                 <h3 className="card-title text-white text-center">Simulations & Gamification</h3>
@@ -237,7 +237,7 @@ export default function Services() {
                         </div>
                         <div className="col-sm-6">
                           <div className="card card-flip custom-card-height">
-                            <div className="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/microlearning-410x280.jpg)' }}>
+                            <div className="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/microlearning.jpg)' }}>
                               <div className="card-body">
                               <img className="icon-05" src="/assets/images/new-icon/Micro learning logo (1).png"></img>
                                 <h3 className="card-title text-white text-center">Micro Learning</h3>
@@ -260,7 +260,7 @@ export default function Services() {
                         </div>
                         <div className="col-sm-6">
                           <div className="card card-flip custom-card-height">
-                            <div className="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/mobile-learning-410x280.jpg)' }}>
+                            <div className="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/mobile-learning.jpg)' }}>
                               <div className="card-body">
                               <img className="icon-05" src="/assets/images/new-icon/mobile learning.png"></img>
                                 <h3 className="card-title text-white text-center">Mobile Learning</h3>
@@ -280,7 +280,7 @@ export default function Services() {
                         </div>
                         <div className="col-sm-6">
                           <div className="card card-flip custom-card-height">
-                            <div className="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/VR-AR-410x280.jpg)' }}>
+                            <div className="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/VR-AR.jpg)' }}>
                               <div className="card-body">
                               <img className="icon-05" src="/assets/images/new-icon/AR,VR vdo training.png"></img>
                                 <h3 className="card-title text-white text-center">VR/AR Based Training</h3>
@@ -339,7 +339,7 @@ export default function Services() {
                         <div className="sec-title mb_30">
                         <img
                                 className="services-images"
-                                src="/assets/services-footer/custom--750x470.jpg"
+                                src="/assets/services-footer/custom.jpg"
                               ></img>
                         </div>
                         

@@ -14,13 +14,13 @@ export default function Breadcrumb({ breadcrumbTitle }) {
 
                     // style = {{backgroundImage:breadcrumbTitle?'url(/assets/images/Contact-Us.jpg)':'none'}}
                     style={{
-                        backgroundImage: breadcrumbTitle === "Our Services" ? 'url(/assets/header-images/ourservice2.jpg)' :
+                        backgroundImage: breadcrumbTitle === "Our Services" ? 'url(/assets/Image/Our-Services/Our-Services.jpg)' :
                             breadcrumbTitle === "Custom e-Learning" ? 'url(/assets/header-images/Custome_e-learning.mp4)' :
                                 breadcrumbTitle === "Content Services" ? 'url(/assets/header-images/content_services.mp4)' :
                                     breadcrumbTitle === "Video Production" ? 'url(/assets/header-images/video_production.mp4)' :
                                         breadcrumbTitle === "Learning Consulting" ? 'url(/assets/header-images/learning_consulting.mp4)' :
                                             breadcrumbTitle === "Why Us" ? 'url(/assets/header-images/why-us-1.jpg)' :
-                                                breadcrumbTitle === "About Us" ? 'url(/assets/header-images/aboutus-3.jpg)' :
+                                                breadcrumbTitle === "About Us" ? 'url(/assets/Image/about-us/about-us.jpg)' :
                                                     breadcrumbTitle === "Get In Touch" ? 'url(/assets/header-images/contact-us.png)' :
                                                     breadcrumbTitle === "Blogs" ? 'url(/assets/header-images/blog.jpg)' :
                                                     breadcrumbTitle === "Our Work" ? 'url(/assets/header-images/our-work.jpg)' :

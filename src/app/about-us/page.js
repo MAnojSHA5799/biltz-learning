@@ -186,8 +186,8 @@ export default function Home() {
                   <div className="inner-box">
                     <figure className="image-box">
                       <img
-                        src="/assets/images/whatDo/Measurable-performance.jpg"
-                        alt=""
+                        src="/assets/Image/about-us/Measurable-performance.jpg"
+                        alt="/"
                       />
                     </figure>
                     <div className="lower-content">
@@ -199,9 +199,9 @@ export default function Home() {
                           ></img>
                         </div>
                         <h3>
-                          <Link href="/strategy-planning">
+                          
                             Measurable performance
-                          </Link>
+
                         </h3>
                         <p>
                           Putting people at the center of transformation to
@@ -223,8 +223,8 @@ export default function Home() {
                   <div className="inner-box">
                     <figure className="image-box">
                       <img
-                        src="/assets/images/whatDo/Intuitive-learning.jpg"
-                        alt=""
+                        src="/assets/Image/about-us/Intuitive-learning.jpg"
+                        alt="/"
                       />
                     </figure>
                     <div className="lower-content">
@@ -260,7 +260,7 @@ export default function Home() {
                   <div className="inner-box">
                     <figure className="image-box">
                       <img
-                        src="/assets/images/whatDo/Operational-efficency.jpg"
+                        src="/assets/Image/about-us/Operational-efficency.jpg"
                         alt=""
                       />
                     </figure>
@@ -358,8 +358,8 @@ export default function Home() {
                     <div className="image-box">
                       <figure className="image">
                         <img
-                          src="/assets/images/Team-member/rajeev_sir_330x370.jpg"
-                          alt=""
+                          src="/assets/Image/about-us/rajeev_sir.jpg"
+                          alt="/"
                         />
                       </figure>
                       {/* <ul className="social-links clearfix">
@@ -403,8 +403,8 @@ export default function Home() {
                     <div className="image-box">
                       <figure className="image">
                         <img
-                          src="/assets/images/Team-member/abhishek_sir_330x370.jpg"
-                          alt=""
+                          src="/assets/Image/about-us/abhishek_sir.jpg"
+                          alt="/"
                         />
                       </figure>
                       {/* <ul className="social-links clearfix">

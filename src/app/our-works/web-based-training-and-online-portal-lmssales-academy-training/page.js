@@ -12,7 +12,7 @@ export default function Home() {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                   <figure className="image-box mr_30">
-                    <img src="/assets/images/our-works/sales training 750x740.jpg" alt="" />
+                    <img src="/assets/Image/Our-Work/sales-training-1.jpg" alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">

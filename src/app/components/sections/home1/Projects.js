@@ -190,7 +190,7 @@ export default function Cases() {
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div className="inner-box">
-                            <figure className="image-box"><img src="/assets/images/our-works/sales training_410x280.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/Image/home_page/Sales-Academy-Training.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-7"></i></div> */}
                             <h3><Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training">Web-Based Training and Online Portal|LMS|Sales Academy Traning</Link></h3>
@@ -203,7 +203,7 @@ export default function Cases() {
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div className="inner-box">
-                            <figure className="image-box"><img src="/assets/images/our-works/revamp and localization 410x280.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/Image/home_page/revamp-and-localization.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-8"></i></div> */}
                             <h3><Link href="/our-works/revamp-and-localization-company-policy-refresh-training">Revamp and Localization|Company Policy Refersh Training</Link></h3>
@@ -215,7 +215,7 @@ export default function Cases() {
                     <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
                         <div className="feature-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div className="inner-box">
-                            <figure className="image-box"><img src="/assets/images/our-works/our-work-33.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/Image/home_page/Mobile-Based-Mentor-Driven-Training-Sales-Call-Training.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-9"></i></div> */}
                             <h3><Link href="/our-works/mobile-based-mentor-driven-trainingsales-call-training">Mobile-Based Mentor Driven Training|Sales Call Training</Link></h3>

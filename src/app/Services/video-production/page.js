@@ -187,7 +187,7 @@ export default function Services() {
                       <div class="row">
                         <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/sales-and-promotional-video-410x280.jpg)' }}>
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/sales-and-promotional-video.jpg)' }}>
                               <div class="card-body">
                               <img
                                 className="icon-05"
@@ -214,7 +214,7 @@ export default function Services() {
                         </div>
                         <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/training-videos-410x280.jpg)' }}>
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/training-videos.jpg)' }}>
                               <div class="card-body">
                               <img
                                 className="icon-05"
@@ -243,7 +243,7 @@ export default function Services() {
                         </div>
                         <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/online-videos-410x280.jpg)' }}>
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/online-videos.jpg)' }}>
                               <div class="card-body">
                               <img
                                 className="icon-05"
@@ -267,7 +267,7 @@ export default function Services() {
                         </div>
                         <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/corporate-videos-410x280.jpg)' }}>
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/corporate-videos.jpg)' }}>
                               <div class="card-body">
                               <img
                                 className="icon-05"
@@ -326,7 +326,7 @@ export default function Services() {
                         <div className="sec-title mb_30">
                         <img
                                 className="services-images"
-                                src="/assets/services-footer/vdo-producation-750x470.jpg"
+                                src="/assets/services-footer/vdo-producation.jpg"
                               ></img>
                         </div>
                        

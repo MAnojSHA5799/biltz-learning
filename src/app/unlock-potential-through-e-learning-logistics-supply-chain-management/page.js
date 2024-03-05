@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import axios from 'axios';
-import Layout from "../../components/layout/Layout";
+import Layout from "../components/layout/Layout";
 import Link from "next/link";
 export default function Home() {
   const [formData, setFormData] = useState({
@@ -95,7 +95,7 @@ export default function Home() {
                           <img className="blog-img01" src="/assets/images/Blog/blog-6.jpg" alt="" />
                         </figure>
                         <h2>
-                          27<span>Dec</span>
+                          04<span>Nov</span>
                         </h2>
                       </div>
                       <div className="lower-content">

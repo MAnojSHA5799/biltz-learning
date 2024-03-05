@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import axios from 'axios';
-import Layout from "../../components/layout/Layout";
+import Layout from "../components/layout/Layout";
 import Link from "next/link";
 // import '../../main.css'
 export default function Home() {
@@ -96,7 +96,7 @@ export default function Home() {
                           <img className="blog-img01" src="/assets/images/Blog/blog-5.jpg" alt="" />
                         </figure>
                         <h2>
-                          27<span>Dec</span>
+                          31<span>Oct</span>
                         </h2>
                       </div>
                       <div className="lower-content">

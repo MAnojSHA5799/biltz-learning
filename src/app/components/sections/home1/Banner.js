@@ -36,7 +36,7 @@ export default function Banner() {
             <section className="banner-section style-one p_relative">
                 <Swiper {...swiperOptions} className="banner-carousel">                    
                     <SwiperSlide className="a1 p_relative">
-                        <div className="image-layer" style={{ backgroundImage: 'url(/assets/banner/home-page-image.jpg)' }}></div>
+                        <div className="image-layer" style={{ backgroundImage: 'url(/assets/Image/home_page/home-page-image1.jpg)' }}></div>
                         <div className="starshine">
                             <div className="shine shine-1"></div>
                             <div className="shine shine-2"></div>
@@ -53,7 +53,7 @@ export default function Banner() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="a1 p_relative">
-                        <div className="image-layer p_absolute" style={{ backgroundImage: 'url(/assets/banner/home-page-image6.jpg)' }}></div>
+                        <div className="image-layer p_absolute" style={{ backgroundImage: 'url(/assets/Image/home_page/home-page-image2.jpg)' }}></div>
                         <div className="starshine">
                             <div className="shine shine-1"></div>
                             <div className="shine shine-2"></div>
@@ -69,7 +69,7 @@ export default function Banner() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="a1 p_relative">
-                        <div className="image-layer p_absolute" style={{ backgroundImage: 'url(/assets/banner/home-page-image5.jpg)' }}></div>
+                        <div className="image-layer p_absolute" style={{ backgroundImage: 'url(/assets/Image/home_page/home-page-image3.jpg)' }}></div>
                         <div className="starshine">
                             <div className="shine shine-1"></div>
                             <div className="shine shine-2"></div>

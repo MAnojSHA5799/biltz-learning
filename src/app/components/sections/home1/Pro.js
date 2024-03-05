@@ -25,7 +25,7 @@ export default function Pro() {
               >
                 <div className="inner-box">
                   <figure className="image-box">
-                    <img src="/assets/images/Onboarding.jpg" alt="" />
+                    <img src="/assets/Image/home_page/Onboarding.jpg" alt="/" />
                   </figure>
                   <div className="lower-content ml_0">
                     <h3 style={{ textAlign: "left"}}>
@@ -50,7 +50,7 @@ export default function Pro() {
               >
                 <div className="inner-box">
                   <figure className="image-box">
-                    <img src="/assets/images/Sales.jpg" alt="" />
+                    <img src="/assets/Image/home_page/Sales.jpg" alt="" />
                   </figure>
                   <div className="lower-content">
                     <h3 style={{ textAlign: "left" }}>
@@ -74,7 +74,7 @@ export default function Pro() {
               >
                 <div className="inner-box">
                   <figure className="image-box">
-                    <img src="/assets/images/Operations.jpg" alt="" />
+                    <img src="/assets/Image/home_page/Operations-image.jpg" alt="" />
                   </figure>
                   <div className="lower-content">
                     <h3 style={{ textAlign: "left" }}>
@@ -99,7 +99,7 @@ export default function Pro() {
               >
                 <div className="inner-box">
                   <figure className="image-box">
-                    <img src="/assets/images/SupportFunctions.jpg" alt="" />
+                    <img src="/assets/Image/home_page/Support-Functions.jpg" alt="" />
                   </figure>
                   <div className="lower-content">
                     <h3 style={{ textAlign: "left" }}>

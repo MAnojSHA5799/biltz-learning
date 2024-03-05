@@ -191,7 +191,7 @@ export default function Services() {
                       <div class="row">
                         <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Training-need-analysis-410x280.jpg)' }}>
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Training-need-analysis.jpg)' }}>
                               <div class="card-body">
                               <img
                                 className="icon-05"
@@ -217,7 +217,7 @@ export default function Services() {
                         </div>
                         <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/design-process-analysis-410x280.jpg)' }}>
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/design-process-analysis.jpg)' }}>
                               <div class="card-body">
                               <img
                                 className="icon-05"
@@ -241,7 +241,7 @@ export default function Services() {
                         </div>
                         <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/learning-effectiveness-strategy-410x280.jpg)' }}>
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/learning-effectiveness-strategy.jpg)' }}>
                               <div class="card-body">
                               <img
                                 className="icon-05"
@@ -329,7 +329,7 @@ export default function Services() {
                         <div className="sec-title mb_30">
                         <img
                                 className="services-images"
-                                src="/assets/services-footer/learning-750x470.jpg"
+                                src="/assets/services-footer/learning.jpg"
                               ></img>
                         </div>
                        

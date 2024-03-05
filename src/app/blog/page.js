@@ -15,18 +15,18 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/blog/The-Role-of-Animation-Videos-in-Unveiling-the-Inner-Workings-of-Oil-and-Gas-Machinery"><img src="/assets/images/Blog/blog-1.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/the-role-of-animation-videos-in-unveiling-the-inner-workings-of-oil-and-gas-machinery"><img src="/assets/images/Blog/blog-1.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">27 December</span>
-                                                    <h3><Link href="/blog/The-Role-of-Animation-Videos-in-Unveiling-the-Inner-Workings-of-Oil-and-Gas-Machinery">The role of animation videos in unveiling the inner workings of oil and gas machinery</Link></h3>
+                                                    <h3><Link href="/the-role-of-animation-videos-in-unveiling-the-inner-workings-of-oil-and-gas-machinery">The role of animation videos in unveiling the inner workings of oil and gas machinery</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">7 Comnt</Link></li>
                                                     </ul> */}
                                                     <p>The oil and gas industry stands at the forefront of technological innovation...</p>
                                                     <div className="btn-box">
-                                                        <Link href="/blog/The-Role-of-Animation-Videos-in-Unveiling-the-Inner-Workings-of-Oil-and-Gas-Machinery" className="theme-btn-one">Read More</Link>
+                                                        <Link href="/the-role-of-animation-videos-in-unveiling-the-inner-workings-of-oil-and-gas-machinery" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -36,18 +36,18 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/blog/Evolving-Horizons-Revealing-the-Apex-of-e-Learning-Trends-in-2024"><img src="/assets/images/Blog/blog-2.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/evolving-horizons-revealing-apex-e-learning-trends-2024"><img src="/assets/images/Blog/blog-2.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">14 APRIL</span>
-                                                    <h3><Link href="/blog/Evolving-Horizons-Revealing-the-Apex-of-e-Learning-Trends-in-2024">Evolving horizons: Revealing the apex of e-Learning trends in 2024</Link></h3>
+                                                    <h3><Link href="/evolving-horizons-revealing-apex-e-learning-trends-2024">Evolving horizons: Revealing the apex of e-Learning trends in 2024</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">0 Comnt</Link></li>
                                                     </ul> */}
                                                     <p>In the dynamic landscape of education, e-Learning has emerged as a transformative force...</p>
                                                     <div className="btn-box">
-                                                        <Link href="/blog/Evolving-Horizons-Revealing-the-Apex-of-e-Learning-Trends-in-2024" className="theme-btn-one">Read More</Link>
+                                                        <Link href="/evolving-horizons-revealing-apex-e-learning-trends-2024" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -57,18 +57,18 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/blog/Innovate-to-Educate-Exploring-AI-Enhanced-e-Learning-with-ChatGPT"><img src="/assets/images/Blog/blog-3.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/innovate-educate-exploring-ai-enhanced-e-learning-chatgpt"><img src="/assets/images/Blog/blog-3.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">13 APRIL</span>
-                                                    <h3><Link href="/blog/Innovate-to-Educate-Exploring-AI-Enhanced-e-Learning-with-ChatGPT">Innovate to educate: Exploring AI-Enhanced<br /> e-Learning with ChatGPT</Link></h3>
+                                                    <h3><Link href="/innovate-educate-exploring-ai-enhanced-e-learning-chatgpt">Innovate to educate: Exploring AI-Enhanced<br /> e-Learning with ChatGPT</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">3 Comnt</Link></li>
                                                     </ul> */}
                                                     <p>In the dynamic landscape of education, the integration of technology has become imperative...</p>
                                                     <div className="btn-box">
-                                                        <Link href="/blog/Innovate-to-Educate-Exploring-AI-Enhanced-e-Learning-with-ChatGPT" className="theme-btn-one">Read More</Link>
+                                                        <Link href="/innovate-educate-exploring-ai-enhanced-e-learning-chatgpt" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -78,18 +78,18 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="blog/Achievement-Unlocked-Badge-Systems-in-e-Learning-and-Instructional-Design"><img src="/assets/images/Blog/blog-4.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/achievement-unlocked-badge-systems-e-learning-instructional-design"><img src="/assets/images/Blog/blog-4.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">12 APRIL</span>
-                                                    <h3><Link href="blog/Achievement-Unlocked-Badge-Systems-in-e-Learning-and-Instructional-Design">Achievement unlocked: Badge systems in e-Learning and instructional design</Link></h3>
+                                                    <h3><Link href="/achievement-unlocked-badge-systems-e-learning-instructional-design">Achievement unlocked: Badge systems in e-Learning and instructional design</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">8 Comnt</Link></li>
                                                     </ul> */}
                                                     <p>In the ever-evolving world of education, e-Learning has become an indispensable tool for...</p>
                                                     <div className="btn-box">
-                                                        <Link href="blog/Achievement-Unlocked-Badge-Systems-in-e-Learning-and-Instructional-Design" className="theme-btn-one">Read More</Link>
+                                                        <Link href="/achievement-unlocked-badge-systems-e-learning-instructional-design" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -99,18 +99,18 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/blog/Benefits-of-Our-Custom-e-learning-Services"><img src="/assets/images/Blog/blog-5.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/benefits-custom-e-learning-services"><img src="/assets/images/Blog/blog-5.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">12 APRIL</span>
-                                                    <h3><Link href="/blog/Benefits-of-Our-Custom-e-learning-Services">Benefits of our custom<br /> e-Learning services</Link></h3>
+                                                    <h3><Link href="/benefits-custom-e-learning-services">Benefits of our custom<br /> e-Learning services</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">0 Comnt</Link></li>
                                                     </ul> */}
                                                     <p>In a rapidly evolving world, education and training have become more important than...</p>
                                                     <div className="btn-box">
-                                                        <Link href="/blog/Benefits-of-Our-Custom-e-learning-Services" className="theme-btn-one">Read More</Link>
+                                                        <Link href="/benefits-custom-e-learning-services" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -120,18 +120,18 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/blog/Unlocking-the-Benefits-of-e-learning-for-Manufacturing-&-Retail-Key-Sectors"><img src="/assets/images/Blog/blog-6.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/unlock-potential-through-e-learning-logistics-supply-chain-management"><img src="/assets/images/Blog/blog-6.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">11 APRIL</span>
-                                                    <h3><Link href="/blog/Unlocking-the-Benefits-of-e-learning-for-Manufacturing-&-Retail-Key-Sectors">Unlocking the benefits of<br /> e-Learning for manufacturing and retail key sectors</Link></h3>
+                                                    <h3><Link href="/unlock-potential-through-e-learning-logistics-supply-chain-management">Unlocking the benefits of<br /> e-Learning for manufacturing and retail key sectors</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">2 Comnt</Link></li>
                                                     </ul> */}
                                                     <p>In today's rapidly evolving world, industries across the board are recognizing the importance...</p>
                                                     <div className="btn-box">
-                                                        <Link href="/blog/Unlocking-the-Benefits-of-e-learning-for-Manufacturing-&-Retail-Key-Sectors" className="theme-btn-one">Read More</Link>
+                                                        <Link href="/unlock-potential-through-e-learning-logistics-supply-chain-management" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -141,11 +141,11 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/blog/Revitalizing-E-learning-Strategies-for-Creating-Engaging-and-Effective-Training"><img src="/assets/images/Blog/blog-7.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/revitalizing-e-learning-strategies-creating-engaging-effective-training"><img src="/assets/images/Blog/blog-7.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     <span className="post-date">10 APRIL</span>
-                                                    <h3><Link href="/blog/Revitalizing-E-learning-Strategies-for-Creating-Engaging-and-Effective-Training">Revitalizing e-Learning strategies for creating engaging and effective training</Link></h3>
+                                                    <h3><Link href="/revitalizing-e-learning-strategies-creating-engaging-effective-training">Revitalizing e-Learning strategies for creating engaging and effective training</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
                                                         <li><i className="icon-22"></i><Link href="/blog-details">7 Comnt</Link></li>
@@ -154,7 +154,7 @@ export default function Home() {
 
 </p>
                                                     <div className="btn-box">
-                                                        <Link href="/blog/Revitalizing-E-learning-Strategies-for-Creating-Engaging-and-Effective-Training" className="theme-btn-one">Read More</Link>
+                                                        <Link href="/revitalizing-e-learning-strategies-creating-engaging-effective-training" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>

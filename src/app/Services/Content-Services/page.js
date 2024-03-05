@@ -186,7 +186,7 @@ export default function Services() {
                       <div class="row">
                         <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Research-and-report-410x280.jpg)' }}>
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Research-and-report.jpg)' }}>
                               <div class="card-body">
                               <img
                                     class="icon-05"
@@ -215,7 +215,7 @@ export default function Services() {
                         </div>
                         <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Regional-connect-410x280.jpg)' }}>
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Regional-connect.jpg)' }}>
                               <div class="card-body">
                               <img
                                 className="icon-05"
@@ -237,7 +237,7 @@ export default function Services() {
                         </div>
                         <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Review-and-summary-410x280.jpg)' }}>
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Review-and-summary.jpg)' }}>
                               <div class="card-body">
                               <img
                                 className="icon-05"
@@ -265,7 +265,7 @@ export default function Services() {
                         </div>
                         <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Authoring-and-enrichment-410x280.jpg)' }}>
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Authoring-and-enrichment.jpg)' }}>
                               <div class="card-body">
                               <img
                                 className="icon-05"
@@ -290,7 +290,7 @@ export default function Services() {
                         </div>
                         <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Native-translator-410x280.jpg)' }}>
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Native-translator.jpg)' }}>
                               <div class="card-body">
                               <img
                                 className="icon-05"
@@ -317,7 +317,7 @@ export default function Services() {
                         </div>
                         <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/multiple-formats-410x280.jpg)' }}>
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/multiple-formats.jpg)' }}>
                               <div class="card-body">
                               <img
                                 className="icon-05"
@@ -362,7 +362,7 @@ export default function Services() {
                         <div className="sec-title mb_30">
                         <img
                                 className="services-images"
-                                src="/assets/services-footer/conntent-serviecs-750x470.jpg"
+                                src="/assets/services-footer/conntent-serviecs.jpg"
                               ></img>
                         </div>
                       </div>
