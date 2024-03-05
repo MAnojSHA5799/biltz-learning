@@ -18,7 +18,7 @@ export default function Menu() {
                 <li className=""><Link href="/about-us">About Us</Link></li>
                 
                
-                <li className="dropdown"><Link href="/services">Services</Link>
+                <li className="dropdown"><Link href="/service">Services</Link>
                     <ul>
                         <li><Link href="custom-elearning">Custom e-Learning</Link></li>
                         <li><Link href="/content-services">Content Services</Link></li>

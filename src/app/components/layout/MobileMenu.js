@@ -49,7 +49,7 @@ export default function MobileMenu({
                     isActive.key == 2 ? "dropdown current" : "dropdown"
                   }
                 >
-                  <Link href="/services">Services</Link>
+                  <Link href="/service">Services</Link>
                   <ul
                     style={{
                       display: `${isActive.key == 2 ? "block" : "none"}`,
