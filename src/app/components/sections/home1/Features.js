@@ -193,7 +193,7 @@ export default function Features() {
                       <p style={{ textAlign: "left" }}>
                         Our specialized e-Learning content, created to fulfill
                         particular learning objectives, guarantees engagement
-                        with cutting-edge e-Learning technology.
+                        with cutting-edge<br /> e-Learning technology.
                       </p>
                     </div>
                   </div>
@@ -207,7 +207,6 @@ export default function Features() {
                 data-wow-duration="1500ms"
               >
                 <div className="inner-box">
-                {/* style={{ padding: '20px', margin: '10px', width: '600px' }} */}
                   <figure className="image-box">
                     <img
                       src="/assets/Image/home_page/Content-Services-image.jpg"
@@ -230,10 +229,10 @@ export default function Features() {
                       <p style={{ textAlign: "left" }}>
                         We create and localize content for your e-Learning to
                         advance skills, improve performance, and get results.
+                        
                       </p>
                       <br />
-                      <br />
-                      <br />
+                      
                     </div>
                   </div>
                 </div>
