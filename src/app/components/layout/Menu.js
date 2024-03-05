@@ -18,12 +18,12 @@ export default function Menu() {
                 <li className=""><Link href="/about-us">About Us</Link></li>
                 
                
-                <li className="dropdown"><Link href="/Services">Services</Link>
+                <li className="dropdown"><Link href="/services">Services</Link>
                     <ul>
-                        <li><Link href="/Services/Custom-eLearning">Custom e-Learning</Link></li>
-                        <li><Link href="/Services/Content-Services">Content Services</Link></li>
-                        <li><Link href="/Services/video-production">Video Production</Link></li>
-                        <li><Link href="/Services/learning-consulting">Learning Consulting</Link></li>
+                        <li><Link href="custom-elearning">Custom e-Learning</Link></li>
+                        <li><Link href="/content-services">Content Services</Link></li>
+                        <li><Link href="/video-production">Video Production</Link></li>
+                        <li><Link href="/learning-consulting">Learning Consulting</Link></li>
                     </ul>
                 </li>
                 <li className=""><Link href="/why-us">Why Us</Link></li>

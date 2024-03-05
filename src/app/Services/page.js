@@ -87,7 +87,7 @@ export default function Services() {
                             ></img>
                           </div>
                           <h3>
-                            <Link href="/Services/Custom-eLearning">
+                            <Link href="custom-elearning">
                               Custom e-Learning
                             </Link>
                           </h3>
@@ -100,7 +100,7 @@ export default function Services() {
                           <br />
                           <div className="btn-box">
                             <Link
-                              href="/Services/Custom-eLearning"
+                              href="/custom-elearning"
                               className="theme-btn-one"
                             >
                               Read More
@@ -133,7 +133,7 @@ export default function Services() {
                             ></img>
                           </div>
                           <h3>
-                            <Link href="/Services/Content-Services">
+                            <Link href="content-services">
                               Content services
                             </Link>
                           </h3>
@@ -142,7 +142,7 @@ export default function Services() {
                           </p>
                           <div className="btn-box">
                             <Link
-                              href="/Services/Content-Services"
+                              href="/content-services"
                               className="theme-btn-one"
                             >
                               Read More
@@ -176,7 +176,7 @@ export default function Services() {
                             ></img>
                           </div>
                           <h3>
-                            <Link href="/Services/video-production">
+                            <Link href="/video-production">
                               Video production
                             </Link>
                           </h3>
@@ -189,7 +189,7 @@ export default function Services() {
                           <br />
                           <div className="btn-box">
                             <Link
-                              href="/Services/video-production"
+                              href="/video-production"
                               className="theme-btn-one"
                             >
                               Read More
@@ -222,7 +222,7 @@ export default function Services() {
                             ></img>
                           </div>
                           <h3>
-                            <Link href="/Services/learning-consulting">
+                            <Link href="/learning-consulting">
                               Learning consulting
                             </Link>
                           </h3>
@@ -235,7 +235,7 @@ export default function Services() {
                           </p>
                           <div className="btn-box">
                             <Link
-                              href="/Services/learning-consulting"
+                              href="/learning-consulting"
                               className="theme-btn-one"
                             >
                               Read More

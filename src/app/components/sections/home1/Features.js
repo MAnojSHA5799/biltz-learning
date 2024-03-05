@@ -186,7 +186,7 @@ export default function Features() {
                         ></img>
                       </div>
                       <h3 style={{ textAlign: "left" }}>
-                        <Link href="/Services/Custom-eLearning">
+                        <Link href="/custom-elearning">
                           Custom e-Learning
                         </Link>
                       </h3>
@@ -223,7 +223,7 @@ export default function Features() {
                         ></img>
                       </div>
                       <h3 style={{ textAlign: "left" }}>
-                        <Link href="/Services/Content-Services">
+                        <Link href="/Content-services">
                           Content services
                         </Link>
                       </h3>
@@ -260,7 +260,7 @@ export default function Features() {
                         ></img>
                       </div>
                       <h3 style={{ textAlign: "left" }}>
-                        <Link href="/Services/video-production">
+                        <Link href="/video-production">
                           Video production
                         </Link>
                       </h3>
@@ -294,7 +294,7 @@ export default function Features() {
                         ></img>
                       </div>
                       <h3 style={{ textAlign: "left" }}>
-                        <Link href="/Services/learning-consulting">
+                        <Link href="/learning-consulting">
                           Learning consulting
                         </Link>
                       </h3>

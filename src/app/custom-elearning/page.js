@@ -1,14 +1,14 @@
 "use client";
-import ServiceTabs1 from "../../components/elements/ServiceTabs1";
-import Layout from "../../components/layout/Layout";
-import AuditSlider1 from "../../components/slider/AuditSlider1";
-import ServiceSlider1 from "../../components/slider/ServiceSlider1";
+import { useRouter } from "next/navigation";
+import Layout from "../components/layout/Layout";
 import Link from "next/link";
 import axios from "axios";
-import '../../main.css'
-import '../../cards.css'
+import "../main.css";
+import '../cards.css'
+
+// import { useState } from 'react'
 import React, { useState } from "react";
-import { useRouter } from "next/navigation";
+
 export default function Services() {
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -16,8 +16,27 @@ export default function Services() {
     name: "",
     email: "",
     phone: "",
-    selectedOption: "Learning Consulting", // Default value for the select box
+    selectedOption: "Custom eLearning", // Default value for the select box
   });
+  const [successAlert, setSuccessAlert] = useState(false);
+  const [isActive, setIsActive] = useState({
+    status: false,
+    key: 1,
+  });
+
+  const handleToggle = (key) => {
+    if (isActive.key === key) {
+      setIsActive({
+        status: false,
+      });
+    } else {
+      setIsActive({
+        status: true,
+        key,
+      });
+    }
+  };
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -30,12 +49,13 @@ export default function Services() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
+
     console.log("Form Data:", formData);
 
     try {
       // Make the Axios POST request
       const response = await axios.post(
-        "https://biltz-backend.vercel.app/consultationQuery",
+        "http://localhost:2410/consultationQuery",
         formData,
         {
           headers: {
@@ -57,8 +77,9 @@ export default function Services() {
         email: "",
         phone: "",
       });
-
       setIsSubmitting(false);
+
+      // Optional: You can use router.reload() to refresh the page
       router.refresh();
 
       // Optionally, you can reset the success alert after a certain delay
@@ -66,6 +87,10 @@ export default function Services() {
       // Handle errors
       console.error("Error posting data:", error);
     }
+  };
+
+  const handleReload = () => {
+    router.reload("/");
   };
   async function handleSubmit1(event) {
     event.preventDefault();
@@ -97,7 +122,7 @@ export default function Services() {
       <Layout
         headerStyle={2}
         footerStyle={1}
-        breadcrumbTitle="Learning Consulting"
+        breadcrumbTitle="Custom e-Learning"
       >
         <div>
           <section className="service-details p_relative">
@@ -110,10 +135,10 @@ export default function Services() {
                       <ul className="category-list clearfix">
                         <li>
                           <Link
-                            href="/Services/learning-consulting"
+                            href="/Services/Custom-eLearning"
                             className="current"
                           >
-                            Learning Consulting
+                            Custom e-Learning
                           </Link>
                         </li>
                         <li>
@@ -122,8 +147,8 @@ export default function Services() {
                           </Link>
                         </li>
                         <li>
-                          <Link href="/Services/Custom-eLearning">
-                            Custom e-Learning
+                          <Link href="/Services/learning-consulting">
+                            Learning Consulting
                           </Link>
                         </li>
                         <li>
@@ -171,119 +196,105 @@ export default function Services() {
                 <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                   <div className="service-details-content">
                     <div className="content-one mb_40">
-                     
                       <div className="text">
                         <h2>
-                          Strategic learning partnership with training
-                          technology
+                          Tailored learning modules with e-Learning technology
                         </h2>
                         <p>
-                          Our learning consulting services focus on aligning
-                          education strategies with business goals, creating a
-                          seamless bridge between learning and organizational
-                          success, and leveraging cutting-edge training
-                          technology.
+                          Crafted to meet speciﬁc learning objectives, our
+                          custom e-Learning content with advanced e-Learning
+                          technology ensures engagement and knowledge retention.
                         </p>
-                       
                       </div>
                     </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-sm-6">
-                          <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Training-need-analysis.jpg)' }}>
-                              <div class="card-body">
-                              <img
-                                className="icon-05"
-                                src="/assets/images/new-icon/Training need analysis.png"
-                              ></img>
-                                <h3 class="card-title text-white text-center">Training Needs Analysis</h3>
+                    <div className="container">
+                      <div className="row">
+                        <div className="col-sm-6">
+                          <div className="card card-flip custom-card-height">
+                            <div className="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/simulation-and-gamification.jpg)' }}>
+                              <div className="card-body">
+                              <img className="icon-05" src="/assets/images/new-icon/gamification.png"></img>
+                                <h3 className="card-title text-white text-center">Simulations & Gamification</h3>
                                
                               </div>
                             </div>
-                            <div class="card-back bg-dark">
-                              <div class="card-body">
-                                <p >
-                                We specialize in analyzing an organization’s
-                              current learning function, employee skill gaps,
-                              strategic goals, and designing effective learning
-                              roadmaps that address the gaps and help drive
-                              measurable business results.
+                            <div className="card-back bg-dark">
+                              <div className="card-body">
+                                <p>
+                                We create simulations to provide real life
+                              understanding of difficult scenarios and help
+                              create interactive modules based on practical
+                              examples from routine situations.
+                              <br />
+                              We create gamified training content and create
+                              game concepts, design gameplay, implement games,
+                              and update and improve gameplay.
                                 </p>
                                
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div class="col-sm-6">
-                          <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/design-process-analysis.jpg)' }}>
-                              <div class="card-body">
-                              <img
-                                className="icon-05"
-                                src="/assets/images/new-icon/design process analysis.png"
-                              ></img>
-                                <h3 class="card-title text-white text-center">Design Process Analysis</h3>
+                        <div className="col-sm-6">
+                          <div className="card card-flip custom-card-height">
+                            <div className="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/microlearning.jpg)' }}>
+                              <div className="card-body">
+                              <img className="icon-05" src="/assets/images/new-icon/Micro learning logo (1).png"></img>
+                                <h3 className="card-title text-white text-center">Micro Learning</h3>
                                
                               </div>
                             </div>
-                            <div class="card-back bg-dark">
-                              <div class="card-body">
-                                <p >
-                                Our consultants study your present L&D design and
-                              suggest actionable improvements based on internal
-                              data.
+                            <div className="card-back bg-dark">
+                              <div className="card-body">
+                                <p>
+                                Blitz Learning provides learning in small and
+                              manageable nuggets in a focused and precise way
+                              via its micro-learning offerings. These nuggets
+                              contain short-term learning activities, lesson
+                              plans, projects, and assignments.
                                 </p>
                           
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div class="col-sm-6">
-                          <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/learning-effectiveness-strategy.jpg)' }}>
-                              <div class="card-body">
-                              <img
-                                className="icon-05"
-                                src="/assets/images/new-icon/learning effectiveness strategy.png"
-                              ></img>
-                                <h3 class="card-title text-white text-center">Learning Effectiveness Strategy</h3>
+                        <div className="col-sm-6">
+                          <div className="card card-flip custom-card-height">
+                            <div className="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/mobile-learning.jpg)' }}>
+                              <div className="card-body">
+                              <img className="icon-05" src="/assets/images/new-icon/mobile learning.png"></img>
+                                <h3 className="card-title text-white text-center">Mobile Learning</h3>
                               </div>
                             </div>
-                            <div class="card-back bg-dark">
-                              <div class="card-body text-primary">
-                                <p >
-                                With our expertise in designing learner-centric
-                              solutions, we understand how to cultivate an
-                              effective, engaging and result-driven learning
-                              environment using tested and trusted frameworks
-                              designed by industry veterans.
+                            <div className="card-back bg-dark">
+                              <div className="card-body text-primary">
+                                <p>
+                                Blitz Learning develops mobile training content
+                              across all platforms (iOS, Android, Windows) with
+                              interactive functionalities.
                                 </p>
                                
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div class="col-sm-6">
-                          <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Learning-execution-strategy-410x280.jpg)' }}>
-                              <div class="card-body">
-                              <img
-                                className="icon-05"
-                                src="/assets/images/new-icon/learning execution strategy.png"
-                              ></img>
-                                <h3 class="card-title text-white text-center">Learning Execution Strategy</h3>
+                        <div className="col-sm-6">
+                          <div className="card card-flip custom-card-height">
+                            <div className="card-front custom-card-image"  style={{ backgroundImage: 'url(/assets/services/VR-AR.jpg)' }}>
+                              <div className="card-body">
+                              <img className="icon-05" src="/assets/images/new-icon/AR,VR vdo training.png"></img>
+                                <h3 className="card-title text-white text-center">VR/AR Based Training</h3>
                                 
                               </div>
                             </div>
-                            <div class="card-back bg-dark">
-                              <div class="card-body">
-                                <p >
-                                Blitz Learning’s domain-specific learning
-                              consultants conduct workshops in close
-                              collaboration with SMEs to identify the existing
-                              gaps, analyze existing infrastructure and thereby
-                              draft the right training.
+                            <div className="card-back bg-dark">
+                              <div className="card-body">
+                                <p>
+                                With a dedicated VR/AR team, Blitz Learning uses
+                              best in className 3D and special effects tools to
+                              design cross-platform VR solutions that simulate
+                              real-life scenarios for enhanced learner
+                              engagement.
                                 </p>
                             
                               </div>
@@ -295,14 +306,13 @@ export default function Services() {
                       </div>
                       <div className="text mt_10">
                         <p>
-                        With our expertise in designing learner-centric
-                          solutions, we offer learning consulting to L&D
-                          departments to optimize actionable touch points of
-                          their L&D strategy.
+                        Blitz Learning is a leading e-Learning platform that
+                          develops engaging, innovative, and cost-effective
+                          digital learning products to help clients increase
+                          their efficiency.
                         </p>
                       </div>
                     </div>
-                    
                   </div>
                 </div>
               </div>
@@ -325,29 +335,29 @@ export default function Services() {
                 <div className="row clearfix mt_90">
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div className="content_block_three">
-                      <div className="content-box p_relative">
+                      <div className="content-box p_relative ">
                         <div className="sec-title mb_30">
                         <img
                                 className="services-images"
-                                src="/assets/services-footer/learning.jpg"
+                                src="/assets/services-footer/custom.jpg"
                               ></img>
                         </div>
-                       
+                        
                       </div>
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div className="content_block_four">
-                      <div className="content-box p_relative  centred">
+                      <div className="content-box p_relative centred">
                         <h3>
                           Request for our free <br />
                           consultation
                         </h3>
                         <div className="form-inner">
                           <form
-                            //  action="index.php" 
-                            //  method="post"
-                            id="contact-form"
+                          id="contact-form"
+                            // action="index.php" 
+                            // method="post"
                             className="default-form"
                             onSubmit={handleSubmit1}
                           >
@@ -390,17 +400,15 @@ export default function Services() {
                                     // value={formData.selectedOption}
                                     // onChange={handleInputChange}
                                   >
-                                    <option value="Learning Consulting">
-                                      Learning Consulting
+                                    <option value="Custom eLearning">
+                                      Custom e-Learning
                                     </option>
                                     <option value="Content Services">
                                       Content Services
                                     </option>
-                                    <option value="Custom eLearning">
-                                      {" "}
-                                      Custom e-Learning
+                                    <option value="Learning Consulting">
+                                      Learning Consulting
                                     </option>
-
                                     <option value="Video Production">
                                       Video Production
                                     </option>
@@ -409,10 +417,15 @@ export default function Services() {
                               </div>
                               <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
                                 <button
+                                  // type="submit"
+                                  // className="theme-btn-one"
+                                  // disabled={isSubmitting}
                                   type="submit" className="theme-btn-one" value="Submit"
                                 >
-                                  Send Request
+                                  Send request
                                 </button>
+
+                                {/* <button onClick={handleReload}>Reload</button> */}
                               </div>
                             </div>
                           </form>

@@ -1,13 +1,13 @@
 "use client";
-import Layout from "../../components/layout/Layout";
-import TestimonialSlider5 from "../../components/slider/TestimonialSlider5";
-import TestimonialSlider1 from "../../components/slider/TestimonialSlider1";
+import Layout from "../components/layout/Layout";
+import TestimonialSlider5 from "../components/slider/TestimonialSlider5";
+import TestimonialSlider1 from "../components/slider/TestimonialSlider1";
 import Link from "next/link";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import axios from "axios";
-import "../../main.css";
-import "../../cards.css";
+import "../main.css";
+import "../cards.css";
 export default function Services() {
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);

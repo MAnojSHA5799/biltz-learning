@@ -49,30 +49,30 @@ export default function MobileMenu({
                     isActive.key == 2 ? "dropdown current" : "dropdown"
                   }
                 >
-                  <Link href="/Services">Services</Link>
+                  <Link href="/services">Services</Link>
                   <ul
                     style={{
                       display: `${isActive.key == 2 ? "block" : "none"}`,
                     }}
                   >
                     <li>
-                      <Link href="/Services/Custom-eLearning">
+                      <Link href="/custom-elearning">
                         Custom e-Learning
                       </Link>
                     </li>
                     <li>
-                      <Link href="/Services/Content-Services">
+                      <Link href="/content-services">
                         Content Services
                       </Link>
                     </li>
                    
                     <li>
-                      <Link href="/Services/video-production">
+                      <Link href="/video-production">
                         Video Production
                       </Link>
                     </li>
                     <li>
-                      <Link href="/Services/learning-consulting">
+                      <Link href="/learning-consulting">
                         Learning Consulting
                       </Link>
                     </li>

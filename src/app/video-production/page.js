@@ -1,10 +1,10 @@
 "use client";
-import Layout from "../../components/layout/Layout";
+import Layout from "../components/layout/Layout";
 import Link from "next/link";
 import React, { useState } from "react";
 import axios from "axios";
-import '../../main.css'
-import '../../cards.css'
+import '../main.css'
+import '../cards.css'
 import { useRouter } from "next/navigation";
 export default function Services() {
   const router = useRouter();
