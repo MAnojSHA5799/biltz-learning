@@ -232,6 +232,8 @@ export default function Features() {
                         advance skills, improve performance, and get results.
                       </p>
                       <br />
+                      <br />
+                      <br />
                     </div>
                   </div>
                 </div>
