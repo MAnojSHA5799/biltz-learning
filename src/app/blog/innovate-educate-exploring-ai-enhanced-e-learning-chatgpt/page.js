@@ -112,7 +112,7 @@ export default function Home() {
                           </li>
                         </ul>
                         <h2>
-                        Innovate to educate: Exploring AI-Enhanced e-Learning with ChatGPT
+                        Innovate to educate: exploring AI-Enhanced e-Learning with ChatGPT
                         </h2>
                         <h4 className="blog-heading">Introduction :</h4>
                         <p>
@@ -142,7 +142,7 @@ export default function Home() {
                         <p>
                         The fusion of AI, particularly ChatGPT, with e-learning platforms heralds a new era of innovation in education. By personalizing learning experiences, providing real-time feedback, enhancing interactivity, and overcoming language barriers, ChatGPT contributes to the creation of a more inclusive and effective educational landscape. As we navigate this transformative journey, it is essential to remain mindful of ethical considerations, ensuring that AI is harnessed responsibly for the betterment of education worldwide.
                         </p>
-                        <blockquote>
+                        {/* <blockquote>
                           <div className="icon-box">
                             <i className="icon-47"></i>
                           </div>
@@ -150,7 +150,7 @@ export default function Home() {
                           As a Digital Tech professional with significant experience, Neha Tyagi has mastered the art of teamwork. Throughout her career, she maintains a commitment to continuous learning. Currently, Neha is delving into innovative technologies aimed at transforming businesses.
                           </p>
                           <h4>Neha Tyagi</h4>
-                        </blockquote>
+                        </blockquote> */}
                         {/* <p>
                           Tortor etiam sed suspendisse faucibus ac volutpat
                           mattis tortor nec. Orc velit posuere turpis amet

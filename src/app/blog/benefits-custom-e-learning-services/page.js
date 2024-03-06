@@ -162,7 +162,7 @@ export default function Home() {
                         <p>
                         Custom e-learning services offer a wide range of benefits that make them indispensable in modern education and training. They provide tailored learning experiences, save costs in the long run, offer flexibility, engage learners effectively, and produce better learning outcomes. Their scalability, consistency, and ability to be quickly updated make them an ideal choice for businesses and educational institutions. Furthermore, the tracking and reporting features enhance the ability to monitor progress, and the focus on accessibility and inclusivity ensures that education is truly for everyone. Embracing custom e-learning services is not just a trend but a strategic decision that can transform the way we learn and train for the better.
                         </p>
-                        <blockquote>
+                        {/* <blockquote>
                           <div className="icon-box">
                             <i className="icon-47"></i>
                           </div>
@@ -170,7 +170,7 @@ export default function Home() {
                           As a Digital Tech professional with significant experience, Neha Tyagi has mastered the art of teamwork. Throughout her career, she maintains a commitment to continuous learning. Currently, Neha is delving into innovative technologies aimed at transforming businesses.
                           </p>
                           <h4>Neha Tyagi</h4>
-                        </blockquote>
+                        </blockquote> */}
                         {/* <p>
                           Tortor etiam sed suspendisse faucibus ac volutpat
                           mattis tortor nec. Orc velit posuere turpis amet

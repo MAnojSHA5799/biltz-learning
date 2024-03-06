@@ -266,7 +266,7 @@ export default function Services() {
                         </div>
                         <div class="col-sm-6">
                           <div class="card card-flip custom-card-height">
-                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Learning-execution-strategy-410x280.jpg)' }}>
+                            <div class="card-front custom-card-image" style={{ backgroundImage: 'url(/assets/services/Learning-execution-strategy.jpg)' }}>
                               <div class="card-body">
                               <img
                                 className="icon-05"

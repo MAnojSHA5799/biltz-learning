@@ -93,10 +93,10 @@ export default function Home() {
                     <div className="inner-box">
                       <div className="image-box">
                         <figure className="blog-images">
-                          <img className="blog-img01" src="/assets/images/Blog/blog-2.jpg" alt="" />
+                          <img className="blog-img01" src="/assets/images/Blog/eLearning-market-projections.jpg" alt="" />
                         </figure>
                         <h2>
-                          13<span>Dec</span>
+                          03<span>May</span>
                         </h2>
                       </div>
                       <div className="lower-content">
@@ -111,64 +111,42 @@ export default function Home() {
                           </li>
                         </ul>
                         <h2>
-                        Evolving horizons: Revealing the apex of E-Learning trends in 2024
+                        e-Learning market projections
                         </h2>
                         <h4 className="blog-heading">Introduction</h4>
                         <p>
-                        In the dynamic landscape of education, e-Learning has emerged as a transformative force, continually shaping the way we acquire knowledge. As we step into 2024, the horizons of e-learning trends are evolving at an unprecedented pace, ushering in a new era of possibilities and opportunities. The convergence of technology, pedagogy, and user experience is giving rise to e-Learning trends that promise to redefine the apex of e-learning. Let’s delve into the exciting developments that are set to dominate the educational sphere in the coming year.
+                        The eLearning market is expected to grow significantly in the coming years as more and more learners and organizations turn to online learning solutions. The Global eLearning Corporate Compliance Training Market is anticipated to rise at a considerable rate during the forecast period, between 2023 and 2028. In 2021, the market is growing at a steady rate, and with the rising adoption of strategies by key players, the market is expected to rise over the projected horizon.
                         </p>
-                        <h4 className="blog-heading">Immersive learning experiences:</h4>
                         <p>
-                        The immersive learning experience is poised to take center stage in 2024. Augmented Reality (AR) and Virtual Reality (VR) technologies are becoming more accessible, enabling educators to create virtual environments that simulate real-world scenarios. This hands-on approach enhances engagement and understanding, making complex concepts more tangible and memorable. From virtual field trips to simulated experiments, learners can expect a more immersive and interactive educational journey.
+                        The global eLearning Corporate Compliance Training market size was valued at USD 4404.68 million in 2022 and is expected to expand at a CAGR of 12.3% during the forecast period, reaching USD 8833.45 million by 2028.
                         </p>
-                        <h4 className="blog-heading">Personalized learning pathways</h4>
                         <p>
-                        One size no longer fits all in the realm of e-learning. Personalized learning pathways, powered by artificial intelligence (AI), are gaining prominence. These adaptive systems analyze individual learning styles, preferences, and progress to tailor educational content. As a result, students receive a customized curriculum that aligns with their strengths and addresses their weaknesses. This shift towards personalized learning ensures a more effective and efficient educational experience for every learner.
+                        According to The Business Research Company’s market research, the eLearning market is projected to experience substantial growth in the coming years. The global e-learning market size is expected to grow from $245.5 billion in 2022 to $278 billion in 2023, at a CAGR of more than 13%. By 2027, the market is projected to reach $462.6 billion, growing at a CAGR of more than 13%. North America was the largest region in the global eLearning market report in 2022.
                         </p>
-                        <h4 className="blog-heading">Blockchain for credentialing and certification</h4>
                         <p>
-                        In 2024, blockchain technology is making waves in the field of credentialing and certification. The decentralized nature of blockchain ensures the security and authenticity of academic credentials. This innovation not only streamlines the verification process for employers but also empowers learners by giving them ownership and control over their educational records. Blockchain is set to revolutionize the way we view and authenticate academic achievements, providing a transparent and tamper-proof system.
+                        The COVID-19 pandemic has accelerated the adoption of remote learning practices, which is expected to drive the growth of the e-learning market in the future. Remote learning involves the use of technology such as video conferencing, virtual examinations, and discussion boards to facilitate distance learning. This has allowed students and teachers to stay connected and engaged with the curriculum while working from home.
                         </p>
-                        <h4 className="blog-heading">Collaborative and social learning platforms</h4>
                         <p>
-                        The traditional notion of isolated learning is evolving into a more collaborative and social experience. Learning Management Systems (LMS) are incorporating social features, enabling students to connect, collaborate, and share insights seamlessly. Discussion forums, group projects, and collaborative tools are fostering a sense of community in the digital learning space. As we progress into 2024, expect to see an increasing emphasis on building virtual learning communities that enhance the overall educational experience.
+                        For example, in the United States, the National Council for State Authorization Reciprocity Agreements (NC-SARA) reported a 93% increase in distance education enrolment from fall 2019 to fall 2020, with 2,201 SARA schools reporting more than 5.8 million students enrolled solely in distant education.
                         </p>
-                        <h4 className="blog-heading">Continuous learning and micro-credentials</h4>
                         <p>
-                        The concept of education as a lifelong journey is gaining momentum. In 2024, there is a shift towards continuous learning and the recognition of micro-credentials. Short, focused courses allow learners to acquire specific skills and knowledge without committing to traditional lengthy programs. This trend aligns with the fast-paced nature of the modern workforce, where upskilling and reskilling are essential. Micro-credentials provide a flexible and efficient way for individuals to stay relevant in their respective fields.
+                        Innovative technologies such as artificial intelligence, augmented reality, gamification, big data, and mixed reality are being developed by major companies to sustain their position in the market. Skilldora Inc., a US-based ed-tech startup, partnered with D-ID, an Israel-based information technology company, to introduce an eLearning platform and app in the United States that uses AI instructors.
                         </p>
-                        <h4 className="blog-heading">Conclusion</h4>
+                        <h4 className="blog-heading">Here are some projections for the eLearning market from 2024 to 2030 based on various reports:</h4>
+                        <ul>
+                <li className="our-work-li">
+                The global eLearning market is expected to continue its growth trajectory and reach a market size of $404 billion by 2025, growing at a CAGR of 15% from 2021 to 2025. (Source: Technavio)
+                </li>
+                <li className="our-work-li">The corporate eLearning market is expected to continue to grow and reach $64 billion by 2030, growing at a CAGR of 10% from 2021 to 2030. (Source: ResearchAndMarkets)</li>
+                <li className="our-work-li">The online higher education market is expected to grow at a CAGR of 10.28% during the period 2020-2030. (Source: Technavio)</li>
+                <li className="our-work-li">The mobile learning market is expected to reach $165.36 billion by 2030, growing at a CAGR of 21.5% from 2021 to 2030. (Source: MarketsandMarkets)</li>
+                <li className="our-work-li">The self-paced eLearning market is expected to reach $41.36 billion by 2030, growing at a CAGR of 5.4% from 2021 to 2030. (Source: MarketsandMarkets)</li>
+              </ul>
                         <p>
-                        As we navigate the evolving horizons of e-learning trends in 2024, these trends collectively paint a picture of a more dynamic, inclusive, and personalized educational landscape. From immersive technologies to blockchain-secured credentials, the apex of e-learning is pushing boundaries and unlocking new possibilities. Embracing these trends will not only transform the way we learn but also pave the way for a more accessible and equitable future of education. The journey into 2024 promises to be an exciting one, marked by innovation, collaboration, and the continual pursuit of knowledge in the digital age.
+                        Overall, it’s evident that the eLearning market will continue to grow at a significant pace in the coming years, driven by factors such as the increasing adoption of online learning solutions, technological advancements, and the rising demand for upskilling and reskilling.
                         </p>
-                        {/* <blockquote>
-                          <div className="icon-box">
-                            <i className="icon-47"></i>
-                          </div>
-                          <p>
-                          As a Digital Tech professional with significant experience, Neha Tyagi has mastered the art of teamwork. Throughout her career, she maintains a commitment to continuous learning. Currently, Neha is delving into innovative technologies aimed at transforming businesses.
-                          </p>
-                          <h4>Neha Tyagi</h4>
-                        </blockquote> */}
-                        {/* <p>
-                          Tortor etiam sed suspendisse faucibus ac volutpat
-                          mattis tortor nec. Orc velit posuere turpis amet
-                          Lectus lacus lectus habitasse amet quam libero lorem
-                          Volutpat maecenas viverra consequat proin condimentum
-                          diam donec aliquet natoque quam vitae leo risus. Eget
-                          neque proin in dolor cursus bibendum urna dictum.
-                        </p> */}
-                        {/* <ul className="tags-list clearfix">
-                          <li>
-                            <Link href="/blog">Agency</Link>
-                          </li>
-                          <li>
-                            <Link href="/blog">Business</Link>
-                          </li>
-                          <li>
-                            <Link href="/blog">Consult</Link>
-                          </li>
-                        </ul> */}
+                      
+                         
                       </div>
                     </div>
                   </div>
@@ -186,9 +164,9 @@ export default function Home() {
                     <h3>Leave a comments</h3>
                     <div className="form-inner">
                     <form
-                     id="contact-form"
       // action="blog-details"
       // method="post"
+      id="contact-form"
       className="default-form"
       onSubmit={handleSubmit1}
     >
@@ -223,7 +201,7 @@ export default function Home() {
         </div>
         <div className="col-lg-12 col-md-12 col-sm-12 form-group">
           <div className="message-btn">
-            <button type="submit" className="theme-btn-one" 
+            <button type="submit" className="theme-btn-one"  
             // disabled={isSubmitting}
             >
               Post Comment
@@ -282,7 +260,7 @@ export default function Home() {
                       </ul>
                     </div>
                   </div> */}
-                 <div className="sidebar-widget post-widget">
+                  <div className="sidebar-widget post-widget">
                     <div className="widget-title">
                       <h3>Recent article</h3>
                     </div>

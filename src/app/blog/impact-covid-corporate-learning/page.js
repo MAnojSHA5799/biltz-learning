@@ -93,10 +93,10 @@ export default function Home() {
                     <div className="inner-box">
                       <div className="image-box">
                         <figure className="blog-images">
-                          <img className="blog-img01" src="/assets/images/Blog/blog-2.jpg" alt="" />
+                          <img className="blog-img01" src="/assets/images/Blog/Impact-of-COVID-on-Corporate-Learning1A.jpg" alt="" />
                         </figure>
                         <h2>
-                          13<span>Dec</span>
+                          15<span>Apr</span>
                         </h2>
                       </div>
                       <div className="lower-content">
@@ -111,64 +111,26 @@ export default function Home() {
                           </li>
                         </ul>
                         <h2>
-                        Evolving horizons: Revealing the apex of E-Learning trends in 2024
+                        Impact of COVID on corporate learning
                         </h2>
                         <h4 className="blog-heading">Introduction</h4>
                         <p>
-                        In the dynamic landscape of education, e-Learning has emerged as a transformative force, continually shaping the way we acquire knowledge. As we step into 2024, the horizons of e-learning trends are evolving at an unprecedented pace, ushering in a new era of possibilities and opportunities. The convergence of technology, pedagogy, and user experience is giving rise to e-Learning trends that promise to redefine the apex of e-learning. Let’s delve into the exciting developments that are set to dominate the educational sphere in the coming year.
+                        The COVID-19 pandemic has had a significant impact on corporate learning across the globe. With many countries implementing social distancing measures and restricting large gatherings, businesses have had to adapt to new ways of training and developing their workforce. Some of the impacts of COVID-19 on corporate learning include:
+                        <ul>
+                <li className="our-work-li">
+                Increased demand for online learning: As more people work from home, online learning has become the primary mode of corporate training. Companies are increasingly turning to virtual learning platforms to provide their employees with training and development opportunities.
+                </li>
+                <li className="our-work-li">Emphasis on reskilling and upskilling: The pandemic has accelerated the pace of technological change, and many jobs are becoming obsolete. To stay competitive, businesses are investing in reskilling and upskilling their employees to prepare them for the jobs of the future.</li>
+                <li className="our-work-li">Greater focus on health and safety training: With the pandemic continuing to impact businesses, there has been a heightened focus on health and safety training. Companies are training their employees on new safety protocols, such as social distancing and the proper use of personal protective equipment.</li>
+                <li className="our-work-li">Increased use of microlearning: Microlearning, or bite-sized learning, has become popular as businesses look for ways to deliver training in shorter, more focused sessions. This approach allows employees to learn on the go and at their own pace.</li>
+                <li className="our-work-li">Changes to the delivery of training: With many employees working remotely, there has been a shift towards delivering training through virtual instructor-led sessions and webinars. This approach allows trainers to deliver training to employees regardless of their location.</li>
+
+              </ul>
                         </p>
-                        <h4 className="blog-heading">Immersive learning experiences:</h4>
                         <p>
-                        The immersive learning experience is poised to take center stage in 2024. Augmented Reality (AR) and Virtual Reality (VR) technologies are becoming more accessible, enabling educators to create virtual environments that simulate real-world scenarios. This hands-on approach enhances engagement and understanding, making complex concepts more tangible and memorable. From virtual field trips to simulated experiments, learners can expect a more immersive and interactive educational journey.
+                        COVID-19 has accelerated the adoption of online learning and changed the way businesses approach corporate training and development. Companies that are agile and quick to adapt to these changes are more likely to succeed in the new normal.
                         </p>
-                        <h4 className="blog-heading">Personalized learning pathways</h4>
-                        <p>
-                        One size no longer fits all in the realm of e-learning. Personalized learning pathways, powered by artificial intelligence (AI), are gaining prominence. These adaptive systems analyze individual learning styles, preferences, and progress to tailor educational content. As a result, students receive a customized curriculum that aligns with their strengths and addresses their weaknesses. This shift towards personalized learning ensures a more effective and efficient educational experience for every learner.
-                        </p>
-                        <h4 className="blog-heading">Blockchain for credentialing and certification</h4>
-                        <p>
-                        In 2024, blockchain technology is making waves in the field of credentialing and certification. The decentralized nature of blockchain ensures the security and authenticity of academic credentials. This innovation not only streamlines the verification process for employers but also empowers learners by giving them ownership and control over their educational records. Blockchain is set to revolutionize the way we view and authenticate academic achievements, providing a transparent and tamper-proof system.
-                        </p>
-                        <h4 className="blog-heading">Collaborative and social learning platforms</h4>
-                        <p>
-                        The traditional notion of isolated learning is evolving into a more collaborative and social experience. Learning Management Systems (LMS) are incorporating social features, enabling students to connect, collaborate, and share insights seamlessly. Discussion forums, group projects, and collaborative tools are fostering a sense of community in the digital learning space. As we progress into 2024, expect to see an increasing emphasis on building virtual learning communities that enhance the overall educational experience.
-                        </p>
-                        <h4 className="blog-heading">Continuous learning and micro-credentials</h4>
-                        <p>
-                        The concept of education as a lifelong journey is gaining momentum. In 2024, there is a shift towards continuous learning and the recognition of micro-credentials. Short, focused courses allow learners to acquire specific skills and knowledge without committing to traditional lengthy programs. This trend aligns with the fast-paced nature of the modern workforce, where upskilling and reskilling are essential. Micro-credentials provide a flexible and efficient way for individuals to stay relevant in their respective fields.
-                        </p>
-                        <h4 className="blog-heading">Conclusion</h4>
-                        <p>
-                        As we navigate the evolving horizons of e-learning trends in 2024, these trends collectively paint a picture of a more dynamic, inclusive, and personalized educational landscape. From immersive technologies to blockchain-secured credentials, the apex of e-learning is pushing boundaries and unlocking new possibilities. Embracing these trends will not only transform the way we learn but also pave the way for a more accessible and equitable future of education. The journey into 2024 promises to be an exciting one, marked by innovation, collaboration, and the continual pursuit of knowledge in the digital age.
-                        </p>
-                        {/* <blockquote>
-                          <div className="icon-box">
-                            <i className="icon-47"></i>
-                          </div>
-                          <p>
-                          As a Digital Tech professional with significant experience, Neha Tyagi has mastered the art of teamwork. Throughout her career, she maintains a commitment to continuous learning. Currently, Neha is delving into innovative technologies aimed at transforming businesses.
-                          </p>
-                          <h4>Neha Tyagi</h4>
-                        </blockquote> */}
-                        {/* <p>
-                          Tortor etiam sed suspendisse faucibus ac volutpat
-                          mattis tortor nec. Orc velit posuere turpis amet
-                          Lectus lacus lectus habitasse amet quam libero lorem
-                          Volutpat maecenas viverra consequat proin condimentum
-                          diam donec aliquet natoque quam vitae leo risus. Eget
-                          neque proin in dolor cursus bibendum urna dictum.
-                        </p> */}
-                        {/* <ul className="tags-list clearfix">
-                          <li>
-                            <Link href="/blog">Agency</Link>
-                          </li>
-                          <li>
-                            <Link href="/blog">Business</Link>
-                          </li>
-                          <li>
-                            <Link href="/blog">Consult</Link>
-                          </li>
-                        </ul> */}
+                         
                       </div>
                     </div>
                   </div>
@@ -186,9 +148,9 @@ export default function Home() {
                     <h3>Leave a comments</h3>
                     <div className="form-inner">
                     <form
-                     id="contact-form"
       // action="blog-details"
       // method="post"
+      id="contact-form"
       className="default-form"
       onSubmit={handleSubmit1}
     >
@@ -223,7 +185,7 @@ export default function Home() {
         </div>
         <div className="col-lg-12 col-md-12 col-sm-12 form-group">
           <div className="message-btn">
-            <button type="submit" className="theme-btn-one" 
+            <button type="submit" className="theme-btn-one"  
             // disabled={isSubmitting}
             >
               Post Comment
@@ -282,7 +244,7 @@ export default function Home() {
                       </ul>
                     </div>
                   </div> */}
-                 <div className="sidebar-widget post-widget">
+                  <div className="sidebar-widget post-widget">
                     <div className="widget-title">
                       <h3>Recent article</h3>
                     </div>

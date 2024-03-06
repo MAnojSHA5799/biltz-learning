@@ -144,7 +144,7 @@ export default function Home() {
                         <p>
                         Badge systems in e-Learning and instructional design have evolved into powerful tools for motivating and engaging learners. They offer a dynamic way to recognize and reward achievements, fostering a sense of accomplishment and progression. As the e-Learning landscape continues to grow, digital badges are poised to play an increasingly integral role in credentialing and micro-credentialing. When thoughtfully designed and executed, badge systems can inspire learners to unlock their full potential in the digital age.
                         </p>
-                        <blockquote>
+                        {/* <blockquote>
                           <div className="icon-box">
                             <i className="icon-47"></i>
                           </div>
@@ -152,7 +152,7 @@ export default function Home() {
                           As a Digital Tech professional with significant experience, Neha Tyagi has mastered the art of teamwork. Throughout her career, she maintains a commitment to continuous learning. Currently, Neha is delving into innovative technologies aimed at transforming businesses.
                           </p>
                           <h4>Neha Tyagi</h4>
-                        </blockquote>
+                        </blockquote> */}
                         {/* <p>
                           Tortor etiam sed suspendisse faucibus ac volutpat
                           mattis tortor nec. Orc velit posuere turpis amet

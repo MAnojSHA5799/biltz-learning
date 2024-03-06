@@ -153,7 +153,7 @@ export default function Home() {
                         <p>
                         e-learning is a dynamic tool that has the potential to revolutionize education and training. However, to harness its full potential, organizations and educators must adopt strategies that prioritize engagement and effectiveness. Incorporating interactive multimedia content, personalized learning paths, gamification, microlearning, social learning communities, real-world application, and continuous assessment can collectively transform e-learning from a passive experience to an active and impactful journey of knowledge acquisition. As technology continues to evolve, embracing these strategies can ensure that e-learning remains a vibrant and essential component of modern education and training paradigms.
                         </p>
-                        <blockquote>
+                        {/* <blockquote>
                           <div className="icon-box">
                             <i className="icon-47"></i>
                           </div>
@@ -161,7 +161,7 @@ export default function Home() {
                           As a Digital Tech professional with significant experience, Neha Tyagi has mastered the art of teamwork. Throughout her career, she maintains a commitment to continuous learning. Currently, Neha is delving into innovative technologies aimed at transforming businesses.
                           </p>
                           <h4>Neha Tyagi</h4>
-                        </blockquote>
+                        </blockquote> */}
                         {/* <p>
                           Tortor etiam sed suspendisse faucibus ac volutpat
                           mattis tortor nec. Orc velit posuere turpis amet

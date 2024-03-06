@@ -87,13 +87,9 @@ export default function MobileMenu({
                   </div>
                 </li>
                 <li className=""><Link href="/why-us">Why Us</Link></li>
-                <li
-                  className={
-                    isActive.key == 3 ? "dropdown current" : "dropdown"
-                  }
-                >
-                  <Link href="/our-works">Our Work</Link>
-                  <ul
+                <li>
+                  <Link href="/our-works">Our Work</Link></li>
+                  {/* <ul
                     style={{
                       display: `${isActive.key == 3 ? "block" : "none"}`,
                     }}
@@ -128,16 +124,9 @@ export default function MobileMenu({
                         Scenario based Training |Workplace Integrity
                       </Link>
                     </li>
-                  </ul>
-                  <div
-                    className={
-                      isActive.key == 3 ? "dropdown-btn open" : "dropdown-btn"
-                    }
-                    onClick={() => handleToggle(3)}
-                  >
-                    <span className="fa fa-angle-right" />
-                  </div>
-                </li>
+                  </ul> */}
+                 
+              
                 
                 
                 <li>
