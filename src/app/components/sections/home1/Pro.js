@@ -29,7 +29,7 @@ export default function Pro() {
                   </figure>
                   <div className="lower-content ml_0">
                     <h3 style={{ textAlign: "left"}}>
-                      <Link href="/">Onboarding</Link>
+                     Onboarding
                     </h3>
                     <p style={{ textAlign: "left" }}>
                       We revamp your onboarding program to create an impressive
@@ -54,7 +54,7 @@ export default function Pro() {
                   </figure>
                   <div className="lower-content">
                     <h3 style={{ textAlign: "left" }}>
-                      <Link href="/">Sales</Link>
+                      Sales
                     </h3>
                     <p style={{ textAlign: "left" }}>
                       Our sales training caters to informed customers and adapts
@@ -78,7 +78,7 @@ export default function Pro() {
                   </figure>
                   <div className="lower-content">
                     <h3 style={{ textAlign: "left" }}>
-                      <Link href="/">Operations</Link>
+                     Operations
                     </h3>
                     <p style={{ textAlign: "left" }}>
                       Our engaging training programs educate employees on
@@ -103,7 +103,7 @@ export default function Pro() {
                   </figure>
                   <div className="lower-content">
                     <h3 style={{ textAlign: "left" }}>
-                      <Link href="/">Support functions</Link>
+                    Support functions
                     </h3>
                     <p style={{ textAlign: "left" }}>
                       We design customer service training to meet four universal

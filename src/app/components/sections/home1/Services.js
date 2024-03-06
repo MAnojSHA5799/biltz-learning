@@ -46,7 +46,7 @@ export default function Pricing() {
                       ></img>
                     </div>
                     <h3>
-                      <Link href="/">Measurable cost advantage</Link>
+                      Measurable cost advantage
                     </h3>
                   </div>
                   <div className="overlay-content">
@@ -80,7 +80,7 @@ export default function Pricing() {
                       ></img>
                     </div>
                     <h3>
-                      <Link href="/program-manager">Proven growth record</Link>
+                      Proven growth record
                     </h3>
                     <br />
                     <br />
@@ -116,9 +116,9 @@ export default function Pricing() {
                       ></img>
                     </div>
                     <h3 style={{ textAlign: "left" }}>
-                      <Link href="/tax-management">
+                   
                         Unparalleled value addition
-                      </Link>
+                 
                     </h3>
                   </div>
                   <div className="overlay-content">

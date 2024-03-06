@@ -92,9 +92,9 @@ export default function Features() {
                           ></img>
                         </div>
                         <h3 style={{ textAlign: "left" }}>
-                          <Link href="">
+                        
                           Training whitespaces unearthed
-                          </Link>
+                        
                         </h3>
                         <p style={{ textAlign: "left" }}>
                         We are a catalyst for training effectiveness. As L&D disruption scrambles the puzzle pieces across key industries, our agile approach and analytic craftsmanship help reassemble the way forward quickly and innovatively, so you can confidently keep moving.
@@ -126,9 +126,9 @@ export default function Features() {
                           ></img>
                         </div>
                         <h3 style={{ textAlign: "left" }}>
-                          <Link href="">
+                          
                           Stories that shift perspective
-                          </Link>
+                        
                         </h3>
                         <p style={{ textAlign: "left" }}>
                         We don’t just deliver training. We tell stories that transform dry content into profound storytelling that drives learners.
@@ -164,9 +164,9 @@ export default function Features() {
                           ></img>
                         </div>
                         <h3 style={{ textAlign: "left" }}>
-                          <Link href="">
+                         
                           Transforming learning exercises
-                          </Link>
+                          
                         </h3>
                         <p style={{ textAlign: "left" }}>
                         We are deeply embedded inside industries at the edge of transformation. During these critical periods, and all the ones in between, clients trust us to help them translate their learning exercises into long-term knowledge repositories.
