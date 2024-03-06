@@ -209,7 +209,7 @@ export default function Features() {
                 <div className="inner-box">
                   <figure className="image-box">
                     <img
-                      src="/assets/Image/home_page/Content-Services-image.jpg"
+                      src="/assets/Image/Our-Services/Content-Services-image.jpg"
                       alt="/"
                     />
                   </figure>
