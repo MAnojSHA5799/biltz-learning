@@ -144,7 +144,6 @@ export default function Contact() {
 
   return (
     <>
-      <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Get In Touch">
         <div class="desktop">
           <main class="main-cont">
             <div class="frame-a">
@@ -179,36 +178,42 @@ export default function Contact() {
                       id="contact-form"
                       onSubmit={handleSubmit}
                       className="sign-up-form"
+                      
                     >
                       <input
                         type="text"
                         name="name"
                         className="input-text"
                         placeholder="Full Name"
+                        required
                       />
                       <input
                         type="email"
                         name="email"
                         className="input-text"
                         placeholder="Your Email"
+                        required
                       />
                       <input
                         type="number"
                         name="phone"
                         className="input-text1"
                         placeholder="Phone Number"
+                        required
                       />
                       <input
                         type="text"
                         name="subject"
                         className="input-text1"
                         placeholder="Subject"
+                        required
                       />
                       <input
                         name="message"
                         type="text"
                         className="input-text1"
                         placeholder="Type Message"
+                        required
                       ></input>
                       <div className="submit-button">
                         <button type="submit" className="button">
@@ -225,8 +230,7 @@ export default function Contact() {
         <Features />
         <Services />
         <WhyChooseUs />
-        <Pro />
-      </Layout>
+        {/* <Pro /> */}
     </>
   );
 }

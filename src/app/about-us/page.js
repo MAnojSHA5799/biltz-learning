@@ -431,7 +431,7 @@ export default function Home() {
                         Abhishek Kumar
                       </h3>
                       <span className="designation">
-                        Co-Founder and VP of Sales
+                        Co-founder and VP of Sales
                       </span>
                     </div>
                     <br />
