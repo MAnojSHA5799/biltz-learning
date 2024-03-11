@@ -9,7 +9,7 @@
   --font-size-mini: 15px;
 
   /* / Colors / */
-  --color-yellow: #cff20f;
+  --color-yellow:rgb(254, 93, 7);
   --color-gray: #1b1a19;
   --color-gainsboro-100: #d5d5d5;
   --color-dimgray-100: #4f4d4d;
@@ -33,17 +33,15 @@
 }
 
 /* body {
-  background-color: #030303;
-  margin: 0;
-  line-height: normal;
+  margin-top: 0;
   padding-top: 40px;
-  padding-bottom: 40px;
+ 
 } */
 
 .rectangle,
 .waveform {
-  align-self: stretch;
-  position: relative;
+  /* align-self: stretch;
+  position: relative; */
   /* / width: 50%; / */
 
 }
@@ -56,8 +54,17 @@
   font-family: inherit;
   display: inline-block;
   flex-shrink: 0;
+  color: #f3efed;
 
 }
+@media screen and (max-width: 750px) {
+    .waveform {
+      font-size: 24px; /* Adjust the font size for mobile */
+      height: 24px; /* Adjust the height for mobile */
+      margin-left: 30%;
+      margin-bottom: 0;
+    }
+  }
 .rectangle {
   height: 9px;
   border-top: 9px solid var(--color-yellow);
@@ -116,7 +123,7 @@
   max-width: 100%;
 }
 .span1 {
-  color: #e43593;
+  color: rgb(254, 93, 7);
 }
 .audio,
 .creators,
@@ -128,18 +135,55 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-size: inherit;
+  font-size:40px;
   letter-spacing: -0.03em;
   line-height: 69px;
   font-weight: 700;
   font-family: inherit;
+  margin-bottom: 0px;
+  
 }
 .an-ever-growing-resource {
+    margin: 0;
+   
+    font-size:20px;
+   
+    line-height: 30px;
+    font-weight: 400;
+    font-family: inherit;
+    margin-bottom: 0px;
+    color: #f8f2f2;
+    
+  }
+  @media screen and (max-width: 750px) {
+    .the-1-source-container .span1 {
+      font-size: 30px; /* Adjust the font size for mobile */
+      line-height: 50px; /* Adjust the line height for mobile */
+      align-items: center;
+      margin-left: 7%;
+   
+    }
+  
+    .an-ever-growing-resource {
+        margin: 0;
+       
+        position: relative;
+        font-size: 20px;
+      
+        line-height: 20px;
+        font-weight: 400;
+        font-family: inherit;
+        display: inline-block;
+        flex-shrink: 0;
+        max-width: 25%;
+    }
+  }
+.className {
   margin: 0;
   width: 354px;
   height: 116px;
   position: relative;
-  font-size: 26px;
+  font-size: 20px;
   letter-spacing: -0.02em;
   line-height: 29px;
   font-weight: 300;
@@ -157,13 +201,13 @@
 }
 .header-text {
   align-self: stretch;
-  gap: var(--gap-base);
 }
 .social-media-buttons-frame {
   width: 464px;
   padding: 27px 0 0;
   box-sizing: border-box;
   min-width: 464px;
+  
 }
 .sign-up-with {
   margin: 0;
@@ -406,7 +450,7 @@
     }
   }
 .button:hover {
-  background-color: #b5d900;
+  background-color: rgb(254, 93, 7);
 }
 .sign-up-form,
 .submit-button {
@@ -479,7 +523,7 @@
   padding: var(--padding-29xl) var(--padding-29xl) 147px;
   box-sizing: border-box;
   gap: 58px 208px;
-  background-image: url(https://res.cloudinary.com/jasuaje/image/upload/v1707717387/Sign%20Up/86acd060a405fd920d55f85420fee2cb.png);
+  background-image: url('/assets/Contact_Us.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -493,8 +537,9 @@
   max-width: 1512px;
   min-width: 1260px;
   margin: 0 auto;
+  margin-top: 5px;
   position: relative;
-  background-color: #f2ebe8;
+  background-color: #c6c2c0;
   flex-direction: row;
   justify-content: center;
   letter-spacing: normal;
@@ -564,7 +609,7 @@
     font-size: 27px;
     line-height: 28px;
   }
-  .an-ever-growing-resource {
+  .className {
     font-size: 21px;
     line-height: 23px;
   }

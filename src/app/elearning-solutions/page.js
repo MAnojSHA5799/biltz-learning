@@ -63,63 +63,64 @@ export default function Contact() {
   //   }
   // };
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
+  //   const handleSubmit = async (event) => {
+  //     event.preventDefault();
 
+  //     const formData = new FormData(event.target);
+  //     formData.append("access_key", "52e44b56-38d8-47bf-9a35-90ed4ed7a791");
+
+  //     const object = Object.fromEntries(formData);
+  //     const json = JSON.stringify(object);
+  //     console.log("111", json);
+
+  //     try {
+  //       const response = await fetch("https://api.web3forms.com/submit", {
+  //         method: "POST",
+  //         headers: {
+  //           "Content-Type": "application/json",
+  //           Accept: "application/json",
+  //         },
+  //         body: json,
+  //       });
+
+  //       const result = await response.json();
+
+  //       // Handle the response
+  //       if (result.success) {
+  //         console.log(result);
+
+  //         // Reset form data
+  //         setFormData({
+  //           username: "",
+  //           email: "",
+  //           phone: "",
+  //           subject: "",
+  //           message: "",
+  //         });
+  //         setIsSubmitting(false);
+
+  //         // Optional: You can use router.reload() to refresh the page
+  //         router.refresh("/contact");
+
+  //         // You can add logic here based on the response from the server
+  //       } else {
+  //         console.error("Error posting data:", result);
+  //       }
+  //     } catch (error) {
+  //       console.error("Error posting data:", error);
+  //     }
+  //   };
+
+  async function handleSubmit(event) {
+    event.preventDefault();
     const formData = new FormData(event.target);
-    formData.append("access_key", "52e44b56-38d8-47bf-9a35-90ed4ed7a791");
+
+    // Append additional form data as needed
+    formData.append("access_key", "269beb43-f721-44ff-bc00-116870a97860");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
-    console.log("111", json);
-
-    try {
-      const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-        body: json,
-      });
-
-      const result = await response.json();
-
-      // Handle the response
-      if (result.success) {
-        console.log(result);
-
-        // Reset form data
-        setFormData({
-          username: "",
-          email: "",
-          phone: "",
-          subject: "",
-          message: "",
-        });
-        setIsSubmitting(false);
-
-        // Optional: You can use router.reload() to refresh the page
-        router.refresh("/contact");
-
-        // You can add logic here based on the response from the server
-      } else {
-        console.error("Error posting data:", result);
-      }
-    } catch (error) {
-      console.error("Error posting data:", error);
-    }
-  };
-
-  async function handleSubmit1(event) {
-    event.preventDefault();
-    const formData = new FormData(event.target);
-
-    formData.append("access_key", "15cf9264-6c64-493d-9d22-5c01c43df043");
-
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
-
+    console.log(json);
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: {
@@ -128,19 +129,22 @@ export default function Contact() {
       },
       body: json,
     });
+
     const result = await response.json();
+
     if (result.success) {
       console.log(result);
-      alert("Data is submitted is sucessfully");
       document.getElementById("contact-form").reset();
-      router.refresh("/contact");
+      // Handle success, e.g., show a success message
+    } else {
+      // Handle failure, e.g., show an error message
+      console.error("Form submission failed:", result.message);
     }
   }
 
   return (
     <>
       <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Get In Touch">
-        <div></div>
         <div class="desktop">
           <main class="main-cont">
             <div class="frame-a">
@@ -158,50 +162,59 @@ export default function Contact() {
                     <div class="header-text">
                       <h1 class="the-1-source-container">
                         <p class="the-1">
-                          <span>The </span>
-                          <span class="span1">#1</span>
+                          {/* <span>The </span> */}
+                          <span className="span1">Message</span>
                         </p>
-                        <p class="source-for">source for</p>
+                        {/* <p class="source-for">source for</p>
                         <p class="audio">audio</p>
-                        <p class="creators">creators</p>
+                        <p class="creators">creators</p> */}
                       </h1>
                       <h2 class="an-ever-growing-resource">
-                        An ever-growing resource for music content creators,
-                        sourced by talented producers from all over the world
+                        Feel free to visit our development office or just pick
+                        up the phone to chat with a client engagement team
+                        representative.
                       </h2>
                     </div>
                   </div>
                   <div class="form-frame">
-                    <form class="sign-up-form">
+                    <form
+                      id="contact-form"
+                      onSubmit={handleSubmit}
+                      className="sign-up-form"
+                    >
                       <input
-                        class="input-text"
+                        type="text"
+                        name="name"
+                        className="input-text"
                         placeholder="Full Name"
-                        type="text"
                       />
                       <input
-                        class="input-text"
+                        type="email"
+                        name="email"
+                        className="input-text"
                         placeholder="Your Email"
-                        type="text"
                       />
-
                       <input
-                        class="input-text1"
-                        placeholder="Phone Number"
                         type="number"
+                        name="phone"
+                        className="input-text1"
+                        placeholder="Phone Number"
                       />
                       <input
-                        class="input-text1"
+                        type="text"
+                        name="subject"
+                        className="input-text1"
                         placeholder="Subject"
-                        type="text"
                       />
                       <input
-                        class="input-text1"
-                        placeholder="Type Message"
+                        name="message"
                         type="text"
-                      />
+                        className="input-text1"
+                        placeholder="Type Message"
+                      ></input>
                       <div className="submit-button">
-                        <button class="button">
-                          <div class="create-account">Submt</div>
+                        <button type="submit" className="button">
+                          <div className="create-account">Submit</div>
                         </button>
                       </div>
                     </form>
