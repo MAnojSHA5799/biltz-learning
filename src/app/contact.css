@@ -135,12 +135,13 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-size:40px;
+  font-size:27px;
   letter-spacing: -0.03em;
-  line-height: 69px;
-  font-weight: 700;
+  line-height: 50px;
+  font-weight: 900;
   font-family: inherit;
   margin-bottom: 0px;
+  width: 140%;
   
 }
 .an-ever-growing-resource {
@@ -149,7 +150,7 @@
     font-size:20px;
    
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 500;
     font-family: inherit;
     margin-bottom: 0px;
     color: #f8f2f2;
@@ -157,18 +158,19 @@
   }
   @media screen and (max-width: 750px) {
     .the-1-source-container .span1 {
-      font-size: 30px; /* Adjust the font size for mobile */
+      font-size: 15px; /* Adjust the font size for mobile */
       line-height: 50px; /* Adjust the line height for mobile */
       align-items: center;
-      margin-left: 7%;
-   
+      margin-left: 0%;
+      margin-right: 0%;
+      width: 140%;
     }
   
     .an-ever-growing-resource {
         margin: 0;
        
         position: relative;
-        font-size: 20px;
+        font-size: 15px;
       
         line-height: 20px;
         font-weight: 400;

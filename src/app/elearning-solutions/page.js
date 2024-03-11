@@ -163,16 +163,14 @@ export default function Contact() {
                       <h1 class="the-1-source-container">
                         <p class="the-1">
                           {/* <span>The </span> */}
-                          <span className="span1">Message</span>
+                          <span className="span1">Are you looking for a top e-Learning service provider?</span>
                         </p>
                         {/* <p class="source-for">source for</p>
                         <p class="audio">audio</p>
                         <p class="creators">creators</p> */}
                       </h1>
                       <h2 class="an-ever-growing-resource">
-                        Feel free to visit our development office or just pick
-                        up the phone to chat with a client engagement team
-                        representative.
+                      Blitz Learning is a top learning consulting and training development firm specializing in industries facing learning and development challenges and disruption. 
                       </h2>
                     </div>
                   </div>
