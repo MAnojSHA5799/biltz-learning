@@ -88,7 +88,7 @@ export default function WhyChooseUs() {
             Looking for the best
             <br /> business consulting?
           </h2>
-          <Link href="/" className="theme-btn-one">
+          <Link href="/elearning-solutions" className="theme-btn-one">
             Contact us
           </Link>
         </div>
