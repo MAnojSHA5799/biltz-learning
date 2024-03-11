@@ -114,74 +114,48 @@ export default function Contact() {
 
   async function handleSubmit(event) {
     event.preventDefault();
+  
+    // Validate phone number
+    const phoneInput = document.querySelector('input[name="phone"]');
+    const phoneNumber = phoneInput.value.replace(/\D/g, ''); // Remove non-numeric characters
+    if (phoneNumber.length !== 10) {
+      alert('Please enter a 10-digit phone number.');
+      return;
+    }
+  
     const formData = new FormData(event.target);
-
-    // Append additional form data as needed
     formData.append("access_key", "269beb43-f721-44ff-bc00-116870a97860");
-
+  
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
-    console.log(json);
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: json,
-    });
-
-    const result = await response.json();
-
-    if (result.success) {
-      console.log(result);
-      alert("Data Successfully Submitted")
-      document.getElementById("contact-form").reset();
-      // Handle success, e.g., show a success message
-    } else {
-      // Handle failure, e.g., show an error message
-      console.error("Form submission failed:", result.message);
-    }
-  }
-
-  async function handleSubmit(event) {
-    event.preventDefault();
-
-    const formData = new FormData(event.target);
-    const phoneNumber = formData.get('phone');
-
-    if (phoneNumber && phoneNumber.length === 10) {
-      // Proceed with form submission
-      formData.append('access_key', '269beb43-f721-44ff-bc00-116870a97860');
-
-      const object = Object.fromEntries(formData);
-      const json = JSON.stringify(object);
-
-      const response = await fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
+  
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
-          Accept: 'application/json',
+          "Content-Type": "application/json",
+          Accept: "application/json",
         },
         body: json,
       });
-
+  
       const result = await response.json();
-
+  
       if (result.success) {
         console.log(result);
-        alert("Data Successfully Submitted")
+        alert("Data Successfully Submitted");
         document.getElementById("contact-form").reset();
+        // Handle success, e.g., show a success message
       } else {
         // Handle failure, e.g., show an error message
-        console.error('Form submission failed:', result.message);
+        console.error("Form submission failed:", result.message);
       }
-    } else {
-      // Handle invalid phone number, e.g., show an error message
-      console.error('Invalid phone number. Please enter exactly ten digits.');
-      alert("Please enter exactly ten digits.")
+    } catch (error) {
+      console.error("Error posting data:", error);
     }
   }
+
+  
 
   return (
     <>
@@ -257,7 +231,7 @@ export default function Contact() {
                         required
                       ></input>
                       <div className="submit-button">
-                        <button type="submit" className="button">
+                        <button type="submit" className="button" value="Submit">
                           <div className="create-account">Submit</div>
                         </button>
                       </div>
