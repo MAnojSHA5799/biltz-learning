@@ -9,6 +9,7 @@ import "../contact.css";
 import Features from "../components/sections/home1/Features";
 import Services from "../components/sections/home1/Services";
 import Pro from "../components/sections/home1/Pro";
+import Funfacts from "../components/sections/home1/Funfacts"
 
 import WhyChooseUs from "../components/sections/home1/WhyChooseUs";
 
@@ -229,7 +230,11 @@ export default function Contact() {
         </div>
         <Features />
         <Services />
+       
         <WhyChooseUs />
+        <br />
+        <br />
+        <Funfacts />
         {/* <Pro /> */}
     </>
   );
