@@ -236,9 +236,9 @@ export default function Home() {
                           ></img>
                         </div>
                         <h3>
-                          <Link href="/program-manager">
+                         
                             Intuitive learning
-                          </Link>
+                        
                         </h3>
                         <p>
                           Designing meaningful & engaging learning experiences
@@ -273,9 +273,9 @@ export default function Home() {
                           ></img>
                         </div>
                         <h3>
-                          <Link href="/tax-management">
+                          
                             Operational efficency
-                          </Link>
+                         
                         </h3>
                         <p>
                           Our global workforce, technology platforms, and

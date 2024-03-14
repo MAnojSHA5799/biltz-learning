@@ -11,8 +11,8 @@ import { inter, jost } from './lib/font'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 export const metadata = {
-    title: 'Blitz Learning Technologies',
-    description: 'We are catalysts for knowledge retention',
+    title: 'Custom E-learning Solutions Company | Blitz Learning Technologies',
+    description: 'Transform your team with Blitz Learning service- your go-to custom e-learning solutions company. Elevate skills and efficiency with tailored courses.',
 }
 
 export default function RootLayout({ children }) {
