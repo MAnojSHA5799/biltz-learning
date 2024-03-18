@@ -12,7 +12,27 @@ export default function Home() {
                     <section className="news-style-two blog-grid pt_150 pb_150">
                         <div className="auto-container">
                             <div className="row clearfix">
-                           
+                            <div className="col-lg-4 col-md-6 col-sm-12 news-block">
+                                    <div className="news-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                        <div className="inner-box">
+                                            <figure className="image-box"><Link href="/blog/elearning-design-flaws-hampering-knowledge-retention"><img src="/assets/images/Blog/blog image.jpg" alt="" /></Link></figure>
+                                            <div className="lower-content">
+                                                <div className="inner">
+                                                    <span className="post-date">18 March</span>
+                                                    <h3><Link href="/blog/elearning-design-flaws-hampering-knowledge-retention">Revamped: 5 e-Learning design flaws hampering knowledge retention</Link></h3>
+                                                    {/* <ul className="post-info clearfix"> 
+                                                        <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
+                                                        <li><i className="icon-22"></i><Link href="/blog-details">7 Comnt</Link></li>
+                                                    </ul> */}
+                                                    <p>In an era where digital platforms dominate the educational landscape, e-Learning has emerged as a pivotal...</p>
+                                                    <div className="btn-box">
+                                                        <Link href="/blog/elearning-design-flaws-hampering-knowledge-retention" className="theme-btn-one">Read More</Link>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                
                                 
                                

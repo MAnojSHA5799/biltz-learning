@@ -346,8 +346,8 @@ export default function Home() {
               </SwiperSlide>
             </Swiper>
           </div>
-          <div className="swiper-button-next"></div>
-      <div className="swiper-button-prev"></div>
+          <div className="swiper-button-next" id="next"></div>
+      <div className="swiper-button-prev" id="prev"></div>
         </section>
 
         {/* service-style-two end */}

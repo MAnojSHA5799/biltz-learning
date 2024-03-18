@@ -412,8 +412,8 @@ to {
   height: 260px;
 }
 }
-.swiper-button-next,
-.swiper-button-prev {
+#next,
+#prev {
 width: 40px; /* Adjust the width as needed */
 height: 40px; /* Adjust the height as needed */
 color: #ad9999; /* Set your desired text color */
@@ -427,7 +427,7 @@ cursor: pointer;
 }
 
 /* Optional: Hover styles */
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
+#next:hover,
+#prev:hover {
 background-color: #dde9ef; /* Set your desired hover background color */
 }
