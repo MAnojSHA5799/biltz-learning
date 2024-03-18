@@ -145,7 +145,8 @@ While technological advancements continue to enhance the e-Learning experience, 
                         <p>
                         Effective learning is not solely about acquiring knowledge; it also involves emotional engagement and motivation. However, many e-Learning initiatives neglect the emotional aspect of learning, failing to inspire curiosity, enthusiasm, and perseverance in learners. To rectify this flaw, e-Learning platforms should integrate storytelling, gamification, and motivational prompts into course content to captivate learners' attention and cultivate a positive learning environment. By tapping into learners' intrinsic motivations and fostering a sense of achievement, emotionally engaging e-Learning experiences enhance retention and sustain long-term learning outcomes.
                         </p>
-                        <h4 className="blog-heading">Conclusion:</h4>
+                        <img className='sa mb-3' src="/assets/images/Blog/Neglecting emotional engagement.jpg" alt="Image Description" />
+                        <h2 className="blog-heading-h2">Conclusion:</h2>
                         <p>
                         While e-learning holds immense potential for knowledge dissemination, its effectiveness hinges on addressing inherent design flaws that impede retention rates. By revamping e-Learning interfaces to prioritize active engagement, personalization, coherence, interactivity, and emotional engagement, educators can unlock the full transformative power of digital learning environments. Embracing these principles not only enhances knowledge retention but also cultivates a culture of lifelong learning and empowerment in today's dynamic educational landscape. As we continue to navigate the digital frontier of education, let us strive to create e-Learning experiences that inspire, empower, and endure.
                         </p>
