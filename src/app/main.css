@@ -1623,4 +1623,7 @@ h2 span {
     margin-left: 5px; /* Add spacing between date and month */
 }
 
-
+.blog-pragraph{
+	font-family: 'Arial', sans-serif; 
+	text-align : justify;
+}
