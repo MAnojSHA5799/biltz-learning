@@ -18,7 +18,7 @@ export default function Home() {
                                             <figure className="image-box"><Link href="/blog/elearning-design-flaws-hampering-knowledge-retention"><img src="/assets/images/Blog/blog image.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
-                                                    <span className="post-date">18 March</span>
+                                                    <span className="post-date">19 March</span>
                                                     <h3><Link href="/blog/elearning-design-flaws-hampering-knowledge-retention">Revamped: 5 e-Learning design flaws hampering knowledge retention</Link></h3>
                                                     {/* <ul className="post-info clearfix"> 
                                                         <li><i className="icon-21"></i><Link href="/blog-details">Admin</Link></li>
