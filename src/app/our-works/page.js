@@ -31,7 +31,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="c"><img src="/assets/Image/Our-Work/revamp-localization.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/our-works/revamp-localization-company-policy-refresh-training"><img src="/assets/Image/Our-Work/revamp-and-localization.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">14 APRIL</span> */}
@@ -68,7 +68,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/our-works/content-development-web-based-training-localization-workplace-hazards-safety"><img src="/assets/Image/Our-Work/content-development.jpg" alt="/" /></Link></figure>
+                                            <figure className="image-box"><Link href="/blog-details"><img src="/assets/Image/Our-Work/content-development.jpg" alt="/" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">12 APRIL</span> */}
@@ -86,7 +86,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/blog-details"><img src="/assets/Image/Our-Work/Web-Based-Training-Localization-Product-Training.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/our-works/web-based-training-localization-product-training"><img src="/assets/Image/Our-Work/Web-Based-Training-And-Localization-Product-Training.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">12 APRIL</span> */}
@@ -105,7 +105,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/blog-details"><img src="/assets/Image/Our-Work/scenario-based-training.jpg" alt="/" /></Link></figure>
+                                            <figure className="image-box"><Link href="/our-works/scenario-based-trainingworkplace-integrity"><img src="/assets/Image/Our-Work/scenario-based-training.jpg" alt="/" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">11 APRIL</span> */}
