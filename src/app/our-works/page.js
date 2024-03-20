@@ -14,14 +14,14 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training"><img src="/assets/Image/Our-Work/sales-training.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/our-works/web-based-training-online-portal-lmssales-academy-training"><img src="/assets/Image/Our-Work/sales-training.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">27 December</span> */}
-                                                    <h3><Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training">Web-Based Training and Online Portal/LMS|Sales Academy Training</Link></h3>
+                                                    <h3><Link href="/our-works/web-based-training-online-portal-lmssales-academy-training">Web-Based Training and Online Portal/LMS|Sales Academy Training</Link></h3>
                                                     <p>Web-based training and online portal/LMS|Sales Academy training a leading...</p>
                                                     <div className="btn-box">
-                                                        <Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training" className="theme-btn-one">Read More</Link>
+                                                        <Link href="/our-works/web-based-training-online-portal-lmssales-academy-training" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -31,15 +31,15 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="c"><img src="/assets/Image/Our-Work/revamp-and-localization.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="c"><img src="/assets/Image/Our-Work/revamp-localization.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">14 APRIL</span> */}
-                                                    <h3><Link href="/our-works/revamp-and-localization-company-policy-refresh-training">Revamp and Localization |Company Policy Refresh Training</Link></h3>
+                                                    <h3><Link href="/our-works/revamp-localization-company-policy-refresh-training">Revamp and Localization |Company Policy Refresh Training</Link></h3>
                                                   
                                                     <p>Revamp and localization | Company Policy Refresh Training a leading UAE...</p>
                                                     <div className="btn-box">
-                                                        <Link href="/our-works/revamp-and-localization-company-policy-refresh-training" className="theme-btn-one">Read More</Link>
+                                                        <Link href="/our-works/revamp-localization-company-policy-refresh-training" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -68,15 +68,15 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/blog-details"><img src="/assets/Image/Our-Work/content-development.jpg" alt="/" /></Link></figure>
+                                            <figure className="image-box"><Link href="/our-works/content-development-web-based-training-localization-workplace-hazards-safety"><img src="/assets/Image/Our-Work/content-development.jpg" alt="/" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">12 APRIL</span> */}
-                                                    <h3><Link href="/our-works/content-development-web-based-training-localization-workplace-hazards-and-safety">Content Development, Web-Based Training, Localization| Workplace Hazards and Safety</Link></h3>
+                                                    <h3><Link href="/our-works/content-development-web-based-training-localization-workplace-hazards-safety">Content Development, Web-Based Training, Localization| Workplace Hazards and Safety</Link></h3>
                                                    
                                                     <p>Content development, web-based training, localization, workplace hazards and safety manufacturing...</p>
                                                     <div className="btn-box">
-                                                        <Link href="/our-works/content-development-web-based-training-localization-workplace-hazards-and-safety" className="theme-btn-one">Read More</Link>
+                                                        <Link href="/our-works/content-development-web-based-training-localization-workplace-hazards-safety" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -86,16 +86,16 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                            <figure className="image-box"><Link href="/blog-details"><img src="/assets/Image/Our-Work/Web-Based-Training-And-Localization-Product-Training.jpg" alt="" /></Link></figure>
+                                            <figure className="image-box"><Link href="/blog-details"><img src="/assets/Image/Our-Work/Web-Based-Training-Localization-Product-Training.jpg" alt="" /></Link></figure>
                                             <div className="lower-content">
                                                 <div className="inner">
                                                     {/* <span className="post-date">12 APRIL</span> */}
-                                                    <h3><Link href="/our-works/web-based-training-and-localization-product-training">Web-Based Training and Localization | Product Training</Link></h3>
+                                                    <h3><Link href="/our-works/web-based-training-localization-product-training">Web-Based Training and Localization | Product Training</Link></h3>
                                                     
                                                     <p>Web-based training and localization | Product training for logistics and aviation...</p>
                                                     <br />
                                                     <div className="btn-box">
-                                                        <Link href="/our-works/web-based-training-and-localization-product-training" className="theme-btn-one">Read More</Link>
+                                                        <Link href="/our-works/web-based-training-localization-product-training" className="theme-btn-one">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>

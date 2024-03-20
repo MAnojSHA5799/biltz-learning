@@ -193,7 +193,7 @@ export default function Cases() {
                             <figure className="image-box"><img src="/assets/Image/home_page/Sales-Academy-Training.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-7"></i></div> */}
-                            <h3><Link href="/our-works/web-based-training-and-online-portal-lmssales-academy-training">Web-Based Training and Online Portal|LMS|Sales Academy Traning</Link></h3>
+                            <h3><Link href="/our-works/web-based-training-online-portal-lmssales-academy-training">Web-Based Training and Online Portal|LMS|Sales Academy Traning</Link></h3>
                            
                           
                             </div>
@@ -206,7 +206,7 @@ export default function Cases() {
                             <figure className="image-box"><img src="/assets/Image/home_page/revamp-and-localization.jpg" alt="" /></figure>
                             <div className="lower-content">
                             {/* <div className="icon-box"><i className="icon-8"></i></div> */}
-                            <h3><Link href="/our-works/revamp-and-localization-company-policy-refresh-training">Revamp and Localization|Company Policy Refersh Training</Link></h3>
+                            <h3><Link href="/our-works/revamp-localization-company-policy-refresh-training">Revamp and Localization|Company Policy Refersh Training</Link></h3>
                            
                             </div>
                         </div>
