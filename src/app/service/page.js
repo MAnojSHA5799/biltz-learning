@@ -3,6 +3,7 @@ import Layout from "../components/layout/Layout";
 import Link from "next/link";
 import { useState } from "react";
 import "../main.css";
+import RootLayout from '../RootLayout';
 export default function Services() {
   const [isActive, setIsActive] = useState({
     status: false,
@@ -24,6 +25,12 @@ export default function Services() {
 
   return (
     <>
+    <RootLayout
+            title="Services | Custom e-Learning Services Company - Blitz Learning Technologies"
+            description="Transform your team with Blitz Learning service- your go-to custom e-learning solutions company. Elevate skills and efficiency with tailored courses."
+        >
+            {/* Content of the page */}
+        </RootLayout>
       <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Our Services">
         <div>
           {/* service-style-two */}

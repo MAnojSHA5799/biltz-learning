@@ -14,6 +14,7 @@ import WhyChooseUs from "../components/sections/home1/WhyChooseUs";
 import WhychooseusTwo from "../components/sections/home1/WhychooseusTwo";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
+import RootLayout from '../RootLayout';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -80,6 +81,12 @@ export default function Contact() {
 
   return (
     <>
+     <RootLayout
+            title="Custom e-Learning Services Company - Blitz Learning Technologies"
+            description="Transform your team with Blitz Learning service- your go-to custom e-learning solutions company. Elevate skills and efficiency with tailored courses."
+        >
+            {/* Content of the page */}
+        </RootLayout>
       <div class="desktop">
         <main class="main-cont">
           <div class="frame-a">

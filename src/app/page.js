@@ -1,3 +1,4 @@
+"use client";
 import Layout from "./components/layout/Layout"
 import About from "./components/sections/home1/About"
 import Banner from "./components/sections/home1/Banner"
@@ -14,10 +15,18 @@ import Process from "./components/sections/home1/Process"
  import Testimonial from "./components/sections/home1/Testimonial"
 import WhyChooseUs from "./components/sections/home1/WhyChooseUs"
 import WhychooseusTwo from "./components/sections/home1/WhychooseusTwo"
+import RootLayout from './RootLayout';
+
 export default function Home() {
 
     return (
         <>
+        <RootLayout
+            title="Custom e-Learning Services Company - Blitz Learning Technologies"
+            description="Transform your team with Blitz Learning service- your go-to custom e-learning solutions company. Elevate skills and efficiency with tailored courses."
+        >
+            {/* Content of the page */}
+        </RootLayout>
             <Layout headerStyle={1} footerStyle={1}>
                 <Banner />
                 <FeaturesTwo />

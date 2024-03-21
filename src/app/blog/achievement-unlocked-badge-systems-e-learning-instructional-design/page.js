@@ -4,6 +4,7 @@ import axios from 'axios';
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
 // import '../../main.css'
+import RootLayout from '../../RootLayout';
 export default function Home() {
   const [formData, setFormData] = useState({
     name: '',
@@ -83,6 +84,12 @@ export default function Home() {
 }
   return (
     <>
+     <RootLayout
+            title="achievement-unlocked-badge-systems-e-learning-instructional-design"
+            description="Transform your team with Blitz Learning service- your go-to custom e-learning solutions company. Elevate skills and efficiency with tailored courses."
+        >
+            {/* Content of the page */}
+        </RootLayout>
       <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Blog">
         {/* sidebar-page-container */}
         <section className="sidebar-page-container pt_150 pb_150">

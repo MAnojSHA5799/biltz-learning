@@ -1,11 +1,18 @@
+"use client";
 import React from "react";
 import Layout from "../../components/layout/Layout";
 import '../../main.css'
 import Link from "next/link";
-
+import RootLayout from '../../RootLayout';
 export default function Home() {
   return (
     <>
+     <RootLayout
+            title="content-development-web-based-training-localization-workplace-hazards-safety"
+            description="Transform your team with Blitz Learning service- your go-to custom e-learning solutions company. Elevate skills and efficiency with tailored courses."
+        >
+            {/* Content of the page */}
+        </RootLayout>
       <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Our Work">
         <section className="team-details p_relative">
           <div className="auto-container">

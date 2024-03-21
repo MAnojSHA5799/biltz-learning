@@ -12,8 +12,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 export const metadata = {
     title: 'Custom e-Learning Services Company - Blitz Learning Technologies',
-    description: 'We are a top learning consulting and training development firm',
+    description: 'Transform your team with Blitz Learning service- your go-to custom e-learning solutions company. Elevate skills and efficiency with tailored courses.',
 }
+
 export default function RootLayout({ children }) {
     return (
         <html lang="en" className={`${inter.variable} ${jost.variable}`}>

@@ -11,6 +11,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useState, useEffect } from "react";
+import RootLayout from '../RootLayout';
 import "../main.css";
 export default function Home() {
   const [isOpen, setOpen] = useState(false);
@@ -64,6 +65,12 @@ export default function Home() {
   };
   return (
     <>
+     <RootLayout
+            title="About Us | Custom e-Learning Services Company - Blitz Learning Technologies"
+            description="Transform your team with Blitz Learning service- your go-to custom e-learning solutions company. Elevate skills and efficiency with tailored courses."
+        >
+            {/* Content of the page */}
+        </RootLayout>
       <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="About Us">
         {/* about-section */}
         <section className="about-sections p_relative pb-0 mt-5">

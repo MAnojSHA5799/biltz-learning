@@ -1,10 +1,17 @@
-
+"use client";
 import Layout from "../components/layout/Layout"
 import Link from "next/link"
+import RootLayout from '../RootLayout';
 export default function Home() {
 
     return (
         <>
+         <RootLayout
+            title="Our Works | Custom e-Learning Services Company - Blitz Learning Technologies"
+            description="Transform your team with Blitz Learning service- your go-to custom e-learning solutions company. Elevate skills and efficiency with tailored courses."
+        >
+            {/* Content of the page */}
+        </RootLayout>
             <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Our Work">
                 <div>
                     {/* news-style-two */}

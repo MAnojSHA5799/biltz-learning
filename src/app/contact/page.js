@@ -4,6 +4,7 @@ import axios from "axios";
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import RootLayout from '../RootLayout';
 import '../config.js'
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -130,6 +131,12 @@ export default function Contact() {
 
   return (
     <>
+    <RootLayout
+            title="Contact | Custom e-Learning Services Company - Blitz Learning Technologies"
+            description="Transform your team with Blitz Learning service- your go-to custom e-learning solutions company. Elevate skills and efficiency with tailored courses."
+        >
+            {/* Content of the page */}
+        </RootLayout>
       <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Get In Touch">
         <div>
           {/* Feature Section */}
