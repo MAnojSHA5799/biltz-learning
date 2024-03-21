@@ -7,6 +7,7 @@ import Link from "next/link";
 import axios from "axios";
 import '../main.css'
 import '../cards.css'
+import RootLayout from '../RootLayout';
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 export default function Services() {
@@ -94,6 +95,12 @@ export default function Services() {
 }
   return (
     <>
+     <RootLayout
+            title="Experts in designing learner-centric solutions"
+            description="Blitz Learning Technologies - With our expertise in designing learner-centric solutions, we offer learning consulting to L&D departments in order to optimize actionable touch points of their L&D strategy"
+        >
+            {/* Content of the page */}
+        </RootLayout>
       <Layout
         headerStyle={2}
         footerStyle={1}

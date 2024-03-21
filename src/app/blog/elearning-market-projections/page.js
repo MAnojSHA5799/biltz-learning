@@ -118,10 +118,10 @@ export default function Home() {
                         The eLearning market is expected to grow significantly in the coming years as more and more learners and organizations turn to online learning solutions. The Global eLearning Corporate Compliance Training Market is anticipated to rise at a considerable rate during the forecast period, between 2023 and 2028. In 2021, the market is growing at a steady rate, and with the rising adoption of strategies by key players, the market is expected to rise over the projected horizon.
                         </p>
                         <p>
-                        The global eLearning Corporate Compliance Training market size was valued at USD 4404.68 million in 2022 and is expected to expand at a CAGR of 12.3% during the forecast period, reaching USD 8833.45 million by 2028.
+                        The global eLearning Corporate Compliance Training market size was valued at USD 4404.68 million in 2024 and is expected to expand at a CAGR of 12.3% during the forecast period, reaching USD 8833.45 million by 2028.
                         </p>
                         <p>
-                        According to The Business Research Company’s market research, the eLearning market is projected to experience substantial growth in the coming years. The global e-learning market size is expected to grow from $245.5 billion in 2022 to $278 billion in 2023, at a CAGR of more than 13%. By 2027, the market is projected to reach $462.6 billion, growing at a CAGR of more than 13%. North America was the largest region in the global eLearning market report in 2022.
+                        According to The Business Research Company’s market research, the eLearning market is projected to experience substantial growth in the coming years. The global e-learning market size is expected to grow from $245.5 billion in 2024 to $278 billion in 2023, at a CAGR of more than 13%. By 2027, the market is projected to reach $462.6 billion, growing at a CAGR of more than 13%. North America was the largest region in the global eLearning market report in 2024.
                         </p>
                         <p>
                         The COVID-19 pandemic has accelerated the adoption of remote learning practices, which is expected to drive the growth of the e-learning market in the future. Remote learning involves the use of technology such as video conferencing, virtual examinations, and discussion boards to facilitate distance learning. This has allowed students and teachers to stay connected and engaged with the curriculum while working from home.
@@ -276,7 +276,7 @@ export default function Home() {
                           Where is e-Learning headed in 2024 and beyond?
                           </Link>
                         </h5>
-                        <span className="post-date">Apr 17, 2022</span>
+                        <span className="post-date">Apr 17, 2023</span>
                       </div>
                       <div className="post">
                         <figure className="post-thumb">
@@ -289,7 +289,7 @@ export default function Home() {
                           Efficient e-Learning Development: Accelerating Your Path to Success
                           </Link>
                         </h5>
-                        <span className="post-date">Apr 16, 2022</span>
+                        <span className="post-date">Aug 30, 2023</span>
                       </div>
                       <div className="post">
                         <figure className="post-thumb">
@@ -302,7 +302,7 @@ export default function Home() {
                           Unlock your potential through e-learning for Logistics and Supply Chain Management
                           </Link>
                         </h5>
-                        <span className="post-date">Apr 15, 2022</span>
+                        <span className="post-date">Oct 04, 2023</span>
                       </div>
                     </div>
                   </div>

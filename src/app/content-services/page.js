@@ -8,6 +8,7 @@ import { useRouter } from "next/navigation";
 import axios from "axios";
 import "../main.css";
 import "../cards.css";
+import RootLayout from '../RootLayout';
 export default function Services() {
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -94,6 +95,12 @@ export default function Services() {
 }
   return (
     <>
+    <RootLayout
+            title="Translate and localize your content with effective regional connect"
+            description="Blitz Learning Technologies - Tailored content to match your requirements and our localization services help you translate and localize your content with effective regional connect."
+        >
+            {/* Content of the page */}
+        </RootLayout>
       <Layout
         headerStyle={2}
         footerStyle={1}

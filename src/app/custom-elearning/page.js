@@ -5,7 +5,7 @@ import Link from "next/link";
 import axios from "axios";
 import "../main.css";
 import '../cards.css'
-
+import RootLayout from '../RootLayout';
 // import { useState } from 'react'
 import React, { useState } from "react";
 
@@ -119,6 +119,12 @@ export default function Services() {
 }
   return (
     <>
+     <RootLayout
+            title="Engaging, innovative, and cost-effective digital learning solutions"
+            description="Unlock excellence with our engaging, innovative, and cost-effective custom learning modules."
+        >
+            {/* Content of the page */}
+        </RootLayout>
       <Layout
         headerStyle={2}
         footerStyle={1}

@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import '../main.css'
 import '../cards.css'
+import RootLayout from '../RootLayout';
 import { useRouter } from "next/navigation";
 export default function Services() {
   const router = useRouter();
@@ -93,6 +94,12 @@ export default function Services() {
 }
   return (
     <>
+    <RootLayout
+            title="Help mass distribute your key messages via our video services"
+            description="We produce corporate videos and add campaigns for you to enables mass distribution of your key messages via video sharing sites such as YouTube."
+        >
+            {/* Content of the page */}
+        </RootLayout>
       <Layout
         headerStyle={2}
         footerStyle={1}

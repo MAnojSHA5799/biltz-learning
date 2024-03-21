@@ -310,7 +310,7 @@ export default function Home() {
                           Where is e-Learning headed in 2024 and beyond?
                           </Link>
                         </h5>
-                        <span className="post-date">Apr 17, 2022</span>
+                        <span className="post-date">Apr 17, 2023</span>
                       </div>
                       <div className="post">
                         <figure className="post-thumb">
@@ -323,7 +323,7 @@ export default function Home() {
                           Efficient e-Learning Development: Accelerating Your Path to Success
                           </Link>
                         </h5>
-                        <span className="post-date">Apr 16, 2022</span>
+                        <span className="post-date">Aug 30, 2023</span>
                       </div>
                       <div className="post">
                         <figure className="post-thumb">
@@ -336,7 +336,7 @@ export default function Home() {
                           Unlock your potential through e-learning for Logistics and Supply Chain Management
                           </Link>
                         </h5>
-                        <span className="post-date">Apr 15, 2022</span>
+                        <span className="post-date">Oct 04, 2023</span>
                       </div>
                     </div>
                   </div>
