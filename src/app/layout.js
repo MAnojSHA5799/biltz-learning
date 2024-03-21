@@ -14,7 +14,6 @@ export const metadata = {
     title: 'Custom e-Learning Services Company - Blitz Learning Technologies',
     description: 'We are a top learning consulting and training development firm',
 }
-
 export default function RootLayout({ children }) {
     return (
         <html lang="en" className={`${inter.variable} ${jost.variable}`}>
